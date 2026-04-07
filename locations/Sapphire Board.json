@@ -1,0 +1,352 @@
+[
+    {
+        "name": "Sapphire Board",
+        "access_rules": "sapphire",
+        "children": [
+            {
+                "name": "Cave (Sapphire)",
+                "map_locations": [
+                    {
+                        "map": "Sapphire Board",
+                        "x": 30,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Abra",
+                        "chest_unopened_img": "images/items/39 - Off.jpg",
+                        "chest_opened_img": "images/items/39.jpg"
+                    },
+                    {
+                        "name": "Loudred",
+                        "chest_unopened_img": "images/items/46 - Off.jpg",
+                        "chest_opened_img": "images/items/46.jpg"
+                    },
+                    {
+                        "name": "Makuhita",
+                        "chest_unopened_img": "images/items/48 - Off.jpg",
+                        "chest_opened_img": "images/items/48.jpg"
+                    },
+                    {
+                        "name": "Nosepass",
+                        "chest_unopened_img": "images/items/60 - Off.jpg",
+                        "chest_opened_img": "images/items/60.jpg"
+                    },
+                    {
+                        "name": "Sableye",
+                        "chest_unopened_img": "images/items/68 - Off.jpg",
+                        "chest_opened_img": "images/items/68.jpg"
+                    },
+                    {
+                        "name": "Grimer",
+                        "chest_unopened_img": "images/items/106 - Off.jpg",
+                        "chest_opened_img": "images/items/106.jpg"
+                    },
+                    {
+                        "name": "Lunatone",
+                        "chest_unopened_img": "images/items/125 - Off.jpg",
+                        "chest_opened_img": "images/items/125.jpg"
+                    },
+                    {
+                        "name": "Shelgon",
+                        "chest_unopened_img": "images/items/188 - Off.jpg",
+                        "chest_opened_img": "images/items/188.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Forest (Sapphire)",
+                "map_locations": [
+                    {
+                        "map": "Sapphire Board",
+                        "x": 60,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Silcoon",
+                        "chest_unopened_img": "images/items/15 - Off.jpg",
+                        "chest_opened_img": "images/items/15.jpg"
+                    },
+                    {
+                        "name": "Cascoon",
+                        "chest_unopened_img": "images/items/17 - Off.jpg",
+                        "chest_opened_img": "images/items/17.jpg"
+                    },
+                    {
+                        "name": "Slakoth",
+                        "chest_unopened_img": "images/items/36 - Off.jpg",
+                        "chest_opened_img": "images/items/36.jpg"
+                    },
+                    {
+                        "name": "Nincada",
+                        "chest_unopened_img": "images/items/42 - Off.jpg",
+                        "chest_opened_img": "images/items/42.jpg"
+                    },
+                    {
+                        "name": "Roselia",
+                        "chest_unopened_img": "images/items/94 - Off.jpg",
+                        "chest_opened_img": "images/items/94.jpg"
+                    },
+                    {
+                        "name": "Kecleon",
+                        "chest_unopened_img": "images/items/145 - Off.jpg",
+                        "chest_opened_img": "images/items/145.jpg"
+                    },
+                    {
+                        "name": "Duskull",
+                        "chest_unopened_img": "images/items/148 - Off.jpg",
+                        "chest_opened_img": "images/items/148.jpg"
+                    },
+                    {
+                        "name": "Tropius",
+                        "chest_unopened_img": "images/items/150 - Off.jpg",
+                        "chest_opened_img": "images/items/150.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Lake (Sapphire)",
+                "map_locations": [
+                    {
+                        "map": "Sapphire Board",
+                        "x": 90,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Mudkip",
+                        "chest_unopened_img": "images/items/7 - Off.jpg",
+                        "chest_opened_img": "images/items/7.jpg"
+                    },
+                    {
+                        "name": "Lombre",
+                        "chest_unopened_img": "images/items/20 - Off.jpg",
+                        "chest_opened_img": "images/items/20.jpg"
+                    },
+                    {
+                        "name": "Goldeen",
+                        "chest_unopened_img": "images/items/50 - Off.jpg",
+                        "chest_opened_img": "images/items/50.jpg"
+                    },
+                    {
+                        "name": "Marill",
+                        "chest_unopened_img": "images/items/55 - Off.jpg",
+                        "chest_opened_img": "images/items/55.jpg"
+                    },
+                    {
+                        "name": "Barboach",
+                        "chest_unopened_img": "images/items/127 - Off.jpg",
+                        "chest_opened_img": "images/items/127.jpg"
+                    },
+                    {
+                        "name": "Corphish",
+                        "chest_unopened_img": "images/items/129 - Off.jpg",
+                        "chest_opened_img": "images/items/129.jpg"
+                    },
+                    {
+                        "name": "Feebas",
+                        "chest_unopened_img": "images/items/140 - Off.jpg",
+                        "chest_opened_img": "images/items/140.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Wilderness (Sapphire)",
+                "map_locations": [
+                    {
+                        "map": "Sapphire Board",
+                        "x": 210,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Geodude",
+                        "chest_unopened_img": "images/items/57 - Off.jpg",
+                        "chest_opened_img": "images/items/57.jpg"
+                    },
+                    {
+                        "name": "Meditite",
+                        "chest_unopened_img": "images/items/76 - Off.jpg",
+                        "chest_opened_img": "images/items/76.jpg"
+                    },
+                    {
+                        "name": "Vibrava",
+                        "chest_unopened_img": "images/items/117 - Off.jpg",
+                        "chest_opened_img": "images/items/117.jpg"
+                    },
+                    {
+                        "name": "Cacnea",
+                        "chest_unopened_img": "images/items/119 - Off.jpg",
+                        "chest_opened_img": "images/items/119.jpg"
+                    },
+                    {
+                        "name": "Swablu",
+                        "chest_unopened_img": "images/items/121 - Off.jpg",
+                        "chest_opened_img": "images/items/121.jpg"
+                    },
+                    {
+                        "name": "Baltoy",
+                        "chest_unopened_img": "images/items/131 - Off.jpg",
+                        "chest_opened_img": "images/items/131.jpg"
+                    },
+                    {
+                        "name": "Absol",
+                        "chest_unopened_img": "images/items/152 - Off.jpg",
+                        "chest_opened_img": "images/items/152.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Plains (Sapphire)",
+                "map_locations": [
+                    {
+                        "map": "Sapphire Board",
+                        "x": 150,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Poochyena",
+                        "chest_unopened_img": "images/items/10 - Off.jpg",
+                        "chest_opened_img": "images/items/10.jpg"
+                    },
+                    {
+                        "name": "Taillow",
+                        "chest_unopened_img": "images/items/25 - Off.jpg",
+                        "chest_opened_img": "images/items/25.jpg"
+                    },
+                    {
+                        "name": "Electrike",
+                        "chest_unopened_img": "images/items/78 - Off.jpg",
+                        "chest_opened_img": "images/items/78.jpg"
+                    },
+                    {
+                        "name": "Magnemite",
+                        "chest_unopened_img": "images/items/82 - Off.jpg",
+                        "chest_opened_img": "images/items/82.jpg"
+                    },
+                    {
+                        "name": "Voltorb",
+                        "chest_unopened_img": "images/items/84 - Off.jpg",
+                        "chest_opened_img": "images/items/84.jpg"
+                    },
+                    {
+                        "name": "Volbeat",
+                        "chest_unopened_img": "images/items/86 - Off.jpg",
+                        "chest_opened_img": "images/items/86.jpg"
+                    },
+                    {
+                        "name": "Seviper",
+                        "chest_unopened_img": "images/items/124 - Off.jpg",
+                        "chest_opened_img": "images/items/124.jpg"
+                    },
+                    {
+                        "name": "Jigglypuff",
+                        "chest_unopened_img": "images/items/138 - Off.jpg",
+                        "chest_opened_img": "images/items/138.jpg"
+                    },
+                    {
+                        "name": "Castform",
+                        "chest_unopened_img": "images/items/142 - Off.jpg",
+                        "chest_opened_img": "images/items/142.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Ruins (Sapphire)",
+                "map_locations": [
+                    {
+                        "map": "Sapphire Board",
+                        "x": 180,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Beldum",
+                        "chest_unopened_img": "images/items/190 - Off.jpg",
+                        "chest_opened_img": "images/items/190.jpg"
+                    },
+                    {
+                        "name": "Regirock",
+                        "chest_unopened_img": "images/items/193 - Off.jpg",
+                        "chest_opened_img": "images/items/193.jpg"
+                    },
+                    {
+                        "name": "Regice",
+                        "chest_unopened_img": "images/items/194 - Off.jpg",
+                        "chest_opened_img": "images/items/194.jpg"
+                    },
+                    {
+                        "name": "Registeel",
+                        "chest_unopened_img": "images/items/195 - Off.jpg",
+                        "chest_opened_img": "images/items/195.jpg"
+                    },
+                    {
+                        "name": "Jirachi",
+                        "chest_unopened_img": "images/items/201 - Off.jpg",
+                        "chest_opened_img": "images/items/201.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Ocean (Sapphire)",
+                "map_locations": [
+                    {
+                        "map": "Sapphire Board",
+                        "x": 120,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Wingull",
+                        "chest_unopened_img": "images/items/27 - Off.jpg",
+                        "chest_opened_img": "images/items/27.jpg"
+                    },
+                    {
+                        "name": "Magikarp",
+                        "chest_unopened_img": "images/items/52 - Off.jpg",
+                        "chest_opened_img": "images/items/52.jpg"
+                    },
+                    {
+                        "name": "Tentacool",
+                        "chest_unopened_img": "images/items/66 - Off.jpg",
+                        "chest_opened_img": "images/items/66.jpg"
+                    },
+                    {
+                        "name": "Carvanha",
+                        "chest_unopened_img": "images/items/97 - Off.jpg",
+                        "chest_opened_img": "images/items/97.jpg"
+                    },
+                    {
+                        "name": "Anorith",
+                        "chest_unopened_img": "images/items/135 - Off.jpg",
+                        "chest_opened_img": "images/items/135.jpg"
+                    },
+                    {
+                        "name": "Clamperl",
+                        "chest_unopened_img": "images/items/176 - Off.jpg",
+                        "chest_opened_img": "images/items/176.jpg"
+                    },
+                    {
+                        "name": "Relicanth",
+                        "chest_unopened_img": "images/items/179 - Off.jpg",
+                        "chest_opened_img": "images/items/179.jpg"
+                    },
+                    {
+                        "name": "Luvdisc",
+                        "chest_unopened_img": "images/items/183 - Off.jpg",
+                        "chest_opened_img": "images/items/183.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+]

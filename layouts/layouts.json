@@ -1,0 +1,82 @@
+﻿{
+	"tracker_default": {
+		"type": "container",
+		"background": "#000000",
+		"content": {
+			"type": "dock",
+			"dropshadow": true,
+			"content": [
+				{
+					"type": "array",
+					"orientation": "horizontal",
+					"v_alignment": "stretch",
+					"margin": "0, 0",
+					"content": [
+						{
+							"type": "tabbed",
+							"tabs": [
+								{
+									"title": "Ruby Board",
+									"content": [
+										{
+											"type": "map",
+											"maps": [
+												"Ruby Board"
+											]
+										}
+									]
+								},
+								{
+									"title": "Sapphire Board",
+									"content": [
+										 {
+											"type": "map",
+											"maps": [
+												"Sapphire Board"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "array",
+							"orientation": "vertical",
+							"v_alignment": "stretch",
+							"margin": "0, 0",
+							"content": [
+								{
+									"type": "layout",
+									"key": "shared_item_grid_horizontal"
+								},
+								{
+									"type": "tabbed",
+									"tabs": [
+										{
+											"title": "Pokedex",
+											"content": [
+												{
+													"type": "layout",
+													"key": "go"
+												}
+											]
+										},
+										{
+											"title": "Areas",
+											"content": [
+												{
+													"type": "layout",
+													"key": "shared_item_grid_horizontal"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,5774 @@
+[
+    {
+        "name": "Ruby Board",
+        "type": "toggle",
+        "img": "images/items/ruby_field.png",
+        "codes": "ruby"
+    },
+    {
+        "name": "Sapphire Board",
+        "type": "toggle",
+        "img": "images/items/sapphire_field.png",
+        "codes": "sapphire"
+    },
+    {
+        "name": "Total",
+        "type": "consumable",
+        "img": "images/items/caught.png",
+        "overlay_font_size": "30",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 205,
+        "codes": "Total"
+    },
+    {
+        "name": "Extra Starting Ball",
+        "type": "consumable",
+        "img": "images/items/startball.png",
+        "max_quantity": 3,
+        "overlay_font_size": "15",
+        "initial_quantity": 0,
+        "codes": "startballplus, ball"
+    },
+    {
+        "name": "+10 Starting Coins",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/items/0coins.png",
+                "codes": "startcoins, 0startcoins",
+                "name": "Starting Coins"
+            },
+            {
+                "img": "images/items/10coins.png",
+                "codes": "10startcoins",
+                "name": "Starting Coins"
+            },
+            {
+                "img": "images/items/20coins.png",
+                "codes": "20startcoins",
+                "name": "Starting Coins"
+            },
+            {
+                "img": "images/items/30coins.png",
+                "codes": "30startcoins",
+                "name": "Starting Coins"
+            },
+            {
+                "img": "images/items/40coins.png",
+                "codes": "40startcoins",
+                "name": "Starting Coins"
+            },
+            {
+                "img": "images/items/50coins.png",
+                "codes": "50startcoins",
+                "name": "Starting Coins"
+            },
+            {
+                "img": "images/items/60coins.png",
+                "codes": "60startcoins",
+                "name": "Starting Coins"
+            },
+            {
+                "img": "images/items/70coins.png",
+                "codes": "70startcoins",
+                "name": "Starting Coins"
+            },
+            {
+                "img": "images/items/80coins.png",
+                "codes": "80startcoins",
+                "name": "Starting Coins"
+            },
+            {
+                "img": "images/items/90coins.png",
+                "codes": "90startcoins",
+                "name": "Starting Coins"
+            }
+        ]
+    },
+    {
+        "name": "Progressive Starting Ball",
+        "type": "consumable",
+        "img": "images/items/startball.png",
+        "max_quantity": 9,
+        "initial_quantity": 0,
+        "overlay_font_size": "15",
+        "codes": "startball, ball"
+    },
+    {
+        "name": "Permanent Pichu",
+        "type": "toggle",
+        "img": "images/items/perpichu.png",
+        "codes": "perpichu"
+    },
+    {
+        "name": "e-Reader Card - Special Guests",
+        "type": "toggle",
+        "img": "images/items/guest.png",
+        "codes": "guest"
+    },
+    {
+        "name": "e-Reader Card - Encounter Rate Up",
+        "type": "toggle",
+        "img": "images/items/ratecard.png",
+        "codes": "ratecard"
+    },
+    {
+        "name": "e-Reader Card - Ruins Area",
+        "type": "toggle",
+        "img": "images/items/ruinscard.png",
+        "codes": "ruinscard"
+    },
+    {
+        "name": "Get Arrow",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/items/2 get.png",
+                "codes": "get,2get",
+                "name": "Get Arrow"
+            },
+            {
+                "img": "images/items/3 get.png",
+                "codes": "get, 3get",
+                "name": "Get Arrow"
+            }
+        ]
+    },
+    {
+        "name": "Evo Arrow",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/items/evo.png",
+                "img_mods": "saturation|0.8,brightness|0.7",
+                "name": "Evo Arrow",
+                "codes": "evo, evo"
+            },
+            {
+                "img": "images/items/1 evo.png",
+                "name": "Evo Arrow",
+                "img_mods": "saturation|0.8,brightness|0.7",
+                "codes": "evo, 1evo"
+            },
+            {
+                "img": "images/items/2 evo.png",
+                "name": "Evo Arrow",
+                "img_mods": "saturation|0.8,brightness|0.7",
+                "codes": "evo, 2evo"
+            },
+            {
+                "img": "images/items/3 evo.png",
+                "name": "Evo Arrow",
+                "img_mods": "saturation|0.8,brightness|0.7",
+                "codes": "evo, 3evo"
+            },
+            {
+                "img": "images/items/3 evo.png",
+                "name": "Evo Arrow",
+                "codes": "evo, allevo"
+            }
+        ]
+    },
+    {
+        "name": "Evo Arrow",
+        "type": "toggle",
+        "img": "images",
+        "disabled_img": "images/items/evo.png",
+        "codes": "write"
+    },
+    {
+        "name": "Evo Arrow1",
+        "type": "toggle",
+        "img": "images",
+        "disabled_img": "images/items/evo.png",
+        "codes": "write1"
+    },
+    {
+        "name": "Evo Arrow2",
+        "type": "toggle",
+        "img": "images",
+        "disabled_img": "images/items/evo.png",
+        "codes": "write2"
+    },
+    {
+        "name": "Chikorita Pok\u00e9dex Entry",
+        "type": "toggle",
+        "img": "images/items/chiko.png",
+        "codes": "chiko"
+    },
+    {
+        "name": "Cyndaquil Pok\u00e9dex Entry",
+        "type": "toggle",
+        "img": "images/items/cynda.png",
+        "codes": "cynda"
+    },
+    {
+        "name": "Totodile Pok\u00e9dex Entry",
+        "type": "toggle",
+        "img": "images/items/toto.png",
+        "codes": "toto"
+    },
+    {
+        "name": "Aerodactyl Pok\u00e9dex Entry",
+        "type": "toggle",
+        "img": "images/items/aero.png",
+        "codes": "aero"
+    },
+    {
+        "name": "Egg Bunch 1",
+        "type": "toggle",
+        "img": "images/items/egg1.png",
+        "codes": "egg1"
+    },
+    {
+        "name": "Egg Bunch 2",
+        "type": "toggle",
+        "img": "images/items/egg2.png",
+        "codes": "egg2"
+    },
+    {
+        "name": "Egg Bunch 3",
+        "type": "toggle",
+        "img": "images/items/egg3.png",
+        "codes": "egg3"
+    },
+    {
+        "name": "Egg Bunch 4",
+        "type": "toggle",
+        "img": "images/items/egg4.png",
+        "codes": "egg4"
+    },
+    {
+        "name": "Egg Bunch (Ruby)",
+        "type": "toggle",
+        "img": "images/items/eggruby.png",
+        "codes": "eggruby"
+    },
+    {
+        "name": "Egg Bunch (Sapphire)",
+        "type": "toggle",
+        "img": "images/items/eggsapphire.png",
+        "codes": "eggsapphire"
+    },
+    {
+        "name": "Forest (Ruby)",
+        "type": "toggle",
+        "img": "images/items/forest.png",
+        "codes": "forestR, forest"
+    },
+    {
+        "name": "Volcano (Ruby)",
+        "type": "toggle",
+        "img": "images/items/volcano.png",
+        "codes": "volcanoR"
+    },
+    {
+        "name": "Plains (Ruby)",
+        "type": "toggle",
+        "img": "images/items/plainsr.png",
+        "codes": "plainsR, plains"
+    },
+    {
+        "name": "Ocean (Ruby)",
+        "type": "toggle",
+        "img": "images/items/oceanr.png",
+        "codes": "oceanR, ocean"
+    },
+    {
+        "name": "Safari Zone (Ruby)",
+        "type": "toggle",
+        "img": "images/items/safariR.png",
+        "codes": "safariR"
+    },
+    {
+        "name": "Cave (Ruby)",
+        "type": "toggle",
+        "img": "images/items/cave.png",
+        "codes": "caveR, cave"
+    },
+    {
+        "name": "Ruins (Ruby)",
+        "type": "toggle",
+        "img": "images/items/ruins.png",
+        "codes": "ruinsR, ruins"
+    },
+    {
+        "name": "Forest (Sapphire)",
+        "type": "toggle",
+        "img": "images/items/forest.png",
+        "codes": "forestS, forest"
+    },
+    {
+        "name": "Lake (Sapphire)",
+        "type": "toggle",
+        "img": "images/items/lakeS.png",
+        "codes": "lakeS"
+    },
+    {
+        "name": "Plains (Sapphire)",
+        "type": "toggle",
+        "img": "images/items/plainss.png",
+        "codes": "plainsS, plains"
+    },
+    {
+        "name": "Ocean (Sapphire)",
+        "type": "toggle",
+        "img": "images/items/oceans.png",
+        "codes": "oceanS"
+    },
+    {
+        "name": "Wilderness (Sapphire)",
+        "type": "toggle",
+        "img": "images/items/wildernessS.png",
+        "codes": "wildernessS"
+    },
+    {
+        "name": "Cave (Sapphire)",
+        "type": "toggle",
+        "img": "images/items/cave.png",
+        "codes": "caveS, cave"
+    },
+    {
+        "name": "Ruins (Sapphire)",
+        "type": "toggle",
+        "img": "images/items/ruins.png",
+        "codes": "ruinsS, ruins"
+    },
+    {
+        "name": "Extra Ball",
+        "type": "toggle",
+        "img": "images/items/filler.png",
+        "codes": "filler"
+    },
+    {
+        "name": "BIG",
+        "type": "toggle",
+        "img": "images/items/filler.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Small",
+        "type": "toggle",
+        "img": "images/items/filler.png",
+        "codes": "filler"
+    },
+    {
+        "name": "30 Sec. Ball Saver",
+        "type": "toggle",
+        "img": "images/items/filler.png",
+        "codes": "filler"
+    },
+    {
+        "name": "Treecko",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Treecko - Unavailable",
+                "img": "images/items/1 - Off.jpg",
+                "codes": "Treecko,TreeckoOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Treecko - Available",
+                "img": "images/items/1.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Treecko,TreeckoCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Treecko - Caught",
+                "img": "images/items/1.jpg",
+                "codes": "Treecko,TreeckoGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Grovyle",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Grovyle - Unavailable",
+                "img": "images/items/2 - Off.jpg",
+                "codes": "Grovyle,GrovyleOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Grovyle - Available",
+                "img": "images/items/2.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Grovyle,GrovyleCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Grovyle - Caught",
+                "img": "images/items/2.jpg",
+                "codes": "Grovyle,GrovyleGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sceptile",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Sceptile - Unavailable",
+                "img": "images/items/3 - Off.jpg",
+                "codes": "Sceptile,SceptileOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sceptile - Available",
+                "img": "images/items/3.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Sceptile,SceptileCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sceptile - Caught",
+                "img": "images/items/3.jpg",
+                "codes": "Sceptile,SceptileGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Torchic",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Torchic - Unavailable",
+                "img": "images/items/4 - Off.jpg",
+                "codes": "Torchic,TorchicOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Torchic - Available",
+                "img": "images/items/4.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Torchic,TorchicCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Torchic - Caught",
+                "img": "images/items/4.jpg",
+                "codes": "Torchic,TorchicGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Combusken",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Combusken - Unavailable",
+                "img": "images/items/5 - Off.jpg",
+                "codes": "Combusken,CombuskenOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Combusken - Available",
+                "img": "images/items/5.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Combusken,CombuskenCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Combusken - Caught",
+                "img": "images/items/5.jpg",
+                "codes": "Combusken,CombuskenGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Blaziken",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Blaziken - Unavailable",
+                "img": "images/items/6 - Off.jpg",
+                "codes": "Blaziken,BlazikenOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Blaziken - Available",
+                "img": "images/items/6.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Blaziken,BlazikenCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Blaziken - Caught",
+                "img": "images/items/6.jpg",
+                "codes": "Blaziken,BlazikenGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mudkip",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Mudkip - Unavailable",
+                "img": "images/items/7 - Off.jpg",
+                "codes": "Mudkip,MudkipOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mudkip - Available",
+                "img": "images/items/7.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Mudkip,MudkipCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mudkip - Caught",
+                "img": "images/items/7.jpg",
+                "codes": "Mudkip,MudkipGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Marshtomp",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Marshtomp - Unavailable",
+                "img": "images/items/8 - Off.jpg",
+                "codes": "Marshtomp,MarshtompOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Marshtomp - Available",
+                "img": "images/items/8.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Marshtomp,MarshtompCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Marshtomp - Caught",
+                "img": "images/items/8.jpg",
+                "codes": "Marshtomp,MarshtompGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Swampert",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Swampert - Unavailable",
+                "img": "images/items/9 - Off.jpg",
+                "codes": "Swampert,SwampertOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Swampert - Available",
+                "img": "images/items/9.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Swampert,SwampertCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Swampert - Caught",
+                "img": "images/items/9.jpg",
+                "codes": "Swampert,SwampertGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Poochyena",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Poochyena - Unavailable",
+                "img": "images/items/10 - Off.jpg",
+                "codes": "Poochyena,PoochyenaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Poochyena - Available",
+                "img": "images/items/10.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Poochyena,PoochyenaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Poochyena - Caught",
+                "img": "images/items/10.jpg",
+                "codes": "Poochyena,PoochyenaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mightyena",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Mightyena - Unavailable",
+                "img": "images/items/11 - Off.jpg",
+                "codes": "Mightyena,MightyenaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mightyena - Available",
+                "img": "images/items/11.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Mightyena,MightyenaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mightyena - Caught",
+                "img": "images/items/11.jpg",
+                "codes": "Mightyena,MightyenaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Zigzagoon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Zigzagoon - Unavailable",
+                "img": "images/items/12 - Off.jpg",
+                "codes": "Zigzagoon,ZigzagoonOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Zigzagoon - Available",
+                "img": "images/items/12.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Zigzagoon,ZigzagoonCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Zigzagoon - Caught",
+                "img": "images/items/12.jpg",
+                "codes": "Zigzagoon,ZigzagoonGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Linoone",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Linoone - Unavailable",
+                "img": "images/items/13 - Off.jpg",
+                "codes": "Linoone,LinooneOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Linoone - Available",
+                "img": "images/items/13.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Linoone,LinooneCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Linoone - Caught",
+                "img": "images/items/13.jpg",
+                "codes": "Linoone,LinooneGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Wurmple",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wurmple - Unavailable",
+                "img": "images/items/14 - Off.jpg",
+                "codes": "Wurmple,WurmpleOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wurmple - Available",
+                "img": "images/items/14.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Wurmple,WurmpleCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wurmple - Caught",
+                "img": "images/items/14.jpg",
+                "codes": "Wurmple,WurmpleGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Silcoon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Silcoon - Unavailable",
+                "img": "images/items/15 - Off.jpg",
+                "codes": "Silcoon,SilcoonOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Silcoon - Available",
+                "img": "images/items/15.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Silcoon,SilcoonCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Silcoon - Caught",
+                "img": "images/items/15.jpg",
+                "codes": "Silcoon,SilcoonGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Beautifly",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Beautifly - Unavailable",
+                "img": "images/items/16 - Off.jpg",
+                "codes": "Beautifly,BeautiflyOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Beautifly - Available",
+                "img": "images/items/16.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Beautifly,BeautiflyCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Beautifly - Caught",
+                "img": "images/items/16.jpg",
+                "codes": "Beautifly,BeautiflyGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cascoon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cascoon - Unavailable",
+                "img": "images/items/17 - Off.jpg",
+                "codes": "Cascoon,CascoonOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cascoon - Available",
+                "img": "images/items/17.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Cascoon,CascoonCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cascoon - Caught",
+                "img": "images/items/17.jpg",
+                "codes": "Cascoon,CascoonGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dustox",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Dustox - Unavailable",
+                "img": "images/items/18 - Off.jpg",
+                "codes": "Dustox,DustoxOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Dustox - Available",
+                "img": "images/items/18.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Dustox,DustoxCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Dustox - Caught",
+                "img": "images/items/18.jpg",
+                "codes": "Dustox,DustoxGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Lotad",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Lotad - Unavailable",
+                "img": "images/items/19 - Off.jpg",
+                "codes": "Lotad,LotadOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lotad - Available",
+                "img": "images/items/19.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Lotad,LotadCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lotad - Caught",
+                "img": "images/items/19.jpg",
+                "codes": "Lotad,LotadGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Lombre",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Lombre - Unavailable",
+                "img": "images/items/20 - Off.jpg",
+                "codes": "Lombre,LombreOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lombre - Available",
+                "img": "images/items/20.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Lombre,LombreCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lombre - Caught",
+                "img": "images/items/20.jpg",
+                "codes": "Lombre,LombreGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Ludicolo",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Ludicolo - Unavailable",
+                "img": "images/items/21 - Off.jpg",
+                "codes": "Ludicolo,LudicoloOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ludicolo - Available",
+                "img": "images/items/21.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Ludicolo,LudicoloCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ludicolo - Caught",
+                "img": "images/items/21.jpg",
+                "codes": "Ludicolo,LudicoloGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Seedot",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Seedot - Unavailable",
+                "img": "images/items/22 - Off.jpg",
+                "codes": "Seedot,SeedotOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Seedot - Available",
+                "img": "images/items/22.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Seedot,SeedotCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Seedot - Caught",
+                "img": "images/items/22.jpg",
+                "codes": "Seedot,SeedotGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Nuzleaf",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Nuzleaf - Unavailable",
+                "img": "images/items/23 - Off.jpg",
+                "codes": "Nuzleaf,NuzleafOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Nuzleaf - Available",
+                "img": "images/items/23.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Nuzleaf,NuzleafCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Nuzleaf - Caught",
+                "img": "images/items/23.jpg",
+                "codes": "Nuzleaf,NuzleafGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shiftry",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shiftry - Unavailable",
+                "img": "images/items/24 - Off.jpg",
+                "codes": "Shiftry,ShiftryOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shiftry - Available",
+                "img": "images/items/24.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Shiftry,ShiftryCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shiftry - Caught",
+                "img": "images/items/24.jpg",
+                "codes": "Shiftry,ShiftryGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Taillow",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Taillow - Unavailable",
+                "img": "images/items/25 - Off.jpg",
+                "codes": "Taillow,TaillowOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Taillow - Available",
+                "img": "images/items/25.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Taillow,TaillowCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Taillow - Caught",
+                "img": "images/items/25.jpg",
+                "codes": "Taillow,TaillowGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Swellow",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Swellow - Unavailable",
+                "img": "images/items/26 - Off.jpg",
+                "codes": "Swellow,SwellowOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Swellow - Available",
+                "img": "images/items/26.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Swellow,SwellowCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Swellow - Caught",
+                "img": "images/items/26.jpg",
+                "codes": "Swellow,SwellowGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Wingull",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wingull - Unavailable",
+                "img": "images/items/27 - Off.jpg",
+                "codes": "Wingull,WingullOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wingull - Available",
+                "img": "images/items/27.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Wingull,WingullCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wingull - Caught",
+                "img": "images/items/27.jpg",
+                "codes": "Wingull,WingullGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Pelipper",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Pelipper - Unavailable",
+                "img": "images/items/28 - Off.jpg",
+                "codes": "Pelipper,PelipperOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pelipper - Available",
+                "img": "images/items/28.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Pelipper,PelipperCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pelipper - Caught",
+                "img": "images/items/28.jpg",
+                "codes": "Pelipper,PelipperGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Ralts",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Ralts - Unavailable",
+                "img": "images/items/29 - Off.jpg",
+                "codes": "Ralts,RaltsOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ralts - Available",
+                "img": "images/items/29.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Ralts,RaltsCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ralts - Caught",
+                "img": "images/items/29.jpg",
+                "codes": "Ralts,RaltsGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Kirlia",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Kirlia - Unavailable",
+                "img": "images/items/30 - Off.jpg",
+                "codes": "Kirlia,KirliaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Kirlia - Available",
+                "img": "images/items/30.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Kirlia,KirliaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Kirlia - Caught",
+                "img": "images/items/30.jpg",
+                "codes": "Kirlia,KirliaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Gardevoir",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Gardevoir - Unavailable",
+                "img": "images/items/31 - Off.jpg",
+                "codes": "Gardevoir,GardevoirOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gardevoir - Available",
+                "img": "images/items/31.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Gardevoir,GardevoirCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gardevoir - Caught",
+                "img": "images/items/31.jpg",
+                "codes": "Gardevoir,GardevoirGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Surskit",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Surskit - Unavailable",
+                "img": "images/items/32 - Off.jpg",
+                "codes": "Surskit,SurskitOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Surskit - Available",
+                "img": "images/items/32.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Surskit,SurskitCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Surskit - Caught",
+                "img": "images/items/32.jpg",
+                "codes": "Surskit,SurskitGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Masquerain",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Masquerain - Unavailable",
+                "img": "images/items/33 - Off.jpg",
+                "codes": "Masquerain,MasquerainOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Masquerain - Available",
+                "img": "images/items/33.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Masquerain,MasquerainCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Masquerain - Caught",
+                "img": "images/items/33.jpg",
+                "codes": "Masquerain,MasquerainGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shroomish",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shroomish - Unavailable",
+                "img": "images/items/34 - Off.jpg",
+                "codes": "Shroomish,ShroomishOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shroomish - Available",
+                "img": "images/items/34.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Shroomish,ShroomishCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shroomish - Caught",
+                "img": "images/items/34.jpg",
+                "codes": "Shroomish,ShroomishGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Breloom",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Breloom - Unavailable",
+                "img": "images/items/35 - Off.jpg",
+                "codes": "Breloom,BreloomOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Breloom - Available",
+                "img": "images/items/35.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Breloom,BreloomCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Breloom - Caught",
+                "img": "images/items/35.jpg",
+                "codes": "Breloom,BreloomGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Slakoth",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Slakoth - Unavailable",
+                "img": "images/items/36 - Off.jpg",
+                "codes": "Slakoth,SlakothOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Slakoth - Available",
+                "img": "images/items/36.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Slakoth,SlakothCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Slakoth - Caught",
+                "img": "images/items/36.jpg",
+                "codes": "Slakoth,SlakothGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Vigoroth",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Vigoroth - Unavailable",
+                "img": "images/items/37 - Off.jpg",
+                "codes": "Vigoroth,VigorothOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Vigoroth - Available",
+                "img": "images/items/37.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Vigoroth,VigorothCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Vigoroth - Caught",
+                "img": "images/items/37.jpg",
+                "codes": "Vigoroth,VigorothGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Slaking",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Slaking - Unavailable",
+                "img": "images/items/38 - Off.jpg",
+                "codes": "Slaking,SlakingOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Slaking - Available",
+                "img": "images/items/38.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Slaking,SlakingCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Slaking - Caught",
+                "img": "images/items/38.jpg",
+                "codes": "Slaking,SlakingGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Abra",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Abra - Unavailable",
+                "img": "images/items/39 - Off.jpg",
+                "codes": "Abra,AbraOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Abra - Available",
+                "img": "images/items/39.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Abra,AbraCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Abra - Caught",
+                "img": "images/items/39.jpg",
+                "codes": "Abra,AbraGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Kadabra",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Kadabra - Unavailable",
+                "img": "images/items/40 - Off.jpg",
+                "codes": "Kadabra,KadabraOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Kadabra - Available",
+                "img": "images/items/40.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Kadabra,KadabraCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Kadabra - Caught",
+                "img": "images/items/40.jpg",
+                "codes": "Kadabra,KadabraGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Alakazam",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Alakazam - Unavailable",
+                "img": "images/items/41 - Off.jpg",
+                "codes": "Alakazam,AlakazamOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Alakazam - Available",
+                "img": "images/items/41.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Alakazam,AlakazamCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Alakazam - Caught",
+                "img": "images/items/41.jpg",
+                "codes": "Alakazam,AlakazamGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Nincada",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Nincada - Unavailable",
+                "img": "images/items/42 - Off.jpg",
+                "codes": "Nincada,NincadaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Nincada - Available",
+                "img": "images/items/42.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Nincada,NincadaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Nincada - Caught",
+                "img": "images/items/42.jpg",
+                "codes": "Nincada,NincadaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Ninjask",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Ninjask - Unavailable",
+                "img": "images/items/43 - Off.jpg",
+                "codes": "Ninjask,NinjaskOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ninjask - Available",
+                "img": "images/items/43.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Ninjask,NinjaskCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ninjask - Caught",
+                "img": "images/items/43.jpg",
+                "codes": "Ninjask,NinjaskGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shedinja",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shedinja - Unavailable",
+                "img": "images/items/44 - Off.jpg",
+                "codes": "Shedinja,ShedinjaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shedinja - Available",
+                "img": "images/items/44.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Shedinja,ShedinjaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shedinja - Caught",
+                "img": "images/items/44.jpg",
+                "codes": "Shedinja,ShedinjaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Whismur",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Whismur - Unavailable",
+                "img": "images/items/45 - Off.jpg",
+                "codes": "Whismur,WhismurOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Whismur - Available",
+                "img": "images/items/45.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Whismur,WhismurCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Whismur - Caught",
+                "img": "images/items/45.jpg",
+                "codes": "Whismur,WhismurGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Loudred",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Loudred - Unavailable",
+                "img": "images/items/46 - Off.jpg",
+                "codes": "Loudred,LoudredOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Loudred - Available",
+                "img": "images/items/46.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Loudred,LoudredCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Loudred - Caught",
+                "img": "images/items/46.jpg",
+                "codes": "Loudred,LoudredGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Exploud",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Exploud - Unavailable",
+                "img": "images/items/47 - Off.jpg",
+                "codes": "Exploud,ExploudOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Exploud - Available",
+                "img": "images/items/47.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Exploud,ExploudCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Exploud - Caught",
+                "img": "images/items/47.jpg",
+                "codes": "Exploud,ExploudGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Makuhita",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Makuhita - Unavailable",
+                "img": "images/items/48 - Off.jpg",
+                "codes": "Makuhita,MakuhitaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Makuhita - Available",
+                "img": "images/items/48.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Makuhita,MakuhitaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Makuhita - Caught",
+                "img": "images/items/48.jpg",
+                "codes": "Makuhita,MakuhitaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Hariyama",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Hariyama - Unavailable",
+                "img": "images/items/49 - Off.jpg",
+                "codes": "Hariyama,HariyamaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hariyama - Available",
+                "img": "images/items/49.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Hariyama,HariyamaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hariyama - Caught",
+                "img": "images/items/49.jpg",
+                "codes": "Hariyama,HariyamaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Goldeen",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Goldeen - Unavailable",
+                "img": "images/items/50 - Off.jpg",
+                "codes": "Goldeen,GoldeenOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goldeen - Available",
+                "img": "images/items/50.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Goldeen,GoldeenCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goldeen - Caught",
+                "img": "images/items/50.jpg",
+                "codes": "Goldeen,GoldeenGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Seaking",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Seaking - Unavailable",
+                "img": "images/items/51 - Off.jpg",
+                "codes": "Seaking,SeakingOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Seaking - Available",
+                "img": "images/items/51.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Seaking,SeakingCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Seaking - Caught",
+                "img": "images/items/51.jpg",
+                "codes": "Seaking,SeakingGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Magikarp",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Magikarp - Unavailable",
+                "img": "images/items/52 - Off.jpg",
+                "codes": "Magikarp,MagikarpOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Magikarp - Available",
+                "img": "images/items/52.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Magikarp,MagikarpCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Magikarp - Caught",
+                "img": "images/items/52.jpg",
+                "codes": "Magikarp,MagikarpGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Gyarados",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Gyarados - Unavailable",
+                "img": "images/items/53 - Off.jpg",
+                "codes": "Gyarados,GyaradosOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gyarados - Available",
+                "img": "images/items/53.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Gyarados,GyaradosCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gyarados - Caught",
+                "img": "images/items/53.jpg",
+                "codes": "Gyarados,GyaradosGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Azurill",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Azurill - Unavailable",
+                "img": "images/items/54 - Off.jpg",
+                "codes": "Azurill,AzurillOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Azurill - Available",
+                "img": "images/items/54.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Azurill,AzurillCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Azurill - Caught",
+                "img": "images/items/54.jpg",
+                "codes": "Azurill,AzurillGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Marill",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Marill - Unavailable",
+                "img": "images/items/55 - Off.jpg",
+                "codes": "Marill,MarillOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Marill - Available",
+                "img": "images/items/55.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Marill,MarillCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Marill - Caught",
+                "img": "images/items/55.jpg",
+                "codes": "Marill,MarillGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Azumarill",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Azumarill - Unavailable",
+                "img": "images/items/56 - Off.jpg",
+                "codes": "Azumarill,AzumarillOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Azumarill - Available",
+                "img": "images/items/56.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Azumarill,AzumarillCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Azumarill - Caught",
+                "img": "images/items/56.jpg",
+                "codes": "Azumarill,AzumarillGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Geodude",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Geodude - Unavailable",
+                "img": "images/items/57 - Off.jpg",
+                "codes": "Geodude,GeodudeOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Geodude - Available",
+                "img": "images/items/57.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Geodude,GeodudeCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Geodude - Caught",
+                "img": "images/items/57.jpg",
+                "codes": "Geodude,GeodudeGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Graveler",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Graveler - Unavailable",
+                "img": "images/items/58 - Off.jpg",
+                "codes": "Graveler,GravelerOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Graveler - Available",
+                "img": "images/items/58.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Graveler,GravelerCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Graveler - Caught",
+                "img": "images/items/58.jpg",
+                "codes": "Graveler,GravelerGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Golem",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Golem - Unavailable",
+                "img": "images/items/59 - Off.jpg",
+                "codes": "Golem,GolemOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Golem - Available",
+                "img": "images/items/59.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Golem,GolemCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Golem - Caught",
+                "img": "images/items/59.jpg",
+                "codes": "Golem,GolemGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Nosepass",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Nosepass - Unavailable",
+                "img": "images/items/60 - Off.jpg",
+                "codes": "Nosepass,NosepassOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Nosepass - Available",
+                "img": "images/items/60.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Nosepass,NosepassCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Nosepass - Caught",
+                "img": "images/items/60.jpg",
+                "codes": "Nosepass,NosepassGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Skitty",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Skitty - Unavailable",
+                "img": "images/items/61 - Off.jpg",
+                "codes": "Skitty,SkittyOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Skitty - Available",
+                "img": "images/items/61.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Skitty,SkittyCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Skitty - Caught",
+                "img": "images/items/61.jpg",
+                "codes": "Skitty,SkittyGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Delcatty",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Delcatty - Unavailable",
+                "img": "images/items/62 - Off.jpg",
+                "codes": "Delcatty,DelcattyOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Delcatty - Available",
+                "img": "images/items/62.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Delcatty,DelcattyCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Delcatty - Caught",
+                "img": "images/items/62.jpg",
+                "codes": "Delcatty,DelcattyGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Zubat",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Zubat - Unavailable",
+                "img": "images/items/63 - Off.jpg",
+                "codes": "Zubat,ZubatOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Zubat - Available",
+                "img": "images/items/63.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Zubat,ZubatCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Zubat - Caught",
+                "img": "images/items/63.jpg",
+                "codes": "Zubat,ZubatGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Golbat",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Golbat - Unavailable",
+                "img": "images/items/64 - Off.jpg",
+                "codes": "Golbat,GolbatOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Golbat - Available",
+                "img": "images/items/64.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Golbat,GolbatCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Golbat - Caught",
+                "img": "images/items/64.jpg",
+                "codes": "Golbat,GolbatGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Crobat",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Crobat - Unavailable",
+                "img": "images/items/65 - Off.jpg",
+                "codes": "Crobat,CrobatOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crobat - Available",
+                "img": "images/items/65.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Crobat,CrobatCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crobat - Caught",
+                "img": "images/items/65.jpg",
+                "codes": "Crobat,CrobatGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Tentacool",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Tentacool - Unavailable",
+                "img": "images/items/66 - Off.jpg",
+                "codes": "Tentacool,TentacoolOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Tentacool - Available",
+                "img": "images/items/66.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Tentacool,TentacoolCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Tentacool - Caught",
+                "img": "images/items/66.jpg",
+                "codes": "Tentacool,TentacoolGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Tentacruel",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Tentacruel - Unavailable",
+                "img": "images/items/67 - Off.jpg",
+                "codes": "Tentacruel,TentacruelOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Tentacruel - Available",
+                "img": "images/items/67.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Tentacruel,TentacruelCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Tentacruel - Caught",
+                "img": "images/items/67.jpg",
+                "codes": "Tentacruel,TentacruelGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sableye",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Sableye - Unavailable",
+                "img": "images/items/68 - Off.jpg",
+                "codes": "Sableye,SableyeOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sableye - Available",
+                "img": "images/items/68.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Sableye,SableyeCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sableye - Caught",
+                "img": "images/items/68.jpg",
+                "codes": "Sableye,SableyeGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mawile",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Mawile - Unavailable",
+                "img": "images/items/69 - Off.jpg",
+                "codes": "Mawile,MawileOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mawile - Available",
+                "img": "images/items/69.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Mawile,MawileCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mawile - Caught",
+                "img": "images/items/69.jpg",
+                "codes": "Mawile,MawileGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Aron",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Aron - Unavailable",
+                "img": "images/items/70 - Off.jpg",
+                "codes": "Aron,AronOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Aron - Available",
+                "img": "images/items/70.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Aron,AronCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Aron - Caught",
+                "img": "images/items/70.jpg",
+                "codes": "Aron,AronGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Lairon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Lairon - Unavailable",
+                "img": "images/items/71 - Off.jpg",
+                "codes": "Lairon,LaironOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lairon - Available",
+                "img": "images/items/71.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Lairon,LaironCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lairon - Caught",
+                "img": "images/items/71.jpg",
+                "codes": "Lairon,LaironGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Aggron",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Aggron - Unavailable",
+                "img": "images/items/72 - Off.jpg",
+                "codes": "Aggron,AggronOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Aggron - Available",
+                "img": "images/items/72.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Aggron,AggronCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Aggron - Caught",
+                "img": "images/items/72.jpg",
+                "codes": "Aggron,AggronGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Machop",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Machop - Unavailable",
+                "img": "images/items/73 - Off.jpg",
+                "codes": "Machop,MachopOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Machop - Available",
+                "img": "images/items/73.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Machop,MachopCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Machop - Caught",
+                "img": "images/items/73.jpg",
+                "codes": "Machop,MachopGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Machoke",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Machoke - Unavailable",
+                "img": "images/items/74 - Off.jpg",
+                "codes": "Machoke,MachokeOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Machoke - Available",
+                "img": "images/items/74.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Machoke,MachokeCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Machoke - Caught",
+                "img": "images/items/74.jpg",
+                "codes": "Machoke,MachokeGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Machamp",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Machamp - Unavailable",
+                "img": "images/items/75 - Off.jpg",
+                "codes": "Machamp,MachampOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Machamp - Available",
+                "img": "images/items/75.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Machamp,MachampCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Machamp - Caught",
+                "img": "images/items/75.jpg",
+                "codes": "Machamp,MachampGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Meditite",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Meditite - Unavailable",
+                "img": "images/items/76 - Off.jpg",
+                "codes": "Meditite,MedititeOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Meditite - Available",
+                "img": "images/items/76.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Meditite,MedititeCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Meditite - Caught",
+                "img": "images/items/76.jpg",
+                "codes": "Meditite,MedititeGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Medicham",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Medicham - Unavailable",
+                "img": "images/items/77 - Off.jpg",
+                "codes": "Medicham,MedichamOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Medicham - Available",
+                "img": "images/items/77.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Medicham,MedichamCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Medicham - Caught",
+                "img": "images/items/77.jpg",
+                "codes": "Medicham,MedichamGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Electrike",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Electrike - Unavailable",
+                "img": "images/items/78 - Off.jpg",
+                "codes": "Electrike,ElectrikeOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Electrike - Available",
+                "img": "images/items/78.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Electrike,ElectrikeCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Electrike - Caught",
+                "img": "images/items/78.jpg",
+                "codes": "Electrike,ElectrikeGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Manectric",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Manectric - Unavailable",
+                "img": "images/items/79 - Off.jpg",
+                "codes": "Manectric,ManectricOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Manectric - Available",
+                "img": "images/items/79.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Manectric,ManectricCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Manectric - Caught",
+                "img": "images/items/79.jpg",
+                "codes": "Manectric,ManectricGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Plusle",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Plusle - Unavailable",
+                "img": "images/items/80 - Off.jpg",
+                "codes": "Plusle,PlusleOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Plusle - Available",
+                "img": "images/items/80.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Plusle,PlusleCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Plusle - Caught",
+                "img": "images/items/80.jpg",
+                "codes": "Plusle,PlusleGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Minun",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Minun - Unavailable",
+                "img": "images/items/81 - Off.jpg",
+                "codes": "Minun,MinunOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Minun - Available",
+                "img": "images/items/81.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Minun,MinunCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Minun - Caught",
+                "img": "images/items/81.jpg",
+                "codes": "Minun,MinunGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Magnemite",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Magnemite - Unavailable",
+                "img": "images/items/82 - Off.jpg",
+                "codes": "Magnemite,MagnemiteOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Magnemite - Available",
+                "img": "images/items/82.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Magnemite,MagnemiteCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Magnemite - Caught",
+                "img": "images/items/82.jpg",
+                "codes": "Magnemite,MagnemiteGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Magneton",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Magneton - Unavailable",
+                "img": "images/items/83 - Off.jpg",
+                "codes": "Magneton,MagnetonOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Magneton - Available",
+                "img": "images/items/83.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Magneton,MagnetonCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Magneton - Caught",
+                "img": "images/items/83.jpg",
+                "codes": "Magneton,MagnetonGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Voltorb",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Voltorb - Unavailable",
+                "img": "images/items/84 - Off.jpg",
+                "codes": "Voltorb,VoltorbOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Voltorb - Available",
+                "img": "images/items/84.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Voltorb,VoltorbCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Voltorb - Caught",
+                "img": "images/items/84.jpg",
+                "codes": "Voltorb,VoltorbGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Electrode",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Electrode - Unavailable",
+                "img": "images/items/85 - Off.jpg",
+                "codes": "Electrode,ElectrodeOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Electrode - Available",
+                "img": "images/items/85.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Electrode,ElectrodeCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Electrode - Caught",
+                "img": "images/items/85.jpg",
+                "codes": "Electrode,ElectrodeGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Volbeat",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Volbeat - Unavailable",
+                "img": "images/items/86 - Off.jpg",
+                "codes": "Volbeat,VolbeatOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Volbeat - Available",
+                "img": "images/items/86.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Volbeat,VolbeatCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Volbeat - Caught",
+                "img": "images/items/86.jpg",
+                "codes": "Volbeat,VolbeatGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Illumise",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Illumise - Unavailable",
+                "img": "images/items/87 - Off.jpg",
+                "codes": "Illumise,IllumiseOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Illumise - Available",
+                "img": "images/items/87.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Illumise,IllumiseCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Illumise - Caught",
+                "img": "images/items/87.jpg",
+                "codes": "Illumise,IllumiseGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Oddish",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Oddish - Unavailable",
+                "img": "images/items/88 - Off.jpg",
+                "codes": "Oddish,OddishOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oddish - Available",
+                "img": "images/items/88.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Oddish,OddishCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Oddish - Caught",
+                "img": "images/items/88.jpg",
+                "codes": "Oddish,OddishGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Gloom",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Gloom - Unavailable",
+                "img": "images/items/89 - Off.jpg",
+                "codes": "Gloom,GloomOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gloom - Available",
+                "img": "images/items/89.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Gloom,GloomCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gloom - Caught",
+                "img": "images/items/89.jpg",
+                "codes": "Gloom,GloomGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Vileplume",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Vileplume - Unavailable",
+                "img": "images/items/90 - Off.jpg",
+                "codes": "Vileplume,VileplumeOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Vileplume - Available",
+                "img": "images/items/90.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Vileplume,VileplumeCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Vileplume - Caught",
+                "img": "images/items/90.jpg",
+                "codes": "Vileplume,VileplumeGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Bellossom",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Bellossom - Unavailable",
+                "img": "images/items/91 - Off.jpg",
+                "codes": "Bellossom,BellossomOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bellossom - Available",
+                "img": "images/items/91.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Bellossom,BellossomCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bellossom - Caught",
+                "img": "images/items/91.jpg",
+                "codes": "Bellossom,BellossomGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Doduo",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Doduo - Unavailable",
+                "img": "images/items/92 - Off.jpg",
+                "codes": "Doduo,DoduoOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Doduo - Available",
+                "img": "images/items/92.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Doduo,DoduoCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Doduo - Caught",
+                "img": "images/items/92.jpg",
+                "codes": "Doduo,DoduoGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dodrio",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Dodrio - Unavailable",
+                "img": "images/items/93 - Off.jpg",
+                "codes": "Dodrio,DodrioOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Dodrio - Available",
+                "img": "images/items/93.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Dodrio,DodrioCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Dodrio - Caught",
+                "img": "images/items/93.jpg",
+                "codes": "Dodrio,DodrioGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Roselia",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Roselia - Unavailable",
+                "img": "images/items/94 - Off.jpg",
+                "codes": "Roselia,RoseliaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Roselia - Available",
+                "img": "images/items/94.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Roselia,RoseliaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Roselia - Caught",
+                "img": "images/items/94.jpg",
+                "codes": "Roselia,RoseliaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Gulpin",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Gulpin - Unavailable",
+                "img": "images/items/95 - Off.jpg",
+                "codes": "Gulpin,GulpinOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gulpin - Available",
+                "img": "images/items/95.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Gulpin,GulpinCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gulpin - Caught",
+                "img": "images/items/95.jpg",
+                "codes": "Gulpin,GulpinGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Swalot",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Swalot - Unavailable",
+                "img": "images/items/96 - Off.jpg",
+                "codes": "Swalot,SwalotOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Swalot - Available",
+                "img": "images/items/96.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Swalot,SwalotCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Swalot - Caught",
+                "img": "images/items/96.jpg",
+                "codes": "Swalot,SwalotGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Carvanha",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Carvanha - Unavailable",
+                "img": "images/items/97 - Off.jpg",
+                "codes": "Carvanha,CarvanhaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Carvanha - Available",
+                "img": "images/items/97.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Carvanha,CarvanhaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Carvanha - Caught",
+                "img": "images/items/97.jpg",
+                "codes": "Carvanha,CarvanhaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sharpedo",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Sharpedo - Unavailable",
+                "img": "images/items/98 - Off.jpg",
+                "codes": "Sharpedo,SharpedoOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sharpedo - Available",
+                "img": "images/items/98.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Sharpedo,SharpedoCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sharpedo - Caught",
+                "img": "images/items/98.jpg",
+                "codes": "Sharpedo,SharpedoGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Wailmer",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wailmer - Unavailable",
+                "img": "images/items/99 - Off.jpg",
+                "codes": "Wailmer,WailmerOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wailmer - Available",
+                "img": "images/items/99.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Wailmer,WailmerCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wailmer - Caught",
+                "img": "images/items/99.jpg",
+                "codes": "Wailmer,WailmerGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Wailord",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wailord - Unavailable",
+                "img": "images/items/100 - Off.jpg",
+                "codes": "Wailord,WailordOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wailord - Available",
+                "img": "images/items/100.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Wailord,WailordCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wailord - Caught",
+                "img": "images/items/100.jpg",
+                "codes": "Wailord,WailordGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Numel",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Numel - Unavailable",
+                "img": "images/items/101 - Off.jpg",
+                "codes": "Numel,NumelOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Numel - Available",
+                "img": "images/items/101.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Numel,NumelCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Numel - Caught",
+                "img": "images/items/101.jpg",
+                "codes": "Numel,NumelGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Camerupt",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Camerupt - Unavailable",
+                "img": "images/items/102 - Off.jpg",
+                "codes": "Camerupt,CameruptOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Camerupt - Available",
+                "img": "images/items/102.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Camerupt,CameruptCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Camerupt - Caught",
+                "img": "images/items/102.jpg",
+                "codes": "Camerupt,CameruptGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Slugma",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Slugma - Unavailable",
+                "img": "images/items/103 - Off.jpg",
+                "codes": "Slugma,SlugmaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Slugma - Available",
+                "img": "images/items/103.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Slugma,SlugmaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Slugma - Caught",
+                "img": "images/items/103.jpg",
+                "codes": "Slugma,SlugmaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Magcargo",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Magcargo - Unavailable",
+                "img": "images/items/104 - Off.jpg",
+                "codes": "Magcargo,MagcargoOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Magcargo - Available",
+                "img": "images/items/104.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Magcargo,MagcargoCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Magcargo - Caught",
+                "img": "images/items/104.jpg",
+                "codes": "Magcargo,MagcargoGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Torkoal",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Torkoal - Unavailable",
+                "img": "images/items/105 - Off.jpg",
+                "codes": "Torkoal,TorkoalOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Torkoal - Available",
+                "img": "images/items/105.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Torkoal,TorkoalCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Torkoal - Caught",
+                "img": "images/items/105.jpg",
+                "codes": "Torkoal,TorkoalGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Grimer",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Grimer - Unavailable",
+                "img": "images/items/106 - Off.jpg",
+                "codes": "Grimer,GrimerOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Grimer - Available",
+                "img": "images/items/106.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Grimer,GrimerCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Grimer - Caught",
+                "img": "images/items/106.jpg",
+                "codes": "Grimer,GrimerGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Muk",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Muk - Unavailable",
+                "img": "images/items/107 - Off.jpg",
+                "codes": "Muk,MukOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Muk - Available",
+                "img": "images/items/107.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Muk,MukCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Muk - Caught",
+                "img": "images/items/107.jpg",
+                "codes": "Muk,MukGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Koffing",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Koffing - Unavailable",
+                "img": "images/items/108 - Off.jpg",
+                "codes": "Koffing,KoffingOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Koffing - Available",
+                "img": "images/items/108.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Koffing,KoffingCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Koffing - Caught",
+                "img": "images/items/108.jpg",
+                "codes": "Koffing,KoffingGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Weezing",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Weezing - Unavailable",
+                "img": "images/items/109 - Off.jpg",
+                "codes": "Weezing,WeezingOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Weezing - Available",
+                "img": "images/items/109.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Weezing,WeezingCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Weezing - Caught",
+                "img": "images/items/109.jpg",
+                "codes": "Weezing,WeezingGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Spoink",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Spoink - Unavailable",
+                "img": "images/items/110 - Off.jpg",
+                "codes": "Spoink,SpoinkOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Spoink - Available",
+                "img": "images/items/110.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Spoink,SpoinkCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Spoink - Caught",
+                "img": "images/items/110.jpg",
+                "codes": "Spoink,SpoinkGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Grumpig",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Grumpig - Unavailable",
+                "img": "images/items/111 - Off.jpg",
+                "codes": "Grumpig,GrumpigOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Grumpig - Available",
+                "img": "images/items/111.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Grumpig,GrumpigCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Grumpig - Caught",
+                "img": "images/items/111.jpg",
+                "codes": "Grumpig,GrumpigGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sandshrew",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Sandshrew - Unavailable",
+                "img": "images/items/112 - Off.jpg",
+                "codes": "Sandshrew,SandshrewOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sandshrew - Available",
+                "img": "images/items/112.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Sandshrew,SandshrewCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sandshrew - Caught",
+                "img": "images/items/112.jpg",
+                "codes": "Sandshrew,SandshrewGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sandslash",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Sandslash - Unavailable",
+                "img": "images/items/113 - Off.jpg",
+                "codes": "Sandslash,SandslashOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sandslash - Available",
+                "img": "images/items/113.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Sandslash,SandslashCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sandslash - Caught",
+                "img": "images/items/113.jpg",
+                "codes": "Sandslash,SandslashGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Spinda",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Spinda - Unavailable",
+                "img": "images/items/114 - Off.jpg",
+                "codes": "Spinda,SpindaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Spinda - Available",
+                "img": "images/items/114.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Spinda,SpindaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Spinda - Caught",
+                "img": "images/items/114.jpg",
+                "codes": "Spinda,SpindaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Skarmory",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Skarmory - Unavailable",
+                "img": "images/items/115 - Off.jpg",
+                "codes": "Skarmory,SkarmoryOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Skarmory - Available",
+                "img": "images/items/115.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Skarmory,SkarmoryCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Skarmory - Caught",
+                "img": "images/items/115.jpg",
+                "codes": "Skarmory,SkarmoryGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Trapinch",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Trapinch - Unavailable",
+                "img": "images/items/116 - Off.jpg",
+                "codes": "Trapinch,TrapinchOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Trapinch - Available",
+                "img": "images/items/116.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Trapinch,TrapinchCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Trapinch - Caught",
+                "img": "images/items/116.jpg",
+                "codes": "Trapinch,TrapinchGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Vibrava",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Vibrava - Unavailable",
+                "img": "images/items/117 - Off.jpg",
+                "codes": "Vibrava,VibravaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Vibrava - Available",
+                "img": "images/items/117.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Vibrava,VibravaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Vibrava - Caught",
+                "img": "images/items/117.jpg",
+                "codes": "Vibrava,VibravaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Flygon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Flygon - Unavailable",
+                "img": "images/items/118 - Off.jpg",
+                "codes": "Flygon,FlygonOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Flygon - Available",
+                "img": "images/items/118.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Flygon,FlygonCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Flygon - Caught",
+                "img": "images/items/118.jpg",
+                "codes": "Flygon,FlygonGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cacnea",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cacnea - Unavailable",
+                "img": "images/items/119 - Off.jpg",
+                "codes": "Cacnea,CacneaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cacnea - Available",
+                "img": "images/items/119.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Cacnea,CacneaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cacnea - Caught",
+                "img": "images/items/119.jpg",
+                "codes": "Cacnea,CacneaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cacturne",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cacturne - Unavailable",
+                "img": "images/items/120 - Off.jpg",
+                "codes": "Cacturne,CacturneOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cacturne - Available",
+                "img": "images/items/120.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Cacturne,CacturneCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cacturne - Caught",
+                "img": "images/items/120.jpg",
+                "codes": "Cacturne,CacturneGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Swablu",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Swablu - Unavailable",
+                "img": "images/items/121 - Off.jpg",
+                "codes": "Swablu,SwabluOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Swablu - Available",
+                "img": "images/items/121.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Swablu,SwabluCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Swablu - Caught",
+                "img": "images/items/121.jpg",
+                "codes": "Swablu,SwabluGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Altaria",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Altaria - Unavailable",
+                "img": "images/items/122 - Off.jpg",
+                "codes": "Altaria,AltariaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Altaria - Available",
+                "img": "images/items/122.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Altaria,AltariaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Altaria - Caught",
+                "img": "images/items/122.jpg",
+                "codes": "Altaria,AltariaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Zangoose",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Zangoose - Unavailable",
+                "img": "images/items/123 - Off.jpg",
+                "codes": "Zangoose,ZangooseOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Zangoose - Available",
+                "img": "images/items/123.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Zangoose,ZangooseCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Zangoose - Caught",
+                "img": "images/items/123.jpg",
+                "codes": "Zangoose,ZangooseGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Seviper",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Seviper - Unavailable",
+                "img": "images/items/124 - Off.jpg",
+                "codes": "Seviper,SeviperOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Seviper - Available",
+                "img": "images/items/124.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Seviper,SeviperCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Seviper - Caught",
+                "img": "images/items/124.jpg",
+                "codes": "Seviper,SeviperGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Lunatone",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Lunatone - Unavailable",
+                "img": "images/items/125 - Off.jpg",
+                "codes": "Lunatone,LunatoneOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lunatone - Available",
+                "img": "images/items/125.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Lunatone,LunatoneCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lunatone - Caught",
+                "img": "images/items/125.jpg",
+                "codes": "Lunatone,LunatoneGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Solrock",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Solrock - Unavailable",
+                "img": "images/items/126 - Off.jpg",
+                "codes": "Solrock,SolrockOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Solrock - Available",
+                "img": "images/items/126.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Solrock,SolrockCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Solrock - Caught",
+                "img": "images/items/126.jpg",
+                "codes": "Solrock,SolrockGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Barboach",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Barboach - Unavailable",
+                "img": "images/items/127 - Off.jpg",
+                "codes": "Barboach,BarboachOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Barboach - Available",
+                "img": "images/items/127.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Barboach,BarboachCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Barboach - Caught",
+                "img": "images/items/127.jpg",
+                "codes": "Barboach,BarboachGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Whiscash",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Whiscash - Unavailable",
+                "img": "images/items/128 - Off.jpg",
+                "codes": "Whiscash,WhiscashOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Whiscash - Available",
+                "img": "images/items/128.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Whiscash,WhiscashCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Whiscash - Caught",
+                "img": "images/items/128.jpg",
+                "codes": "Whiscash,WhiscashGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Corphish",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Corphish - Unavailable",
+                "img": "images/items/129 - Off.jpg",
+                "codes": "Corphish,CorphishOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Corphish - Available",
+                "img": "images/items/129.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Corphish,CorphishCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Corphish - Caught",
+                "img": "images/items/129.jpg",
+                "codes": "Corphish,CorphishGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Crawdaunt",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Crawdaunt - Unavailable",
+                "img": "images/items/130 - Off.jpg",
+                "codes": "Crawdaunt,CrawdauntOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crawdaunt - Available",
+                "img": "images/items/130.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Crawdaunt,CrawdauntCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Crawdaunt - Caught",
+                "img": "images/items/130.jpg",
+                "codes": "Crawdaunt,CrawdauntGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Baltoy",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Baltoy - Unavailable",
+                "img": "images/items/131 - Off.jpg",
+                "codes": "Baltoy,BaltoyOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Baltoy - Available",
+                "img": "images/items/131.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Baltoy,BaltoyCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Baltoy - Caught",
+                "img": "images/items/131.jpg",
+                "codes": "Baltoy,BaltoyGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Claydol",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Claydol - Unavailable",
+                "img": "images/items/132 - Off.jpg",
+                "codes": "Claydol,ClaydolOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Claydol - Available",
+                "img": "images/items/132.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Claydol,ClaydolCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Claydol - Caught",
+                "img": "images/items/132.jpg",
+                "codes": "Claydol,ClaydolGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Lileep",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Lileep - Unavailable",
+                "img": "images/items/133 - Off.jpg",
+                "codes": "Lileep,LileepOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lileep - Available",
+                "img": "images/items/133.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Lileep,LileepCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lileep - Caught",
+                "img": "images/items/133.jpg",
+                "codes": "Lileep,LileepGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cradily",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cradily - Unavailable",
+                "img": "images/items/134 - Off.jpg",
+                "codes": "Cradily,CradilyOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cradily - Available",
+                "img": "images/items/134.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Cradily,CradilyCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cradily - Caught",
+                "img": "images/items/134.jpg",
+                "codes": "Cradily,CradilyGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Anorith",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Anorith - Unavailable",
+                "img": "images/items/135 - Off.jpg",
+                "codes": "Anorith,AnorithOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Anorith - Available",
+                "img": "images/items/135.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Anorith,AnorithCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Anorith - Caught",
+                "img": "images/items/135.jpg",
+                "codes": "Anorith,AnorithGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Armaldo",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Armaldo - Unavailable",
+                "img": "images/items/136 - Off.jpg",
+                "codes": "Armaldo,ArmaldoOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Armaldo - Available",
+                "img": "images/items/136.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Armaldo,ArmaldoCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Armaldo - Caught",
+                "img": "images/items/136.jpg",
+                "codes": "Armaldo,ArmaldoGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Igglybuff",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Igglybuff - Unavailable",
+                "img": "images/items/137 - Off.jpg",
+                "codes": "Igglybuff,IgglybuffOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Igglybuff - Available",
+                "img": "images/items/137.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Igglybuff,IgglybuffCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Igglybuff - Caught",
+                "img": "images/items/137.jpg",
+                "codes": "Igglybuff,IgglybuffGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Jigglypuff",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Jigglypuff - Unavailable",
+                "img": "images/items/138 - Off.jpg",
+                "codes": "Jigglypuff,JigglypuffOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Jigglypuff - Available",
+                "img": "images/items/138.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Jigglypuff,JigglypuffCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Jigglypuff - Caught",
+                "img": "images/items/138.jpg",
+                "codes": "Jigglypuff,JigglypuffGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Wigglytuff",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wigglytuff - Unavailable",
+                "img": "images/items/139 - Off.jpg",
+                "codes": "Wigglytuff,WigglytuffOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wigglytuff - Available",
+                "img": "images/items/139.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Wigglytuff,WigglytuffCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wigglytuff - Caught",
+                "img": "images/items/139.jpg",
+                "codes": "Wigglytuff,WigglytuffGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Feebas",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Feebas - Unavailable",
+                "img": "images/items/140 - Off.jpg",
+                "codes": "Feebas,FeebasOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Feebas - Available",
+                "img": "images/items/140.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Feebas,FeebasCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Feebas - Caught",
+                "img": "images/items/140.jpg",
+                "codes": "Feebas,FeebasGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Milotic",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Milotic - Unavailable",
+                "img": "images/items/141 - Off.jpg",
+                "codes": "Milotic,MiloticOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Milotic - Available",
+                "img": "images/items/141.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Milotic,MiloticCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Milotic - Caught",
+                "img": "images/items/141.jpg",
+                "codes": "Milotic,MiloticGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Castform",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Castform - Unavailable",
+                "img": "images/items/142 - Off.jpg",
+                "codes": "Castform,CastformOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Castform - Available",
+                "img": "images/items/142.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Castform,CastformCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Castform - Caught",
+                "img": "images/items/142.jpg",
+                "codes": "Castform,CastformGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Staryu",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Staryu - Unavailable",
+                "img": "images/items/143 - Off.jpg",
+                "codes": "Staryu,StaryuOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Staryu - Available",
+                "img": "images/items/143.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Staryu,StaryuCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Staryu - Caught",
+                "img": "images/items/143.jpg",
+                "codes": "Staryu,StaryuGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Starmie",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Starmie - Unavailable",
+                "img": "images/items/144 - Off.jpg",
+                "codes": "Starmie,StarmieOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starmie - Available",
+                "img": "images/items/144.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Starmie,StarmieCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Starmie - Caught",
+                "img": "images/items/144.jpg",
+                "codes": "Starmie,StarmieGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Kecleon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Kecleon - Unavailable",
+                "img": "images/items/145 - Off.jpg",
+                "codes": "Kecleon,KecleonOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Kecleon - Available",
+                "img": "images/items/145.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Kecleon,KecleonCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Kecleon - Caught",
+                "img": "images/items/145.jpg",
+                "codes": "Kecleon,KecleonGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shuppet",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shuppet - Unavailable",
+                "img": "images/items/146 - Off.jpg",
+                "codes": "Shuppet,ShuppetOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuppet - Available",
+                "img": "images/items/146.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Shuppet,ShuppetCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shuppet - Caught",
+                "img": "images/items/146.jpg",
+                "codes": "Shuppet,ShuppetGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Banette",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Banette - Unavailable",
+                "img": "images/items/147 - Off.jpg",
+                "codes": "Banette,BanetteOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Banette - Available",
+                "img": "images/items/147.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Banette,BanetteCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Banette - Caught",
+                "img": "images/items/147.jpg",
+                "codes": "Banette,BanetteGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Duskull",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Duskull - Unavailable",
+                "img": "images/items/148 - Off.jpg",
+                "codes": "Duskull,DuskullOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Duskull - Available",
+                "img": "images/items/148.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Duskull,DuskullCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Duskull - Caught",
+                "img": "images/items/148.jpg",
+                "codes": "Duskull,DuskullGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dusclops",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Dusclops - Unavailable",
+                "img": "images/items/149 - Off.jpg",
+                "codes": "Dusclops,DusclopsOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Dusclops - Available",
+                "img": "images/items/149.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Dusclops,DusclopsCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Dusclops - Caught",
+                "img": "images/items/149.jpg",
+                "codes": "Dusclops,DusclopsGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Tropius",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Tropius - Unavailable",
+                "img": "images/items/150 - Off.jpg",
+                "codes": "Tropius,TropiusOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Tropius - Available",
+                "img": "images/items/150.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Tropius,TropiusCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Tropius - Caught",
+                "img": "images/items/150.jpg",
+                "codes": "Tropius,TropiusGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Chimecho",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Chimecho - Unavailable",
+                "img": "images/items/151 - Off.jpg",
+                "codes": "Chimecho,ChimechoOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Chimecho - Available",
+                "img": "images/items/151.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Chimecho,ChimechoCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Chimecho - Caught",
+                "img": "images/items/151.jpg",
+                "codes": "Chimecho,ChimechoGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Absol",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Absol - Unavailable",
+                "img": "images/items/152 - Off.jpg",
+                "codes": "Absol,AbsolOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Absol - Available",
+                "img": "images/items/152.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Absol,AbsolCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Absol - Caught",
+                "img": "images/items/152.jpg",
+                "codes": "Absol,AbsolGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Vulpix",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Vulpix - Unavailable",
+                "img": "images/items/153 - Off.jpg",
+                "codes": "Vulpix,VulpixOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Vulpix - Available",
+                "img": "images/items/153.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Vulpix,VulpixCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Vulpix - Caught",
+                "img": "images/items/153.jpg",
+                "codes": "Vulpix,VulpixGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Ninetales",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Ninetales - Unavailable",
+                "img": "images/items/154 - Off.jpg",
+                "codes": "Ninetales,NinetalesOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ninetales - Available",
+                "img": "images/items/154.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Ninetales,NinetalesCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Ninetales - Caught",
+                "img": "images/items/154.jpg",
+                "codes": "Ninetales,NinetalesGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Pichu",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Pichu - Unavailable",
+                "img": "images/items/155 - Off.jpg",
+                "codes": "Pichu,PichuOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pichu - Available",
+                "img": "images/items/155.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Pichu,PichuCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pichu - Caught",
+                "img": "images/items/155.jpg",
+                "codes": "Pichu,PichuGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Pikachu",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Pikachu - Unavailable",
+                "img": "images/items/156 - Off.jpg",
+                "codes": "Pikachu,PikachuOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pikachu - Available",
+                "img": "images/items/156.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Pikachu,PikachuCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pikachu - Caught",
+                "img": "images/items/156.jpg",
+                "codes": "Pikachu,PikachuGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Raichu",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Raichu - Unavailable",
+                "img": "images/items/157 - Off.jpg",
+                "codes": "Raichu,RaichuOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Raichu - Available",
+                "img": "images/items/157.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Raichu,RaichuCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Raichu - Caught",
+                "img": "images/items/157.jpg",
+                "codes": "Raichu,RaichuGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Psyduck",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Psyduck - Unavailable",
+                "img": "images/items/158 - Off.jpg",
+                "codes": "Psyduck,PsyduckOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Psyduck - Available",
+                "img": "images/items/158.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Psyduck,PsyduckCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Psyduck - Caught",
+                "img": "images/items/158.jpg",
+                "codes": "Psyduck,PsyduckGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Golduck",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Golduck - Unavailable",
+                "img": "images/items/159 - Off.jpg",
+                "codes": "Golduck,GolduckOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Golduck - Available",
+                "img": "images/items/159.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Golduck,GolduckCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Golduck - Caught",
+                "img": "images/items/159.jpg",
+                "codes": "Golduck,GolduckGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Wynaut",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wynaut - Unavailable",
+                "img": "images/items/160 - Off.jpg",
+                "codes": "Wynaut,WynautOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wynaut - Available",
+                "img": "images/items/160.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Wynaut,WynautCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wynaut - Caught",
+                "img": "images/items/160.jpg",
+                "codes": "Wynaut,WynautGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Wobbuffet",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Wobbuffet - Unavailable",
+                "img": "images/items/161 - Off.jpg",
+                "codes": "Wobbuffet,WobbuffetOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wobbuffet - Available",
+                "img": "images/items/161.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Wobbuffet,WobbuffetCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Wobbuffet - Caught",
+                "img": "images/items/161.jpg",
+                "codes": "Wobbuffet,WobbuffetGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Natu",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Natu - Unavailable",
+                "img": "images/items/162 - Off.jpg",
+                "codes": "Natu,NatuOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Natu - Available",
+                "img": "images/items/162.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Natu,NatuCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Natu - Caught",
+                "img": "images/items/162.jpg",
+                "codes": "Natu,NatuGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Xatu",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Xatu - Unavailable",
+                "img": "images/items/163 - Off.jpg",
+                "codes": "Xatu,XatuOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Xatu - Available",
+                "img": "images/items/163.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Xatu,XatuCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Xatu - Caught",
+                "img": "images/items/163.jpg",
+                "codes": "Xatu,XatuGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Girafarig",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Girafarig - Unavailable",
+                "img": "images/items/164 - Off.jpg",
+                "codes": "Girafarig,GirafarigOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Girafarig - Available",
+                "img": "images/items/164.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Girafarig,GirafarigCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Girafarig - Caught",
+                "img": "images/items/164.jpg",
+                "codes": "Girafarig,GirafarigGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Phanpy",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Phanpy - Unavailable",
+                "img": "images/items/165 - Off.jpg",
+                "codes": "Phanpy,PhanpyOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Phanpy - Available",
+                "img": "images/items/165.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Phanpy,PhanpyCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Phanpy - Caught",
+                "img": "images/items/165.jpg",
+                "codes": "Phanpy,PhanpyGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Donphan",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Donphan - Unavailable",
+                "img": "images/items/166 - Off.jpg",
+                "codes": "Donphan,DonphanOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Donphan - Available",
+                "img": "images/items/166.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Donphan,DonphanCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Donphan - Caught",
+                "img": "images/items/166.jpg",
+                "codes": "Donphan,DonphanGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Pinsir",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Pinsir - Unavailable",
+                "img": "images/items/167 - Off.jpg",
+                "codes": "Pinsir,PinsirOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pinsir - Available",
+                "img": "images/items/167.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Pinsir,PinsirCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Pinsir - Caught",
+                "img": "images/items/167.jpg",
+                "codes": "Pinsir,PinsirGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Heracross",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Heracross - Unavailable",
+                "img": "images/items/168 - Off.jpg",
+                "codes": "Heracross,HeracrossOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Heracross - Available",
+                "img": "images/items/168.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Heracross,HeracrossCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Heracross - Caught",
+                "img": "images/items/168.jpg",
+                "codes": "Heracross,HeracrossGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Rhyhorn",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Rhyhorn - Unavailable",
+                "img": "images/items/169 - Off.jpg",
+                "codes": "Rhyhorn,RhyhornOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Rhyhorn - Available",
+                "img": "images/items/169.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Rhyhorn,RhyhornCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Rhyhorn - Caught",
+                "img": "images/items/169.jpg",
+                "codes": "Rhyhorn,RhyhornGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Rhydon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Rhydon - Unavailable",
+                "img": "images/items/170 - Off.jpg",
+                "codes": "Rhydon,RhydonOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Rhydon - Available",
+                "img": "images/items/170.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Rhydon,RhydonCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Rhydon - Caught",
+                "img": "images/items/170.jpg",
+                "codes": "Rhydon,RhydonGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Snorunt",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Snorunt - Unavailable",
+                "img": "images/items/171 - Off.jpg",
+                "codes": "Snorunt,SnoruntOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Snorunt - Available",
+                "img": "images/items/171.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Snorunt,SnoruntCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Snorunt - Caught",
+                "img": "images/items/171.jpg",
+                "codes": "Snorunt,SnoruntGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Glalie",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Glalie - Unavailable",
+                "img": "images/items/172 - Off.jpg",
+                "codes": "Glalie,GlalieOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Glalie - Available",
+                "img": "images/items/172.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Glalie,GlalieCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Glalie - Caught",
+                "img": "images/items/172.jpg",
+                "codes": "Glalie,GlalieGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Spheal",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Spheal - Unavailable",
+                "img": "images/items/173 - Off.jpg",
+                "codes": "Spheal,SphealOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Spheal - Available",
+                "img": "images/items/173.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Spheal,SphealCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Spheal - Caught",
+                "img": "images/items/173.jpg",
+                "codes": "Spheal,SphealGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Sealeo",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Sealeo - Unavailable",
+                "img": "images/items/174 - Off.jpg",
+                "codes": "Sealeo,SealeoOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sealeo - Available",
+                "img": "images/items/174.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Sealeo,SealeoCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Sealeo - Caught",
+                "img": "images/items/174.jpg",
+                "codes": "Sealeo,SealeoGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Walrein",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Walrein - Unavailable",
+                "img": "images/items/175 - Off.jpg",
+                "codes": "Walrein,WalreinOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Walrein - Available",
+                "img": "images/items/175.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Walrein,WalreinCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Walrein - Caught",
+                "img": "images/items/175.jpg",
+                "codes": "Walrein,WalreinGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Clamperl",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Clamperl - Unavailable",
+                "img": "images/items/176 - Off.jpg",
+                "codes": "Clamperl,ClamperlOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Clamperl - Available",
+                "img": "images/items/176.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Clamperl,ClamperlCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Clamperl - Caught",
+                "img": "images/items/176.jpg",
+                "codes": "Clamperl,ClamperlGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Huntail",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Huntail - Unavailable",
+                "img": "images/items/177 - Off.jpg",
+                "codes": "Huntail,HuntailOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Huntail - Available",
+                "img": "images/items/177.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Huntail,HuntailCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Huntail - Caught",
+                "img": "images/items/177.jpg",
+                "codes": "Huntail,HuntailGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Gorebyss",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Gorebyss - Unavailable",
+                "img": "images/items/178 - Off.jpg",
+                "codes": "Gorebyss,GorebyssOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gorebyss - Available",
+                "img": "images/items/178.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Gorebyss,GorebyssCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Gorebyss - Caught",
+                "img": "images/items/178.jpg",
+                "codes": "Gorebyss,GorebyssGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Relicanth",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Relicanth - Unavailable",
+                "img": "images/items/179 - Off.jpg",
+                "codes": "Relicanth,RelicanthOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Relicanth - Available",
+                "img": "images/items/179.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Relicanth,RelicanthCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Relicanth - Caught",
+                "img": "images/items/179.jpg",
+                "codes": "Relicanth,RelicanthGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Corsola",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Corsola - Unavailable",
+                "img": "images/items/180 - Off.jpg",
+                "codes": "Corsola,CorsolaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Corsola - Available",
+                "img": "images/items/180.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Corsola,CorsolaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Corsola - Caught",
+                "img": "images/items/180.jpg",
+                "codes": "Corsola,CorsolaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Chinchou",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Chinchou - Unavailable",
+                "img": "images/items/181 - Off.jpg",
+                "codes": "Chinchou,ChinchouOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Chinchou - Available",
+                "img": "images/items/181.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Chinchou,ChinchouCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Chinchou - Caught",
+                "img": "images/items/181.jpg",
+                "codes": "Chinchou,ChinchouGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Lanturn",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Lanturn - Unavailable",
+                "img": "images/items/182 - Off.jpg",
+                "codes": "Lanturn,LanturnOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lanturn - Available",
+                "img": "images/items/182.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Lanturn,LanturnCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lanturn - Caught",
+                "img": "images/items/182.jpg",
+                "codes": "Lanturn,LanturnGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Luvdisc",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Luvdisc - Unavailable",
+                "img": "images/items/183 - Off.jpg",
+                "codes": "Luvdisc,LuvdiscOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Luvdisc - Available",
+                "img": "images/items/183.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Luvdisc,LuvdiscCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Luvdisc - Caught",
+                "img": "images/items/183.jpg",
+                "codes": "Luvdisc,LuvdiscGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Horsea",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Horsea - Unavailable",
+                "img": "images/items/184 - Off.jpg",
+                "codes": "Horsea,HorseaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Horsea - Available",
+                "img": "images/items/184.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Horsea,HorseaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Horsea - Caught",
+                "img": "images/items/184.jpg",
+                "codes": "Horsea,HorseaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Seadra",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Seadra - Unavailable",
+                "img": "images/items/185 - Off.jpg",
+                "codes": "Seadra,SeadraOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Seadra - Available",
+                "img": "images/items/185.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Seadra,SeadraCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Seadra - Caught",
+                "img": "images/items/185.jpg",
+                "codes": "Seadra,SeadraGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Kingdra",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Kingdra - Unavailable",
+                "img": "images/items/186 - Off.jpg",
+                "codes": "Kingdra,KingdraOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Kingdra - Available",
+                "img": "images/items/186.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Kingdra,KingdraCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Kingdra - Caught",
+                "img": "images/items/186.jpg",
+                "codes": "Kingdra,KingdraGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Bagon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Bagon - Unavailable",
+                "img": "images/items/187 - Off.jpg",
+                "codes": "Bagon,BagonOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bagon - Available",
+                "img": "images/items/187.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Bagon,BagonCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Bagon - Caught",
+                "img": "images/items/187.jpg",
+                "codes": "Bagon,BagonGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Shelgon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Shelgon - Unavailable",
+                "img": "images/items/188 - Off.jpg",
+                "codes": "Shelgon,ShelgonOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shelgon - Available",
+                "img": "images/items/188.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Shelgon,ShelgonCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Shelgon - Caught",
+                "img": "images/items/188.jpg",
+                "codes": "Shelgon,ShelgonGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Salamence",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Salamence - Unavailable",
+                "img": "images/items/189 - Off.jpg",
+                "codes": "Salamence,SalamenceOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Salamence - Available",
+                "img": "images/items/189.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Salamence,SalamenceCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Salamence - Caught",
+                "img": "images/items/189.jpg",
+                "codes": "Salamence,SalamenceGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Beldum",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Beldum - Unavailable",
+                "img": "images/items/190 - Off.jpg",
+                "codes": "Beldum,BeldumOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Beldum - Available",
+                "img": "images/items/190.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Beldum,BeldumCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Beldum - Caught",
+                "img": "images/items/190.jpg",
+                "codes": "Beldum,BeldumGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Metang",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Metang - Unavailable",
+                "img": "images/items/191 - Off.jpg",
+                "codes": "Metang,MetangOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Metang - Available",
+                "img": "images/items/191.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Metang,MetangCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Metang - Caught",
+                "img": "images/items/191.jpg",
+                "codes": "Metang,MetangGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Metagross",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Metagross - Unavailable",
+                "img": "images/items/192 - Off.jpg",
+                "codes": "Metagross,MetagrossOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Metagross - Available",
+                "img": "images/items/192.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Metagross,MetagrossCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Metagross - Caught",
+                "img": "images/items/192.jpg",
+                "codes": "Metagross,MetagrossGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Regirock",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Regirock - Unavailable",
+                "img": "images/items/193 - Off.jpg",
+                "codes": "Regirock,RegirockOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Regirock - Available",
+                "img": "images/items/193.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Regirock,RegirockCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Regirock - Caught",
+                "img": "images/items/193.jpg",
+                "codes": "Regirock,RegirockGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Regice",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Regice - Unavailable",
+                "img": "images/items/194 - Off.jpg",
+                "codes": "Regice,RegiceOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Regice - Available",
+                "img": "images/items/194.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Regice,RegiceCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Regice - Caught",
+                "img": "images/items/194.jpg",
+                "codes": "Regice,RegiceGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Registeel",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Registeel - Unavailable",
+                "img": "images/items/195 - Off.jpg",
+                "codes": "Registeel,RegisteelOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Registeel - Available",
+                "img": "images/items/195.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Registeel,RegisteelCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Registeel - Caught",
+                "img": "images/items/195.jpg",
+                "codes": "Registeel,RegisteelGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Latias",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Latias - Unavailable",
+                "img": "images/items/196 - Off.jpg",
+                "codes": "Latias,LatiasOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Latias - Available",
+                "img": "images/items/196.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Latias,LatiasCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Latias - Caught",
+                "img": "images/items/196.jpg",
+                "codes": "Latias,LatiasGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Latios",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Latios - Unavailable",
+                "img": "images/items/197 - Off.jpg",
+                "codes": "Latios,LatiosOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Latios - Available",
+                "img": "images/items/197.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Latios,LatiosCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Latios - Caught",
+                "img": "images/items/197.jpg",
+                "codes": "Latios,LatiosGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Kyogre",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Kyogre - Unavailable",
+                "img": "images/items/198 - Off.jpg",
+                "codes": "Kyogre,KyogreOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Kyogre - Available",
+                "img": "images/items/198.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Kyogre,KyogreCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Kyogre - Caught",
+                "img": "images/items/198.jpg",
+                "codes": "Kyogre,KyogreGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Groudon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Groudon - Unavailable",
+                "img": "images/items/199 - Off.jpg",
+                "codes": "Groudon,GroudonOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Groudon - Available",
+                "img": "images/items/199.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Groudon,GroudonCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Groudon - Caught",
+                "img": "images/items/199.jpg",
+                "codes": "Groudon,GroudonGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Rayquaza",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Rayquaza - Unavailable",
+                "img": "images/items/200 - Off.jpg",
+                "codes": "Rayquaza,RayquazaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Rayquaza - Available",
+                "img": "images/items/200.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Rayquaza,RayquazaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Rayquaza - Caught",
+                "img": "images/items/200.jpg",
+                "codes": "Rayquaza,RayquazaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Jirachi",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Jirachi - Unavailable",
+                "img": "images/items/201 - Off.jpg",
+                "codes": "Jirachi,JirachiOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Jirachi - Available",
+                "img": "images/items/201.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Jirachi,JirachiCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Jirachi - Caught",
+                "img": "images/items/201.jpg",
+                "codes": "Jirachi,JirachiGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Chikorita",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Chikorita - Unavailable",
+                "img": "images/items/202 - Off.jpg",
+                "codes": "Chikorita,ChikoritaOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Chikorita - Available",
+                "img": "images/items/202.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Chikorita,ChikoritaCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Chikorita - Caught",
+                "img": "images/items/202.jpg",
+                "codes": "Chikorita,ChikoritaGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cyndaquil",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cyndaquil - Unavailable",
+                "img": "images/items/203 - Off.jpg",
+                "codes": "Cyndaquil,CyndaquilOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cyndaquil - Available",
+                "img": "images/items/203.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Cyndaquil,CyndaquilCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cyndaquil - Caught",
+                "img": "images/items/203.jpg",
+                "codes": "Cyndaquil,CyndaquilGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Totodile",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Totodile - Unavailable",
+                "img": "images/items/204 - Off.jpg",
+                "codes": "Totodile,TotodileOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Totodile - Available",
+                "img": "images/items/204.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Totodile,TotodileCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Totodile - Caught",
+                "img": "images/items/204.jpg",
+                "codes": "Totodile,TotodileGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Aerodactyl",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Aerodactyl - Unavailable",
+                "img": "images/items/205 - Off.jpg",
+                "codes": "Aerodactyl,AerodactylOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "Aerodactyl - Available",
+                "img": "images/items/205.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "Aerodactyl,AerodactylCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "Aerodactyl - Caught",
+                "img": "images/items/205.jpg",
+                "codes": "Aerodactyl,AerodactylGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "test",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "test - Unavailable",
+                "img": "images/items/205 - Off.jpg",
+                "codes": "testOff",
+                "inherit_codes": false
+            },
+            {
+                "name": "test - Available",
+                "img": "images/items/205.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "AerodactylCan",
+                "inherit_codes": false
+            },
+            {
+                "name": "test - Caught",
+                "img": "images/items/205.jpg",
+                "codes": "test,testGot",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "test3",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "test - Unavailable",
+                "img": "images/items/205 - Off.jpg",
+                "codes": "test3Off",
+                "inherit_codes": false
+            },
+            {
+                "name": "test - Available",
+                "img": "images/items/205.jpg",
+                "img_mods": "saturation|0.5|bt601,brightness|0.5",
+                "codes": "test3Can",
+                "inherit_codes": false
+            },
+            {
+                "name": "test - Caught",
+                "img": "images/items/205.jpg",
+                "codes": "test3,test3Got",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "test2",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "test - Unavailable",
+                "img": "images/items/205 - Off.jpg",
+                "codes": "test2Off",
+                "inherit_codes": false
+            },
+            {
+                "name": "test - Available",
+                "img": "images/items/205.jpg",
+                "img_mods": "saturation|0.5,brightness|0.5",
+                "codes": "test2Can",
+                "inherit_codes": false
+            },
+            {
+                "name": "test - Caught",
+                "img": "images/items/205.jpg",
+                "codes": "test2,test2Got",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

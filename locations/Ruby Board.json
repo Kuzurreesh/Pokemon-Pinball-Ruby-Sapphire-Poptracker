@@ -1,0 +1,371 @@
+[
+    {
+        "name": "Ruby Board",
+        "access_rules": "ruby",
+        "children": [
+            {
+                "name": "Cave (Ruby)",
+                "map_locations": [
+                    {
+                        "map": "Ruby Board",
+                        "x": 30,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Abra",
+                        "chest_unopened_img": "images/items/39 - Off.jpg",
+                        "chest_opened_img": "images/items/39.jpg"
+                    },
+                    {
+                        "name": "Loudred",
+                        "chest_unopened_img": "images/items/46 - Off.jpg",
+                        "chest_opened_img": "images/items/46.jpg"
+                    },
+                    {
+                        "name": "Nosepass",
+                        "chest_unopened_img": "images/items/60 - Off.jpg",
+                        "chest_opened_img": "images/items/60.jpg"
+                    },
+                    {
+                        "name": "Mawile",
+                        "chest_unopened_img": "images/items/69 - Off.jpg",
+                        "chest_opened_img": "images/items/69.jpg"
+                    },
+                    {
+                        "name": "Machop",
+                        "chest_unopened_img": "images/items/73 - Off.jpg",
+                        "chest_opened_img": "images/items/73.jpg"
+                    },
+                    {
+                        "name": "Grimer",
+                        "chest_unopened_img": "images/items/106 - Off.jpg",
+                        "chest_opened_img": "images/items/106.jpg"
+                    },
+                    {
+                        "name": "Solrock",
+                        "chest_unopened_img": "images/items/126 - Off.jpg",
+                        "chest_opened_img": "images/items/126.jpg"
+                    },
+                    {
+                        "name": "Shelgon",
+                        "chest_unopened_img": "images/items/188 - Off.jpg",
+                        "chest_opened_img": "images/items/188.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Forest (Ruby)",
+                "map_locations": [
+                    {
+                        "map": "Ruby Board",
+                        "x": 60,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Treecko",
+                        "chest_unopened_img": "images/items/1 - Off.jpg",
+                        "chest_opened_img": "images/items/1.jpg"
+                    },
+                    {
+                        "name": "Zigzagoon",
+                        "chest_unopened_img": "images/items/12 - Off.jpg",
+                        "chest_opened_img": "images/items/12.jpg"
+                    },
+                    {
+                        "name": "Silcoon",
+                        "chest_unopened_img": "images/items/15 - Off.jpg",
+                        "chest_opened_img": "images/items/15.jpg"
+                    },
+                    {
+                        "name": "Cascoon",
+                        "chest_unopened_img": "images/items/17 - Off.jpg",
+                        "chest_opened_img": "images/items/17.jpg"
+                    },
+                    {
+                        "name": "Nuzleaf",
+                        "chest_unopened_img": "images/items/23 - Off.jpg",
+                        "chest_opened_img": "images/items/23.jpg"
+                    },
+                    {
+                        "name": "Nincada",
+                        "chest_unopened_img": "images/items/42 - Off.jpg",
+                        "chest_opened_img": "images/items/42.jpg"
+                    },
+                    {
+                        "name": "Kecleon",
+                        "chest_unopened_img": "images/items/145 - Off.jpg",
+                        "chest_opened_img": "images/items/145.jpg"
+                    },
+                    {
+                        "name": "Duskull",
+                        "chest_unopened_img": "images/items/148 - Off.jpg",
+                        "chest_opened_img": "images/items/148.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Ocean (Ruby)",
+                "map_locations": [
+                    {
+                        "map": "Ruby Board",
+                        "x": 90,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Wingull",
+                        "chest_unopened_img": "images/items/27 - Off.jpg",
+                        "chest_opened_img": "images/items/27.jpg"
+                    },
+                    {
+                        "name": "Tentacool",
+                        "chest_unopened_img": "images/items/66 - Off.jpg",
+                        "chest_opened_img": "images/items/66.jpg"
+                    },
+                    {
+                        "name": "Carvanha",
+                        "chest_unopened_img": "images/items/97 - Off.jpg",
+                        "chest_opened_img": "images/items/97.jpg"
+                    },
+                    {
+                        "name": "Wailmer",
+                        "chest_unopened_img": "images/items/99 - Off.jpg",
+                        "chest_opened_img": "images/items/99.jpg"
+                    },
+                    {
+                        "name": "Lileep",
+                        "chest_unopened_img": "images/items/133 - Off.jpg",
+                        "chest_opened_img": "images/items/133.jpg"
+                    },
+                    {
+                        "name": "Staryu",
+                        "chest_unopened_img": "images/items/143 - Off.jpg",
+                        "chest_opened_img": "images/items/143.jpg"
+                    },
+                    {
+                        "name": "Relicanth",
+                        "chest_unopened_img": "images/items/179 - Off.jpg",
+                        "chest_opened_img": "images/items/179.jpg"
+                    },
+                    {
+                        "name": "Luvdisc",
+                        "chest_unopened_img": "images/items/183 - Off.jpg",
+                        "chest_opened_img": "images/items/183.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Plains (Ruby)",
+                "map_locations": [
+                    {
+                        "map": "Ruby Board",
+                        "x": 120,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Poochyena",
+                        "chest_unopened_img": "images/items/10 - Off.jpg",
+                        "chest_opened_img": "images/items/10.jpg"
+                    },
+                    {
+                        "name": "Taillow",
+                        "chest_unopened_img": "images/items/25 - Off.jpg",
+                        "chest_opened_img": "images/items/25.jpg"
+                    },
+                    {
+                        "name": "Electrike",
+                        "chest_unopened_img": "images/items/78 - Off.jpg",
+                        "chest_opened_img": "images/items/78.jpg"
+                    },
+                    {
+                        "name": "Magnemite",
+                        "chest_unopened_img": "images/items/82 - Off.jpg",
+                        "chest_opened_img": "images/items/82.jpg"
+                    },
+                    {
+                        "name": "Voltorb",
+                        "chest_unopened_img": "images/items/84 - Off.jpg",
+                        "chest_opened_img": "images/items/84.jpg"
+                    },
+                    {
+                        "name": "Illumise",
+                        "chest_unopened_img": "images/items/87 - Off.jpg",
+                        "chest_opened_img": "images/items/87.jpg"
+                    },
+                    {
+                        "name": "Zangoose",
+                        "chest_unopened_img": "images/items/123 - Off.jpg",
+                        "chest_opened_img": "images/items/123.jpg"
+                    },
+                    {
+                        "name": "Castform",
+                        "chest_unopened_img": "images/items/142 - Off.jpg",
+                        "chest_opened_img": "images/items/142.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Ruins (Ruby)",
+                "map_locations": [
+                    {
+                        "map": "Ruby Board",
+                        "x": 150,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Beldum",
+                        "chest_unopened_img": "images/items/190 - Off.jpg",
+                        "chest_opened_img": "images/items/190.jpg"
+                    },
+                    {
+                        "name": "Regirock",
+                        "chest_unopened_img": "images/items/193 - Off.jpg",
+                        "chest_opened_img": "images/items/193.jpg"
+                    },
+                    {
+                        "name": "Regice",
+                        "chest_unopened_img": "images/items/194 - Off.jpg",
+                        "chest_opened_img": "images/items/194.jpg"
+                    },
+                    {
+                        "name": "Registeel",
+                        "chest_unopened_img": "images/items/195 - Off.jpg",
+                        "chest_opened_img": "images/items/195.jpg"
+                    },
+                    {
+                        "name": "Jirachi",
+                        "chest_unopened_img": "images/items/201 - Off.jpg",
+                        "chest_opened_img": "images/items/201.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Safari Zone (Ruby)",
+                "map_locations": [
+                    {
+                        "map": "Ruby Board",
+                        "x": 180,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Doduo",
+                        "chest_unopened_img": "images/items/92 - Off.jpg",
+                        "chest_opened_img": "images/items/92.jpg"
+                    },
+                    {
+                        "name": "Pikachu",
+                        "chest_unopened_img": "images/items/156 - Off.jpg",
+                        "chest_opened_img": "images/items/156.jpg"
+                    },
+                    {
+                        "name": "Psyduck",
+                        "chest_unopened_img": "images/items/158 - Off.jpg",
+                        "chest_opened_img": "images/items/158.jpg"
+                    },
+                    {
+                        "name": "Wobbuffet",
+                        "chest_unopened_img": "images/items/161 - Off.jpg",
+                        "chest_opened_img": "images/items/161.jpg"
+                    },
+                    {
+                        "name": "Girafarig",
+                        "chest_unopened_img": "images/items/164 - Off.jpg",
+                        "chest_opened_img": "images/items/164.jpg"
+                    },
+                    {
+                        "name": "Pinsir",
+                        "chest_unopened_img": "images/items/167 - Off.jpg",
+                        "chest_opened_img": "images/items/167.jpg"
+                    },
+                    {
+                        "name": "Heracross",
+                        "chest_unopened_img": "images/items/168 - Off.jpg",
+                        "chest_opened_img": "images/items/168.jpg"
+                    },
+                    {
+                        "name": "Rhyhorn",
+                        "chest_unopened_img": "images/items/169 - Off.jpg",
+                        "chest_opened_img": "images/items/169.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Volcano (Ruby)",
+                "map_locations": [
+                    {
+                        "map": "Ruby Board",
+                        "x": 210,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Torchic",
+                        "chest_unopened_img": "images/items/4 - Off.jpg",
+                        "chest_opened_img": "images/items/4.jpg"
+                    },
+                    {
+                        "name": "Numel",
+                        "chest_unopened_img": "images/items/101 - Off.jpg",
+                        "chest_opened_img": "images/items/101.jpg"
+                    },
+                    {
+                        "name": "Slugma",
+                        "chest_unopened_img": "images/items/103 - Off.jpg",
+                        "chest_opened_img": "images/items/103.jpg"
+                    },
+                    {
+                        "name": "Torkoal",
+                        "chest_unopened_img": "images/items/105 - Off.jpg",
+                        "chest_opened_img": "images/items/105.jpg"
+                    },
+                    {
+                        "name": "Koffing",
+                        "chest_unopened_img": "images/items/108 - Off.jpg",
+                        "chest_opened_img": "images/items/108.jpg"
+                    },
+                    {
+                        "name": "Skarmory",
+                        "chest_unopened_img": "images/items/115 - Off.jpg",
+                        "chest_opened_img": "images/items/115.jpg"
+                    },
+                    {
+                        "name": "Vulpix",
+                        "chest_unopened_img": "images/items/153 - Off.jpg",
+                        "chest_opened_img": "images/items/153.jpg"
+                    }
+                ]
+            },
+            {
+                "name": "Test (Ruby)",
+                "map_locations": [
+                    {
+                        "map": "Ruby Board",
+                        "x": 240,
+                        "y": 200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Abra",
+                        "chest_unopened_img": "images/items/39 - Off.jpg",
+                        "chest_opened_img": "images/items/39.jpg",
+                        "hosted_item": "test, test2, test3, test6",
+                        "clear_as_group": false
+                    }
+                ]
+            }
+        ]
+    }
+]
