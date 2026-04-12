@@ -12,6 +12,12 @@
         "codes": "sapphire, field"
     },
     {
+        "name": "Dummy",
+        "type": "toggle",
+        "img": "images/maps/sapphire_field.png",
+        "codes": "dummy, Mon"
+    },
+    {
         "name": "Total",
         "type": "consumable",
         "img": "images/items/caught.png",

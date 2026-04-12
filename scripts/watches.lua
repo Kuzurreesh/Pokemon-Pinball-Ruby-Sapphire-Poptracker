@@ -142,6 +142,7 @@ end
 
 --ScriptHost:AddWatchForCode("Sapphire", "sapphire", Evolve)
 function Evolve(trigger)
+    ScriptHost:RemoveWatchForCode("Total")
     for key, value in pairs(Pokemon) do
         local obj = Tracker:FindObjectForCode("@Pokemon/" .. value).AccessibilityLevel
 
@@ -155,6 +156,8 @@ function Evolve(trigger)
             end
         end
     end
+    ScriptHost:AddWatchForCode("Total", "Mon", Total)
+    Tracker:FindObjectForCode("Mon").Active = not Tracker:FindObjectForCode("Mon").Active
 end
 
 for index, value in pairs(AREA_NAMES) do
