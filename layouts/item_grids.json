@@ -1,62 +1,63 @@
 {
 	"shared_item_grid_horizontal": {
-		"type": "itemgrid",
-		"margin": "5, 0",
-		"item_margin": "2, 2",
-		"h_alignment": "left",
-		"item_h_alignment": "center",
-		"item_v_alignment": "center",
-		"item_height": 50,
-		"item_width": 50,
-		"rows": [
-			[
-				"startballplus",
-				"startcoins",
-				"startball",
-				"perpichu",
-				"guest",
-				"ratecard",
-				"ruinscard",
-				"test",
-				"test2",
-				"test3",
-				"test6"
-			],
-			[
-				"Total",
-				"egg1",
-				"egg2",
-				"egg3",
-				"egg4",
-				"evo",
-				"get",
-				"chiko",
-				"cynda",
-				"toto",
-				"aero"
-			],
-			[
-				"ruby",
-				"eggruby",
-				"forestR",
-				"volcanoR",
-				"plainsR",
-				"oceanR",
-				"safariR",
-				"caveR",
-				"ruinsR"
-			],
-			[
-				"sapphire",
-				"eggsapphire",
-				"forestS",
-				"lakeS",
-				"plainsS",
-				"oceanS",
-				"wildernessS",
-				"caveS",
-				"ruinsS"
-			]
+		"type": "group",
+		"header": "items",
+		"content": [
+			{
+				"type": "itemgrid",
+				"margin": "5, 0",
+				"item_margin": "2, 2",
+				"h_alignment": "left",
+				"item_h_alignment": "center",
+				"item_v_alignment": "center",
+				"item_height": 40,
+				"item_width": 40,
+				"rows": [
+					[
+						"Total",
+						"egg1",
+						"egg2",
+						"egg3",
+						"egg4",
+						"evo",
+						"get"
+					],
+					[
+						"ruby",
+						"eggruby",
+						"forestR",
+						"volcanoR",
+						"plainsR",
+						"oceanR",
+						"safariR",
+						"caveR",
+						"ruinsR"
+					],
+					[
+						"sapphire",
+						"eggsapphire",
+						"forestS",
+						"lakeS",
+						"plainsS",
+						"oceanS",
+						"wildernessS",
+						"caveS",
+						"ruinsS"
+					],
+					[
+						"startcoins",
+						"startball",
+						"perpichu",
+						"guest",
+						"ratecard",
+						"ruinscard",
+						"chiko",
+						"toto",
+						"cynda",
+						"aero"
+					]
+				]
+			}
 		]
 	},
 	"go": {
@@ -73,7 +74,7 @@
 				"Treecko",
 				"Grovyle",
 				"Sceptile",
-				"Torchic",
+				"TorchicCan",
 				"Combusken",
 				"Blaziken",
 				"Mudkip",
@@ -296,6 +297,2129 @@
 				"Totodile",
 				"Aerodactyl"
 			]
+		]
+	},
+	"1-53": {
+		"type": "itemgrid",
+		"margin": "0, 0",
+		"item_margin": "3, 5",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 60,
+		"rows": [
+			[
+				"Treecko",
+				"Grovyle",
+				"Sceptile",
+				"Torchic",
+				"Combusken",
+				"Blaziken",
+				"Mudkip",
+				"Marshtomp",
+				"Swampert"
+			],
+			[
+				"Poochyena",
+				"Mightyena",
+				"Zigzagoon",
+				"Linoone",
+				"Wurmple",
+				"Silcoon",
+				"Beautifly",
+				"Cascoon",
+				"Dustox"
+			],
+			[
+				"Lotad",
+				"Lombre",
+				"Ludicolo",
+				"Seedot",
+				"Nuzleaf",
+				"Shiftry",
+				"Taillow",
+				"Swellow"
+			],
+			[
+				"Wingull",
+				"Pelipper",
+				"Ralts",
+				"Kirlia",
+				"Gardevoir",
+				"Surskit",
+				"Masquerain",
+				"Shroomish",
+				"Breloom"
+			],
+			[
+				"Slakoth",
+				"Vigoroth",
+				"Slaking",
+				"Abra",
+				"Kadabra",
+				"Alakazam",
+				"Nincada",
+				"Ninjask",
+				"Shedinja"
+			],
+			[
+				"Whismur",
+				"Loudred",
+				"Exploud",
+				"Makuhita",
+				"Hariyama",
+				"Goldeen",
+				"Seaking",
+				"Magikarp",
+				"Gyarados"
+			]
+		]
+	},
+	"54-109": {
+		"type": "itemgrid",
+		"margin": "0, 0",
+		"item_margin": "3, 5",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 60,
+		"rows": [
+			[
+				"Azurill",
+				"Marill",
+				"Azumarill",
+				"Geodude",
+				"Graveler",
+				"Golem",
+				"Nosepass",
+				"Skitty",
+				"Delcatty"
+			],
+			[
+				"Zubat",
+				"Golbat",
+				"Crobat",
+				"Tentacool",
+				"Tentacruel",
+				"Sableye",
+				"Mawile",
+				"Aron",
+				"Lairon",
+				"Aggron"
+			],
+			[
+				"Machop",
+				"Machoke",
+				"Machamp",
+				"Meditite",
+				"Medicham",
+				"Electrike",
+				"Manectric",
+				"Plusle",
+				"Minun"
+			],
+			[
+				"Magnemite",
+				"Magneton",
+				"Voltorb",
+				"Electrode",
+				"Volbeat",
+				"Illumise",
+				"Oddish",
+				"Gloom",
+				"Vileplume",
+				"Bellossom"
+			],
+			[
+				"Doduo",
+				"Dodrio",
+				"Roselia",
+				"Gulpin",
+				"Swalot",
+				"Carvanha",
+				"Sharpedo",
+				"Wailmer",
+				"Wailord"
+			],
+			[
+				"Numel",
+				"Camerupt",
+				"Slugma",
+				"Magcargo",
+				"Torkoal",
+				"Grimer",
+				"Muk",
+				"Koffing",
+				"Weezing"
+			]
+		]
+	},
+	"110-163": {
+		"type": "itemgrid",
+		"margin": "0, 0",
+		"item_margin": "3, 5",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 60,
+		"rows": [
+			[
+				"Spoink",
+				"Grumpig",
+				"Sandshrew",
+				"Sandslash",
+				"Spinda",
+				"Skarmory",
+				"Trapinch",
+				"Vibrava",
+				"Flygon"
+			],
+			[
+				"Cacnea",
+				"Cacturne",
+				"Swablu",
+				"Altaria",
+				"Zangoose",
+				"Seviper",
+				"Lunatone",
+				"Solrock",
+				"Barboach",
+				"Whiscash"
+			],
+			[
+				"Corphish",
+				"Crawdaunt",
+				"Baltoy",
+				"Claydol",
+				"Lileep",
+				"Cradily",
+				"Anorith",
+				"Armaldo"
+			],
+			[
+				"Igglybuff",
+				"Jigglypuff",
+				"Wigglytuff",
+				"Feebas",
+				"Milotic",
+				"Castform",
+				"Staryu",
+				"Starmie",
+				"Kecleon"
+			],
+			[
+				"Shuppet",
+				"Banette",
+				"Duskull",
+				"Dusclops",
+				"Tropius",
+				"Chimecho",
+				"Absol",
+				"Vulpix",
+				"Ninetales"
+			],
+			[
+				"Pichu",
+				"Pikachu",
+				"Raichu",
+				"Psyduck",
+				"Golduck",
+				"Wynaut",
+				"Wobbuffet",
+				"Natu",
+				"Xatu"
+			]
+		]
+	},
+	"164-205": {
+		"type": "itemgrid",
+		"margin": "0, 0",
+		"item_margin": "3, 5",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 60,
+		"rows": [
+			[
+				"Girafarig",
+				"Phanpy",
+				"Donphan",
+				"Pinsir",
+				"Heracross",
+				"Rhyhorn",
+				"Rhydon",
+				"Snorunt",
+				"Glalie"
+			],
+			[
+				"Spheal",
+				"Sealeo",
+				"Walrein",
+				"Clamperl",
+				"Huntail",
+				"Gorebyss",
+				"Relicanth",
+				"Corsola"
+			],
+			[
+				"Chinchou",
+				"Lanturn",
+				"Luvdisc",
+				"Horsea",
+				"Seadra",
+				"Kingdra",
+				"Bagon",
+				"Shelgon",
+				"Salamence"
+			],
+			[
+				"Beldum",
+				"Metang",
+				"Metagross",
+				"Regirock",
+				"Regice",
+				"Registeel",
+				"Latias",
+				"Latios"
+			],
+			[
+				"Kyogre",
+				"Groudon",
+				"Rayquaza",
+				"Jirachi",
+				"Chikorita",
+				"Cyndaquil",
+				"Totodile",
+				"Aerodactyl"
+			]
+		]
+	},
+	"Ruby": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "10,0",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "10,0",
+				"content": [
+					{
+						"type": "group",
+						"header": "Forest",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"forestR"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Zigzagoon",
+										"Linoone"
+									],
+									[
+										"Silcoon",
+										"Beautifly"
+									],
+									[
+										"Cascoon",
+										"Dustox"
+									],
+									[
+										"Nuzleaf",
+										"Shiftry"
+									],
+									[
+										"Kecleon"
+									],
+									[
+										"Duskull",
+										"Dusclops"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Treecko",
+										"Grovyle",
+										"Sceptile"
+									],
+									[
+										"Nincada",
+										"Ninjask",
+										"Shedinja"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Volcano",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"volcanoR"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Numel",
+										"Camerupt"
+									],
+									[
+										"Slugma",
+										"Magcargo"
+									],
+									[
+										"Torkoal"
+									],
+									[
+										"Koffing",
+										"Weezing"
+									],
+									[
+										"Skarmory"
+									],
+									[
+										"Vulpix",
+										"Ninetales"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Torchic",
+										"Combusken",
+										"Blaziken"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Plains",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"plainsR"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Poochyena",
+										"Mightyena",
+										""
+									],
+									[
+										"Taillow",
+										"Swellow"
+									],
+									[
+										"Electrike",
+										"Manectric"
+									],
+									[
+										"Magnemite",
+										"Magneton"
+									],
+									[
+										"Voltorb",
+										"Electrode"
+									],
+									[
+										"Illumise"
+									],
+									[
+										"Castform"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Zangoose"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"margin": "0,0",
+						"header": "Ocean",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"oceanR"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Wingull",
+										"Pelipper",
+										""
+									],
+									[
+										"Tentacool",
+										"Tentacruel"
+									],
+									[
+										"Carvanha",
+										"Sharpedo"
+									],
+									[
+										"Wailmer",
+										"Wailord"
+									],
+									[
+										"Lileep",
+										"Cradily"
+									],
+									[
+										"Luvdisc"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Staryu",
+										"Starmie"
+									],
+									[
+										"Relicanth"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"margin": "0,0",
+						"header": "Safari Zone",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"safariR"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Doduo",
+										"Dodrio",
+										""
+									],
+									[
+										"Psyduck",
+										"Golduck"
+									],
+									[
+										"Wobbuffet"
+									],
+									[
+										"Girafarig"
+									],
+									[
+										"Pinsir"
+									],
+									[
+										"Heracross"
+									],
+									[
+										"Rhyhorn",
+										"Rhydon"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Pikachu",
+										"Raichu"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"margin": "0,0",
+						"header": "Cave",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"caveR"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Loudred",
+										"Exploud"
+									],
+									[
+										"Nosepass"
+									],
+									[
+										"Mawile"
+									],
+									[
+										"Machop",
+										"Machoke",
+										"Machamp"
+									],
+									[
+										"Grimer",
+										"Muk"
+									],
+									[
+										"Solrock"
+									],
+									[
+										"Shelgon",
+										"Salamence"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Abra",
+										"Kadabra",
+										"Alakazam"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"margin": "0,0",
+						"header": "Ruins",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"ruinsR"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Beldum",
+										"Metang",
+										"Metagross"
+									],
+									[
+										"Regirock"
+									],
+									[
+										"Regice"
+									],
+									[
+										"Jirachi"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Registeel"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "10,0",
+				"content": [
+					{
+						"type": "group",
+						"header": "Egg Group 1",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"egg1"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Wurmple",
+										"Silcoon",
+										"Beautifly"
+									],
+									[
+										"",
+										"Cascoon",
+										"Dustox"
+									],
+									[
+										"Ralts",
+										"Kirlia",
+										"Gardevoir"
+									],
+									[
+										"Whismur",
+										"Loudred",
+										"Exploud"
+									],
+									[
+										"Zubat",
+										"Golbat",
+										"Crobat"
+									],
+									[
+										"Aron",
+										"Lairon",
+										"Aggron"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Egg Group 2",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"egg2"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Oddish",
+										"Gloom",
+										"Vileplume"
+									],
+									[
+										"Spoink",
+										"Grumpig"
+									],
+									[
+										"Shuppet",
+										"Banette"
+									],
+									[
+										"Chimecho"
+									],
+									[
+										"Natu",
+										"Xatu"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Egg Group 3",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"egg3"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Sandshrew",
+										"Sandslash"
+									],
+									[
+										"Spinda"
+									],
+									[
+										"Trapinch",
+										"Vibrava",
+										"Flygon"
+									],
+									[
+										"Phanpy",
+										"Donphan"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Egg Group 4",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"egg4"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Snorunt",
+										"Glalie"
+									],
+									[
+										"Spheal",
+										"Sealeo",
+										"Walrein"
+									],
+									[
+										"Corsola"
+									],
+									[
+										"Horsea",
+										"Seadra",
+										"Kingdra"
+									],
+									[
+										"Bagon",
+										"Shelgon",
+										"Salamence"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Egg Group Ruby",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"eggruby"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Seedot",
+										"Nuzleaf",
+										"Shiftry"
+									],
+									[
+										"Shroomish",
+										"Breloom"
+									],
+									[
+										"Skitty",
+										"Delcatty"
+									],
+									[
+										"Plusle"
+									],
+									[
+										"Minun"
+									],
+									[
+										"Wynaut",
+										"Wobbuffet"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Special",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Pichu"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Groudon",
+										"Rayquaza"
+									],
+									[
+										"Aerodactyl"
+									],
+									[
+										"Chikorita"
+									],
+									[
+										"Totodile"
+									],
+									[
+										"Cyndaquil"
+									],
+									[
+										"Latios"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Aerodactyl"
+									],
+									[
+										"Chikorita"
+									],
+									[
+										"Totodile"
+									],
+									[
+										"Cyndaquil"
+									],
+									[
+										"Latios"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "itemgrid",
+						"margin": "5, 0",
+						"item_margin": "2, 0",
+						"h_alignment": "left",
+						"max_width": 150,
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"item_height": 40,
+						"item_width": 40,
+						"rows": []
+					}
+				]
+			}
+		]
+	},
+	"Sapphire": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "10,0",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "10,0",
+				"item_margin": "10,0",
+				"content": [
+					{
+						"type": "group",
+						"header": "Forest",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"forestS"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Silcoon",
+										"Beautifly"
+									],
+									[
+										"Cascoon",
+										"Dustox"
+									],
+									[
+										"Slakoth",
+										"Vigoroth",
+										"Slaking"
+									],
+									[
+										"Roselia"
+									],
+									[
+										"Kecleon"
+									],
+									[
+										"Duskull",
+										"Dusclops"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Nincada",
+										"Ninjask",
+										"Shedinja"
+									],
+									[
+										"Tropius"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Lake",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"lakeS"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Lombre",
+										"Ludicolo"
+									],
+									[
+										"Goldeen",
+										"Seaking"
+									],
+									[
+										"Marill",
+										"Azumarill"
+									],
+									[
+										"Barboach",
+										"Whiscash"
+									],
+									[
+										"Corphish",
+										"Crawdaunt"
+									],
+									[
+										"Feebas",
+										"Milotic"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Mudkip",
+										"Marshtomp",
+										"Swampert"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Plains",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"plainsS"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Poochyena",
+										"Mightyena"
+									],
+									[
+										"Taillow",
+										"Swellow"
+									],
+									[
+										"Electrike",
+										"Manectric"
+									],
+									[
+										"Magnemite",
+										"Magneton"
+									],
+									[
+										"Voltorb",
+										"Electrode"
+									],
+									[
+										"Jigglypuff",
+										"Wigglytuff"
+									],
+									[
+										"Castform"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Volbeat",
+										"",
+										"Seviper"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"margin": "0,0",
+						"header": "Ocean",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"oceanS"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Wingull",
+										"Pelipper"
+									],
+									[
+										"Magikarp",
+										"Gyarados"
+									],
+									[
+										"Tentacool",
+										"Tentacruel"
+									],
+									[
+										"Carvanha",
+										"Sharpedo"
+									],
+									[
+										"Anorith",
+										"Armaldo"
+									],
+									[
+										"Luvdisc"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Clamperl",
+										"Huntail",
+										"Gorebyss"
+									],
+									[
+										"Relicanth"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"margin": "0,0",
+						"header": "Wilderness",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"wildernessS"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Geodude",
+										"Graveler",
+										"Golem"
+									],
+									[
+										"Meditite",
+										"Medicham"
+									],
+									[
+										"Vibrava",
+										"Flygon"
+									],
+									[
+										"Cacnea",
+										"Cacturne"
+									],
+									[
+										"Baltoy",
+										"Claydol"
+									],
+									[
+										"Absol"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Swablu",
+										"Altaria"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"margin": "0,0",
+						"header": "Cave",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"caveS"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Loudred",
+										"Exploud"
+									],
+									[
+										"Makuhita",
+										"Hariyama"
+									],
+									[
+										"Nosepass"
+									],
+									[
+										"Grimer",
+										"Muk"
+									],
+									[
+										"Lunatone"
+									],
+									[
+										"Shelgon",
+										"Salamence"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Abra",
+										"Kadabra",
+										"Alakazam"
+									],
+									[
+										"Sableye"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"margin": "0,0",
+						"header": "Ruins",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"ruinsS"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Beldum",
+										"Metang",
+										"Metagross"
+									],
+									[
+										"Regirock"
+									],
+									[
+										"Regice"
+									],
+									[
+										"Jirachi"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Registeel"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "10,0",
+				"content": [
+					{
+						"type": "group",
+						"header": "Egg Group 1",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"egg1"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Wurmple",
+										"Silcoon",
+										"Beautifly"
+									],
+									[
+										"",
+										"Cascoon",
+										"Dustox"
+									],
+									[
+										"Ralts",
+										"Kirlia",
+										"Gardevoir"
+									],
+									[
+										"Whismur",
+										"Loudred",
+										"Exploud"
+									],
+									[
+										"Zubat",
+										"Golbat",
+										"Crobat"
+									],
+									[
+										"Aron",
+										"Lairon",
+										"Aggron"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Egg Group 2",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"egg2"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Oddish",
+										"Gloom",
+										"Bellossom"
+									],
+									[
+										"Spoink",
+										"Grumpig"
+									],
+									[
+										"Shuppet",
+										"Banette"
+									],
+									[
+										"Chimecho"
+									],
+									[
+										"Natu",
+										"Xatu"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Egg Group 3",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"egg3"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Sandshrew",
+										"Sandslash"
+									],
+									[
+										"Spinda"
+									],
+									[
+										"Trapinch",
+										"Vibrava",
+										"Flygon"
+									],
+									[
+										"Phanpy",
+										"Donphan"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Egg Group 4",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"egg4"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Snorunt",
+										"Glalie"
+									],
+									[
+										"Spheal",
+										"Sealeo",
+										"Walrein"
+									],
+									[
+										"Corsola"
+									],
+									[
+										"Horsea",
+										"Seadra",
+										"Kingdra"
+									],
+									[
+										"Bagon",
+										"Shelgon",
+										"Salamence"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Egg Group Sapphire",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"eggsapphire"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Lotad",
+										"Lombre",
+										"Ludicolo"
+									],
+									[
+										"Surskit",
+										"Masquerain"
+									],
+									[
+										"Azurill",
+										"Marill",
+										"Azumarill"
+									],
+									[
+										"Gulpin",
+										"Swalot"
+									],
+									[
+										"Igglybuff",
+										"Jigglypuff",
+										"Wigglytuff"
+									],
+									[
+										"Chinchou",
+										"Lanturn"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"max_width": 150,
+						"header": "Special",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Pichu"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"Kyogre",
+										"Rayquaza"
+									],
+									[
+										"Aerodactyl"
+									],
+									[
+										"Chikorita"
+									],
+									[
+										"Totodile"
+									],
+									[
+										"Cyndaquil"
+									],
+									[
+										"Latias"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "itemgrid",
+						"margin": "5, 0",
+						"item_margin": "2, 0",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"item_height": 40,
+						"item_width": 40,
+						"rows": []
+					}
+				]
+			}
+		]
+	},
+	"settings": {
+		"type": "group",
+		"header": "items",
+		"content": [
+			{
+				"type": "itemgrid",
+				"margin": "5, 0",
+				"item_margin": "2, 2",
+				"h_alignment": "left",
+				"item_h_alignment": "center",
+				"item_v_alignment": "center",
+				"item_height": 68,
+				"item_width": 68,
+				"rows": [
+					[
+						"pokeball"
+					]
+				]
+			}
 		]
 	}
 }

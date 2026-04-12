@@ -53,11 +53,11 @@ ProgressiveTogglePlus = class(CustomItemProgressiveTogglePlus)
     -- enables progression of progressionChildren (only via :setState)
 ]]
 
-function ProgressiveTogglePlus:init(name, code, states, loop, disableToggle, disableProgessive, initialStage,
-                                    initialActive, toggleChildren, enableChildToggle,
-                                    progressionChildren, enableChildProgression)
+function ProgressiveTogglePlus:init(name, code, states, loop, disableToggle, disableProgessive, initialStage, initialActive, toggleChildren, enableChildToggle,
+    progressionChildren, enableChildProgression)
+
     self:createItem(name)
-    self.code = ""
+    self.code = code
     self.active = false
     self.states = states
     self.state = 1
@@ -87,10 +87,10 @@ function ProgressiveTogglePlus:getState()
 end
 
 function ProgressiveTogglePlus:setState(state)
-    self:propertyChanged("state", state)
+    self:propertyChanged("state",state)
     if self.enableChildProgression then
         if self.progressionChildren.states[state] then
-            for k, v in pairs(self.progressionChildren.states[state]) do
+            for k,v in pairs(self.progressionChildren.states[state]) do
                 if self.progressionChildren.children[k] then
                     self.progressionChildren.children[k]:setState(v)
                 end
@@ -134,9 +134,9 @@ function ProgressiveTogglePlus:decreaseState()
 end
 
 function ProgressiveTogglePlus:setActive(active)
-    self:setProperty("active", active)
+    self:setProperty("active",active)
     if self.enableChildToggle then
-        for _, v in pairs(self.toggleChildren) do
+        for _,v in pairs(self.toggleChildren) do
             v:setActive(active)
         end
     end
@@ -146,21 +146,13 @@ function ProgressiveTogglePlus:getActive()
     return self.active
 end
 
-function State(self)
-    return self.states[self.state]
-end
-
 function ProgressiveTogglePlus:updateIcon()
     self.ItemInstance.Icon = self.images[self.state]
     if PopVersion and PopVersion > "0.1.0" then
-        if self.active then
+        if self.active then   
             self.ItemInstance.IconMods = ""
         else
-            if self.state == 1 then
-                self.ItemInstance.IconMods = State(self).img_mod
-            else
-                self.ItemInstance.IconMods = "@disabled"
-            end
+            self.ItemInstance.IconMods = "@disabled"
         end
     end
 end
@@ -170,32 +162,22 @@ function ProgressiveTogglePlus:onLeftClick()
     if self.disableProgessive then
         self:setActive(not self.active)
     else
-        if self.state == #self.states - 1 then
-            self:advanceState()
-            self:setActive(true)
-        else
-            self:setActive(false)
-            self:advanceState()
-        end
+        self:advanceState()
     end
 end
 
 function ProgressiveTogglePlus:onRightClick()
-    -- if self.disableToggle and self.disableProgessive then return end
-    --  if self.disableToggle then
-    --     self:decreaseState()
-    -- else
-    --      if self.state == #self.states then
-    --self:setActive(not self.active)
-    --     else
-    --self:setActive(false)
-    --end
-    --   end
+    if self.disableToggle and self.disableProgessive then return end
+    if self.disableToggle then
+        self:decreaseState()
+    else
+        self:setActive(not self.active)
+    end
 end
 
 function ProgressiveTogglePlus:canProvideCode(code)
     if code == self.code then
-        return false
+        return true
     else
         for i = 0, #self.states do
             for code2 in string.gmatch(self.states[i].codes, "[^,]+") do
@@ -210,7 +192,7 @@ end
 
 function ProgressiveTogglePlus:providesCode(code)
     if code == self.code then
-        return 0
+        return self.state
     end
     for i = 0, #self.states do
         for code2 in string.gmatch(self.states[i].codes, "[^,]+") do
@@ -236,22 +218,22 @@ end
 
 function ProgressiveTogglePlus:load(data)
     if data["state"] ~= nil then
-        self:setProperty("state", data["state"])
+        self:setProperty("state",data["state"])
     end
     if data["active"] ~= nil then
-        self:setProperty("active", data["active"])
+        self:setProperty("active",data["active"])
     end
     if data["disableToggle"] ~= nil then
-        self:setProperty("disableToggle", data["disableToggle"])
+        self:setProperty("disableToggle",data["disableToggle"])
     end
     if data["disableProgessive"] ~= nil then
-        self:setProperty("disableProgessive", data["disableProgessive"])
+        self:setProperty("disableProgessive",data["disableProgessive"])
     end
     return true
 end
 
 function ProgressiveTogglePlus:propertyChanged(key, value)
-    print(string.format("ProgressiveTogglePlus:propertyChanged key %s with value %s", key, value))
+    print(string.format("ProgressiveTogglePlus:propertyChanged key %s with value %s",key,value))
     if key == "state" then
         self.state = value
     end

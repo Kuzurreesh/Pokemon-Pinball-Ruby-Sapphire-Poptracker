@@ -1,377 +1,215 @@
 LOCATION_MAPPING = {
-
-	--Ruby Board
-	--Cave
-	[39] = { { "@Ruby Board/Cave (Ruby)/Abra", "Mon" }, { "@Sapphire Board/Cave (Sapphire)/Abra", "Mon" } },
-	[46] = { { "@Ruby Board/Cave (Ruby)/Loudred", "Mon" }, { "@Sapphire Board/Cave (Sapphire)/Loudred", "Mon" } },
-	[60] = { { "@Ruby Board/Cave (Ruby)/Nosepass", "Mon" }, { "@Sapphire Board/Cave (Sapphire)/Nosepass", "Mon" } },
-	[69] = { { "@Ruby Board/Cave (Ruby)/Mawile", "Mon" } },
-	[73] = { { "@Ruby Board/Cave (Ruby)/Machop", "Mon" } },
-	[106] = { { "@Ruby Board/Cave (Ruby)/Grimer", "Mon" }, { "@Sapphire Board/Cave (Sapphire)/Grimer", "Mon" } },
-	[126] = { { "@Ruby Board/Cave (Ruby)/Solrock", "Mon" } },
-	[188] = { { "@Ruby Board/Cave (Ruby)/Shelgon", "Mon" }, { "@Sapphire Board/Cave (Sapphire)/Shelgon", "Mon" } },
-	--Forest
-	[1] = { { "@Ruby Board/Forest (Ruby)/Treecko", "Mon" } },
-	[12] = { { "@Ruby Board/Forest (Ruby)/Zigzagoon", "Mon" } },
-	[15] = { { "@Ruby Board/Forest (Ruby)/Silcoon", "Mon" }, { "@Sapphire Board/Forest (Sapphire)/Silcoon", "Mon" } },
-	[17] = { { "@Ruby Board/Forest (Ruby)/Cascoon", "Mon" }, { "@Sapphire Board/Forest (Sapphire)/Cascoon", "Mon" } },
-	[23] = { { "@Ruby Board/Forest (Ruby)/Nuzleaf", "Mon" } },
-	[42] = { { "@Ruby Board/Forest (Ruby)/Nincada", "Mon" }, { "@Sapphire Board/Forest (Sapphire)/Nincada", "Mon" } },
-	[145] = { { "@Ruby Board/Forest (Ruby)/Kecleon", "Mon" }, { "@Sapphire Board/Forest (Sapphire)/Kecleon", "Mon" } },
-	[148] = { { "@Ruby Board/Forest (Ruby)/Duskull", "Mon" }, { "@Sapphire Board/Forest (Sapphire)/Duskull", "Mon" } },
-	--Ocean
-	[27] = { { "@Ruby Board/Ocean (Ruby)/Wingull", "Mon" }, { "@Sapphire Board/Ocean (Sapphire)/Wingull", "Mon" } },
-	[66] = { { "@Ruby Board/Ocean (Ruby)/Tentacool", "Mon" }, { "@Sapphire Board/Ocean (Sapphire)/Tentacool", "Mon" } },
-	[97] = { { "@Ruby Board/Ocean (Ruby)/Carvanha", "Mon" }, { "@Sapphire Board/Ocean (Sapphire)/Carvanha", "Mon" } },
-	[99] = { { "@Ruby Board/Ocean (Ruby)/Wailmer", "Mon" } },
-	[133] = { { "@Ruby Board/Ocean (Ruby)/Lileep", "Mon" } },
-	[143] = { { "@Ruby Board/Ocean (Ruby)/Staryu", "Mon" } },
-	[179] = { { "@Ruby Board/Ocean (Ruby)/Relicanth", "Mon" }, { "@Sapphire Board/Ocean (Sapphire)/Relicanth", "Mon" } },
-	[183] = { { "@Ruby Board/Ocean (Ruby)/Luvdisc", "Mon" }, { "@Sapphire Board/Ocean (Sapphire)/Luvdisc", "Mon" } },
-	--Plains
-	[10] = { { "@Ruby Board/Plains (Ruby)/Poochyena", "Mon" }, { "@Sapphire Board/Plains (Sapphire)/Poochyena", "Mon" } },
-	[25] = { { "@Ruby Board/Plains (Ruby)/Taillow", "Mon" }, { "@Sapphire Board/Plains (Sapphire)/Taillow", "Mon" } },
-	[78] = { { "@Ruby Board/Plains (Ruby)/Electrike", "Mon" }, { "@Sapphire Board/Plains (Sapphire)/Electrike", "Mon" } },
-	[82] = { { "@Ruby Board/Plains (Ruby)/Magnemite", "Mon" }, { "@Sapphire Board/Plains (Sapphire)/Magnemite", "Mon" } },
-	[84] = { { "@Ruby Board/Plains (Ruby)/Voltorb", "Mon" }, { "@Sapphire Board/Plains (Sapphire)/Voltorb", "Mon" } },
-	[87] = { { "@Ruby Board/Plains (Ruby)/Illumise", "Mon" } },
-	[123] = { { "@Ruby Board/Plains (Ruby)/Zangoose", "Mon" } },
-	[142] = { { "@Ruby Board/Plains (Ruby)/Castform", "Mon" }, { "@Sapphire Board/Plains (Sapphire)/Castform", "Mon" } },
-	--Ruins
-	[190] = { { "@Ruby Board/Ruins (Ruby)/Beldum", "Mon" }, { "@Sapphire Board/Ruins (Sapphire)/Beldum", "Mon" } },
-	[193] = { { "@Ruby Board/Ruins (Ruby)/Regirock", "Mon" }, { "@Sapphire Board/Ruins (Sapphire)/Regirock", "Mon" } },
-	[194] = { { "@Ruby Board/Ruins (Ruby)/Regice", "Mon" }, { "@Sapphire Board/Ruins (Sapphire)/Regice", "Mon" } },
-	[195] = { { "@Ruby Board/Ruins (Ruby)/Registeel", "Mon" }, { "@Sapphire Board/Ruins (Sapphire)/Registeel", "Mon" } },
-	[201] = { { "@Ruby Board/Ruins (Ruby)/Jirachi", "Mon" }, { "@Sapphire Board/Ruins (Sapphire)/Jirachi", "Mon" } },
-	--Safari Zone
-	[92] = { { "@Ruby Board/Safari Zone (Ruby)/Doduo", "Mon" } },
-	[156] = { { "@Ruby Board/Safari Zone (Ruby)/Pikachu", "Mon" } },
-	[158] = { { "@Ruby Board/Safari Zone (Ruby)/Psyduck", "Mon" } },
-	[161] = { { "@Ruby Board/Safari Zone (Ruby)/Wobbuffet", "Mon" } },
-	[164] = { { "@Ruby Board/Safari Zone (Ruby)/Girafarig", "Mon" } },
-	[167] = { { "@Ruby Board/Safari Zone (Ruby)/Pinsir", "Mon" } },
-	[168] = { { "@Ruby Board/Safari Zone (Ruby)/Heracross", "Mon" } },
-	[169] = { { "@Ruby Board/Safari Zone (Ruby)/Rhyhorn", "Mon" } },
-	--Volcano
-	[4] = { { "@Ruby Board/Volcano (Ruby)/Torchic", "Mon" } },
-	[101] = { { "@Ruby Board/Volcano (Ruby)/Numel", "Mon" } },
-	[103] = { { "@Ruby Board/Volcano (Ruby)/Slugma", "Mon" } },
-	[105] = { { "@Ruby Board/Volcano (Ruby)/Torkoal", "Mon" } },
-	[108] = { { "@Ruby Board/Volcano (Ruby)/Koffing", "Mon" } },
-	[115] = { { "@Ruby Board/Volcano (Ruby)/Skarmory", "Mon" } },
-	[153] = { { "@Ruby Board/Volcano (Ruby)/Vulpix", "Mon" } },
-	--Sapphire Board
-	--Cave
-	--[39] = { { "@Sapphire Board/Cave (Sapphire)/Abra", "Mon" } },
-	--	[46] = { { "@Sapphire Board/Cave (Sapphire)/Loudred", "Mon" } },
-	[48] = { { "@Sapphire Board/Cave (Sapphire)/Makuhita", "Mon" } },
-	--	[60] = { { "@Sapphire Board/Cave (Sapphire)/Nosepass", "Mon" } },
-	[68] = { { "@Sapphire Board/Cave (Sapphire)/Sableye", "Mon" } },
-	--	[106] = { { "@Sapphire Board/Cave (Sapphire)/Grimer", "Mon" } },
-	[125] = { { "@Sapphire Board/Cave (Sapphire)/Lunatone", "Mon" } },
-	--[188] = { { "@Sapphire Board/Cave (Sapphire)/Shelgon", "Mon" } },
-	--Forest
-	--[15] = { { "@Sapphire Board/Forest (Sapphire)/Silcoon", "Mon" } },
-	--	[17] = { { "@Sapphire Board/Forest (Sapphire)/Cascoon", "Mon" } },
-	[36] = { { "@Sapphire Board/Forest (Sapphire)/Slakoth", "Mon" } },
-	--[42] = { { "@Sapphire Board/Forest (Sapphire)/Nincada", "Mon" } },
-	[94] = { { "@Sapphire Board/Forest (Sapphire)/Roselia", "Mon" } },
-	--[145] = { { "@Sapphire Board/Forest (Sapphire)/Kecleon", "Mon" } },
-	--[148] = { { "@Sapphire Board/Forest (Sapphire)/Duskull", "Mon" } },
-	[150] = { { "@Sapphire Board/Forest (Sapphire)/Tropius", "Mon" } },
-	--Lake
-	[7] = { { "@Sapphire Board/Lake (Sapphire)/Mudkip", "Mon" } },
-	[20] = { { "@Sapphire Board/Lake (Sapphire)/Lombre", "Mon" } },
-	[50] = { { "@Sapphire Board/Lake (Sapphire)/Goldeen", "Mon" } },
-	[55] = { { "@Sapphire Board/Lake (Sapphire)/Marill", "Mon" } },
-	[127] = { { "@Sapphire Board/Lake (Sapphire)/Barboach", "Mon" } },
-	[129] = { { "@Sapphire Board/Lake (Sapphire)/Corphish", "Mon" } },
-	[140] = { { "@Sapphire Board/Lake (Sapphire)/Feebas", "Mon" } },
-	--Wilderness
-	[57] = { { "@Sapphire Board/Wilderness (Sapphire)/Geodude", "Mon" } },
-	[76] = { { "@Sapphire Board/Wilderness (Sapphire)/Meditite", "Mon" } },
-	[117] = { { "@Sapphire Board/Wilderness (Sapphire)/Vibrava", "Mon" } },
-	[119] = { { "@Sapphire Board/Wilderness (Sapphire)/Cacnea", "Mon" } },
-	[121] = { { "@Sapphire Board/Wilderness (Sapphire)/Swablu", "Mon" } },
-	[131] = { { "@Sapphire Board/Wilderness (Sapphire)/Baltoy", "Mon" } },
-	[152] = { { "@Sapphire Board/Wilderness (Sapphire)/Absol", "Mon" } },
-	--Plains
-	--[10] = { { "@Sapphire Board/Plains (Sapphire)/Poochyena", "Mon" } },
-	--[25] = { { "@Sapphire Board/Plains (Sapphire)/Taillow", "Mon" } },
-	--[78] = { { "@Sapphire Board/Plains (Sapphire)/Electrike", "Mon" } },
-	--[82] = { { "@Sapphire Board/Plains (Sapphire)/Magnemite", "Mon" } },
-	--84] = { { "@Sapphire Board/Plains (Sapphire)/Voltorb", "Mon" } },
-	[86] = { { "@Sapphire Board/Plains (Sapphire)/Volbeat", "Mon" } },
-	[124] = { { "@Sapphire Board/Plains (Sapphire)/Seviper", "Mon" } },
-	[138] = { { "@Sapphire Board/Plains (Sapphire)/Jigglypuff", "Mon" } },
-	--[142] = { { "@Sapphire Board/Plains (Sapphire)/Castform", "Mon" } },
-	--Ruins
-	--[190] = { { "@Sapphire Board/Ruins (Sapphire)/Beldum", "Mon" } },
-	--[193] = { { "@Sapphire Board/Ruins (Sapphire)/Regirock", "Mon" } },
-	--[194] = { { "@Sapphire Board/Ruins (Sapphire)/Regice", "Mon" } },
-	--[195] = { { "@Sapphire Board/Ruins (Sapphire)/Registeel", "Mon" } },
-	--	[201] = { { "@Sapphire Board/Ruins (Sapphire)/Jirachi", "Mon" } },
-	--Ocean
-	--[27] = { { "@Sapphire Board/Ocean (Sapphire)/Wingull", "Mon" } },
-	[52] = { { "@Sapphire Board/Ocean (Sapphire)/Magikarp", "Mon" } },
-	--[66] = { { "@Sapphire Board/Ocean (Sapphire)/Tentacool", "Mon" } },
-	--	[97] = { { "@Sapphire Board/Ocean (Sapphire)/Carvanha", "Mon" } },
-	[135] = { { "@Sapphire Board/Ocean (Sapphire)/Anorith", "Mon" } },
-	[176] = { { "@Sapphire Board/Ocean (Sapphire)/Clamperl", "Mon" } },
-	--[179] = { { "@Sapphire Board/Ocean (Sapphire)/Relicanth", "Mon" } },
-	--[183] = { { "@Sapphire Board/Ocean (Sapphire)/Luvdisc", "Mon" } }
-
-
-	--Eggs
-	--Bunch (1)
-	[14] = { { "@Eggs/Egg Bunch (1)/Wurmple", "Mon" } },
-	[29] = { { "@Eggs/Egg Bunch (1)/Ralts", "Mon" } },
-	[45] = { { "@Eggs/Egg Bunch (1)/Whismur", "Mon" } },
-	[63] = { { "@Eggs/Egg Bunch (1)/Zubat", "Mon" } },
-	[70] = { { "@Eggs/Egg Bunch (1)/Aron", "Mon" } },
-
-	--Bunch (2)
-	[88] = { { "@Eggs/Egg Bunch (2)/Oddish", "Mon" } },
-	[110] = { { "@Eggs/Egg Bunch (2)/Spoink", "Mon" } },
-	[146] = { { "@Eggs/Egg Bunch (2)/Shuppet", "Mon" } },
-	[151] = { { "@Eggs/Egg Bunch (2)/Chimecho", "Mon" } },
-	[162] = { { "@Eggs/Egg Bunch (2)/Natu", "Mon" } },
-
-	--Bunch (3)
-	[112] = { { "@Eggs/Egg Bunch (3)/Sandshrew", "Mon" } },
-	[114] = { { "@Eggs/Egg Bunch (3)/Spinda", "Mon" } },
-	[116] = { { "@Eggs/Egg Bunch (3)/Trapinch", "Mon" } },
-	[165] = { { "@Eggs/Egg Bunch (3)/Phanpy", "Mon" } },
-
-	--Bunch (4)
-	[171] = { { "@Eggs/Egg Bunch (4)/Snorunt", "Mon" } },
-	[173] = { { "@Eggs/Egg Bunch (4)/Spheal", "Mon" } },
-	[180] = { { "@Eggs/Egg Bunch (4)/Corsola", "Mon" } },
-	[184] = { { "@Eggs/Egg Bunch (4)/Horsea", "Mon" } },
-	[187] = { { "@Eggs/Egg Bunch (4)/Bagon", "Mon" } },
-
-	--Bunch (Ruby)
-	[22] = { { "@Eggs/Egg Bunch (Ruby)/Seedot", "Mon" } },
-	[34] = { { "@Eggs/Egg Bunch (Ruby)/Shroomish", "Mon" } },
-	[61] = { { "@Eggs/Egg Bunch (Ruby)/Skitty", "Mon" } },
-	[80] = { { "@Eggs/Egg Bunch (Ruby)/Plusle", "Mon" } },
-	[81] = { { "@Eggs/Egg Bunch (Ruby)/Minun", "Mon" } },
-	[160] = { { "@Eggs/Egg Bunch (Ruby)/Wynaut", "Mon" } },
-
-	--Bunch (Sapphire)
-	[19] = { { "@Eggs/Egg Bunch (Sapphire)/Lotad", "Mon" } },
-	[32] = { { "@Eggs/Egg Bunch (Sapphire)/Surskit", "Mon" } },
-	[54] = { { "@Eggs/Egg Bunch (Sapphire)/Azurill", "Mon" } },
-	[95] = { { "@Eggs/Egg Bunch (Sapphire)/Gulpin", "Mon" } },
-	[137] = { { "@Eggs/Egg Bunch (Sapphire)/Igglybuff", "Mon" } },
-	[181] = { { "@Eggs/Egg Bunch (Sapphire)/Chinchou", "Mon" } },
-
-	--Evolutions
-	[2]={{"@Evolution/Evolution/Grovyle","Mon"}},
-[3]={{"@Evolution/Evolution/Sceptile","Mon"}},
-
-[5]={{"@Evolution/Evolution/Combusken","Mon"}},
-[6]={{"@Evolution/Evolution/Blaziken","Mon"}},
-
-[8]={{"@Evolution/Evolution/Marshtomp","Mon"}},
-[9]={{"@Evolution/Evolution/Swampert","Mon"}},
-
-[11]={{"@Evolution/Evolution/Mightyena","Mon"}},
-
-[13]={{"@Evolution/Evolution/Linoone","Mon"}},
-
-
-[16]={{"@Evolution/Evolution/Beautifly","Mon"}},
-
-[18]={{"@Evolution/Evolution/Dustox","Mon"}},
-
---[20]={{"@Evolution/Evolution/Lombre","Mon"}},
-[21]={{"@Evolution/Evolution/Ludicolo","Mon"}},
-
-
-[24]={{"@Evolution/Evolution/Shiftry","Mon"}},
-
-[26]={{"@Evolution/Evolution/Swellow","Mon"}},
-
-[28]={{"@Evolution/Evolution/Pelipper","Mon"}},
-
-[30]={{"@Evolution/Evolution/Kirlia","Mon"}},
-[31]={{"@Evolution/Evolution/Gardevoir","Mon"}},
-
-[33]={{"@Evolution/Evolution/Masquerain","Mon"}},
-
-[35]={{"@Evolution/Evolution/Breloom","Mon"}},
-
-[37]={{"@Evolution/Evolution/Vigoroth","Mon"}},
-[38]={{"@Evolution/Evolution/Slaking","Mon"}},
-
-[40]={{"@Evolution/Evolution/Kadabra","Mon"}},
-[41]={{"@Evolution/Evolution/Alakazam","Mon"}},
-
-[43]={{"@Evolution/Evolution/Ninjask","Mon"}},
-[44]={{"@Evolution/Evolution/Shedinja","Mon"}},
-
---[46]={{"@Evolution/Evolution/Loudred","Mon"}},
-[47]={{"@Evolution/Evolution/Exploud","Mon"}},
-
-[49]={{"@Evolution/Evolution/Hariyama","Mon"}},
-
-[51]={{"@Evolution/Evolution/Seaking","Mon"}},
-
-[53]={{"@Evolution/Evolution/Gyarados","Mon"}},
-
-
-[56]={{"@Evolution/Evolution/Azumarill","Mon"}},
-
-[58]={{"@Evolution/Evolution/Graveler","Mon"}},
-[59]={{"@Evolution/Evolution/Golem","Mon"}},
-
-
-[62]={{"@Evolution/Evolution/Delcatty","Mon"}},
-
-[64]={{"@Evolution/Evolution/Golbat","Mon"}},
-[65]={{"@Evolution/Evolution/Crobat","Mon"}},
-
-[67]={{"@Evolution/Evolution/Tentacruel","Mon"}},
-
-
-
-[71]={{"@Evolution/Evolution/Lairon","Mon"}},
-[72]={{"@Evolution/Evolution/Aggron","Mon"}},
-
-[74]={{"@Evolution/Evolution/Machoke","Mon"}},
-[75]={{"@Evolution/Evolution/Machamp","Mon"}},
-
-[77]={{"@Evolution/Evolution/Medicham","Mon"}},
-
-[79]={{"@Evolution/Evolution/Manectric","Mon"}},
-
-
-
-[83]={{"@Evolution/Evolution/Magneton","Mon"}},
-
-[85]={{"@Evolution/Evolution/Electrode","Mon"}},
-
-
-
-[89]={{"@Evolution/Evolution/Gloom","Mon"}},
-[90]={{"@Evolution/Evolution/Vileplume","Mon"}},
-[91]={{"@Evolution/Evolution/Bellossom","Mon"}},
-
-[93]={{"@Evolution/Evolution/Dodrio","Mon"}},
-
-
-[96]={{"@Evolution/Evolution/Swalot","Mon"}},
-
-[98]={{"@Evolution/Evolution/Sharpedo","Mon"}},
-
-[100]={{"@Evolution/Evolution/Wailord","Mon"}},
-
-[102]={{"@Evolution/Evolution/Camerupt","Mon"}},
-
-[104]={{"@Evolution/Evolution/Magcargo","Mon"}},
-
-
-[107]={{"@Evolution/Evolution/Muk","Mon"}},
-
-[109]={{"@Evolution/Evolution/Weezing","Mon"}},
-
-[111]={{"@Evolution/Evolution/Grumpig","Mon"}},
-
-[113]={{"@Evolution/Evolution/Sandslash","Mon"}},
-
-
-
---[117]={{"@Evolution/Evolution/Vibrava","Mon"}},
-[118]={{"@Evolution/Evolution/Flygon","Mon"}},
-
-[120]={{"@Evolution/Evolution/Cacturne","Mon"}},
-
-[122]={{"@Evolution/Evolution/Altaria","Mon"}},
-
-
-
-
-
-[128]={{"@Evolution/Evolution/Whiscash","Mon"}},
-
-[130]={{"@Evolution/Evolution/Crawdaunt","Mon"}},
-
-
-
-[134]={{"@Evolution/Evolution/Cradily","Mon"}},
-
-[136]={{"@Evolution/Evolution/Armaldo","Mon"}},
-
-
-[139]={{"@Evolution/Evolution/Wigglytuff","Mon"}},
-
-[141]={{"@Evolution/Evolution/Milotic","Mon"}},
-
-
-[144]={{"@Evolution/Evolution/Starmie","Mon"}},
-
-
-[147]={{"@Evolution/Evolution/Banette","Mon"}},
-
-[149]={{"@Evolution/Evolution/Dusclops","Mon"}},
-
-
-
-
-[154]={{"@Evolution/Evolution/Ninetales","Mon"}},
-
-
-[157]={{"@Evolution/Evolution/Raichu","Mon"}},
-
-[159]={{"@Evolution/Evolution/Golduck","Mon"}},
-
---[161]={{"@Evolution/Evolution/Wobbuffet","Mon"}},
-
-[163]={{"@Evolution/Evolution/Xatu","Mon"}},
-
-
-[166]={{"@Evolution/Evolution/Donphan","Mon"}},
-
-
-
-[170]={{"@Evolution/Evolution/Rhydon","Mon"}},
-
-[172]={{"@Evolution/Evolution/Glalie","Mon"}},
-
-[174]={{"@Evolution/Evolution/Sealeo","Mon"}},
-[175]={{"@Evolution/Evolution/Walrein","Mon"}},
-
-[177]={{"@Evolution/Evolution/Huntail","Mon"}},
-[178]={{"@Evolution/Evolution/Gorebyss","Mon"}},
-
-
-
-[182]={{"@Evolution/Evolution/Lanturn","Mon"}},
-
-
-[185]={{"@Evolution/Evolution/Seadra","Mon"}},
-[186]={{"@Evolution/Evolution/Kingdra","Mon"}},
-
---[188]={{"@Evolution/Evolution/Shelgon","Mon"}},
-[189]={{"@Evolution/Evolution/Salamence","Mon"}},
-
-[191]={{"@Evolution/Evolution/Metang","Mon"}},
-[192]={{"@Evolution/Evolution/Metagross","Mon"}},
-
-
---Special
-[196]={{"@Special/Special/Latias","Mon"}},
-[197]={{"@Special/Special/Latios","Mon"}},
-[198]={{"@Special/Special/Kyogre","Mon"}},
-[199]={{"@Special/Special/Groudon","Mon"}},
-[200]={{"@Special/Special/Rayquaza","Mon"}},
-
-[202]={{"@Special/Special/Chikorita","Mon"}},
-[203]={{"@Special/Special/Cyndaquil","Mon"}},
-[204]={{"@Special/Special/Totodile","Mon"}},
-[205]={{"@Special/Special/Aerodactyl","Mon"}}
-
-
+	--Bonus Stages
+	[256] = { { "@Special/Bonus Stage (Sapphire)/Dusclops Bonus Stage" } },
+	[257] = { { "@Special/Bonus Stage (Ruby)/Kecleon Bonus Stage" } },
+	[258] = { { "@Special/Bonus Stage (Sapphire)/Kyogre Bonus Stage" } },
+	[259] = { { "@Special/Bonus Stage (Ruby)/Groudon Bonus Stage" } },
+	[260] = { { "@Special/Bonus Stage (Ruby)/Rayquaza Bonus Stage" }, { "@Special/Bonus Stage (Sapphire)/Rayquaza Bonus Stage" } },
+
+[1] = { { "@Ruby Board/Forest (Ruby)/Pokedex - Treecko" },{"Treecko"}},
+[2] = { { "@Ruby Board/Forest (Ruby)/Pokedex - Grovyle" },{"Grovyle"}},
+[3] = { { "@Ruby Board/Forest (Ruby)/Pokedex - Sceptile" },{"Sceptile"}},
+[4] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Torchic" },{"Torchic"}},
+[5] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Combusken" },{"Combusken"}},
+[6] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Blaziken" },{"Blaziken"}},
+[7] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Mudkip" },{"Mudkip"}},
+[8] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Marshtomp" },{"Marshtomp"}},
+[9] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Swampert" },{"Swampert"}},
+[10] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Poochyena" }, { "@Ruby Board/Plains (Ruby)/Pokedex - Poochyena" },{"Poochyena"}},
+[11] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Mightyena" }, { "@Ruby Board/Plains (Ruby)/Pokedex - Mightyena" },{"Mightyena"}},
+[12] = { { "@Ruby Board/Forest (Ruby)/Pokedex - Zigzagoon" },{"Zigzagoon"}},
+[13] = { { "@Ruby Board/Forest (Ruby)/Pokedex - Linoone" },{"Linoone"}},
+[14] = { { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Wurmple" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Wurmple" },{"Wurmple"}},
+[15] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Silcoon" }, { "@Ruby Board/Forest (Ruby)/Pokedex - Silcoon" }, { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Silcoon" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Silcoon" },{"Silcoon"}},
+[16] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Beautifly" }, { "@Ruby Board/Forest (Ruby)/Pokedex - Beautifly" }, { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Beautifly" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Beautifly" },{"Beautifly"}},
+[17] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Cascoon" }, { "@Ruby Board/Forest (Ruby)/Pokedex - Cascoon" }, { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Cascoon" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Cascoon" },{"Cascoon"}},
+[18] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Dustox" }, { "@Ruby Board/Forest (Ruby)/Pokedex - Dustox" }, { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Dustox" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Dustox" },{"Dustox"}},
+[19] = { { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Lotad" },{"Lotad"}},
+[20] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Lombre" }, { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Lombre" },{"Lombre"}},
+[21] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Ludicolo" }, { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Ludicolo" },{"Ludicolo"}},
+[22] = { { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Seedot" },{"Seedot"}},
+[23] = { { "@Ruby Board/Forest (Ruby)/Pokedex - Nuzleaf" }, { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Nuzleaf" },{"Nuzleaf"}},
+[24] = { { "@Ruby Board/Forest (Ruby)/Pokedex - Shiftry" }, { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Shiftry" },{"Shiftry"}},
+[25] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Taillow" }, { "@Ruby Board/Plains (Ruby)/Pokedex - Taillow" },{"Taillow"}},
+[26] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Swellow" }, { "@Ruby Board/Plains (Ruby)/Pokedex - Swellow" },{"Swellow"}},
+[27] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Wingull" }, { "@Ruby Board/Ocean (Ruby)/Pokedex - Wingull" },{"Wingull"}},
+[28] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Pelipper" }, { "@Ruby Board/Ocean (Ruby)/Pokedex - Pelipper" },{"Pelipper"}},
+[29] = { { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Ralts" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Ralts" },{"Ralts"}},
+[30] = { { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Kirlia" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Kirlia" },{"Kirlia"}},
+[31] = { { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Gardevoir" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Gardevoir" },{"Gardevoir"}},
+[32] = { { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Surskit" },{"Surskit"}},
+[33] = { { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Masquerain" },{"Masquerain"}},
+[34] = { { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Shroomish" },{"Shroomish"}},
+[35] = { { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Breloom" },{"Breloom"}},
+[36] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Slakoth" },{"Slakoth"}},
+[37] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Vigoroth" },{"Vigoroth"}},
+[38] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Slaking" },{"Slaking"}},
+[39] = { { "@Sapphire Board/Cave (Sapphire)/Pokedex - Abra" }, { "@Ruby Board/Cave (Ruby)/Pokedex - Abra" },{"Abra"}},
+[40] = { { "@Sapphire Board/Cave (Sapphire)/Pokedex - Kadabra" }, { "@Ruby Board/Cave (Ruby)/Pokedex - Kadabra" },{"Kadabra"}},
+[41] = { { "@Sapphire Board/Cave (Sapphire)/Pokedex - Alakazam" }, { "@Ruby Board/Cave (Ruby)/Pokedex - Alakazam" },{"Alakazam"}},
+[42] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Nincada" }, { "@Ruby Board/Forest (Ruby)/Pokedex - Nincada" },{"Nincada"}},
+[43] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Ninjask" }, { "@Ruby Board/Forest (Ruby)/Pokedex - Ninjask" },{"Ninjask"}},
+[44] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Shedinja" }, { "@Ruby Board/Forest (Ruby)/Pokedex - Shedinja" },{"Shedinja"}},
+[45] = { { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Whismur" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Whismur" },{"Whismur"}},
+[46] = { { "@Ruby Board/Cave (Ruby)/Pokedex - Loudred" }, { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Loudred" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Loudred" }, { "@Sapphire Board/Cave (Sapphire)/Pokedex - Loudred" },{"Loudred"}},
+[47] = { { "@Ruby Board/Cave (Ruby)/Pokedex - Exploud" }, { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Exploud" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Exploud" }, { "@Sapphire Board/Cave (Sapphire)/Pokedex - Exploud" },{"Exploud"}},
+[48] = { { "@Sapphire Board/Cave (Sapphire)/Pokedex - Makuhita" },{"Makuhita"}},
+[49] = { { "@Sapphire Board/Cave (Sapphire)/Pokedex - Hariyama" },{"Hariyama"}},
+[50] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Goldeen" },{"Goldeen"}},
+[51] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Seaking" },{"Seaking"}},
+[52] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Magikarp" },{"Magikarp"}},
+[53] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Gyarados" },{"Gyarados"}},
+[54] = { { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Azurill" },{"Azurill"}},
+[55] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Marill" }, { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Marill" },{"Marill"}},
+[56] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Azumarill" }, { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Azumarill" },{"Azumarill"}},
+[57] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Geodude" },{"Geodude"}},
+[58] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Graveler" },{"Graveler"}},
+[59] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Golem" },{"Golem"}},
+[60] = { { "@Sapphire Board/Cave (Sapphire)/Pokedex - Nosepass" }, { "@Ruby Board/Cave (Ruby)/Pokedex - Nosepass" },{"Nosepass"}},
+[61] = { { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Skitty" },{"Skitty"}},
+[62] = { { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Delcatty" },{"Delcatty"}},
+[63] = { { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Zubat" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Zubat" },{"Zubat"}},
+[64] = { { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Golbat" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Golbat" },{"Golbat"}},
+[65] = { { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Crobat" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Crobat" },{"Crobat"}},
+[66] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Tentacool" }, { "@Ruby Board/Ocean (Ruby)/Pokedex - Tentacool" },{"Tentacool"}},
+[67] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Tentacruel" }, { "@Ruby Board/Ocean (Ruby)/Pokedex - Tentacruel" },{"Tentacruel"}},
+[68] = { { "@Sapphire Board/Cave (Sapphire)/Pokedex - Sableye" },{"Sableye"}},
+[69] = { { "@Ruby Board/Cave (Ruby)/Pokedex - Mawile" },{"Mawile"}},
+[70] = { { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Aron" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Aron" },{"Aron"}},
+[71] = { { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Lairon" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Lairon" },{"Lairon"}},
+[72] = { { "@Eggs Ruby/Egg Bunch (1)/Pokedex - Aggron" }, { "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Aggron" },{"Aggron"}},
+[73] = { { "@Ruby Board/Cave (Ruby)/Pokedex - Machop" },{"Machop"}},
+[74] = { { "@Ruby Board/Cave (Ruby)/Pokedex - Machoke" },{"Machoke"}},
+[75] = { { "@Ruby Board/Cave (Ruby)/Pokedex - Machamp" },{"Machamp"}},
+[76] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Meditite" },{"Meditite"}},
+[77] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Medicham" },{"Medicham"}},
+[78] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Electrike" }, { "@Ruby Board/Plains (Ruby)/Pokedex - Electrike" },{"Electrike"}},
+[79] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Manectric" }, { "@Ruby Board/Plains (Ruby)/Pokedex - Manectric" },{"Manectric"}},
+[80] = { { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Plusle" },{"Plusle"}},
+[81] = { { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Minun" },{"Minun"}},
+[82] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Magnemite" }, { "@Ruby Board/Plains (Ruby)/Pokedex - Magnemite" },{"Magnemite"}},
+[83] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Magneton" }, { "@Ruby Board/Plains (Ruby)/Pokedex - Magneton" },{"Magneton"}},
+[84] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Voltorb" }, { "@Ruby Board/Plains (Ruby)/Pokedex - Voltorb" },{"Voltorb"}},
+[85] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Electrode" }, { "@Ruby Board/Plains (Ruby)/Pokedex - Electrode" },{"Electrode"}},
+[86] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Volbeat" },{"Volbeat"}},
+[87] = { { "@Ruby Board/Plains (Ruby)/Pokedex - Illumise" },{"Illumise"}},
+[88] = { { "@Eggs Ruby/Egg Bunch (2)/Pokedex - Oddish" }, { "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Oddish" },{"Oddish"}},
+[89] = { { "@Eggs Ruby/Egg Bunch (2)/Pokedex - Gloom" }, { "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Gloom" },{"Gloom"}},
+[90] = { { "@Eggs Ruby/Egg Bunch (2)/Pokedex - Vileplume" },{"Vileplume"}},
+[91] = { { "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Bellossom" },{"Bellossom"}},
+[92] = { { "@Ruby Board/Safari Zone (Ruby)/Pokedex - Doduo" },{"Doduo"}},
+[93] = { { "@Ruby Board/Safari Zone (Ruby)/Pokedex - Dodrio" },{"Dodrio"}},
+[94] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Roselia" },{"Roselia"}},
+[95] = { { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Gulpin" },{"Gulpin"}},
+[96] = { { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Swalot" },{"Swalot"}},
+[97] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Carvanha" }, { "@Ruby Board/Ocean (Ruby)/Pokedex - Carvanha" },{"Carvanha"}},
+[98] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Sharpedo" }, { "@Ruby Board/Ocean (Ruby)/Pokedex - Sharpedo" },{"Sharpedo"}},
+[99] = { { "@Ruby Board/Ocean (Ruby)/Pokedex - Wailmer" },{"Wailmer"}},
+[100] = { { "@Ruby Board/Ocean (Ruby)/Pokedex - Wailord" },{"Wailord"}},
+[101] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Numel" },{"Numel"}},
+[102] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Camerupt" },{"Camerupt"}},
+[103] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Slugma" },{"Slugma"}},
+[104] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Magcargo" },{"Magcargo"}},
+[105] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Torkoal" },{"Torkoal"}},
+[106] = { { "@Sapphire Board/Cave (Sapphire)/Pokedex - Grimer" }, { "@Ruby Board/Cave (Ruby)/Pokedex - Grimer" },{"Grimer"}},
+[107] = { { "@Sapphire Board/Cave (Sapphire)/Pokedex - Muk" }, { "@Ruby Board/Cave (Ruby)/Pokedex - Muk" },{"Muk"}},
+[108] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Koffing" },{"Koffing"}},
+[109] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Weezing" },{"Weezing"}},
+[110] = { { "@Eggs Ruby/Egg Bunch (2)/Pokedex - Spoink" }, { "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Spoink" },{"Spoink"}},
+[111] = { { "@Eggs Ruby/Egg Bunch (2)/Pokedex - Grumpig" }, { "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Grumpig" },{"Grumpig"}},
+[112] = { { "@Eggs Ruby/Egg Bunch (3)/Pokedex - Sandshrew" }, { "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Sandshrew" },{"Sandshrew"}},
+[113] = { { "@Eggs Ruby/Egg Bunch (3)/Pokedex - Sandslash" }, { "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Sandslash" },{"Sandslash"}},
+[114] = { { "@Eggs Ruby/Egg Bunch (3)/Pokedex - Spinda" }, { "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Spinda" },{"Spinda"}},
+[115] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Skarmory" },{"Skarmory"}},
+[116] = { { "@Eggs Ruby/Egg Bunch (3)/Pokedex - Trapinch" }, { "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Trapinch" },{"Trapinch"}},
+[117] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Vibrava" }, { "@Eggs Ruby/Egg Bunch (3)/Pokedex - Vibrava" }, { "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Vibrava" },{"Vibrava"}},
+[118] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Flygon" }, { "@Eggs Ruby/Egg Bunch (3)/Pokedex - Flygon" }, { "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Flygon" },{"Flygon"}},
+[119] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Cacnea" },{"Cacnea"}},
+[120] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Cacturne" },{"Cacturne"}},
+[121] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Swablu" },{"Swablu"}},
+[122] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Altaria" },{"Altaria"}},
+[123] = { { "@Ruby Board/Plains (Ruby)/Pokedex - Zangoose" },{"Zangoose"}},
+[124] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Seviper" },{"Seviper"}},
+[125] = { { "@Sapphire Board/Cave (Sapphire)/Pokedex - Lunatone" },{"Lunatone"}},
+[126] = { { "@Ruby Board/Cave (Ruby)/Pokedex - Solrock" },{"Solrock"}},
+[127] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Barboach" },{"Barboach"}},
+[128] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Whiscash" },{"Whiscash"}},
+[129] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Corphish" },{"Corphish"}},
+[130] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Crawdaunt" },{"Crawdaunt"}},
+[131] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Baltoy" },{"Baltoy"}},
+[132] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Claydol" },{"Claydol"}},
+[133] = { { "@Ruby Board/Ocean (Ruby)/Pokedex - Lileep" },{"Lileep"}},
+[134] = { { "@Ruby Board/Ocean (Ruby)/Pokedex - Cradily" },{"Cradily"}},
+[135] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Anorith" },{"Anorith"}},
+[136] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Armaldo" },{"Armaldo"}},
+[137] = { { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Igglybuff" },{"Igglybuff"}},
+[138] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Jigglypuff" }, { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Jigglypuff" },{"Jigglypuff"}},
+[139] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Wigglytuff" }, { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Wigglytuff" },{"Wigglytuff"}},
+[140] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Feebas" },{"Feebas"}},
+[141] = { { "@Sapphire Board/Lake (Sapphire)/Pokedex - Milotic" },{"Milotic"}},
+[142] = { { "@Sapphire Board/Plains (Sapphire)/Pokedex - Castform" }, { "@Ruby Board/Plains (Ruby)/Pokedex - Castform" },{"Castform"}},
+[143] = { { "@Ruby Board/Ocean (Ruby)/Pokedex - Staryu" },{"Staryu"}},
+[144] = { { "@Ruby Board/Ocean (Ruby)/Pokedex - Starmie" },{"Starmie"}},
+[145] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Kecleon" }, { "@Ruby Board/Forest (Ruby)/Pokedex - Kecleon" },{"Kecleon"}},
+[146] = { { "@Eggs Ruby/Egg Bunch (2)/Pokedex - Shuppet" }, { "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Shuppet" },{"Shuppet"}},
+[147] = { { "@Eggs Ruby/Egg Bunch (2)/Pokedex - Banette" }, { "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Banette" },{"Banette"}},
+[148] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Duskull" }, { "@Ruby Board/Forest (Ruby)/Pokedex - Duskull" },{"Duskull"}},
+[149] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Dusclops" }, { "@Ruby Board/Forest (Ruby)/Pokedex - Dusclops" },{"Dusclops"}},
+[150] = { { "@Sapphire Board/Forest (Sapphire)/Pokedex - Tropius" },{"Tropius"}},
+[151] = { { "@Eggs Ruby/Egg Bunch (2)/Pokedex - Chimecho" }, { "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Chimecho" },{"Chimecho"}},
+[152] = { { "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Absol" },{"Absol"}},
+[153] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Vulpix" },{"Vulpix"}},
+[154] = { { "@Ruby Board/Volcano (Ruby)/Pokedex - Ninetales" },{"Ninetales"}},
+[155] = { { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Pichu" }, { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Pichu" },{"Pichu"}},
+[156] = { { "@Ruby Board/Safari Zone (Ruby)/Pokedex - Pikachu" }, { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Pikachu" }, { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Pikachu" },{"Pikachu"}},
+[157] = { { "@Ruby Board/Safari Zone (Ruby)/Pokedex - Raichu" }, { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Raichu" }, { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Raichu" },{"Raichu"}},
+[158] = { { "@Ruby Board/Safari Zone (Ruby)/Pokedex - Psyduck" },{"Psyduck"}},
+[159] = { { "@Ruby Board/Safari Zone (Ruby)/Pokedex - Golduck" },{"Golduck"}},
+[160] = { { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Wynaut" },{"Wynaut"}},
+[161] = { { "@Ruby Board/Safari Zone (Ruby)/Pokedex - Wobbuffet" }, { "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Wobbuffet" },{"Wobbuffet"}},
+[162] = { { "@Eggs Ruby/Egg Bunch (2)/Pokedex - Natu" }, { "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Natu" },{"Natu"}},
+[163] = { { "@Eggs Ruby/Egg Bunch (2)/Pokedex - Xatu" }, { "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Xatu" },{"Xatu"}},
+[164] = { { "@Ruby Board/Safari Zone (Ruby)/Pokedex - Girafarig" },{"Girafarig"}},
+[165] = { { "@Eggs Ruby/Egg Bunch (3)/Pokedex - Phanpy" }, { "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Phanpy" },{"Phanpy"}},
+[166] = { { "@Eggs Ruby/Egg Bunch (3)/Pokedex - Donphan" }, { "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Donphan" },{"Donphan"}},
+[167] = { { "@Ruby Board/Safari Zone (Ruby)/Pokedex - Pinsir" },{"Pinsir"}},
+[168] = { { "@Ruby Board/Safari Zone (Ruby)/Pokedex - Heracross" },{"Heracross"}},
+[169] = { { "@Ruby Board/Safari Zone (Ruby)/Pokedex - Rhyhorn" },{"Rhyhorn"}},
+[170] = { { "@Ruby Board/Safari Zone (Ruby)/Pokedex - Rhydon" },{"Rhydon"}},
+[171] = { { "@Eggs Ruby/Egg Bunch (4)/Pokedex - Snorunt" }, { "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Snorunt" },{"Snorunt"}},
+[172] = { { "@Eggs Ruby/Egg Bunch (4)/Pokedex - Glalie" }, { "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Glalie" },{"Glalie"}},
+[173] = { { "@Eggs Ruby/Egg Bunch (4)/Pokedex - Spheal" }, { "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Spheal" },{"Spheal"}},
+[174] = { { "@Eggs Ruby/Egg Bunch (4)/Pokedex - Sealeo" }, { "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Sealeo" },{"Sealeo"}},
+[175] = { { "@Eggs Ruby/Egg Bunch (4)/Pokedex - Walrein" }, { "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Walrein" },{"Walrein"}},
+[176] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Clamperl" },{"Clamperl"}},
+[177] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Huntail" },{"Huntail"}},
+[178] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Gorebyss" },{"Gorebyss"}},
+[179] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Relicanth" }, { "@Ruby Board/Ocean (Ruby)/Pokedex - Relicanth" },{"Relicanth"}},
+[180] = { { "@Eggs Ruby/Egg Bunch (4)/Pokedex - Corsola" }, { "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Corsola" },{"Corsola"}},
+[181] = { { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Chinchou" },{"Chinchou"}},
+[182] = { { "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Lanturn" },{"Lanturn"}},
+[183] = { { "@Sapphire Board/Ocean (Sapphire)/Pokedex - Luvdisc" }, { "@Ruby Board/Ocean (Ruby)/Pokedex - Luvdisc" },{"Luvdisc"}},
+[184] = { { "@Eggs Ruby/Egg Bunch (4)/Pokedex - Horsea" }, { "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Horsea" },{"Horsea"}},
+[185] = { { "@Eggs Ruby/Egg Bunch (4)/Pokedex - Seadra" }, { "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Seadra" },{"Seadra"}},
+[186] = { { "@Eggs Ruby/Egg Bunch (4)/Pokedex - Kingdra" }, { "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Kingdra" },{"Kingdra"}},
+[187] = { { "@Eggs Ruby/Egg Bunch (4)/Pokedex - Bagon" }, { "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Bagon" },{"Bagon"}},
+[188] = { { "@Sapphire Board/Cave (Sapphire)/Pokedex - Shelgon" }, { "@Ruby Board/Cave (Ruby)/Pokedex - Shelgon" }, { "@Eggs Ruby/Egg Bunch (4)/Pokedex - Shelgon" }, { "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Shelgon" },{"Shelgon"}},
+[189] = { { "@Sapphire Board/Cave (Sapphire)/Pokedex - Salamence" }, { "@Ruby Board/Cave (Ruby)/Pokedex - Salamence" }, { "@Eggs Ruby/Egg Bunch (4)/Pokedex - Salamence" }, { "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Salamence" },{"Salamence"}},
+[190] = { { "@Sapphire Board/Ruins (Sapphire)/Pokedex - Beldum" }, { "@Ruby Board/Ruins (Ruby)/Pokedex - Beldum" },{"Beldum"}},
+[191] = { { "@Sapphire Board/Ruins (Sapphire)/Pokedex - Metang" }, { "@Ruby Board/Ruins (Ruby)/Pokedex - Metang" },{"Metang"}},
+[192] = { { "@Sapphire Board/Ruins (Sapphire)/Pokedex - Metagross" }, { "@Ruby Board/Ruins (Ruby)/Pokedex - Metagross" },{"Metagross"}},
+[193] = { { "@Sapphire Board/Ruins (Sapphire)/Pokedex - Regirock" }, { "@Ruby Board/Ruins (Ruby)/Pokedex - Regirock" },{"Regirock"}},
+[194] = { { "@Sapphire Board/Ruins (Sapphire)/Pokedex - Regice" }, { "@Ruby Board/Ruins (Ruby)/Pokedex - Regice" },{"Regice"}},
+[195] = { { "@Sapphire Board/Ruins (Sapphire)/Pokedex - Registeel" }, { "@Ruby Board/Ruins (Ruby)/Pokedex - Registeel" },{"Registeel"}},
+[196] = { { "@Special/Bonus Stage (Sapphire)/Pokedex - Latias" },{"Latias"}},
+[197] = { { "@Special/Bonus Stage (Ruby)/Pokedex - Latios" },{"Latios"}},
+[198] = { { "@Sapphire Board/Special (Sapphire)/Pokedex - Kyogre" },{"Kyogre"}},
+[199] = { { "@Ruby Board/Special (Ruby)/Pokedex - Groudon" },{"Groudon"}},
+[200] = { { "@Sapphire Board/Special (Sapphire)/Pokedex - Rayquaza" }, { "@Ruby Board/Special (Ruby)/Pokedex - Rayquaza" },{"Rayquaza"}},
+[201] = { { "@Sapphire Board/Ruins (Sapphire)/Pokedex - Jirachi" }, { "@Ruby Board/Ruins (Ruby)/Pokedex - Jirachi" },{"Jirachi"}},
+[202] = { { "@Special/Bonus Stage (Ruby)/Pokedex - Chikorita" }, { "@Special/Bonus Stage (Sapphire)/Pokedex - Chikorita" },{"Chikorita"}},
+[203] = { { "@Special/Bonus Stage (Ruby)/Pokedex - Cyndaquil" }, { "@Special/Bonus Stage (Sapphire)/Pokedex - Cyndaquil" },{"Cyndaquil"}},
+[204] = { { "@Special/Bonus Stage (Ruby)/Pokedex - Totodile" }, { "@Special/Bonus Stage (Sapphire)/Pokedex - Totodile" },{"Totodile"}},
+[205] = { { "@Special/Bonus Stage (Ruby)/Pokedex - Aerodactyl" }, { "@Special/Bonus Stage (Sapphire)/Pokedex - Aerodactyl" },{"Aerodactyl"}},
 
 }

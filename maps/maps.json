@@ -1,15 +1,15 @@
 ﻿[
 	{
 		"name": "Ruby Board",
-		"location_size": 25,
+		"location_size": 15,
 		"location_border_thickness": 1,
-		"img": "images/maps/Ruby_field.png"
+		"img": "images/maps/Ruby_Field2.png"
 	},
 	{
 		"name": "Sapphire Board",
-		"location_size": 25,
+		"location_size": 15,
 		"location_border_thickness": 1,
-		"img": "images/maps/sapphire_field.png"
+		"img": "images/maps/Sapphire_Field3.png"
 	}
 ]
 	
