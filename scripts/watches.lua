@@ -128,13 +128,13 @@ function PokemonAreaS(area)
 end
 
 for index, value in pairs(AREA_NAMES) do
-      ScriptHost:AddWatchForCode("Area " .. index, value, Evolve)
+    ScriptHost:AddWatchForCode("Area " .. index, value, Evolve)
 end
 
 --ScriptHost:AddWatchForCode("Areax", "forestR", Evolve)
 
 for index, value in pairs(AREA_NAMES_SAPPHIRE) do
-   --    ScriptHost:AddWatchForCode("AreaS" .. index, value, Evolve)
+    --    ScriptHost:AddWatchForCode("AreaS" .. index, value, Evolve)
 end
 
 
@@ -142,18 +142,23 @@ end
 
 --ScriptHost:AddWatchForCode("Sapphire", "sapphire", Evolve)
 function Evolve(trigger)
-        for key, value in pairs(Pokemon) do
-            if Tracker:FindObjectForCode(value).CurrentStage == 0 then
-                local obj = Tracker:FindObjectForCode("@Pokemon/" .. value).AccessibilityLevel
+    for key, value in pairs(Pokemon) do
+        local obj = Tracker:FindObjectForCode("@Pokemon/" .. value).AccessibilityLevel
 
-                if obj == AccessibilityLevel.Normal then
-                    Tracker:FindObjectForCode(value).CurrentStage = 1
-                end
+        if Tracker:FindObjectForCode(value).MaxCount == 3 then
+            Tracker:FindObjectForCode(value).CurrentStage = 2
+        else
+            if obj == AccessibilityLevel.Normal then
+                Tracker:FindObjectForCode(value).CurrentStage = 1
+            elseif obj == AccessibilityLevel.None then
+                Tracker:FindObjectForCode(value).CurrentStage = 0
             end
         end
+    end
 end
+
 for index, value in pairs(AREA_NAMES) do
-      ScriptHost:AddWatchForCode("Area " .. index, value, Evolve)
+    ScriptHost:AddWatchForCode("Area " .. index, value, Evolve)
 end
 --ScriptHost:AddWatchForCode("evo", "evo", Evolve)
 --ScriptHost:AddWatchForCode("evo2", "startball", Evolve)

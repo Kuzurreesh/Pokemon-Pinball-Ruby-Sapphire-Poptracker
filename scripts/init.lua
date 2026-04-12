@@ -35,9 +35,8 @@ ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 Tracker:AddItems("items/items.json")
 Tracker:FindObjectForCode("evo").BadgeTextColor = "#00FF00"
-Tracker:FindObjectForCode("evo").SetOverlayFontSize(Tracker:FindObjectForCode("evo"),15)
+Tracker:FindObjectForCode("evo").SetOverlayFontSize(Tracker:FindObjectForCode("evo"), 15)
 Tracker:AddMaps("maps/maps.json")
 Tracker:AddLayouts("layouts/item_grids.json")
 Tracker:AddLayouts("layouts/layouts.json")
-
 

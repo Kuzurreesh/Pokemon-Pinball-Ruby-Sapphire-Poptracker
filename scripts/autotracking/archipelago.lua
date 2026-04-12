@@ -198,6 +198,7 @@ function onLocation(location_id, location_name)
                         -- mon = val:sub(val:find(")/") + 2)
                     else
                         obj.CurrentStage = 2
+                        obj.MaxCount = 3
                     end
                 elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                     print(string.format("onLocation: could not find object for code %s", v[1]))
