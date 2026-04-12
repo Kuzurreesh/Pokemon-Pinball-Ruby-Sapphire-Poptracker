@@ -15,9 +15,6 @@ Traps = {}
 
 function onClear(slot_data)
     ScriptHost:RemoveWatchForCode("Total")
-  --  ScriptHost:RemoveWatchForCode("evo")
-   -- ScriptHost:RemoveWatchForCode("evo2")
-  --  ScriptHost:RemoveWatchForCode("evo3")
     for index, value in pairs(AREA_NAMES) do
         ScriptHost:RemoveWatchForCode("Area " .. index)
     end
@@ -29,13 +26,16 @@ function onClear(slot_data)
 
     TeamName = Archipelago:GetPlayerAlias(Archipelago.PlayerNumber)
     TeamNumber = Archipelago.TeamNumber
-    NotifyKeys = {
-        "Medievil_GPS_Team" .. TeamNumber .. "_" .. TeamName
-    }
+    
     NotifyHints = {
         "_read_hints_" .. TeamNumber .. "_" .. Archipelago.PlayerNumber
     }
 
+ Tracker:FindObjectForCode("Total").AcquiredCount = 0
+for key, value in pairs(Pokemon) do
+    Tracker:FindObjectForCode(value).MaxCount = -1
+    Tracker:FindObjectForCode(value).CurrentStage = 0
+end
 
 
     -- reset locations
@@ -52,6 +52,7 @@ function onClear(slot_data)
                         else
                             --hosted_item reset
                             obj.CurrentStage = 0
+                            obj.MaxCount = -1
                         end
                     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                         print(string.format("onClear: could not find object for code %s", v[1]))
@@ -87,8 +88,7 @@ function onClear(slot_data)
         end
 
         -- reset local item(s)
-        --Tracker:FindObjectForCode("Chalice").AcquiredCount = 0
-        --Tracker:FindObjectForCode("GO").Active = false
+       
 
         -- Autotracking options
 
@@ -100,9 +100,6 @@ function onClear(slot_data)
         LOCAL_ITEMS = {}
         GLOBAL_ITEMS = {}
         ScriptHost:AddWatchForCode("Total", "Mon", Total)
-     --   ScriptHost:AddWatchForCode("evo", "evo", Evolve)
-     --   ScriptHost:AddWatchForCode("evo2", "startball", Evolve)
-     --   ScriptHost:AddWatchForCode("evo3", "startcoins", Evolve)
         for index, value in pairs(AREA_NAMES) do
             ScriptHost:AddWatchForCode("Area " .. index, value, Evolve)
         end

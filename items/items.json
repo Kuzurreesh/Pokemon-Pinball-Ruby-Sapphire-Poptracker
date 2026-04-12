@@ -39,6 +39,7 @@
     {
         "name": "+10 Starting Coins",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -130,6 +131,7 @@
     {
         "name": "Get Arrow",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -149,6 +151,8 @@
     {
         "name": "Evo Arrow",
         "type": "progressive",
+        "initial_stage_idx": 0,
+        "initial_stage_idx": 0,
         "overlay_align": "left",
         "allow_disabled": false,
         "stages": [
@@ -391,6 +395,7 @@
     {
         "name": "Treecko",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -418,6 +423,7 @@
     {
         "name": "Grovyle",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -445,6 +451,7 @@
     {
         "name": "Sceptile",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -472,6 +479,7 @@
     {
         "name": "Torchic",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -499,6 +507,7 @@
     {
         "name": "Combusken",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -526,6 +535,7 @@
     {
         "name": "Blaziken",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -553,6 +563,7 @@
     {
         "name": "Mudkip",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -580,6 +591,7 @@
     {
         "name": "Marshtomp",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -607,6 +619,7 @@
     {
         "name": "Swampert",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -634,6 +647,7 @@
     {
         "name": "Poochyena",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -661,6 +675,7 @@
     {
         "name": "Mightyena",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -688,6 +703,7 @@
     {
         "name": "Zigzagoon",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -715,6 +731,7 @@
     {
         "name": "Linoone",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -742,6 +759,7 @@
     {
         "name": "Wurmple",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -769,6 +787,7 @@
     {
         "name": "Silcoon",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -796,6 +815,7 @@
     {
         "name": "Beautifly",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -823,6 +843,7 @@
     {
         "name": "Cascoon",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -850,6 +871,7 @@
     {
         "name": "Dustox",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -877,6 +899,7 @@
     {
         "name": "Lotad",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -904,6 +927,7 @@
     {
         "name": "Lombre",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -931,6 +955,7 @@
     {
         "name": "Ludicolo",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -958,6 +983,7 @@
     {
         "name": "Seedot",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -985,6 +1011,7 @@
     {
         "name": "Nuzleaf",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1012,6 +1039,7 @@
     {
         "name": "Shiftry",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1039,6 +1067,7 @@
     {
         "name": "Taillow",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1066,6 +1095,7 @@
     {
         "name": "Swellow",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1093,6 +1123,7 @@
     {
         "name": "Wingull",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1120,6 +1151,7 @@
     {
         "name": "Pelipper",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1147,6 +1179,7 @@
     {
         "name": "Ralts",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1174,6 +1207,7 @@
     {
         "name": "Kirlia",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1201,6 +1235,7 @@
     {
         "name": "Gardevoir",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1228,6 +1263,7 @@
     {
         "name": "Surskit",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1255,6 +1291,7 @@
     {
         "name": "Masquerain",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1282,6 +1319,7 @@
     {
         "name": "Shroomish",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1309,6 +1347,7 @@
     {
         "name": "Breloom",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1336,6 +1375,7 @@
     {
         "name": "Slakoth",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1363,6 +1403,7 @@
     {
         "name": "Vigoroth",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1390,6 +1431,7 @@
     {
         "name": "Slaking",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1417,6 +1459,7 @@
     {
         "name": "Abra",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1444,6 +1487,7 @@
     {
         "name": "Kadabra",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1471,6 +1515,7 @@
     {
         "name": "Alakazam",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1498,6 +1543,7 @@
     {
         "name": "Nincada",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1525,6 +1571,7 @@
     {
         "name": "Ninjask",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1552,6 +1599,7 @@
     {
         "name": "Shedinja",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1579,6 +1627,7 @@
     {
         "name": "Whismur",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1606,6 +1655,7 @@
     {
         "name": "Loudred",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1633,6 +1683,7 @@
     {
         "name": "Exploud",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1660,6 +1711,7 @@
     {
         "name": "Makuhita",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1687,6 +1739,7 @@
     {
         "name": "Hariyama",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1714,6 +1767,7 @@
     {
         "name": "Goldeen",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1741,6 +1795,7 @@
     {
         "name": "Seaking",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1768,6 +1823,7 @@
     {
         "name": "Magikarp",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1795,6 +1851,7 @@
     {
         "name": "Gyarados",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1822,6 +1879,7 @@
     {
         "name": "Azurill",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1849,6 +1907,7 @@
     {
         "name": "Marill",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1876,6 +1935,7 @@
     {
         "name": "Azumarill",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1903,6 +1963,7 @@
     {
         "name": "Geodude",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1930,6 +1991,7 @@
     {
         "name": "Graveler",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1957,6 +2019,7 @@
     {
         "name": "Golem",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -1984,6 +2047,7 @@
     {
         "name": "Nosepass",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2011,6 +2075,7 @@
     {
         "name": "Skitty",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2038,6 +2103,7 @@
     {
         "name": "Delcatty",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2065,6 +2131,7 @@
     {
         "name": "Zubat",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2092,6 +2159,7 @@
     {
         "name": "Golbat",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2119,6 +2187,7 @@
     {
         "name": "Crobat",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2146,6 +2215,7 @@
     {
         "name": "Tentacool",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2173,6 +2243,7 @@
     {
         "name": "Tentacruel",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2200,6 +2271,7 @@
     {
         "name": "Sableye",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2227,6 +2299,7 @@
     {
         "name": "Mawile",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2254,6 +2327,7 @@
     {
         "name": "Aron",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2281,6 +2355,7 @@
     {
         "name": "Lairon",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2308,6 +2383,7 @@
     {
         "name": "Aggron",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2335,6 +2411,7 @@
     {
         "name": "Machop",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2362,6 +2439,7 @@
     {
         "name": "Machoke",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2389,6 +2467,7 @@
     {
         "name": "Machamp",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2416,6 +2495,7 @@
     {
         "name": "Meditite",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2443,6 +2523,7 @@
     {
         "name": "Medicham",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2470,6 +2551,7 @@
     {
         "name": "Electrike",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2497,6 +2579,7 @@
     {
         "name": "Manectric",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2524,6 +2607,7 @@
     {
         "name": "Plusle",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2551,6 +2635,7 @@
     {
         "name": "Minun",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2578,6 +2663,7 @@
     {
         "name": "Magnemite",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2605,6 +2691,7 @@
     {
         "name": "Magneton",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2632,6 +2719,7 @@
     {
         "name": "Voltorb",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2659,6 +2747,7 @@
     {
         "name": "Electrode",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2686,6 +2775,7 @@
     {
         "name": "Volbeat",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2713,6 +2803,7 @@
     {
         "name": "Illumise",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2740,6 +2831,7 @@
     {
         "name": "Oddish",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2767,6 +2859,7 @@
     {
         "name": "Gloom",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2794,6 +2887,7 @@
     {
         "name": "Vileplume",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2821,6 +2915,7 @@
     {
         "name": "Bellossom",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2848,6 +2943,7 @@
     {
         "name": "Doduo",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2875,6 +2971,7 @@
     {
         "name": "Dodrio",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2902,6 +2999,7 @@
     {
         "name": "Roselia",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2929,6 +3027,7 @@
     {
         "name": "Gulpin",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2956,6 +3055,7 @@
     {
         "name": "Swalot",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -2983,6 +3083,7 @@
     {
         "name": "Carvanha",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3010,6 +3111,7 @@
     {
         "name": "Sharpedo",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3037,6 +3139,7 @@
     {
         "name": "Wailmer",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3064,6 +3167,7 @@
     {
         "name": "Wailord",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3091,6 +3195,7 @@
     {
         "name": "Numel",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3118,6 +3223,7 @@
     {
         "name": "Camerupt",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3145,6 +3251,7 @@
     {
         "name": "Slugma",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3172,6 +3279,7 @@
     {
         "name": "Magcargo",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3199,6 +3307,7 @@
     {
         "name": "Torkoal",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3226,6 +3335,7 @@
     {
         "name": "Grimer",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3253,6 +3363,7 @@
     {
         "name": "Muk",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3280,6 +3391,7 @@
     {
         "name": "Koffing",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3307,6 +3419,7 @@
     {
         "name": "Weezing",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3334,6 +3447,7 @@
     {
         "name": "Spoink",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3361,6 +3475,7 @@
     {
         "name": "Grumpig",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3388,6 +3503,7 @@
     {
         "name": "Sandshrew",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3415,6 +3531,7 @@
     {
         "name": "Sandslash",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3442,6 +3559,7 @@
     {
         "name": "Spinda",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3469,6 +3587,7 @@
     {
         "name": "Skarmory",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3496,6 +3615,7 @@
     {
         "name": "Trapinch",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3523,6 +3643,7 @@
     {
         "name": "Vibrava",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3550,6 +3671,7 @@
     {
         "name": "Flygon",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3577,6 +3699,7 @@
     {
         "name": "Cacnea",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3604,6 +3727,7 @@
     {
         "name": "Cacturne",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3631,6 +3755,7 @@
     {
         "name": "Swablu",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3658,6 +3783,7 @@
     {
         "name": "Altaria",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3685,6 +3811,7 @@
     {
         "name": "Zangoose",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3712,6 +3839,7 @@
     {
         "name": "Seviper",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3739,6 +3867,7 @@
     {
         "name": "Lunatone",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3766,6 +3895,7 @@
     {
         "name": "Solrock",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3793,6 +3923,7 @@
     {
         "name": "Barboach",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3820,6 +3951,7 @@
     {
         "name": "Whiscash",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3847,6 +3979,7 @@
     {
         "name": "Corphish",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3874,6 +4007,7 @@
     {
         "name": "Crawdaunt",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3901,6 +4035,7 @@
     {
         "name": "Baltoy",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3928,6 +4063,7 @@
     {
         "name": "Claydol",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3955,6 +4091,7 @@
     {
         "name": "Lileep",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -3982,6 +4119,7 @@
     {
         "name": "Cradily",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4009,6 +4147,7 @@
     {
         "name": "Anorith",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4036,6 +4175,7 @@
     {
         "name": "Armaldo",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4063,6 +4203,7 @@
     {
         "name": "Igglybuff",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4090,6 +4231,7 @@
     {
         "name": "Jigglypuff",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4117,6 +4259,7 @@
     {
         "name": "Wigglytuff",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4144,6 +4287,7 @@
     {
         "name": "Feebas",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4171,6 +4315,7 @@
     {
         "name": "Milotic",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4198,6 +4343,7 @@
     {
         "name": "Castform",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4225,6 +4371,7 @@
     {
         "name": "Staryu",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4252,6 +4399,7 @@
     {
         "name": "Starmie",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4279,6 +4427,7 @@
     {
         "name": "Kecleon",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4306,6 +4455,7 @@
     {
         "name": "Shuppet",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4333,6 +4483,7 @@
     {
         "name": "Banette",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4360,6 +4511,7 @@
     {
         "name": "Duskull",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4387,6 +4539,7 @@
     {
         "name": "Dusclops",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4414,6 +4567,7 @@
     {
         "name": "Tropius",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4441,6 +4595,7 @@
     {
         "name": "Chimecho",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4468,6 +4623,7 @@
     {
         "name": "Absol",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4495,6 +4651,7 @@
     {
         "name": "Vulpix",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4522,6 +4679,7 @@
     {
         "name": "Ninetales",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4549,6 +4707,7 @@
     {
         "name": "Pichu",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4576,6 +4735,7 @@
     {
         "name": "Pikachu",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4603,6 +4763,7 @@
     {
         "name": "Raichu",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4630,6 +4791,7 @@
     {
         "name": "Psyduck",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4657,6 +4819,7 @@
     {
         "name": "Golduck",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4684,6 +4847,7 @@
     {
         "name": "Wynaut",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4711,6 +4875,7 @@
     {
         "name": "Wobbuffet",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4738,6 +4903,7 @@
     {
         "name": "Natu",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4765,6 +4931,7 @@
     {
         "name": "Xatu",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4792,6 +4959,7 @@
     {
         "name": "Girafarig",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4819,6 +4987,7 @@
     {
         "name": "Phanpy",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4846,6 +5015,7 @@
     {
         "name": "Donphan",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4873,6 +5043,7 @@
     {
         "name": "Pinsir",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4900,6 +5071,7 @@
     {
         "name": "Heracross",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4927,6 +5099,7 @@
     {
         "name": "Rhyhorn",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4954,6 +5127,7 @@
     {
         "name": "Rhydon",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -4981,6 +5155,7 @@
     {
         "name": "Snorunt",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5008,6 +5183,7 @@
     {
         "name": "Glalie",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5035,6 +5211,7 @@
     {
         "name": "Spheal",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5062,6 +5239,7 @@
     {
         "name": "Sealeo",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5089,6 +5267,7 @@
     {
         "name": "Walrein",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5116,6 +5295,7 @@
     {
         "name": "Clamperl",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5143,6 +5323,7 @@
     {
         "name": "Huntail",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5170,6 +5351,7 @@
     {
         "name": "Gorebyss",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5197,6 +5379,7 @@
     {
         "name": "Relicanth",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5224,6 +5407,7 @@
     {
         "name": "Corsola",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5251,6 +5435,7 @@
     {
         "name": "Chinchou",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5278,6 +5463,7 @@
     {
         "name": "Lanturn",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5305,6 +5491,7 @@
     {
         "name": "Luvdisc",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5332,6 +5519,7 @@
     {
         "name": "Horsea",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5359,6 +5547,7 @@
     {
         "name": "Seadra",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5386,6 +5575,7 @@
     {
         "name": "Kingdra",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5413,6 +5603,7 @@
     {
         "name": "Bagon",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5440,6 +5631,7 @@
     {
         "name": "Shelgon",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5467,6 +5659,7 @@
     {
         "name": "Salamence",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5494,6 +5687,7 @@
     {
         "name": "Beldum",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5521,6 +5715,7 @@
     {
         "name": "Metang",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5548,6 +5743,7 @@
     {
         "name": "Metagross",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5575,6 +5771,7 @@
     {
         "name": "Regirock",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5602,6 +5799,7 @@
     {
         "name": "Regice",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5629,6 +5827,7 @@
     {
         "name": "Registeel",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5656,6 +5855,7 @@
     {
         "name": "Latias",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5683,6 +5883,7 @@
     {
         "name": "Latios",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5710,6 +5911,7 @@
     {
         "name": "Kyogre",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5737,6 +5939,7 @@
     {
         "name": "Groudon",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5764,6 +5967,7 @@
     {
         "name": "Rayquaza",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5791,6 +5995,7 @@
     {
         "name": "Jirachi",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5818,6 +6023,7 @@
     {
         "name": "Chikorita",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5845,6 +6051,7 @@
     {
         "name": "Cyndaquil",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5872,6 +6079,7 @@
     {
         "name": "Totodile",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -5899,6 +6107,7 @@
     {
         "name": "Aerodactyl",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {

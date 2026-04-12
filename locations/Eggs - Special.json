@@ -3,7 +3,7 @@
         "name": "Eggs Ruby",
         "chest_opened_img": "images/items/pokeballoff.png",
         "access_rules": [
-            "$CanPlayBasicPinball, ruby"
+            "[$CanPlayBasicPinball], ruby"
         ],
         "children": [
             {
@@ -449,7 +449,7 @@
         "name": "Eggs Sapphire",
         "chest_opened_img": "images/items/pokeballoff.png",
         "access_rules": [
-            "$CanPlayBasicPinball, sapphire"
+            "[$CanPlayBasicPinball], sapphire"
         ],
         "children": [
             {
