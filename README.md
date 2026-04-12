@@ -13,6 +13,7 @@
 - The different background in Areas denote needing 3 get arrows.
 
 # Known Issue(s)
+- Lit up pokemon could be wrong when manually clicking them(just reload to reset).
 - Caught count will be different from in-game when collect and/or send_location is used.
 - No tracking of goal or selected settings.
 
