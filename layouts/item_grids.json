@@ -1464,34 +1464,6 @@
 										"Latios"
 									]
 								]
-							},
-							{
-								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
-								"background": "#444444",
-								"h_alignment": "left",
-								"item_h_alignment": "center",
-								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
-								"rows": [
-									[
-										"Aerodactyl"
-									],
-									[
-										"Chikorita"
-									],
-									[
-										"Totodile"
-									],
-									[
-										"Cyndaquil"
-									],
-									[
-										"Latios"
-									]
-								]
 							}
 						]
 					},
