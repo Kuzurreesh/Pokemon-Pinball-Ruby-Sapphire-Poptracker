@@ -723,7 +723,6 @@ AREA_NAMES = {
     [32] = "startcoins",
     [33] = "startball",
     [34] = "perpichu"
-
 }
 
 

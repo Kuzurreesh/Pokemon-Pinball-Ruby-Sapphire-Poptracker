@@ -18,6 +18,7 @@ function onClear(slot_data)
     for index, value in pairs(AREA_NAMES) do
         ScriptHost:RemoveWatchForCode("Area " .. index)
     end
+
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump(slot_data)))
     end
@@ -26,16 +27,15 @@ function onClear(slot_data)
 
     TeamName = Archipelago:GetPlayerAlias(Archipelago.PlayerNumber)
     TeamNumber = Archipelago.TeamNumber
-    
+
     NotifyHints = {
         "_read_hints_" .. TeamNumber .. "_" .. Archipelago.PlayerNumber
     }
 
- Tracker:FindObjectForCode("Total").AcquiredCount = 0
-for key, value in pairs(Pokemon) do
-    Tracker:FindObjectForCode(value).MaxCount = -1
-    Tracker:FindObjectForCode(value).CurrentStage = 0
-end
+    Tracker:FindObjectForCode("Total").AcquiredCount = 0
+    for key, value in pairs(Pokemon) do
+        Tracker:FindObjectForCode(value).CurrentStage = 0
+    end
 
 
     -- reset locations
@@ -52,7 +52,6 @@ end
                         else
                             --hosted_item reset
                             obj.CurrentStage = 0
-                            obj.MaxCount = -1
                         end
                     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                         print(string.format("onClear: could not find object for code %s", v[1]))
@@ -195,7 +194,7 @@ function onLocation(location_id, location_name)
                         -- mon = val:sub(val:find(")/") + 2)
                     else
                         obj.CurrentStage = 2
-                        obj.MaxCount = 3
+                        Tracker:FindObjectForCode(val .. "Count").AcquiredCount = 2
                     end
                 elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                     print(string.format("onLocation: could not find object for code %s", v[1]))

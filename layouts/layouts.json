@@ -151,5 +151,21 @@
 				}
 			]
 		}
+	},
+	"settings_popup": {
+		"type": "array",
+		"orientation": "horizontal",
+		"h_alignment": "left",
+		"content": [
+			{
+				"type": "group",
+				"header": "Settings",
+				"dock": "top",
+				"content": {
+					"type": "layout",
+					"key": "settings"
+				}
+			}
+		]
 	}
 }

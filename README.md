@@ -11,6 +11,7 @@
 # Notes
 - Pokemon in Areas/Pokedex will slightly light up when in logic and fully light up when caught.
 - The different background in Areas denote needing 3 get arrows.
+- You can turn off the yellow Out of Logic(OoL) with the settings at the top, next to AP icon.
 
 # Known Issue(s)
 - Caught count will be different from in-game when collect and/or send_location is used.

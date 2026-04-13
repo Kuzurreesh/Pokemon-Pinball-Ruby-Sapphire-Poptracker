@@ -15,7 +15,17 @@
         "name": "Dummy",
         "type": "toggle",
         "img": "images/maps/sapphire_field.png",
-        "codes": "dummy, Mon"
+        "codes": "dummy, mon"
+    },
+    {
+        "name": "Out of Logic",
+        "type": "progressive_toggle",
+        "img": "images/items/OoLOn.png",
+        "disabled_img": "images/items/OoLOff.png",
+        "disabled_img_mods": "@enabled",
+        "loop": true,
+        "initial_active_state": true,
+        "codes": "OoL"
     },
     {
         "name": "Total",
@@ -151,7 +161,6 @@
     {
         "name": "Evo Arrow",
         "type": "progressive",
-        "initial_stage_idx": 0,
         "initial_stage_idx": 0,
         "overlay_align": "left",
         "allow_disabled": false,
@@ -373,24 +382,6 @@
         "type": "toggle",
         "img": "images/items/filler.png",
         "codes": "filler"
-    },
-    {
-        "name": "Forest",
-        "type": "static",
-        "img": "images/items/forest.png",
-        "codes": "For"
-    },
-    {
-        "name": "Cave",
-        "type": "static",
-        "img": "images/items/cave.png",
-        "codes": "Ca"
-    },
-    {
-        "name": "Volcano",
-        "type": "static",
-        "img": "images/items/volcano.png",
-        "codes": "Vol"
     },
     {
         "name": "Treecko",
@@ -6131,5 +6122,1441 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "img": "images/items/205.jpg",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "TreeckoCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GrovyleCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SceptileCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "TorchicCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CombuskenCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "BlazikenCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MudkipCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MarshtompCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SwampertCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "PoochyenaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MightyenaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ZigzagoonCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "LinooneCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "WurmpleCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SilcoonCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "BeautiflyCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CascoonCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "DustoxCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "LotadCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "LombreCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "LudicoloCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SeedotCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "NuzleafCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ShiftryCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "TaillowCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SwellowCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "WingullCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "PelipperCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "RaltsCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "KirliaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GardevoirCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SurskitCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MasquerainCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ShroomishCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "BreloomCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SlakothCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "VigorothCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SlakingCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "AbraCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "KadabraCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "AlakazamCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "NincadaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "NinjaskCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ShedinjaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "WhismurCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "LoudredCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ExploudCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MakuhitaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "HariyamaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GoldeenCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SeakingCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MagikarpCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GyaradosCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "AzurillCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MarillCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "AzumarillCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GeodudeCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GravelerCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GolemCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "NosepassCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SkittyCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "DelcattyCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ZubatCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GolbatCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CrobatCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "TentacoolCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "TentacruelCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SableyeCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MawileCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "AronCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "LaironCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "AggronCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MachopCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MachokeCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MachampCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MedititeCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MedichamCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ElectrikeCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ManectricCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "PlusleCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MinunCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MagnemiteCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MagnetonCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "VoltorbCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ElectrodeCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "VolbeatCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "IllumiseCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "OddishCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GloomCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "VileplumeCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "BellossomCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "DoduoCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "DodrioCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "RoseliaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GulpinCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SwalotCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CarvanhaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SharpedoCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "WailmerCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "WailordCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "NumelCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CameruptCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SlugmaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MagcargoCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "TorkoalCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GrimerCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MukCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "KoffingCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "WeezingCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SpoinkCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GrumpigCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SandshrewCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SandslashCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SpindaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SkarmoryCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "TrapinchCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "VibravaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "FlygonCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CacneaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CacturneCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SwabluCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "AltariaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ZangooseCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SeviperCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "LunatoneCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SolrockCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "BarboachCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "WhiscashCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CorphishCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CrawdauntCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "BaltoyCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ClaydolCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "LileepCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CradilyCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "AnorithCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ArmaldoCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "IgglybuffCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "JigglypuffCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "WigglytuffCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "FeebasCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MiloticCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CastformCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "StaryuCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "StarmieCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "KecleonCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ShuppetCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "BanetteCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "DuskullCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "DusclopsCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "TropiusCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ChimechoCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "AbsolCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "VulpixCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "NinetalesCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "PichuCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "PikachuCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "RaichuCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "PsyduckCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GolduckCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "WynautCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "WobbuffetCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "NatuCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "XatuCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GirafarigCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "PhanpyCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "DonphanCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "PinsirCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "HeracrossCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "RhyhornCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "RhydonCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SnoruntCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GlalieCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SphealCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SealeoCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "WalreinCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ClamperlCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "HuntailCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GorebyssCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "RelicanthCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CorsolaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ChinchouCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "LanturnCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "LuvdiscCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "HorseaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SeadraCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "KingdraCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "BagonCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ShelgonCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "SalamenceCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "BeldumCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MetangCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "MetagrossCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "RegirockCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "RegiceCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "RegisteelCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "LatiasCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "LatiosCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "KyogreCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "GroudonCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "RayquazaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "JirachiCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "ChikoritaCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "CyndaquilCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "TotodileCount"
+    },
+    {
+        "name": " ",
+        "type": "consumable",
+        "max_quantity": 3,
+        "initial_quantity": 0,
+        "codes": "AerodactylCount"
     }
 ]

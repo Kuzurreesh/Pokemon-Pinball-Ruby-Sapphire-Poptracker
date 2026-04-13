@@ -21,9 +21,15 @@ function Writing2()
             arrows = arrows + 1
         end
     end
-    print("pokemon count: ", arrows)
+   -- print("pokemon count: ", arrows)
 end
 
+function Writing5()
+    for key, value in pairs(Pokemon) do
+      --  print("-------------max count:", value, "------------", Tracker:FindObjectForCode(value).MaxCount)
+    end
+end
+--ScriptHost:AddWatchForCode("test", "write", Writing5)
 
 function Set()
     for i = 1, 70, 1 do
@@ -31,8 +37,6 @@ function Set()
         Tracker:FindObjectForCode(test).CurrentStage = 0
     end
 end
-
-
 
 function Set1()
     for i = 71, 140, 1 do
@@ -45,23 +49,6 @@ function Set2()
         Tracker:FindObjectForCode((Pokemon[i])).CurrentStage = 2
     end
 end
-
-
-function Total(code)
-    local count = 0
-    if code == "Total" then
-        return
-    end
-    for index, value in ipairs(Pokemon) do
-        if Caught(value) then
-            count = count + 1
-        end
-    end
-    Tracker:FindObjectForCode("Total").AcquiredCount = count
-end
-
-ScriptHost:AddWatchForCode("Total", "Mon", Total)
-
 
 function PokemonAreaR(area)
     if Has("ruby") then
@@ -107,22 +94,45 @@ function PokemonAreaS(area)
     end
 end
 
+function Total(code)
+    local count = 0
+    if code == "Total" then
+       -- print("----------------------code total---------------------------")
+        return
+    end
+    for index, value in ipairs(Pokemon) do
+        if Caught(value) then
+            count = count + 1
+        end
+    end
+    Tracker:FindObjectForCode("Total").AcquiredCount = count
+end
+
+ScriptHost:AddWatchForCode("Total", "Mon", Total)
+
+
 function Evolve(trigger)
-   ScriptHost:RemoveWatchForCode("Total")
+    ScriptHost:RemoveWatchForCode("Total")
     for key, value in pairs(Pokemon) do
+        local mon = Tracker:FindObjectForCode(value)
         local obj = Tracker:FindObjectForCode("@Pokemon/" .. value).AccessibilityLevel
 
-        if Tracker:FindObjectForCode(value).MaxCount == 3 then
-            Tracker:FindObjectForCode(value).CurrentStage = 2
+        if Tracker:FindObjectForCode(value.."Count").AcquiredCount == 2 then
+            --if obj == AccessibilityLevel.Normal then
+                mon.CurrentStage = 2
+                --    print("----------------culprit-----------------------", value)
+           -- end
         else
             if obj == AccessibilityLevel.Normal then
-                Tracker:FindObjectForCode(value).CurrentStage = 1
-            elseif obj == AccessibilityLevel.None then
-                Tracker:FindObjectForCode(value).CurrentStage = 0
+                mon.CurrentStage = 1
+            elseif obj == AccessibilityLevel.None or AccessibilityLevel.SequenceBreak then
+                mon.CurrentStage = 0
             end
         end
     end
-   ScriptHost:AddWatchForCode("Total", "Mon", Total)
+  
+    ScriptHost:AddWatchForCode("Total", "Mon", Total)
+   Tracker:FindObjectForCode("dummy").Active = not Tracker:FindObjectForCode("dummy").Active
 end
 
 for index, value in pairs(AREA_NAMES) do

@@ -6,6 +6,24 @@ function HasAmount(item, num)
 	return Tracker:FindObjectForCode(item).AcquiredCount >= num
 end
 
+function CanEvolve()
+	local obj = Tracker:FindObjectForCode("evo")
+	if obj.CurrentStage == 3 then
+		if CanPlayModeratePinball() then
+			obj.BadgeText = "V"
+			return AccessibilityLevel.Normal
+		else
+			
+			if Has("OoL") then
+				obj.BadgeText = ""
+				return AccessibilityLevel.SequenceBreak
+			end
+		end
+	end
+	obj.BadgeText = ""
+	return AccessibilityLevel.None
+end
+
 function Can(location)
 	if Tracker:FindObjectForCode(location).AccessibilityLevel > 5 then
 		return true
@@ -56,11 +74,11 @@ end
 
 function CanEvo()
 	if Tracker:FindObjectForCode("evo").CurrentStage == 3 and CanPlayModeratePinball() then
-		Tracker:FindObjectForCode("evo").BadgeText = "V"
-		
+		--Tracker:FindObjectForCode("evo").BadgeText = "V"
+
 		return true
 	else
-		Tracker:FindObjectForCode("evo").BadgeText = ""
+		--	Tracker:FindObjectForCode("evo").BadgeText = ""
 		return false
 	end
 end
@@ -89,8 +107,26 @@ function CanCatchSpecial()
 	return CanPlayLongPinball() and (Caught("Rayquaza") or Has("ratecard")) and HasAmount("Total", 100)
 end
 
+function CanCatchSpecial2()
+	if (Caught("Rayquaza") or Has("ratecard")) and HasAmount("Total", 100) then
+		if CanPlayLongPinball() then
+			return AccessibilityLevel.Normal
+		elseif Has("OoL") then
+			return AccessibilityLevel.SequenceBreak
+		end
+	end
+	return AccessibilityLevel.None
+end
+
 function CanCatchPichu()
-	return CanPlayLongPinball() and (Caught("Rayquaza") or Has("ratecard")) 
+	if Caught("Rayquaza") or Has("ratecard") then
+		if 	CanPlayLongPinball() then
+			return AccessibilityLevel.Normal
+		elseif Has("OoL") then
+			return AccessibilityLevel.SequenceBreak
+		end
+	end
+	return AccessibilityLevel.None
 end
 
 function SpeciesRuby(mon)
