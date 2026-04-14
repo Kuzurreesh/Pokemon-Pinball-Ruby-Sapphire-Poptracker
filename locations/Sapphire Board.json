@@ -595,7 +595,8 @@
                 "access_rules": [
                     "OoL,ruinss, [$CanPlayModeratePinball]",
                     "ruinss, $CanPlayModeratePinball",
-                    "ruinss, ruinscard"
+                    "ruinss, ruinscard",
+                    "OoL,[ruinss], ruinscard"
                 ],
                 "map_locations": [
                     {
