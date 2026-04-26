@@ -53,9 +53,8 @@ ProgressiveTogglePlus = class(CustomItemProgressiveTogglePlus)
     -- enables progression of progressionChildren (only via :setState)
 ]]
 
-function ProgressiveTogglePlus:init(name, code, states, loop, disableToggle, disableProgessive, initialStage, initialActive, toggleChildren, enableChildToggle,
-    progressionChildren, enableChildProgression)
-
+function ProgressiveTogglePlus:init(name, code, states, loop, disableToggle, disableProgessive, initialStage,
+                                    initialActive, overlayText, overlay)
     self:createItem(name)
     self.code = code
     self.active = false
@@ -64,10 +63,8 @@ function ProgressiveTogglePlus:init(name, code, states, loop, disableToggle, dis
     self.loop = loop
     self.disableToggle = disableToggle
     self.disableProgessive = disableProgessive
-    self.toggleChildren = toggleChildren
-    self.enableChildToggle = enableChildToggle
-    self.progressionChildren = progressionChildren
-    self.enableChildProgression = enableChildProgression
+    self.overlayText = overlayText
+    self.overlay = overlay
 
     self:getImages()
     self:setState(initialStage)
@@ -87,16 +84,7 @@ function ProgressiveTogglePlus:getState()
 end
 
 function ProgressiveTogglePlus:setState(state)
-    self:propertyChanged("state",state)
-    if self.enableChildProgression then
-        if self.progressionChildren.states[state] then
-            for k,v in pairs(self.progressionChildren.states[state]) do
-                if self.progressionChildren.children[k] then
-                    self.progressionChildren.children[k]:setState(v)
-                end
-            end
-        end
-    end
+    self:propertyChanged("state", state)
 end
 
 function ProgressiveTogglePlus:advanceState()
@@ -134,12 +122,7 @@ function ProgressiveTogglePlus:decreaseState()
 end
 
 function ProgressiveTogglePlus:setActive(active)
-    self:setProperty("active",active)
-    if self.enableChildToggle then
-        for _,v in pairs(self.toggleChildren) do
-            v:setActive(active)
-        end
-    end
+    self:setProperty("active", active)
 end
 
 function ProgressiveTogglePlus:getActive()
@@ -149,8 +132,8 @@ end
 function ProgressiveTogglePlus:updateIcon()
     self.ItemInstance.Icon = self.images[self.state]
     if PopVersion and PopVersion > "0.1.0" then
-        if self.active then   
-            self.ItemInstance.IconMods = ""
+        if self.active then
+            self.ItemInstance.IconMods = self.states[self.state].img_mod
         else
             self.ItemInstance.IconMods = "@disabled"
         end
@@ -175,13 +158,30 @@ function ProgressiveTogglePlus:onRightClick()
     end
 end
 
+function ProgressiveTogglePlus:onMiddleClick()
+    if self.overlay == true then
+        self.ItemInstance:SetOverlay("5")
+        self.overlay = false
+        self.overlayText = "5"
+    else
+        self.ItemInstance:SetOverlay("X")
+        self.overlay = true
+        self.overlayText = "X"
+    end
+end
+
 function ProgressiveTogglePlus:canProvideCode(code)
+ --   print("-------------searching code --------------------")
+  --  print(code)
     if code == self.code then
         return true
     else
         for i = 0, #self.states do
             for code2 in string.gmatch(self.states[i].codes, "[^,]+") do
+           --     print("--------------------can code2------------------")
+          --  print(code2)
                 if code == code2 then
+              --      print("----------------code is code2----------------", code2)
                     return true
                 end
             end
@@ -196,6 +196,8 @@ function ProgressiveTogglePlus:providesCode(code)
     end
     for i = 0, #self.states do
         for code2 in string.gmatch(self.states[i].codes, "[^,]+") do
+         --   print("--------------------code2------------------")
+         --   print(code2)
             if code == code2 then
                 return self.state
             end
@@ -213,27 +215,33 @@ function ProgressiveTogglePlus:save()
     saveData["active"] = self.active
     saveData["disableToggle"] = self.disableToggle
     saveData["disableProgessive"] = self.disableProgessive
+    -- if self.overlay == true then
+    saveData["overlay"] = self.overlayText
+    --end
     return saveData
 end
 
 function ProgressiveTogglePlus:load(data)
     if data["state"] ~= nil then
-        self:setProperty("state",data["state"])
+        self:setProperty("state", data["state"])
     end
     if data["active"] ~= nil then
-        self:setProperty("active",data["active"])
+        self:setProperty("active", data["active"])
     end
     if data["disableToggle"] ~= nil then
-        self:setProperty("disableToggle",data["disableToggle"])
+        self:setProperty("disableToggle", data["disableToggle"])
     end
     if data["disableProgessive"] ~= nil then
-        self:setProperty("disableProgessive",data["disableProgessive"])
+        self:setProperty("disableProgessive", data["disableProgessive"])
+    end
+    if data["overlay"] ~= nil then
+     self.ItemInstance:SetOverlay(data["overlay"])
     end
     return true
 end
 
 function ProgressiveTogglePlus:propertyChanged(key, value)
-    print(string.format("ProgressiveTogglePlus:propertyChanged key %s with value %s",key,value))
+    print(string.format("ProgressiveTogglePlus:propertyChanged key %s with value %s", key, value))
     if key == "state" then
         self.state = value
     end
@@ -246,13 +254,16 @@ function ProgressiveTogglePlus:propertyChanged(key, value)
     if key == "disableProgessive" then
         self.disableProgessive = value
     end
-    if key == "enableChildToggle" then
-        self.enableChildToggle = value
-    end
-    if key == "enableChildProgression" then
-        self.enableChildProgression = value
-    end
+    --if key == "enableChildToggle" then
+    --     self.enableChildToggle = value
+    -- end
+    -- if key == "enableChildProgression" then
+    --     self.enableChildProgression = value
+    -- end
     if key == "state" or key == "active" then
         self:updateIcon()
+    end
+    if key == "overlay" then
+
     end
 end

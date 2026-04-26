@@ -8,8 +8,12 @@
     "min_poptracker_version": "0.32.0",
     "target_poptracker_version": "0.34.0",
     "variants": {
-        "Full Tracker": {
-            "display_name": "Tracker 0.1.2",
+        "Evo Line Tracker": {
+            "display_name": "Tracker 0.1.2 - Evolution Line order",
+			"flags": ["ap"]
+        },
+        "Catch Tracker": {
+            "display_name": "Tracker 0.1.2 - Catch order",
 			"flags": ["ap"]
         }
     },

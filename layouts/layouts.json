@@ -23,6 +23,10 @@
 									"key": "shared_item_grid_horizontal"
 								},
 								{
+									"type": "layout",
+									"key": "Evo"
+								},
+								{
 									"type": "tabbed",
 									"tabs": [
 										{
@@ -95,38 +99,38 @@
 													"type": "tabbed",
 													"tabs": [
 														{
-															"title": "1-53",
+															"title": "Ruby Catch",
 															"content": [
 																{
 																	"type": "layout",
-																	"key": "1-53"
+																	"key": "RubyPokemon"
 																}
 															]
 														},
 														{
-															"title": "54-109",
+															"title": "Ruby Hatch",
 															"content": [
 																{
 																	"type": "layout",
-																	"key": "54-109"
+																	"key": "RubyEggPokemon"
 																}
 															]
 														},
 														{
-															"title": "110-163",
+															"title": "Sapphire Catch",
 															"content": [
 																{
 																	"type": "layout",
-																	"key": "110-163"
+																	"key": "SapphirePokemon"
 																}
 															]
 														},
 														{
-															"title": "164-205",
+															"title": "Sapphire Hatch",
 															"content": [
 																{
 																	"type": "layout",
-																	"key": "164-205"
+																	"key": "SapphireEggPokemon"
 																}
 															]
 														},

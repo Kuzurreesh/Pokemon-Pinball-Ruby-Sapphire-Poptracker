@@ -2,6 +2,11 @@
     {
         "name": "Pokemon",
         "children": [
+           { 
+            "name": "",
+            "sections":[
+            
+            
             {
                 "name": "Treecko",
                 "access_rules": [
@@ -1354,5 +1359,6 @@
                 ]
             }
         ]
+    }]
     }
 ]

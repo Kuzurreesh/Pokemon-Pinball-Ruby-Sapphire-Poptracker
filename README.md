@@ -10,7 +10,8 @@
 
 # Notes
 - Pokemon in Areas/Pokedex will slightly light up when in logic and fully light up when caught.
-- The different background in Areas denote needing 3 get arrows.
+- Green background in Areas denote the rare pokemon(need Rate up card or catch Rayquaza)
+- Red/Blue backgrounds in Areas denote needing 3 get arrows.
 - You can turn off the yellow Out of Logic(OoL) with the settings at the top, next to AP icon.
 
 # Known Issue(s)

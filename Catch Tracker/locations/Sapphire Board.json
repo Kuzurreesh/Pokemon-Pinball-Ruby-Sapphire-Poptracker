@@ -25,13 +25,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Exploud",
-                        "chest_unopened_img": "images/items/47.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Exploud"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Makuhita",
                         "chest_unopened_img": "images/items/48.jpg",
                         "access_rules": [
@@ -39,24 +32,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Hariyama",
-                        "chest_unopened_img": "images/items/49.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Hariyama"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Grimer",
                         "chest_unopened_img": "images/items/106.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Grimer"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Muk",
-                        "chest_unopened_img": "images/items/107.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Muk"
                         ]
                     },
                     {
@@ -74,13 +53,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Salamence",
-                        "chest_unopened_img": "images/items/189.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Salamence"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Nosepass",
                         "chest_unopened_img": "images/items/60.jpg",
                         "access_rules": [
@@ -95,6 +67,41 @@
                         ]
                     },
                     {
+                        "name": "Pokedex - Sableye",
+                        "chest_unopened_img": "images/items/68.jpg",
+                        "access_rules": [
+                            "^$SpeciesSapphire|Sableye"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Exploud",
+                        "chest_unopened_img": "images/items/47.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Exploud"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Hariyama",
+                        "chest_unopened_img": "images/items/49.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Hariyama"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Muk",
+                        "chest_unopened_img": "images/items/107.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Muk"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Salamence",
+                        "chest_unopened_img": "images/items/189.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Salamence"
+                        ]
+                    },
+                    {
                         "name": "Pokedex - Kadabra",
                         "chest_unopened_img": "images/items/40.jpg",
                         "access_rules": [
@@ -106,13 +113,6 @@
                         "chest_unopened_img": "images/items/41.jpg",
                         "access_rules": [
                             "^$CanEvolveSapphire|Alakazam"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Sableye",
-                        "chest_unopened_img": "images/items/68.jpg",
-                        "access_rules": [
-                            "^$SpeciesSapphire|Sableye"
                         ]
                     }
                 ]
@@ -138,13 +138,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Beautifly",
-                        "chest_unopened_img": "images/items/16.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Beautifly"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Cascoon",
                         "chest_unopened_img": "images/items/17.jpg",
                         "access_rules": [
@@ -152,31 +145,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Dustox",
-                        "chest_unopened_img": "images/items/18.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Dustox"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Slakoth",
                         "chest_unopened_img": "images/items/36.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Slakoth"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Vigoroth",
-                        "chest_unopened_img": "images/items/37.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Vigoroth"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Slaking",
-                        "chest_unopened_img": "images/items/38.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Slaking"
                         ]
                     },
                     {
@@ -194,13 +166,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Dusclops",
-                        "chest_unopened_img": "images/items/149.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Dusclops"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Kecleon",
                         "chest_unopened_img": "images/items/145.jpg",
                         "access_rules": [
@@ -215,6 +180,48 @@
                         ]
                     },
                     {
+                        "name": "Pokedex - Tropius",
+                        "chest_unopened_img": "images/items/150.jpg",
+                        "access_rules": [
+                            "^$SpeciesSapphire|Tropius"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Beautifly",
+                        "chest_unopened_img": "images/items/16.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Beautifly"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Dustox",
+                        "chest_unopened_img": "images/items/18.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Dustox"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Vigoroth",
+                        "chest_unopened_img": "images/items/37.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Vigoroth"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Slaking",
+                        "chest_unopened_img": "images/items/38.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Slaking"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Dusclops",
+                        "chest_unopened_img": "images/items/149.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Dusclops"
+                        ]
+                    },
+                    {
                         "name": "Pokedex - Ninjask",
                         "chest_unopened_img": "images/items/43.jpg",
                         "access_rules": [
@@ -226,13 +233,6 @@
                         "chest_unopened_img": "images/items/44.jpg",
                         "access_rules": [
                             "^$CanEvolveSapphire|Shedinja"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Tropius",
-                        "chest_unopened_img": "images/items/150.jpg",
-                        "access_rules": [
-                            "^$SpeciesSapphire|Tropius"
                         ]
                     }
                 ]
@@ -258,24 +258,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Ludicolo",
-                        "chest_unopened_img": "images/items/21.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Ludicolo"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Goldeen",
                         "chest_unopened_img": "images/items/50.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Goldeen"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Seaking",
-                        "chest_unopened_img": "images/items/51.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Seaking"
                         ]
                     },
                     {
@@ -286,24 +272,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Azumarill",
-                        "chest_unopened_img": "images/items/56.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Azumarill"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Barboach",
                         "chest_unopened_img": "images/items/127.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Barboach"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Whiscash",
-                        "chest_unopened_img": "images/items/128.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Whiscash"
                         ]
                     },
                     {
@@ -314,13 +286,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Crawdaunt",
-                        "chest_unopened_img": "images/items/130.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Crawdaunt"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Feebas",
                         "chest_unopened_img": "images/items/140.jpg",
                         "access_rules": [
@@ -328,17 +293,52 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Milotic",
-                        "chest_unopened_img": "images/items/141.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Milotic"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Mudkip",
                         "chest_unopened_img": "images/items/7.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Mudkip"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Ludicolo",
+                        "chest_unopened_img": "images/items/21.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Ludicolo"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Seaking",
+                        "chest_unopened_img": "images/items/51.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Seaking"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Azumarill",
+                        "chest_unopened_img": "images/items/56.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Azumarill"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Whiscash",
+                        "chest_unopened_img": "images/items/128.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Whiscash"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Crawdaunt",
+                        "chest_unopened_img": "images/items/130.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Crawdaunt"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Milotic",
+                        "chest_unopened_img": "images/items/141.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Milotic"
                         ]
                     },
                     {
@@ -378,31 +378,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Graveler",
-                        "chest_unopened_img": "images/items/58.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Graveler"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Golem",
-                        "chest_unopened_img": "images/items/59.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Golem"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Meditite",
                         "chest_unopened_img": "images/items/76.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Meditite"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Medicham",
-                        "chest_unopened_img": "images/items/77.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Medicham"
                         ]
                     },
                     {
@@ -413,13 +392,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Flygon",
-                        "chest_unopened_img": "images/items/118.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Flygon"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Cacnea",
                         "chest_unopened_img": "images/items/119.jpg",
                         "access_rules": [
@@ -427,24 +399,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Cacturne",
-                        "chest_unopened_img": "images/items/120.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Cacturne"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Baltoy",
                         "chest_unopened_img": "images/items/131.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Baltoy"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Claydol",
-                        "chest_unopened_img": "images/items/132.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Claydol"
                         ]
                     },
                     {
@@ -459,6 +417,48 @@
                         "chest_unopened_img": "images/items/121.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Swablu"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Graveler",
+                        "chest_unopened_img": "images/items/58.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Graveler"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Golem",
+                        "chest_unopened_img": "images/items/59.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Golem"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Medicham",
+                        "chest_unopened_img": "images/items/77.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Medicham"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Flygon",
+                        "chest_unopened_img": "images/items/118.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Flygon"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Cacturne",
+                        "chest_unopened_img": "images/items/120.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Cacturne"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Claydol",
+                        "chest_unopened_img": "images/items/132.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Claydol"
                         ]
                     },
                     {
@@ -491,24 +491,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Mightyena",
-                        "chest_unopened_img": "images/items/11.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Mightyena"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Taillow",
                         "chest_unopened_img": "images/items/25.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Taillow"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Swellow",
-                        "chest_unopened_img": "images/items/26.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Swellow"
                         ]
                     },
                     {
@@ -519,24 +505,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Manectric",
-                        "chest_unopened_img": "images/items/79.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Manectric"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Magnemite",
                         "chest_unopened_img": "images/items/82.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Magnemite"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Magneton",
-                        "chest_unopened_img": "images/items/83.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Magneton"
                         ]
                     },
                     {
@@ -547,24 +519,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Electrode",
-                        "chest_unopened_img": "images/items/85.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Electrode"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Jigglypuff",
                         "chest_unopened_img": "images/items/138.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Jigglypuff"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Wigglytuff",
-                        "chest_unopened_img": "images/items/139.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Wigglytuff"
                         ]
                     },
                     {
@@ -586,6 +544,48 @@
                         "chest_unopened_img": "images/items/124.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Seviper"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Mightyena",
+                        "chest_unopened_img": "images/items/11.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Mightyena"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Swellow",
+                        "chest_unopened_img": "images/items/26.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Swellow"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Manectric",
+                        "chest_unopened_img": "images/items/79.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Manectric"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Magneton",
+                        "chest_unopened_img": "images/items/83.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Magneton"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Electrode",
+                        "chest_unopened_img": "images/items/85.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Electrode"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Wigglytuff",
+                        "chest_unopened_img": "images/items/139.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Wigglytuff"
                         ]
                     }
                 ]
@@ -610,20 +610,6 @@
                         "chest_unopened_img": "images/items/190.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Beldum"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Metang",
-                        "chest_unopened_img": "images/items/191.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Metang"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Metagross",
-                        "chest_unopened_img": "images/items/192.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Metagross"
                         ]
                     },
                     {
@@ -653,6 +639,20 @@
                         "access_rules": [
                             "^$SpeciesSapphire|Registeel"
                         ]
+                    },
+                    {
+                        "name": "Pokedex - Metang",
+                        "chest_unopened_img": "images/items/191.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Metang"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Metagross",
+                        "chest_unopened_img": "images/items/192.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Metagross"
+                        ]
                     }
                 ]
             },
@@ -677,24 +677,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Pelipper",
-                        "chest_unopened_img": "images/items/28.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Pelipper"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Magikarp",
                         "chest_unopened_img": "images/items/52.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Magikarp"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Gyarados",
-                        "chest_unopened_img": "images/items/53.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Gyarados"
                         ]
                     },
                     {
@@ -705,24 +691,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Tentacruel",
-                        "chest_unopened_img": "images/items/67.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Tentacruel"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Carvanha",
                         "chest_unopened_img": "images/items/97.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Carvanha"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Sharpedo",
-                        "chest_unopened_img": "images/items/98.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Sharpedo"
                         ]
                     },
                     {
@@ -740,17 +712,52 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Armaldo",
-                        "chest_unopened_img": "images/items/136.jpg",
-                        "access_rules": [
-                            "^$CanEvolveSapphire|Armaldo"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Clamperl",
                         "chest_unopened_img": "images/items/176.jpg",
                         "access_rules": [
                             "^$SpeciesSapphire|Clamperl"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Relicanth",
+                        "chest_unopened_img": "images/items/179.jpg",
+                        "access_rules": [
+                            "^$SpeciesSapphire|Relicanth"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Pelipper",
+                        "chest_unopened_img": "images/items/28.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Pelipper"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Gyarados",
+                        "chest_unopened_img": "images/items/53.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Gyarados"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Tentacruel",
+                        "chest_unopened_img": "images/items/67.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Tentacruel"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Sharpedo",
+                        "chest_unopened_img": "images/items/98.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Sharpedo"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Armaldo",
+                        "chest_unopened_img": "images/items/136.jpg",
+                        "access_rules": [
+                            "^$CanEvolveSapphire|Armaldo"
                         ]
                     },
                     {
@@ -765,13 +772,6 @@
                         "chest_unopened_img": "images/items/178.jpg",
                         "access_rules": [
                             "^$CanEvolveSapphire|Gorebyss"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Relicanth",
-                        "chest_unopened_img": "images/items/179.jpg",
-                        "access_rules": [
-                            "^$SpeciesSapphire|Relicanth"
                         ]
                     }
                 ]
@@ -843,10 +843,7 @@
             {
                 "name": "Sapphire Board",
                 "access_rules": [
-                    "multi:1"
-                ],
-                "visibility_rules": [
-                    "multi:1"
+                    "sapphire"
                 ],
                 "map_locations": [
                     {
@@ -857,60 +854,45 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bonus Multiplier 1-9",
+                        "name": "Bonus Multiplier 1-10",
                         "chest_unopened_img": "images/items/multiplierSapphire2.png",
-                        "item_count": 9,
+                        "item_count": 10,
                         "clear_as_group": false
                     },
                     {
-                        "name": "Bonus Multiplier 10-24",
+                        "name": "Bonus Multiplier 11-25",
                         "chest_unopened_img": "images/items/multiplierSapphire2.png",
                         "item_count": 15,
                         "access_rules": [
-                            "$OoL|1,[$CanPlayBasicPinball], multi:10",
-                            "$CanPlayBasicPinball, multi:10"
-                        ],
-                        "visibility_rules": [
-                            "multi:10"
+                            "$OoL|1,[$CanPlayBasicPinball]",
+                            "$CanPlayBasicPinball"
                         ],
                         "clear_as_group": false
                     },
                     {
-                        "name": "Bonus Multiplier 25-74",
+                        "name": "Bonus Multiplier 26-75",
                         "chest_unopened_img": "images/items/multiplierSapphire2.png",
                         "item_count": 50,
                         "access_rules": [
-                            "$OoL|2,[$CanPlayModeratePinball], multi:25",
-                            "$CanPlayModeratePinball,multi:25"
-                        ],
-                        "visibility_rules": [
-                            "multi:25"
+                            "$OoL|2,[$CanPlayModeratePinball]",
+                            "$CanPlayModeratePinball"
                         ],
                         "clear_as_group": false
                     },
                     {
-                        "name": "Bonus Multiplier 75-99",
+                        "name": "Bonus Multiplier 76-100",
                         "chest_unopened_img": "images/items/multiplierSapphire2.png",
                         "item_count": 25,
                         "access_rules": [
-                            "$OoL|3,[$CanPlayLongPinball],multi:75",
-                            "$CanPlayLongPinball,multi:25"
-                        ],
-                        "visibility_rules": [
-                            "multi:75"
+                            "$OoL|3,[$CanPlayLongPinball]",
+                            "$CanPlayLongPinball"
                         ],
                         "clear_as_group": false
                     }
                 ]
             },
             {
-                "name": "Sapphire",
-                "access_rules": [
-                    "upgrade:1"
-                ],
-                "visibility_rules": [
-                    "upgrade:1"
-                ],
+                "name": "Ball Upgrades",
                 "map_locations": [
                     {
                         "map": "Sapphire Board",
@@ -920,47 +902,38 @@
                 ],
                 "sections": [
                     {
-                        "name": "Ball Upgrade 1-9",
+                        "name": "Ball Upgrade 1-10",
                         "chest_unopened_img": "images/items/ballupgrade.png",
-                        "item_count": 9,
+                        "item_count": 10,
                         "clear_as_group": false
                     },
                     {
-                        "name": "Ball Upgrade 10-24",
+                        "name": "Ball Upgrade 11-25",
                         "chest_unopened_img": "images/items/ballupgrade.png",
                         "item_count": 15,
                         "access_rules": [
-                            "$OoL|1,[$CanPlayBasicPinball],upgrade:10",
-                            "$CanPlayBasicPinball,upgrade:10"
-                        ],
-                        "visibility_rules": [
-                            "upgrade:10"
+                            "$OoL|1,[$CanPlayBasicPinball]",
+                            "$CanPlayBasicPinball"
                         ],
                         "clear_as_group": false
                     },
                     {
-                        "name": "Ball Upgrade 25-74",
+                        "name": "Ball Upgrade 26-75",
                         "chest_unopened_img": "images/items/ballupgrade.png",
                         "item_count": 50,
                         "access_rules": [
-                            "$OoL|2,[$CanPlayModeratePinball],upgrade:25",
-                            "$CanPlayModeratePinball,upgrade:25"
-                        ],
-                        "visibility_rules": [
-                            "upgrade:25"
+                            "$OoL|2,[$CanPlayModeratePinball]",
+                            "$CanPlayModeratePinball"
                         ],
                         "clear_as_group": false
                     },
                     {
-                        "name": "Ball Upgrade 75-99",
+                        "name": "Ball Upgrade 76-100",
                         "chest_unopened_img": "images/items/ballupgrade.png",
                         "item_count": 25,
                         "access_rules": [
-                            "$OoL|3,[$CanPlayLongPinball],upgrade:75",
-                            "$CanPlayLongPinball,upgrade:75"
-                        ],
-                        "visibility_rules": [
-                            "upgrade:75"
+                            "$OoL|3,[$CanPlayLongPinball]",
+                            "$CanPlayLongPinball"
                         ],
                         "clear_as_group": false
                     }
@@ -970,7 +943,7 @@
                 "name": "Spheal Bonus Stage (Sapphire)",
                 "access_rules": [
                     "bonuspel",
-                    "$OoL|4, [bonuspel]"
+                    "$OoL2, bonuspel"
                 ],
                 "map_locations": [
                     {

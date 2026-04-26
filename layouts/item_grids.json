@@ -20,11 +20,15 @@
 						"egg3",
 						"egg4",
 						"evo",
-						"get"
+						"get",
+						"coin",
+						"bonusmak",
+						"bonuszig"
 					],
 					[
 						"ruby",
 						"eggruby",
+						"bonuswhis",
 						"forestR",
 						"volcanoR",
 						"plainsR",
@@ -36,6 +40,7 @@
 					[
 						"sapphire",
 						"eggsapphire",
+						"bonuspel",
 						"forestS",
 						"lakeS",
 						"plainsS",
@@ -598,6 +603,483 @@
 			]
 		]
 	},
+	"RubyPokemon": {
+		"type": "itemgrid",
+		"margin": "0, 0",
+		"item_margin": "3, 5",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 60,
+		"rows": [
+			[
+				"TreeckoRuby",
+				"GrovyleRuby",
+				"SceptileRuby",
+				"TorchicRuby",
+				"CombuskenRuby",
+				"BlazikenRuby",
+				"PoochyenaRuby",
+				"MightyenaRuby",
+				"ZigzagoonRuby",
+				"LinooneRuby"
+			],
+			[
+				"SilcoonRuby",
+				"BeautiflyRuby",
+				"CascoonRuby",
+				"DustoxRuby",
+				"NuzleafRuby",
+				"ShiftryRuby",
+				"TaillowRuby",
+				"SwellowRuby",
+				"WingullRuby",
+				"PelipperRuby"
+			],
+			[
+				"AbraRuby",
+				"KadabraRuby",
+				"AlakazamRuby",
+				"NincadaRuby",
+				"NinjaskRuby",
+				"ShedinjaRuby",
+				"LoudredRuby",
+				"ExploudRuby",
+				"NosepassRuby",
+				"TentacoolRuby"
+			],
+			[
+				"TentacruelRuby",
+				"MawileRuby",
+				"MachopRuby",
+				"MachokeRuby",
+				"MachampRuby",
+				"ElectrikeRuby",
+				"ManectricRuby",
+				"MagnemiteRuby",
+				"MagnetonRuby",
+				"VoltorbRuby"
+			],
+			[
+				"ElectrodeRuby",
+				"IllumiseRuby",
+				"DoduoRuby",
+				"DodrioRuby",
+				"CarvanhaRuby",
+				"SharpedoRuby",
+				"WailmerRuby",
+				"WailordRuby",
+				"NumelRuby",
+				"CameruptRuby"
+			],
+			[
+				"SlugmaRuby",
+				"MagcargoRuby",
+				"TorkoalRuby",
+				"GrimerRuby",
+				"MukRuby",
+				"KoffingRuby",
+				"WeezingRuby",
+				"SkarmoryRuby",
+				"ZangooseRuby",
+				"SolrockRuby"
+			],
+			[
+				"LileepRuby",
+				"CradilyRuby",
+				"CastformRuby",
+				"StaryuRuby",
+				"StarmieRuby",
+				"KecleonRuby",
+				"DuskullRuby",
+				"DusclopsRuby",
+				"VulpixRuby",
+				"NinetalesRuby"
+			],
+			[
+				"PikachuRuby",
+				"RaichuRuby",
+				"PsyduckRuby",
+				"GolduckRuby",
+				"WobbuffetRuby",
+				"GirafarigRuby",
+				"PinsirRuby",
+				"HeracrossRuby",
+				"RhyhornRuby",
+				"RhydonRuby"
+			],
+			[
+				"RelicanthRuby",
+				"LuvdiscRuby",
+				"ShelgonRuby",
+				"SalamenceRuby",
+				"BeldumRuby",
+				"MetangRuby",
+				"MetagrossRuby",
+				"RegirockRuby",
+				"RegiceRuby",
+				"RegisteelRuby"
+			],
+			[
+				"GroudonRuby",
+				"RayquazaRuby",
+				"JirachiRuby",
+				"LatiosRuby",
+				"ChikoritaRuby",
+				"CyndaquilRuby",
+				"TotodileRuby",
+				"AerodactylRuby"
+			]
+		]
+	},
+	"RubyEggPokemon": {
+		"type": "itemgrid",
+		"margin": "0, 0",
+		"item_margin": "3, 5",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 60,
+		"rows": [
+			[
+				"WurmpleRubyEgg",
+				"SilcoonRubyEgg",
+				"BeautiflyRubyEgg",
+				"CascoonRubyEgg",
+				"DustoxRubyEgg",
+				"SeedotRubyEgg",
+				"NuzleafRubyEgg",
+				"ShiftryRubyEgg",
+				"RaltsRubyEgg",
+				"KirliaRubyEgg",
+				"GardevoirRubyEgg"
+			],
+			[
+				"ShroomishRubyEgg",
+				"BreloomRubyEgg",
+				"WhismurRubyEgg",
+				"LoudredRubyEgg",
+				"ExploudRubyEgg",
+				"SkittyRubyEgg",
+				"DelcattyRubyEgg",
+				"ZubatRubyEgg",
+				"GolbatRubyEgg",
+				"CrobatRubyEgg",
+				"AronRubyEgg"
+			],
+			[
+				"LaironRubyEgg",
+				"AggronRubyEgg",
+				"PlusleRubyEgg",
+				"MinunRubyEgg",
+				"OddishRubyEgg",
+				"GloomRubyEgg",
+				"VileplumeRubyEgg",
+				"SpoinkRubyEgg",
+				"GrumpigRubyEgg",
+				"SandshrewRubyEgg",
+				"SandslashRubyEgg"
+			],
+			[
+				"SpindaRubyEgg",
+				"TrapinchRubyEgg",
+				"VibravaRubyEgg",
+				"FlygonRubyEgg",
+				"ShuppetRubyEgg",
+				"BanetteRubyEgg",
+				"ChimechoRubyEgg",
+				"PichuRubyEgg",
+				"PikachuRubyEgg",
+				"RaichuRubyEgg",
+				"WynautRubyEgg"
+			],
+			[
+				"WobbuffetRubyEgg",
+				"NatuRubyEgg",
+				"XatuRubyEgg",
+				"PhanpyRubyEgg",
+				"DonphanRubyEgg",
+				"SnoruntRubyEgg",
+				"GlalieRubyEgg",
+				"SphealRubyEgg",
+				"SealeoRubyEgg",
+				"WalreinRubyEgg",
+				"CorsolaRubyEgg"
+			],
+			[
+				"HorseaRubyEgg",
+				"SeadraRubyEgg",
+				"KingdraRubyEgg",
+				"BagonRubyEgg",
+				"ShelgonRubyEgg",
+				"SalamenceRubyEgg"
+			]
+		]
+	},
+	"SapphirePokemon": {
+		"type": "itemgrid",
+		"margin": "0, 0",
+		"item_margin": "3, 5",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 60,
+		"rows": [
+			[
+				"MudkipSapphire",
+				"MarshtompSapphire",
+				"SwampertSapphire",
+				"PoochyenaSapphire",
+				"MightyenaSapphire",
+				"SilcoonSapphire",
+				"BeautiflySapphire",
+				"CascoonSapphire",
+				"DustoxSapphire",
+				"LombreSapphire"
+			],
+			[
+				"LudicoloSapphire",
+				"TaillowSapphire",
+				"SwellowSapphire",
+				"WingullSapphire",
+				"PelipperSapphire",
+				"SlakothSapphire",
+				"VigorothSapphire",
+				"SlakingSapphire",
+				"AbraSapphire",
+				"KadabraSapphire"
+			],
+			[
+				"AlakazamSapphire",
+				"NincadaSapphire",
+				"NinjaskSapphire",
+				"ShedinjaSapphire",
+				"LoudredSapphire",
+				"ExploudSapphire",
+				"MakuhitaSapphire",
+				"HariyamaSapphire",
+				"GoldeenSapphire",
+				"SeakingSapphire"
+			],
+			[
+				"MagikarpSapphire",
+				"GyaradosSapphire",
+				"MarillSapphire",
+				"AzumarillSapphire",
+				"GeodudeSapphire",
+				"GravelerSapphire",
+				"GolemSapphire",
+				"NosepassSapphire",
+				"TentacoolSapphire",
+				"TentacruelSapphire"
+			],
+			[
+				"SableyeSapphire",
+				"MedititeSapphire",
+				"MedichamSapphire",
+				"ElectrikeSapphire",
+				"ManectricSapphire",
+				"MagnemiteSapphire",
+				"MagnetonSapphire",
+				"VoltorbSapphire",
+				"ElectrodeSapphire",
+				"VolbeatSapphire"
+			],
+			[
+				"RoseliaSapphire",
+				"CarvanhaSapphire",
+				"SharpedoSapphire",
+				"GrimerSapphire",
+				"MukSapphire",
+				"VibravaSapphire",
+				"FlygonSapphire",
+				"CacneaSapphire",
+				"CacturneSapphire",
+				"SwabluSapphire"
+			],
+			[
+				"AltariaSapphire",
+				"SeviperSapphire",
+				"LunatoneSapphire",
+				"BarboachSapphire",
+				"WhiscashSapphire",
+				"CorphishSapphire",
+				"CrawdauntSapphire",
+				"BaltoySapphire",
+				"ClaydolSapphire",
+				"AnorithSapphire"
+			],
+			[
+				"ArmaldoSapphire",
+				"JigglypuffSapphire",
+				"WigglytuffSapphire",
+				"FeebasSapphire",
+				"MiloticSapphire",
+				"CastformSapphire",
+				"KecleonSapphire",
+				"DuskullSapphire",
+				"DusclopsSapphire",
+				"TropiusSapphire"
+			],
+			[
+				"AbsolSapphire",
+				"ClamperlSapphire",
+				"HuntailSapphire",
+				"GorebyssSapphire",
+				"RelicanthSapphire",
+				"LuvdiscSapphire",
+				"ShelgonSapphire",
+				"SalamenceSapphire",
+				"BeldumSapphire",
+				"MetangSapphire"
+			],
+			[
+				"MetagrossSapphire",
+				"RegirockSapphire",
+				"RegiceSapphire",
+				"RegisteelSapphire",
+				"KyogreSapphire",
+				"RayquazaSapphire",
+				"JirachiSapphire",
+				"LatiasSapphire",
+				"ChikoritaSapphire",
+				"CyndaquilSapphire",
+				"TotodileSapphire",
+				"AerodactylSapphire"
+			]
+		]
+	},
+	"SapphireEggPokemon": {
+		"type": "itemgrid",
+		"margin": "0, 0",
+		"item_margin": "3, 5",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 60,
+		"rows": [
+			[
+				"WurmpleSapphireEgg",
+				"SilcoonSapphireEgg",
+				"BeautiflySapphireEgg",
+				"CascoonSapphireEgg",
+				"DustoxSapphireEgg",
+				"LotadSapphireEgg",
+				"LombreSapphireEgg",
+				"LudicoloSapphireEgg",
+				"RaltsSapphireEgg",
+				"KirliaSapphireEgg",
+				"GardevoirSapphireEgg"
+			],
+			[
+				"SurskitSapphireEgg",
+				"MasquerainSapphireEgg",
+				"WhismurSapphireEgg",
+				"LoudredSapphireEgg",
+				"ExploudSapphireEgg",
+				"AzurillSapphireEgg",
+				"MarillSapphireEgg",
+				"AzumarillSapphireEgg",
+				"ZubatSapphireEgg",
+				"GolbatSapphireEgg",
+				"CrobatSapphireEgg"
+			],
+			[
+				"AronSapphireEgg",
+				"LaironSapphireEgg",
+				"AggronSapphireEgg",
+				"OddishSapphireEgg",
+				"GloomSapphireEgg",
+				"BellossomSapphireEgg",
+				"GulpinSapphireEgg",
+				"SwalotSapphireEgg",
+				"SpoinkSapphireEgg",
+				"GrumpigSapphireEgg",
+				"SandshrewSapphireEgg"
+			],
+			[
+				"SandslashSapphireEgg",
+				"SpindaSapphireEgg",
+				"TrapinchSapphireEgg",
+				"VibravaSapphireEgg",
+				"FlygonSapphireEgg",
+				"IgglybuffSapphireEgg",
+				"JigglypuffSapphireEgg",
+				"WigglytuffSapphireEgg",
+				"ShuppetSapphireEgg",
+				"BanetteSapphireEgg",
+				"ChimechoSapphireEgg"
+			],
+			[
+				"PichuSapphireEgg",
+				"PikachuSapphireEgg",
+				"RaichuSapphireEgg",
+				"NatuSapphireEgg",
+				"XatuSapphireEgg",
+				"PhanpySapphireEgg",
+				"DonphanSapphireEgg",
+				"SnoruntSapphireEgg",
+				"GlalieSapphireEgg",
+				"SphealSapphireEgg",
+				"SealeoSapphireEgg"
+			],
+			[
+				"WalreinSapphireEgg",
+				"CorsolaSapphireEgg",
+				"ChinchouSapphireEgg",
+				"LanturnSapphireEgg",
+				"HorseaSapphireEgg",
+				"SeadraSapphireEgg",
+				"KingdraSapphireEgg",
+				"BagonSapphireEgg",
+				"ShelgonSapphireEgg",
+				"SalamenceSapphireEgg"
+			]
+		]
+	},
+	"Score": {
+		"type": "itemgrid",
+		"margin": "5, 0",
+		"item_margin": "2, 0",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 280,
+		"rows": [
+			[
+				"Score"
+			]
+		]
+	},
+	"Evo": {
+		"type": "itemgrid",
+		"margin": "5, 0",
+		"item_margin": "2, 0",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 30,
+		"item_width": 30,
+		"rows": [
+			[
+				"exp",
+				"leaf",
+				"fire",
+				"water",
+				"thunder",
+				"sun",
+				"moon",
+				"link",
+				"friend",
+				"block"
+			]
+		]
+	},
 	"Ruby": {
 		"type": "array",
 		"orientation": "vertical",
@@ -638,27 +1120,24 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Zigzagoon",
-										"Linoone"
+										"ZigzagoonRuby",
+										"LinooneRuby"
 									],
 									[
-										"Silcoon",
-										"Beautifly"
+										"SilcoonRuby",
+										"BeautiflyRuby"
 									],
 									[
-										"Cascoon",
-										"Dustox"
+										"CascoonRuby",
+										"DustoxRuby"
 									],
 									[
-										"Nuzleaf",
-										"Shiftry"
+										"NuzleafRuby",
+										"ShiftryRuby"
 									],
 									[
-										"Kecleon"
-									],
-									[
-										"Duskull",
-										"Dusclops"
+										"DuskullRuby",
+										"DusclopsRuby"
 									]
 								]
 							},
@@ -666,7 +1145,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#445044",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -674,14 +1153,30 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Treecko",
-										"Grovyle",
-										"Sceptile"
+										"KecleonRuby"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#5A4444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"TreeckoRuby",
+										"GrovyleRuby",
+										"SceptileRuby"
 									],
 									[
-										"Nincada",
-										"Ninjask",
-										"Shedinja"
+										"NincadaRuby",
+										"NinjaskRuby",
+										"ShedinjaRuby"
 									]
 								]
 							}
@@ -717,26 +1212,23 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Numel",
-										"Camerupt"
+										"NumelRuby",
+										"CameruptRuby"
 									],
 									[
-										"Slugma",
-										"Magcargo"
+										"SlugmaRuby",
+										"MagcargoRuby"
 									],
 									[
-										"Torkoal"
+										"TorkoalRuby"
 									],
 									[
-										"Koffing",
-										"Weezing"
+										"KoffingRuby",
+										"WeezingRuby"
 									],
 									[
-										"Skarmory"
-									],
-									[
-										"Vulpix",
-										"Ninetales"
+										"VulpixRuby",
+										"NinetalesRuby"
 									]
 								]
 							},
@@ -744,7 +1236,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#445044",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -752,9 +1244,25 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Torchic",
-										"Combusken",
-										"Blaziken"
+										"SkarmoryRuby"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#5A4444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"TorchicRuby",
+										"CombuskenRuby",
+										"BlazikenRuby"
 									]
 								]
 							}
@@ -790,31 +1298,28 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Poochyena",
-										"Mightyena",
+										"PoochyenaRuby",
+										"MightyenaRuby",
 										""
 									],
 									[
-										"Taillow",
-										"Swellow"
+										"TaillowRuby",
+										"SwellowRuby"
 									],
 									[
-										"Electrike",
-										"Manectric"
+										"ElectrikeRuby",
+										"ManectricRuby"
 									],
 									[
-										"Magnemite",
-										"Magneton"
+										"MagnemiteRuby",
+										"MagnetonRuby"
 									],
 									[
-										"Voltorb",
-										"Electrode"
+										"VoltorbRuby",
+										"ElectrodeRuby"
 									],
 									[
-										"Illumise"
-									],
-									[
-										"Castform"
+										"IllumiseRuby"
 									]
 								]
 							},
@@ -822,7 +1327,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#445044",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -830,7 +1335,23 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Zangoose"
+										"CastformRuby"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#5A4444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"ZangooseRuby"
 									]
 								]
 							}
@@ -867,28 +1388,24 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Wingull",
-										"Pelipper",
+										"WingullRuby",
+										"PelipperRuby",
 										""
 									],
 									[
-										"Tentacool",
-										"Tentacruel"
+										"TentacoolRuby",
+										"TentacruelRuby"
 									],
 									[
-										"Carvanha",
-										"Sharpedo"
+										"CarvanhaRuby",
+										"SharpedoRuby"
 									],
 									[
-										"Wailmer",
-										"Wailord"
+										"WailmerRuby",
+										"WailordRuby"
 									],
 									[
-										"Lileep",
-										"Cradily"
-									],
-									[
-										"Luvdisc"
+										"LuvdiscRuby"
 									]
 								]
 							},
@@ -896,7 +1413,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#445044",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -904,11 +1421,28 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Staryu",
-										"Starmie"
+										"LileepRuby",
+										"CradilyRuby"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#5A4444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"StaryuRuby",
+										"StarmieRuby"
 									],
 									[
-										"Relicanth"
+										"RelicanthRuby"
 									]
 								]
 							}
@@ -945,29 +1479,26 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Doduo",
-										"Dodrio",
+										"DoduoRuby",
+										"DodrioRuby",
 										""
 									],
 									[
-										"Psyduck",
-										"Golduck"
+										"PsyduckRuby",
+										"GolduckRuby"
 									],
 									[
-										"Wobbuffet"
+										"GirafarigRuby"
 									],
 									[
-										"Girafarig"
+										"PinsirRuby"
 									],
 									[
-										"Pinsir"
+										"HeracrossRuby"
 									],
 									[
-										"Heracross"
-									],
-									[
-										"Rhyhorn",
-										"Rhydon"
+										"RhyhornRuby",
+										"RhydonRuby"
 									]
 								]
 							},
@@ -975,7 +1506,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#445044",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -983,8 +1514,24 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Pikachu",
-										"Raichu"
+										"WobbuffetRuby"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#5A4444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"PikachuRuby",
+										"RaichuRuby"
 									]
 								]
 							}
@@ -1021,30 +1568,27 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Loudred",
-										"Exploud"
+										"LoudredRuby",
+										"ExploudRuby"
 									],
 									[
-										"Nosepass"
+										"MawileRuby"
 									],
 									[
-										"Mawile"
+										"MachopRuby",
+										"MachokeRuby",
+										"MachampRuby"
 									],
 									[
-										"Machop",
-										"Machoke",
-										"Machamp"
+										"GrimerRuby",
+										"MukRuby"
 									],
 									[
-										"Grimer",
-										"Muk"
+										"SolrockRuby"
 									],
 									[
-										"Solrock"
-									],
-									[
-										"Shelgon",
-										"Salamence"
+										"ShelgonRuby",
+										"SalamenceRuby"
 									]
 								]
 							},
@@ -1052,7 +1596,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#445044",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1060,9 +1604,25 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Abra",
-										"Kadabra",
-										"Alakazam"
+										"NosepassRuby"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#5A4444",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"AbraRuby",
+										"KadabraRuby",
+										"AlakazamRuby"
 									]
 								]
 							}
@@ -1099,18 +1659,18 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Beldum",
-										"Metang",
-										"Metagross"
+										"BeldumRuby",
+										"MetangRuby",
+										"MetagrossRuby"
 									],
 									[
-										"Regirock"
+										"RegirockRuby"
 									],
 									[
-										"Regice"
+										"RegiceRuby"
 									],
 									[
-										"Jirachi"
+										"JirachiRuby"
 									]
 								]
 							},
@@ -1118,7 +1678,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#5A4444",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1126,7 +1686,7 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Registeel"
+										"RegisteelRuby"
 									]
 								]
 							}
@@ -1169,34 +1729,34 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Wurmple",
-										"Silcoon",
-										"Beautifly"
+										"WurmpleRubyEgg",
+										"SilcoonRubyEgg",
+										"BeautiflyRubyEgg"
 									],
 									[
 										"",
-										"Cascoon",
-										"Dustox"
+										"CascoonRubyEgg",
+										"DustoxRubyEgg"
 									],
 									[
-										"Ralts",
-										"Kirlia",
-										"Gardevoir"
+										"RaltsRubyEgg",
+										"KirliaRubyEgg",
+										"GardevoirRubyEgg"
 									],
 									[
-										"Whismur",
-										"Loudred",
-										"Exploud"
+										"WhismurRubyEgg",
+										"LoudredRubyEgg",
+										"ExploudRubyEgg"
 									],
 									[
-										"Zubat",
-										"Golbat",
-										"Crobat"
+										"ZubatRubyEgg",
+										"GolbatRubyEgg",
+										"CrobatRubyEgg"
 									],
 									[
-										"Aron",
-										"Lairon",
-										"Aggron"
+										"AronRubyEgg",
+										"LaironRubyEgg",
+										"AggronRubyEgg"
 									]
 								]
 							}
@@ -1232,24 +1792,24 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Oddish",
-										"Gloom",
-										"Vileplume"
+										"OddishRubyEgg",
+										"GloomRubyEgg",
+										"VileplumeRubyEgg"
 									],
 									[
-										"Spoink",
-										"Grumpig"
+										"SpoinkRubyEgg",
+										"GrumpigRubyEgg"
 									],
 									[
-										"Shuppet",
-										"Banette"
+										"ShuppetRubyEgg",
+										"BanetteRubyEgg"
 									],
 									[
-										"Chimecho"
+										"ChimechoRubyEgg"
 									],
 									[
-										"Natu",
-										"Xatu"
+										"NatuRubyEgg",
+										"XatuRubyEgg"
 									]
 								]
 							}
@@ -1285,20 +1845,20 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Sandshrew",
-										"Sandslash"
+										"SandshrewRubyEgg",
+										"SandslashRubyEgg"
 									],
 									[
-										"Spinda"
+										"SpindaRubyEgg"
 									],
 									[
-										"Trapinch",
-										"Vibrava",
-										"Flygon"
+										"TrapinchRubyEgg",
+										"VibravaRubyEgg",
+										"FlygonRubyEgg"
 									],
 									[
-										"Phanpy",
-										"Donphan"
+										"PhanpyRubyEgg",
+										"DonphanRubyEgg"
 									]
 								]
 							}
@@ -1334,26 +1894,26 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Snorunt",
-										"Glalie"
+										"SnoruntRubyEgg",
+										"GlalieRubyEgg"
 									],
 									[
-										"Spheal",
-										"Sealeo",
-										"Walrein"
+										"SphealRubyEgg",
+										"SealeoRubyEgg",
+										"WalreinRubyEgg"
 									],
 									[
-										"Corsola"
+										"CorsolaRubyEgg"
 									],
 									[
-										"Horsea",
-										"Seadra",
-										"Kingdra"
+										"HorseaRubyEgg",
+										"SeadraRubyEgg",
+										"KingdraRubyEgg"
 									],
 									[
-										"Bagon",
-										"Shelgon",
-										"Salamence"
+										"BagonRubyEgg",
+										"ShelgonRubyEgg",
+										"SalamenceRubyEgg"
 									]
 								]
 							}
@@ -1389,27 +1949,27 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Seedot",
-										"Nuzleaf",
-										"Shiftry"
+										"SeedotRubyEgg",
+										"NuzleafRubyEgg",
+										"ShiftryRubyEgg"
 									],
 									[
-										"Shroomish",
-										"Breloom"
+										"ShroomishRubyEgg",
+										"BreloomRubyEgg"
 									],
 									[
-										"Skitty",
-										"Delcatty"
+										"SkittyRubyEgg",
+										"DelcattyRubyEgg"
 									],
 									[
-										"Plusle"
+										"PlusleRubyEgg"
 									],
 									[
-										"Minun"
+										"MinunRubyEgg"
 									],
 									[
-										"Wynaut",
-										"Wobbuffet"
+										"WynautRubyEgg",
+										"WobbuffetRubyEgg"
 									]
 								]
 							}
@@ -1430,7 +1990,9 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Pichu"
+										"PichuRubyEgg",
+										"PikachuRubyEgg",
+										"RaichuRubyEgg"
 									]
 								]
 							},
@@ -1445,23 +2007,23 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Groudon",
-										"Rayquaza"
+										"GroudonRuby",
+										"RayquazaRuby"
 									],
 									[
-										"Aerodactyl"
+										"AerodactylRuby"
 									],
 									[
-										"Chikorita"
+										"ChikoritaRuby"
 									],
 									[
-										"Totodile"
+										"TotodileRuby"
 									],
 									[
-										"Cyndaquil"
+										"CyndaquilRuby"
 									],
 									[
-										"Latios"
+										"LatiosRuby"
 									]
 								]
 							}
@@ -1524,27 +2086,24 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Silcoon",
-										"Beautifly"
+										"SilcoonSapphire",
+										"BeautiflySapphire"
 									],
 									[
-										"Cascoon",
-										"Dustox"
+										"CascoonSapphire",
+										"DustoxSapphire"
 									],
 									[
-										"Slakoth",
-										"Vigoroth",
-										"Slaking"
+										"SlakothSapphire",
+										"VigorothSapphire",
+										"SlakingSapphire"
 									],
 									[
-										"Roselia"
+										"RoseliaSapphire"
 									],
 									[
-										"Kecleon"
-									],
-									[
-										"Duskull",
-										"Dusclops"
+										"DuskullSapphire",
+										"DusclopsSapphire"
 									]
 								]
 							},
@@ -1552,7 +2111,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#445044",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1560,12 +2119,28 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Nincada",
-										"Ninjask",
-										"Shedinja"
+										"KecleonSapphire"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444450",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"NincadaSapphire",
+										"NinjaskSapphire",
+										"ShedinjaSapphire"
 									],
 									[
-										"Tropius"
+										"TropiusSapphire"
 									]
 								]
 							}
@@ -1601,28 +2176,24 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Lombre",
-										"Ludicolo"
+										"LombreSapphire",
+										"LudicoloSapphire"
 									],
 									[
-										"Goldeen",
-										"Seaking"
+										"GoldeenSapphire",
+										"SeakingSapphire"
 									],
 									[
-										"Marill",
-										"Azumarill"
+										"MarillSapphire",
+										"AzumarillSapphire"
 									],
 									[
-										"Barboach",
-										"Whiscash"
+										"BarboachSapphire",
+										"WhiscashSapphire"
 									],
 									[
-										"Corphish",
-										"Crawdaunt"
-									],
-									[
-										"Feebas",
-										"Milotic"
+										"CorphishSapphire",
+										"CrawdauntSapphire"
 									]
 								]
 							},
@@ -1630,7 +2201,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#445044",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1638,9 +2209,26 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Mudkip",
-										"Marshtomp",
-										"Swampert"
+										"FeebasSapphire",
+										"MiloticSapphire"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444450",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"MudkipSapphire",
+										"MarshtompSapphire",
+										"SwampertSapphire"
 									]
 								]
 							}
@@ -1676,31 +2264,28 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Poochyena",
-										"Mightyena"
+										"PoochyenaSapphire",
+										"MightyenaSapphire"
 									],
 									[
-										"Taillow",
-										"Swellow"
+										"TaillowSapphire",
+										"SwellowSapphire"
 									],
 									[
-										"Electrike",
-										"Manectric"
+										"ElectrikeSapphire",
+										"ManectricSapphire"
 									],
 									[
-										"Magnemite",
-										"Magneton"
+										"MagnemiteSapphire",
+										"MagnetonSapphire"
 									],
 									[
-										"Voltorb",
-										"Electrode"
+										"VoltorbSapphire",
+										"ElectrodeSapphire"
 									],
 									[
-										"Jigglypuff",
-										"Wigglytuff"
-									],
-									[
-										"Castform"
+										"JigglypuffSapphire",
+										"WigglytuffSapphire"
 									]
 								]
 							},
@@ -1708,7 +2293,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#445044",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1716,9 +2301,25 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Volbeat",
+										"CastformSapphire"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444450",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"VolbeatSapphire",
 										"",
-										"Seviper"
+										"SeviperSapphire"
 									]
 								]
 							}
@@ -1755,27 +2356,23 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Wingull",
-										"Pelipper"
+										"WingullSapphire",
+										"PelipperSapphire"
 									],
 									[
-										"Magikarp",
-										"Gyarados"
+										"MagikarpSapphire",
+										"GyaradosSapphire"
 									],
 									[
-										"Tentacool",
-										"Tentacruel"
+										"TentacoolSapphire",
+										"TentacruelSapphire"
 									],
 									[
-										"Carvanha",
-										"Sharpedo"
+										"CarvanhaSapphire",
+										"SharpedoSapphire"
 									],
 									[
-										"Anorith",
-										"Armaldo"
-									],
-									[
-										"Luvdisc"
+										"LuvdiscSapphire"
 									]
 								]
 							},
@@ -1783,7 +2380,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#445044",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1791,12 +2388,29 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Clamperl",
-										"Huntail",
-										"Gorebyss"
+										"AnorithSapphire",
+										"ArmaldoSapphire"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444450",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"ClamperlSapphire",
+										"HuntailSapphire",
+										"GorebyssSapphire"
 									],
 									[
-										"Relicanth"
+										"RelicanthSapphire"
 									]
 								]
 							}
@@ -1833,28 +2447,25 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Geodude",
-										"Graveler",
-										"Golem"
+										"GeodudeSapphire",
+										"GravelerSapphire",
+										"GolemSapphire"
 									],
 									[
-										"Meditite",
-										"Medicham"
+										"MedititeSapphire",
+										"MedichamSapphire"
 									],
 									[
-										"Vibrava",
-										"Flygon"
+										"VibravaSapphire",
+										"FlygonSapphire"
 									],
 									[
-										"Cacnea",
-										"Cacturne"
+										"CacneaSapphire",
+										"CacturneSapphire"
 									],
 									[
-										"Baltoy",
-										"Claydol"
-									],
-									[
-										"Absol"
+										"BaltoySapphire",
+										"ClaydolSapphire"
 									]
 								]
 							},
@@ -1862,7 +2473,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#445044",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1870,8 +2481,24 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Swablu",
-										"Altaria"
+										"AbsolSapphire"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444450",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"SwabluSapphire",
+										"AltariaSapphire"
 									]
 								]
 							}
@@ -1908,26 +2535,23 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Loudred",
-										"Exploud"
+										"LoudredSapphire",
+										"ExploudSapphire"
 									],
 									[
-										"Makuhita",
-										"Hariyama"
+										"MakuhitaSapphire",
+										"HariyamaSapphire"
 									],
 									[
-										"Nosepass"
+										"GrimerSapphire",
+										"MukSapphire"
 									],
 									[
-										"Grimer",
-										"Muk"
+										"LunatoneSapphire"
 									],
 									[
-										"Lunatone"
-									],
-									[
-										"Shelgon",
-										"Salamence"
+										"ShelgonSapphire",
+										"SalamenceSapphire"
 									]
 								]
 							},
@@ -1935,7 +2559,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#445044",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1943,12 +2567,28 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Abra",
-										"Kadabra",
-										"Alakazam"
+										"NosepassSapphire"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "5, 0",
+								"item_margin": "2, 0",
+								"background": "#444450",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"AbraSapphire",
+										"KadabraSapphire",
+										"AlakazamSapphire"
 									],
 									[
-										"Sableye"
+										"SableyeSapphire"
 									]
 								]
 							}
@@ -1985,18 +2625,18 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Beldum",
-										"Metang",
-										"Metagross"
+										"BeldumSapphire",
+										"MetangSapphire",
+										"MetagrossSapphire"
 									],
 									[
-										"Regirock"
+										"RegirockSapphire"
 									],
 									[
-										"Regice"
+										"RegiceSapphire"
 									],
 									[
-										"Jirachi"
+										"JirachiSapphire"
 									]
 								]
 							},
@@ -2004,7 +2644,7 @@
 								"type": "itemgrid",
 								"margin": "5, 0",
 								"item_margin": "2, 0",
-								"background": "#444444",
+								"background": "#444450",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -2012,7 +2652,7 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Registeel"
+										"RegisteelSapphire"
 									]
 								]
 							}
@@ -2055,34 +2695,34 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Wurmple",
-										"Silcoon",
-										"Beautifly"
+										"WurmpleSapphireEgg",
+										"SilcoonSapphireEgg",
+										"BeautiflySapphireEgg"
 									],
 									[
 										"",
-										"Cascoon",
-										"Dustox"
+										"CascoonSapphireEgg",
+										"DustoxSapphireEgg"
 									],
 									[
-										"Ralts",
-										"Kirlia",
-										"Gardevoir"
+										"RaltsSapphireEgg",
+										"KirliaSapphireEgg",
+										"GardevoirSapphireEgg"
 									],
 									[
-										"Whismur",
-										"Loudred",
-										"Exploud"
+										"WhismurSapphireEgg",
+										"LoudredSapphireEgg",
+										"ExploudSapphireEgg"
 									],
 									[
-										"Zubat",
-										"Golbat",
-										"Crobat"
+										"ZubatSapphireEgg",
+										"GolbatSapphireEgg",
+										"CrobatSapphireEgg"
 									],
 									[
-										"Aron",
-										"Lairon",
-										"Aggron"
+										"AronSapphireEgg",
+										"LaironSapphireEgg",
+										"AggronSapphireEgg"
 									]
 								]
 							}
@@ -2118,24 +2758,24 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Oddish",
-										"Gloom",
-										"Bellossom"
+										"OddishSapphireEgg",
+										"GloomSapphireEgg",
+										"BellossomSapphireEgg"
 									],
 									[
-										"Spoink",
-										"Grumpig"
+										"SpoinkSapphireEgg",
+										"GrumpigSapphireEgg"
 									],
 									[
-										"Shuppet",
-										"Banette"
+										"ShuppetSapphireEgg",
+										"BanetteSapphireEgg"
 									],
 									[
-										"Chimecho"
+										"ChimechoSapphireEgg"
 									],
 									[
-										"Natu",
-										"Xatu"
+										"NatuSapphireEgg",
+										"XatuSapphireEgg"
 									]
 								]
 							}
@@ -2171,20 +2811,20 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Sandshrew",
-										"Sandslash"
+										"SandshrewSapphireEgg",
+										"SandslashSapphireEgg"
 									],
 									[
-										"Spinda"
+										"SpindaSapphireEgg"
 									],
 									[
-										"Trapinch",
-										"Vibrava",
-										"Flygon"
+										"TrapinchSapphireEgg",
+										"VibravaSapphireEgg",
+										"FlygonSapphireEgg"
 									],
 									[
-										"Phanpy",
-										"Donphan"
+										"PhanpySapphireEgg",
+										"DonphanSapphireEgg"
 									]
 								]
 							}
@@ -2220,26 +2860,26 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Snorunt",
-										"Glalie"
+										"SnoruntSapphireEgg",
+										"GlalieSapphireEgg"
 									],
 									[
-										"Spheal",
-										"Sealeo",
-										"Walrein"
+										"SphealSapphireEgg",
+										"SealeoSapphireEgg",
+										"WalreinSapphireEgg"
 									],
 									[
-										"Corsola"
+										"CorsolaSapphireEgg"
 									],
 									[
-										"Horsea",
-										"Seadra",
-										"Kingdra"
+										"HorseaSapphireEgg",
+										"SeadraSapphireEgg",
+										"KingdraSapphireEgg"
 									],
 									[
-										"Bagon",
-										"Shelgon",
-										"Salamence"
+										"BagonSapphireEgg",
+										"ShelgonSapphireEgg",
+										"SalamenceSapphireEgg"
 									]
 								]
 							}
@@ -2275,31 +2915,31 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Lotad",
-										"Lombre",
-										"Ludicolo"
+										"LotadSapphireEgg",
+										"LombreSapphireEgg",
+										"LudicoloSapphireEgg"
 									],
 									[
-										"Surskit",
-										"Masquerain"
+										"SurskitSapphireEgg",
+										"MasquerainSapphireEgg"
 									],
 									[
-										"Azurill",
-										"Marill",
-										"Azumarill"
+										"AzurillSapphireEgg",
+										"MarillSapphireEgg",
+										"AzumarillSapphireEgg"
 									],
 									[
-										"Gulpin",
-										"Swalot"
+										"GulpinSapphireEgg",
+										"SwalotSapphireEgg"
 									],
 									[
-										"Igglybuff",
-										"Jigglypuff",
-										"Wigglytuff"
+										"IgglybuffSapphireEgg",
+										"JigglypuffSapphireEgg",
+										"WigglytuffSapphireEgg"
 									],
 									[
-										"Chinchou",
-										"Lanturn"
+										"ChinchouSapphireEgg",
+										"LanturnSapphireEgg"
 									]
 								]
 							}
@@ -2321,7 +2961,9 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Pichu"
+										"PichuSapphireEgg",
+										"PikachuSapphireEgg",
+										"RaichuSapphireEgg"
 									]
 								]
 							},
@@ -2336,23 +2978,23 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"Kyogre",
-										"Rayquaza"
+										"KyogreSapphire",
+										"RayquazaSapphire"
 									],
 									[
-										"Aerodactyl"
+										"AerodactylSapphire"
 									],
 									[
-										"Chikorita"
+										"ChikoritaSapphire"
 									],
 									[
-										"Totodile"
+										"TotodileSapphire"
 									],
 									[
-										"Cyndaquil"
+										"CyndaquilSapphire"
 									],
 									[
-										"Latias"
+										"LatiasSapphire"
 									]
 								]
 							}
@@ -2373,19 +3015,52 @@
 			}
 		]
 	},
-	"settings": {
+	"Evolutions": {
 		"type": "itemgrid",
 		"margin": "5, 0",
-		"item_margin": "2, 2",
+		"item_margin": "2, 0",
 		"h_alignment": "left",
 		"item_h_alignment": "center",
 		"item_v_alignment": "center",
-		"item_height": 68,
-		"item_width": 68,
+		"item_height": 32,
+		"item_width": 64,
 		"rows": [
 			[
-				"OoL"
+				"evolutions"
 			]
+		]
+	},
+	"settings": {
+		"type": "array",
+		"orientation": "vertical",
+		"content": [
+			{
+				"type": "itemgrid",
+				"margin": "5, 0",
+				"item_margin": "2, 2",
+				"h_alignment": "left",
+				"item_h_alignment": "center",
+				"item_v_alignment": "center",
+				"item_height": 68,
+				"item_width": 68,
+				"rows": [
+					[
+						"difficulty",
+						"OoL"
+					],
+					[
+						"pokedex",
+						"Targets",
+						"multi",
+						"upgrade"
+					]
+
+				]
+			},
+			{
+				"type": "layout",
+				"key": "Score"
+			}
 		]
 	}
 }

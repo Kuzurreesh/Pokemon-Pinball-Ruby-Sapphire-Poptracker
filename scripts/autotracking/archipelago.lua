@@ -15,6 +15,7 @@ Traps = {}
 
 function onClear(slot_data)
     ScriptHost:RemoveWatchForCode("Total")
+    ScriptHost:RemoveOnLocationSectionChangedHandler("Board Totals")
     for index, value in pairs(AREA_NAMES) do
         ScriptHost:RemoveWatchForCode("Area " .. index)
     end
@@ -87,7 +88,7 @@ function onClear(slot_data)
         end
 
         -- reset local item(s)
-       
+
 
         -- Autotracking options
 
@@ -98,10 +99,13 @@ function onClear(slot_data)
 
         LOCAL_ITEMS = {}
         GLOBAL_ITEMS = {}
-        ScriptHost:AddWatchForCode("Total", "Mon", Total)
+        ScriptHost:AddWatchForCode("Total", "Dummy", Total)
         for index, value in pairs(AREA_NAMES) do
             ScriptHost:AddWatchForCode("Area " .. index, value, Evolve)
         end
+        ScriptHost:AddOnLocationSectionChangedHandler("Board Totals", BoardTotals)
+        Archipelago:Get(NotifyHints)
+        Archipelago:SetNotify(NotifyHints)
     end
 end
 
@@ -181,24 +185,21 @@ function onLocation(location_id, location_name)
     for index, value in ipairs(v) do
         local mon = nil
         for ind, val in ipairs(value) do
-            if val:sub(1, 3) == "Mon" and mon then
-                Tracker:FindObjectForCode(mon).CurrentStage = 2
-                mon = nil
-            else
-                local obj = Tracker:FindObjectForCode(val)
+            local obj = Tracker:FindObjectForCode(val)
 
-                if obj then
-                    if val:sub(1, 1) == "@" then
-                        obj.AvailableChestCount = obj.AvailableChestCount - 1
-                        obj.Highlight = Highlight.None
-                        -- mon = val:sub(val:find(")/") + 2)
-                    else
+            if obj then
+                if val:sub(1, 1) == "@" then
+                    obj.AvailableChestCount = obj.AvailableChestCount - 1
+                    obj.Highlight = Highlight.None
+                else
+                  --  if val == "Treecko" then
+                 --       Tracker:FindObjectForCode("Treecko2").ItemState:setState(2)
+                 --   else
                         obj.CurrentStage = 2
-                        Tracker:FindObjectForCode(val .. "Count").AcquiredCount = 2
-                    end
-                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                    print(string.format("onLocation: could not find object for code %s", v[1]))
+                    --end
                 end
+            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("onLocation: could not find object for code %s", v[1]))
             end
         end
     end
@@ -210,7 +211,30 @@ function onBounce(json)
 end
 
 function onDataStorageUpdate(key, value, oldValue)
+    if key == NotifyHints[1] and value then
+        for _, hint in ipairs(value) do
+            -- we only care about hints in our world
 
+            if hint.finding_player == Archipelago.PlayerNumber then
+                local location_code = LOCATION_MAPPING[hint.location]
+                --   print("-----------------location_code-------------------------")
+                -- print(dump_table(location_code))
+                for k, v in pairs(location_code) do
+                    --   print("-----------------v-------------------------")
+                    --      print(dump_table(v))
+                    --    print("-----------------v[1]-------------------------")
+                    --    print(dump_table(v[1]))
+
+                    if v then
+                        -- print("-----------------value-------------------------", v)
+                        if v[1]:sub(1, 1) == "@" then
+                            Tracker:FindObjectForCode(v[1]).Highlight = HIGHLIGHT_STATUS_MAPPING[hint.status]
+                        end
+                    end
+                end
+            end
+        end
+    end
 end
 
 -- add AP callbacks
@@ -224,5 +248,5 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     Archipelago:AddLocationHandler("location handler", onLocation)
 end
 --Archipelago:AddBouncedHandler("bounce handler", onBounce)
---Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
---Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
+Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
+Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
