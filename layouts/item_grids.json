@@ -6,7 +6,7 @@
 			{
 				"type": "itemgrid",
 				"margin": "5, 0",
-				"item_margin": "2, 2",
+				"item_margin": "1, 2",
 				"h_alignment": "left",
 				"item_h_alignment": "center",
 				"item_v_alignment": "center",
@@ -19,35 +19,38 @@
 						"egg2",
 						"egg3",
 						"egg4",
-						"evo",
 						"get",
+						"startballplus",
 						"coin",
-						"bonusmak",
-						"bonuszig"
+						"doublecoin",
+						"",
+						"gomode"
 					],
 					[
 						"ruby",
 						"eggruby",
-						"bonuswhis",
 						"forestR",
 						"volcanoR",
 						"plainsR",
 						"oceanR",
 						"safariR",
 						"caveR",
-						"ruinsR"
+						"ruinsR",
+						"bonusmak",
+						"bonuswhis"
 					],
 					[
 						"sapphire",
 						"eggsapphire",
-						"bonuspel",
 						"forestS",
 						"lakeS",
 						"plainsS",
 						"oceanS",
 						"wildernessS",
 						"caveS",
-						"ruinsS"
+						"ruinsS",
+						"bonuszig",
+						"bonuspel"
 					],
 					[
 						"startcoins",
@@ -68,18 +71,18 @@
 	"go": {
 		"type": "itemgrid",
 		"margin": "0, 0",
-		"item_margin": "3, 5",
+		"item_margin": "2, 2",
 		"h_alignment": "left",
 		"item_h_alignment": "center",
 		"item_v_alignment": "center",
-		"item_height": 30,
-		"item_width": 45,
+		"item_height": 40,
+		"item_width": 60,
 		"rows": [
 			[
 				"Treecko",
 				"Grovyle",
 				"Sceptile",
-				"TorchicCan",
+				"Torchic",
 				"Combusken",
 				"Blaziken",
 				"Mudkip",
@@ -88,22 +91,24 @@
 				"Poochyena",
 				"Mightyena",
 				"Zigzagoon",
-				"Linoone",
+				"Linoone"
+			],
+			[
 				"Wurmple",
 				"Silcoon",
 				"Beautifly",
 				"Cascoon",
 				"Dustox",
 				"Lotad",
-				"Lombre"
-			],
-			[
+				"Lombre",
 				"Ludicolo",
 				"Seedot",
 				"Nuzleaf",
 				"Shiftry",
 				"Taillow",
-				"Swellow",
+				"Swellow"
+			],
+			[
 				"Wingull",
 				"Pelipper",
 				"Ralts",
@@ -115,11 +120,11 @@
 				"Breloom",
 				"Slakoth",
 				"Vigoroth",
-				"Slaking",
-				"Abra",
-				"Kadabra"
+				"Slaking"
 			],
 			[
+				"Abra",
+				"Kadabra",
 				"Alakazam",
 				"Nincada",
 				"Ninjask",
@@ -130,7 +135,9 @@
 				"Makuhita",
 				"Hariyama",
 				"Goldeen",
-				"Seaking",
+				"Seaking"
+			],
+			[
 				"Magikarp",
 				"Gyarados",
 				"Azurill",
@@ -139,14 +146,14 @@
 				"Geodude",
 				"Graveler",
 				"Golem",
-				"Nosepass"
-			],
-			[
+				"Nosepass",
 				"Skitty",
 				"Delcatty",
 				"Zubat",
 				"Golbat",
-				"Crobat",
+				"Crobat"
+			],
+			[
 				"Tentacool",
 				"Tentacruel",
 				"Sableye",
@@ -158,12 +165,12 @@
 				"Machoke",
 				"Machamp",
 				"Meditite",
-				"Medicham",
-				"Electrike",
-				"Manectric",
-				"Plusle"
+				"Medicham"
 			],
 			[
+				"Electrike",
+				"Manectric",
+				"Plusle",
 				"Minun",
 				"Magnemite",
 				"Magneton",
@@ -174,7 +181,9 @@
 				"Oddish",
 				"Gloom",
 				"Vileplume",
-				"Bellossom",
+				"Bellossom"
+			],
+			[
 				"Doduo",
 				"Dodrio",
 				"Roselia",
@@ -183,13 +192,13 @@
 				"Carvanha",
 				"Sharpedo",
 				"Wailmer",
-				"Wailord"
-			],
-			[
+				"Wailord",
 				"Numel",
 				"Camerupt",
 				"Slugma",
-				"Magcargo",
+				"Magcargo"
+			],
+			[
 				"Torkoal",
 				"Grimer",
 				"Muk",
@@ -203,11 +212,11 @@
 				"Skarmory",
 				"Trapinch",
 				"Vibrava",
-				"Flygon",
-				"Cacnea",
-				"Cacturne"
+				"Flygon"
 			],
 			[
+				"Cacnea",
+				"Cacturne",
 				"Swablu",
 				"Altaria",
 				"Zangoose",
@@ -217,7 +226,9 @@
 				"Barboach",
 				"Whiscash",
 				"Corphish",
-				"Crawdaunt",
+				"Crawdaunt"
+			],
+			[
 				"Baltoy",
 				"Claydol",
 				"Lileep",
@@ -227,11 +238,11 @@
 				"Igglybuff",
 				"Jigglypuff",
 				"Wigglytuff",
-				"Feebas"
+				"Feebas",
+				"Milotic",
+				"Castform"
 			],
 			[
-				"Milotic",
-				"Castform",
 				"Staryu",
 				"Starmie",
 				"Kecleon",
@@ -243,15 +254,15 @@
 				"Chimecho",
 				"Absol",
 				"Vulpix",
-				"Ninetales",
+				"Ninetales"
+			],
+			[
 				"Pichu",
 				"Pikachu",
 				"Raichu",
 				"Psyduck",
 				"Golduck",
-				"Wynaut"
-			],
-			[
+				"Wynaut",
 				"Wobbuffet",
 				"Natu",
 				"Xatu",
@@ -259,7 +270,9 @@
 				"Phanpy",
 				"Donphan",
 				"Pinsir",
-				"Heracross",
+				"Heracross"
+			],
+			[
 				"Rhyhorn",
 				"Rhydon",
 				"Snorunt",
@@ -285,7 +298,9 @@
 				"Salamence",
 				"Beldum",
 				"Metang",
-				"Metagross",
+				"Metagross"
+			],
+			[
 				"Regirock",
 				"Regice",
 				"Registeel",
@@ -293,9 +308,7 @@
 				"Latios",
 				"Kyogre",
 				"Groudon",
-				"Rayquaza"
-			],
-			[
+				"Rayquaza",
 				"Jirachi",
 				"Chikorita",
 				"Cyndaquil",
@@ -606,7 +619,7 @@
 	"RubyPokemon": {
 		"type": "itemgrid",
 		"margin": "0, 0",
-		"item_margin": "3, 5",
+		"item_margin": "2, 2",
 		"h_alignment": "left",
 		"item_h_alignment": "center",
 		"item_v_alignment": "center",
@@ -736,7 +749,7 @@
 	"RubyEggPokemon": {
 		"type": "itemgrid",
 		"margin": "0, 0",
-		"item_margin": "3, 5",
+		"item_margin": "2, 2",
 		"h_alignment": "left",
 		"item_h_alignment": "center",
 		"item_v_alignment": "center",
@@ -818,10 +831,392 @@
 			]
 		]
 	},
+	"RubyPokemonNoEvo": {
+		"type": "itemgrid",
+		"margin": "0, 0",
+		"item_margin": "2, 2",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 60,
+		"rows": [
+			[
+				"forestR",
+				"ZigzagoonRuby",
+				"SilcoonRuby",
+				"CascoonRuby",
+				"NuzleafRuby",
+				"DuskullRuby",
+				"",
+				"",
+				"KecleonRuby",
+				"",
+				"TreeckoRuby",
+				"NincadaRuby"
+			],
+			[
+				"volcanoR",
+				"NumelRuby",
+				"SlugmaRuby",
+				"TorkoalRuby",
+				"KoffingRuby",
+				"VulpixRuby",
+				"",
+				"",
+				"SkarmoryRuby",
+				"",
+				"TorchicRuby"
+			],
+			[
+				"plainsR",
+				"PoochyenaRuby",
+				"TaillowRuby",
+				"ElectrikeRuby",
+				"MagnemiteRuby",
+				"VoltorbRuby",
+				"IllumiseRuby",
+				"",
+				"CastformRuby",
+				"",
+				"ZangooseRuby"
+			],
+			[
+				"oceanR",
+				"WingullRuby",
+				"TentacoolRuby",
+				"CarvanhaRuby",
+				"WailmerRuby",
+				"LuvdiscRuby",
+				"",
+				"",
+				"LileepRuby",
+				"",
+				"StaryuRuby",
+				"RelicanthRuby"
+			],
+			[
+				"safariR",
+				"DoduoRuby",
+				"PsyduckRuby",
+				"GirafarigRuby",
+				"PinsirRuby",
+				"HeracrossRuby",
+				"RhyhornRuby",
+				"",
+				"WobbuffetRuby",
+				"",
+				"PikachuRuby"
+			],
+			[
+				"caveR",
+				"LoudredRuby",
+				"MawileRuby",
+				"MachopRuby",
+				"GrimerRuby",
+				"SolrockRuby",
+				"ShelgonRuby",
+				"",
+				"NosepassRuby",
+				"",
+				"AbraRuby"
+			],
+			[
+				"ruinsR",
+				"BeldumRuby",
+				"RegirockRuby",
+				"RegiceRuby",
+				"JirachiRuby",
+				"RegisteelRuby"
+			],
+			[
+				"",
+				"PichuRubyEgg",
+				"GroudonRuby",
+				"RayquazaRuby",
+				"AerodactylRuby",
+				"ChikoritaRuby",
+				"TotodileRuby",
+				"CyndaquilRuby"
+			]
+		]
+	},
+	"RubyEggPokemonNoEvo": {
+		"type": "itemgrid",
+		"margin": "0, 0",
+		"item_margin": "2, 2",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 60,
+		"rows": [
+			[
+				"egg1",
+				"WurmpleRubyEgg",
+				"RaltsRubyEgg",
+				"WhismurRubyEgg",
+				"ZubatRubyEgg",
+				"AronRubyEgg"
+			],
+			[
+				"egg2",
+				"OddishRubyEgg",
+				"SpoinkRubyEgg",
+				"ShuppetRubyEgg",
+				"ChimechoRubyEgg",
+				"NatuRubyEgg"
+			],
+			[
+				"egg3",
+				"SandshrewRubyEgg",
+				"SpindaRubyEgg",
+				"TrapinchRubyEgg",
+				"PhanpyRubyEgg"
+			],
+			[
+				"egg4",
+				"SnoruntRubyEgg",
+				"SphealRubyEgg",
+				"CorsolaRubyEgg",
+				"HorseaRubyEgg",
+				"BagonRubyEgg"
+			],
+			[
+				"eggruby",
+				"SeedotRubyEgg",
+				"ShroomishRubyEgg",
+				"SkittyRubyEgg",
+				"PlusleRubyEgg",
+				"MinunRubyEgg",
+				"WynautRubyEgg"
+			]
+		]
+	},
+	"NoEvo1": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "10,0",
+		"item_margin": "10,0",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "10,0",
+				"item_margin": "10,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"margin": "0, 0",
+						"item_margin": "3, 5",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"item_height": 40,
+						"item_width": 60,
+						"rows": [
+							[
+								"forestR",
+								"ZigzagoonRuby",
+								"SilcoonRuby",
+								"CascoonRuby",
+								"NuzleafRuby",
+								"DuskullRuby"
+							],
+							[
+								"volcanoR",
+								"NumelRuby",
+								"SlugmaRuby",
+								"TorkoalRuby",
+								"KoffingRuby",
+								"VulpixRuby"
+							],
+							[
+								"plainsR",
+								"PoochyenaRuby",
+								"TaillowRuby",
+								"ElectrikeRuby",
+								"MagnemiteRuby",
+								"VoltorbRuby",
+								"IllumiseRuby"
+							],
+							[
+								"oceanR",
+								"WingullRuby",
+								"TentacoolRuby",
+								"CarvanhaRuby",
+								"WailmerRuby",
+								"LuvdiscRuby"
+							],
+							[
+								"safariR",
+								"DoduoRuby",
+								"PsyduckRuby",
+								"GirafarigRuby",
+								"PinsirRuby",
+								"HeracrossRuby",
+								"RhyhornRuby"
+							],
+							[
+								"caveR",
+								"LoudredRuby",
+								"MawileRuby",
+								"MachopRuby",
+								"GrimerRuby",
+								"SolrockRuby",
+								"ShelgonRuby"
+							],
+							[
+								"ruinsR",
+								"BeldumRuby",
+								"RegirockRuby",
+								"RegiceRuby",
+								"JirachiRuby"
+							]
+						]
+					},
+					{
+						"type": "itemgrid",
+						"margin": "10, 0",
+						"item_margin": "3, 5",
+						"background": "#445044",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"max_height": 400,
+						"item_height": 40,
+						"item_width": 60,
+						"rows": [
+							[
+								"KecleonRuby"
+							],
+							[
+								"SkarmoryRuby"
+							],
+							[
+								"CastformRuby"
+							],
+							[
+								"LileepRuby"
+							],
+							[
+								"WobbuffetRuby"
+							],
+							[
+								"NosepassRuby"
+							]
+						]
+					},
+					{
+						"type": "itemgrid",
+						"margin": "10, 0",
+						"item_margin": "3, 5",
+						"background": "#5A4444",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"item_height": 40,
+						"item_width": 60,
+						"rows": [
+							[
+								"TreeckoRuby",
+								"NincadaRuby"
+							],
+							[
+								"TorchicRuby"
+							],
+							[
+								"ZangooseRuby"
+							],
+							[
+								"StaryuRuby",
+								"RelicanthRuby"
+							],
+							[
+								"PikachuRuby"
+							],
+							[
+								"AbraRuby"
+							],
+							[
+								"RegisteelRuby"
+							]
+						]
+					}
+				]
+			},
+			{
+				"type": "itemgrid",
+				"margin": "10, 0",
+				"item_margin": "3, 5",
+				"h_alignment": "left",
+				"item_h_alignment": "center",
+				"item_v_alignment": "center",
+				"item_height": 40,
+				"item_width": 60,
+				"rows": [
+					[
+						"",
+						"GroudonRuby",
+						"RayquazaRuby",
+						"AerodactylRuby",
+						"ChikoritaRuby",
+						"TotodileRuby",
+						"CyndaquilRuby"
+					],
+					[
+						"egg1",
+						"WurmpleRubyEgg",
+						"RaltsRubyEgg",
+						"WhismurRubyEgg",
+						"ZubatRubyEgg",
+						"AronRubyEgg",
+						"PichuRubyEgg"
+					],
+					[
+						"egg2",
+						"OddishRubyEgg",
+						"SpoinkRubyEgg",
+						"ShuppetRubyEgg",
+						"ChimechoRubyEgg",
+						"NatuRubyEgg",
+						"PichuRubyEgg"
+					],
+					[
+						"egg3",
+						"SandshrewRubyEgg",
+						"SpindaRubyEgg",
+						"TrapinchRubyEgg",
+						"PhanpyRubyEgg",
+						"PichuRubyEgg"
+					],
+					[
+						"egg4",
+						"SnoruntRubyEgg",
+						"SphealRubyEgg",
+						"CorsolaRubyEgg",
+						"HorseaRubyEgg",
+						"BagonRubyEgg",
+						"PichuRubyEgg"
+					],
+					[
+						"eggruby",
+						"SeedotRubyEgg",
+						"ShroomishRubyEgg",
+						"SkittyRubyEgg",
+						"PlusleRubyEgg",
+						"MinunRubyEgg",
+						"WynautRubyEgg",
+						"PichuRubyEgg"
+					]
+				]
+			}
+		]
+	},
 	"SapphirePokemon": {
 		"type": "itemgrid",
 		"margin": "0, 0",
-		"item_margin": "3, 5",
+		"item_margin": "2, 2",
 		"h_alignment": "left",
 		"item_h_alignment": "center",
 		"item_v_alignment": "center",
@@ -955,7 +1350,7 @@
 	"SapphireEggPokemon": {
 		"type": "itemgrid",
 		"margin": "0, 0",
-		"item_margin": "3, 5",
+		"item_margin": "2, 2",
 		"h_alignment": "left",
 		"item_h_alignment": "center",
 		"item_v_alignment": "center",
@@ -1041,6 +1436,390 @@
 			]
 		]
 	},
+	"SapphirePokemonNoEvo": {
+		"type": "itemgrid",
+		"margin": "0, 0",
+		"item_margin": "3, 2",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 60,
+		"rows": [
+			[
+				"forestS",
+				"SilcoonSapphire",
+				"CascoonSapphire",
+				"SlakothSapphire",
+				"RoseliaSapphire",
+				"DuskullSapphire",
+				"",
+				"",
+				"KecleonSapphire",
+				"",
+				"NincadaSapphire",
+				"TropiusSapphire"
+			],
+			[
+				"lakeS",
+				"LombreSapphire",
+				"GoldeenSapphire",
+				"MarillSapphire",
+				"BarboachSapphire",
+				"CorphishSapphire",
+				"",
+				"",
+				"FeebasSapphire",
+				"",
+				"MudkipSapphire"
+			],
+			[
+				"plainsS",
+				"PoochyenaSapphire",
+				"TaillowSapphire",
+				"ElectrikeSapphire",
+				"MagnemiteSapphire",
+				"VoltorbSapphire",
+				"JigglypuffSapphire",
+				"",
+				"CastformSapphire",
+				"",
+				"VolbeatSapphire",
+				"SeviperSapphire"
+			],
+			[
+				"oceanS",
+				"WingullSapphire",
+				"MagikarpSapphire",
+				"TentacoolSapphire",
+				"CarvanhaSapphire",
+				"LuvdiscSapphire",
+				"",
+				"",
+				"AnorithSapphire",
+				"",
+				"ClamperlSapphire",
+				"RelicanthSapphire"
+			],
+			[
+				"wildernessS",
+				"GeodudeSapphire",
+				"MedititeSapphire",
+				"VibravaSapphire",
+				"CacneaSapphire",
+				"BaltoySapphire",
+				"",
+				"",
+				"AbsolSapphire",
+				"",
+				"SwabluSapphire"
+			],
+			[
+				"caveS",
+				"LoudredSapphire",
+				"MakuhitaSapphire",
+				"GrimerSapphire",
+				"LunatoneSapphire",
+				"ShelgonSapphire",
+				"",
+				"",
+				"NosepassSapphire",
+				"",
+				"AbraSapphire",
+				"SableyeSapphire"
+			],
+			[
+				"ruinsS",
+				"BeldumSapphire",
+				"RegirockSapphire",
+				"RegiceSapphire",
+				"JirachiSapphire",
+				"RegisteelSapphire"
+			],
+			[
+				"",
+				"PichuSapphireEgg",
+				"KyogreSapphire",
+				"RayquazaSapphire",
+				"AerodactylSapphire",
+				"ChikoritaSapphire",
+				"TotodileSapphire",
+				"CyndaquilSapphire"
+			]
+		]
+	},
+	"SapphireEggPokemonNoEvo": {
+		"type": "itemgrid",
+		"margin": "0, 0",
+		"item_margin": "3, 5",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 60,
+		"rows": [
+			[
+				"egg1",
+				"WurmpleRubyEgg",
+				"RaltsRubyEgg",
+				"WhismurRubyEgg",
+				"ZubatRubyEgg",
+				"AronRubyEgg"
+			],
+			[
+				"egg2",
+				"OddishRubyEgg",
+				"SpoinkRubyEgg",
+				"ShuppetRubyEgg",
+				"ChimechoRubyEgg",
+				"NatuRubyEgg"
+			],
+			[
+				"egg3",
+				"SandshrewRubyEgg",
+				"SpindaRubyEgg",
+				"TrapinchRubyEgg",
+				"PhanpyRubyEgg"
+			],
+			[
+				"egg4",
+				"SnoruntRubyEgg",
+				"SphealRubyEgg",
+				"CorsolaRubyEgg",
+				"HorseaRubyEgg",
+				"BagonRubyEgg"
+			],
+			[
+				"eggsapphire",
+				"LotadSapphireEgg",
+				"SurskitSapphireEgg",
+				"AzurillSapphireEgg",
+				"GulpinSapphireEgg",
+				"IgglybuffSapphireEgg",
+				"ChinchouSapphireEgg"
+			]
+		]
+	},
+	"NoEvo2": {
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "10,0",
+		"item_margin": "0,0",
+		"content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "10,0",
+				"item_margin": "10,0",
+				"content": [
+					{
+						"type": "itemgrid",
+						"margin": "0, 0",
+						"item_margin": "3, 5",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"item_height": 40,
+						"item_width": 60,
+						"rows": [
+							[
+								"forestS",
+								"SilcoonSapphire",
+								"CascoonSapphire",
+								"SlakothSapphire",
+								"RoseliaSapphire",
+								"DuskullSapphire"
+							],
+							[
+								"lakeS",
+								"LombreSapphire",
+								"GoldeenSapphire",
+								"MarillSapphire",
+								"BarboachSapphire",
+								"CorphishSapphire"
+							],
+							[
+								"plainsS",
+								"PoochyenaSapphire",
+								"TaillowSapphire",
+								"ElectrikeSapphire",
+								"MagnemiteSapphire",
+								"VoltorbSapphire",
+								"JigglypuffSapphire"
+							],
+							[
+								"oceanS",
+								"WingullSapphire",
+								"MagikarpSapphire",
+								"TentacoolSapphire",
+								"CarvanhaSapphire",
+								"LuvdiscSapphire"
+							],
+							[
+								"wildernessS",
+								"GeodudeSapphire",
+								"MedititeSapphire",
+								"VibravaSapphire",
+								"CacneaSapphire",
+								"BaltoySapphire"
+							],
+							[
+								"caveS",
+								"LoudredSapphire",
+								"MakuhitaSapphire",
+								"GrimerSapphire",
+								"LunatoneSapphire",
+								"ShelgonSapphire"
+							],
+							[
+								"ruinsS",
+								"BeldumSapphire",
+								"RegirockSapphire",
+								"RegiceSapphire",
+								"JirachiSapphire"
+							]
+						]
+					},
+					{
+						"type": "itemgrid",
+						"margin": "10, 0",
+						"item_margin": "3, 5",
+						"background": "#445044",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"max_height": 400,
+						"item_height": 40,
+						"item_width": 60,
+						"rows": [
+							[
+								"KecleonSapphire"
+							],
+							[
+								"FeebasSapphire"
+							],
+							[
+								"CastformSapphire"
+							],
+							[
+								"AnorithSapphire"
+							],
+							[
+								"AbsolSapphire"
+							],
+							[
+								"NosepassSapphire"
+							]
+						]
+					},
+					{
+						"type": "itemgrid",
+						"margin": "10, 0",
+						"item_margin": "3, 5",
+						"background": "#444450",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"item_height": 40,
+						"item_width": 60,
+						"rows": [
+							[
+								"NincadaSapphire",
+								"TropiusSapphire"
+							],
+							[
+								"MudkipSapphire"
+							],
+							[
+								"VolbeatSapphire",
+								"SeviperSapphire"
+							],
+							[
+								"ClamperlSapphire",
+								"RelicanthSapphire"
+							],
+							[
+								"SwabluSapphire"
+							],
+							[
+								"AbraSapphire",
+								"SableyeSapphire"
+							],
+							[
+								"RegisteelSapphire"
+							]
+						]
+					}
+				]
+			},
+			{
+				"type": "itemgrid",
+				"margin": "10, 0",
+				"item_margin": "3, 5",
+				"h_alignment": "left",
+				"item_h_alignment": "center",
+				"item_v_alignment": "center",
+				"item_height": 40,
+				"item_width": 60,
+				"rows": [
+					[
+						"",
+						"KyogreSapphire",
+						"RayquazaSapphire",
+						"AerodactylSapphire",
+						"ChikoritaSapphire",
+						"TotodileSapphire",
+						"CyndaquilSapphire"
+					],
+					[
+						"egg1",
+						"WurmpleSapphireEgg",
+						"RaltsSapphireEgg",
+						"WhismurSapphireEgg",
+						"ZubatSapphireEgg",
+						"AronSapphireEgg",
+						"PichuSapphireEgg"
+					],
+					[
+						"egg2",
+						"OddishSapphireEgg",
+						"SpoinkSapphireEgg",
+						"ShuppetSapphireEgg",
+						"ChimechoSapphireEgg",
+						"NatuSapphireEgg",
+						"PichuSapphireEgg"
+					],
+					[
+						"egg3",
+						"SandshrewSapphireEgg",
+						"SpindaSapphireEgg",
+						"TrapinchSapphireEgg",
+						"PhanpySapphireEgg",
+						"PichuSapphireEgg"
+					],
+					[
+						"egg4",
+						"SnoruntSapphireEgg",
+						"SphealSapphireEgg",
+						"CorsolaSapphireEgg",
+						"HorseaSapphireEgg",
+						"BagonSapphireEgg",
+						"PichuSapphireEgg"
+					],
+					[
+						"eggsapphire",
+						"LotadSapphireEgg",
+						"SurskitSapphireEgg",
+						"AzurillSapphireEgg",
+						"GulpinSapphireEgg",
+						"IgglybuffSapphireEgg",
+						"ChinchouSapphireEgg",
+						"PichuSapphireEgg"
+					]
+				]
+			}
+		]
+	},
 	"Score": {
 		"type": "itemgrid",
 		"margin": "5, 0",
@@ -1058,7 +1837,7 @@
 	},
 	"Evo": {
 		"type": "itemgrid",
-		"margin": "5, 0",
+		"margin": "0, 5",
 		"item_margin": "2, 0",
 		"h_alignment": "left",
 		"item_h_alignment": "center",
@@ -1083,12 +1862,12 @@
 	"Ruby": {
 		"type": "array",
 		"orientation": "vertical",
-		"margin": "10,0",
+		"margin": "5,0",
 		"content": [
 			{
 				"type": "array",
 				"orientation": "horizontal",
-				"margin": "10,0",
+				"margin": "5,0",
 				"content": [
 					{
 						"type": "group",
@@ -1096,13 +1875,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"forestR"
@@ -1111,13 +1890,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"ZigzagoonRuby",
@@ -1143,14 +1922,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#445044",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"KecleonRuby"
@@ -1159,14 +1938,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#5A4444",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"TreeckoRuby",
@@ -1188,13 +1967,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"volcanoR"
@@ -1203,13 +1982,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"NumelRuby",
@@ -1234,14 +2013,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#445044",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"SkarmoryRuby"
@@ -1250,14 +2029,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#5A4444",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"TorchicRuby",
@@ -1274,13 +2053,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"plainsR"
@@ -1289,13 +2068,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"PoochyenaRuby",
@@ -1325,14 +2104,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#445044",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"CastformRuby"
@@ -1341,14 +2120,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#5A4444",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"ZangooseRuby"
@@ -1364,13 +2143,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"oceanR"
@@ -1379,13 +2158,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"WingullRuby",
@@ -1411,14 +2190,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#445044",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"LileepRuby",
@@ -1428,14 +2207,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#5A4444",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"StaryuRuby",
@@ -1455,13 +2234,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"safariR"
@@ -1470,13 +2249,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"DoduoRuby",
@@ -1504,14 +2283,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#445044",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"WobbuffetRuby"
@@ -1520,14 +2299,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#5A4444",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"PikachuRuby",
@@ -1544,13 +2323,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"caveR"
@@ -1559,13 +2338,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"LoudredRuby",
@@ -1594,14 +2373,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#445044",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"NosepassRuby"
@@ -1610,14 +2389,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#5A4444",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"AbraRuby",
@@ -1635,13 +2414,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"ruinsR"
@@ -1650,13 +2429,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"BeldumRuby",
@@ -1676,14 +2455,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#5A4444",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"RegisteelRuby"
@@ -1705,8 +2484,8 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1720,13 +2499,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"WurmpleRubyEgg",
@@ -1768,8 +2547,8 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1783,13 +2562,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"OddishRubyEgg",
@@ -1821,8 +2600,8 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1836,13 +2615,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"SandshrewRubyEgg",
@@ -1870,8 +2649,8 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1885,13 +2664,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"SnoruntRubyEgg",
@@ -1921,12 +2700,12 @@
 					},
 					{
 						"type": "group",
-						"header": "Egg Group Ruby",
+						"header": "Egg Group Ruby      ",
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -1940,13 +2719,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"SeedotRubyEgg",
@@ -1981,13 +2760,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 3",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"PichuRubyEgg",
@@ -1998,13 +2777,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 5",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"GroudonRuby",
@@ -2048,13 +2827,12 @@
 	"Sapphire": {
 		"type": "array",
 		"orientation": "vertical",
-		"margin": "10,0",
+		"margin": "5,0",
 		"content": [
 			{
 				"type": "array",
 				"orientation": "horizontal",
-				"margin": "10,0",
-				"item_margin": "10,0",
+				"margin": "5,0",
 				"content": [
 					{
 						"type": "group",
@@ -2062,13 +2840,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"forestS"
@@ -2077,13 +2855,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"SilcoonSapphire",
@@ -2109,14 +2887,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#445044",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"KecleonSapphire"
@@ -2125,22 +2903,22 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#444450",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
+									[
+										"TropiusSapphire"
+									],
 									[
 										"NincadaSapphire",
 										"NinjaskSapphire",
 										"ShedinjaSapphire"
-									],
-									[
-										"TropiusSapphire"
 									]
 								]
 							}
@@ -2152,13 +2930,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"lakeS"
@@ -2167,13 +2945,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"LombreSapphire",
@@ -2199,14 +2977,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#445044",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"FeebasSapphire",
@@ -2216,14 +2994,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#444450",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"MudkipSapphire",
@@ -2240,13 +3018,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"plainsS"
@@ -2255,13 +3033,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"PoochyenaSapphire",
@@ -2291,14 +3069,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#445044",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"CastformSapphire"
@@ -2307,14 +3085,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#444450",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"VolbeatSapphire",
@@ -2332,13 +3110,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"oceanS"
@@ -2347,13 +3125,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"WingullSapphire",
@@ -2378,14 +3156,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#445044",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"AnorithSapphire",
@@ -2395,14 +3173,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#444450",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"ClamperlSapphire",
@@ -2423,13 +3201,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"wildernessS"
@@ -2438,13 +3216,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"GeodudeSapphire",
@@ -2471,14 +3249,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#445044",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"AbsolSapphire"
@@ -2487,14 +3265,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#444450",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"SwabluSapphire",
@@ -2511,13 +3289,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"caveS"
@@ -2526,13 +3304,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"LoudredSapphire",
@@ -2557,14 +3335,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#445044",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"NosepassSapphire"
@@ -2573,14 +3351,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#444450",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"AbraSapphire",
@@ -2601,13 +3379,13 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"ruinsS"
@@ -2616,13 +3394,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"BeldumSapphire",
@@ -2642,14 +3420,14 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
 								"background": "#444450",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"RegisteelSapphire"
@@ -2671,8 +3449,8 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -2686,13 +3464,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"WurmpleSapphireEgg",
@@ -2734,8 +3512,8 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -2749,13 +3527,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"OddishSapphireEgg",
@@ -2787,8 +3565,8 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -2802,13 +3580,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"SandshrewSapphireEgg",
@@ -2836,8 +3614,8 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -2851,13 +3629,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"SnoruntSapphireEgg",
@@ -2891,8 +3669,8 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
@@ -2906,13 +3684,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"LotadSapphireEgg",
@@ -2947,18 +3725,17 @@
 					},
 					{
 						"type": "group",
-						"max_width": 150,
 						"header": "Special",
 						"content": [
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 3",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"PichuSapphireEgg",
@@ -2969,13 +3746,13 @@
 							},
 							{
 								"type": "itemgrid",
-								"margin": "5, 0",
-								"item_margin": "2, 0",
+								"margin": "0, 5",
+								"item_margin": "1, 4",
 								"h_alignment": "left",
 								"item_h_alignment": "center",
 								"item_v_alignment": "center",
-								"item_height": 40,
-								"item_width": 40,
+								"item_height": 30,
+								"item_width": 45,
 								"rows": [
 									[
 										"KyogreSapphire",
@@ -3017,7 +3794,7 @@
 	},
 	"Evolutions": {
 		"type": "itemgrid",
-		"margin": "5, 0",
+		"margin": "5, 22",
 		"item_margin": "2, 0",
 		"h_alignment": "left",
 		"item_h_alignment": "center",
@@ -3030,10 +3807,52 @@
 			]
 		]
 	},
+	"Evolution": {
+		"type": "itemgrid",
+		"margin": "5, 0",
+		"item_margin": "2, 0",
+		"h_alignment": "left",
+		"item_h_alignment": "center",
+		"item_v_alignment": "center",
+		"item_height": 40,
+		"item_width": 40,
+		"rows": [
+			[
+				"evo"
+			]
+		]
+	},
 	"settings": {
 		"type": "array",
 		"orientation": "vertical",
 		"content": [
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"content": [
+					{
+						"type": "itemgrid",
+						"margin": "5, 0",
+						"item_margin": "2, 2",
+						"h_alignment": "left",
+						"item_h_alignment": "center",
+						"item_v_alignment": "center",
+						"item_height": 68,
+						"item_width": 68,
+						"rows": [
+							[
+								"difficulty",
+								"OoL",
+								"single"
+							]
+						]
+					},
+					{
+						"type": "layout",
+						"key": "Evolutions"
+					}
+				]
+			},
 			{
 				"type": "itemgrid",
 				"margin": "5, 0",
@@ -3045,16 +3864,11 @@
 				"item_width": 68,
 				"rows": [
 					[
-						"difficulty",
-						"OoL"
-					],
-					[
 						"pokedex",
 						"Targets",
 						"multi",
 						"upgrade"
 					]
-
 				]
 			},
 			{

@@ -23,8 +23,19 @@
 									"key": "shared_item_grid_horizontal"
 								},
 								{
-									"type": "layout",
-									"key": "Evo"
+									"type": "array",
+									"orientation": "horizontal",
+									"margin": "0, 0",
+									"content": [
+										{
+											"type": "layout",
+											"key": "Evolution"
+										},
+										{
+											"type": "layout",
+											"key": "Evo"
+										}
+									]
 								},
 								{
 									"type": "tabbed",
@@ -87,6 +98,24 @@
 																	"key": "Sapphire"
 																}
 															]
+														},
+														{
+															"title": "Ruby No Evo",
+															"content": [
+																{
+																	"type": "layout",
+																	"key": "NoEvo1"
+																}
+															]
+														},
+														{
+															"title": "Sapphire No Evo",
+															"content": [
+																{
+																	"type": "layout",
+																	"key": "NoEvo2"
+																}
+															]
 														}
 													]
 												}
@@ -98,6 +127,15 @@
 												{
 													"type": "tabbed",
 													"tabs": [
+														{
+															"title": "Full Dex",
+															"content": [
+																{
+																	"type": "layout",
+																	"key": "go"
+																}
+															]
+														},
 														{
 															"title": "Ruby Catch",
 															"content": [
@@ -131,15 +169,6 @@
 																{
 																	"type": "layout",
 																	"key": "SapphireEggPokemon"
-																}
-															]
-														},
-														{
-															"title": "Full",
-															"content": [
-																{
-																	"type": "layout",
-																	"key": "go"
 																}
 															]
 														}

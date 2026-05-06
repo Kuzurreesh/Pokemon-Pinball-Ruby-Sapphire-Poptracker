@@ -3,14 +3,14 @@
         "name": "Ruby Board",
         "type": "toggle",
         "img": "images/maps/ruby_field.png",
-        "overlay_align": "center",
+        "overlay_align": "right",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
         "codes": "ruby, field"
     },
     {
         "name": "Sapphire Board",
         "type": "toggle",
-        "overlay_align": "center",
+        "overlay_align": "right",
         "img": "images/maps/sapphire_field.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
         "codes": "sapphire, field"
@@ -31,16 +31,24 @@
     {
         "name": "Double Coins",
         "type": "toggle",
-        "img": "images/items/pelipperbonus.png",
+        "img": "images/items/doublecoins.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
         "codes": "doublecoin"
     },
     {
         "name": "Pelipper Helper",
         "type": "toggle",
-        "img": "images/items/pelipperbonus.png",
+        "img": "images/items/pelipperhelper.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
         "codes": "bonuspel, bonus"
+    },
+    {
+        "name": "Boards",
+        "type": "toggle",
+        "disabled_img": "images/items/bothfields.png",
+        "img": "images/items/singlefield.png",
+        "disabled_img_mods": "@enabled",
+        "codes": "single"
     },
     {
         "name": "Makuhita Helper",
@@ -48,7 +56,8 @@
         "img": "images/items/makuhitabonus.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
         "codes": "bonusmak, bonus"
-    },{
+    },
+    {
         "name": "Zigzagoon Helper",
         "type": "toggle",
         "img": "images/items/zighelper.png",
@@ -59,13 +68,14 @@
     {
         "name": "Whiscash Helper",
         "type": "toggle",
-        "img": "images/items/Whiscashbonus.png",
+        "img": "images/items/Whiscashhelper.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
         "codes": "bonuswhis, bonus"
     },
     {
         "name": "Logic",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "stages": [
             {
@@ -90,21 +100,39 @@
         "type": "consumable",
         "img": "images/items/caught.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
-        "overlay_font_size": "25",
+        "overlay_font_size": "20",
+        "overlay_background": "#30252523",
         "initial_quantity": 0,
         "overlay_align": "center",
         "max_quantity": 205,
         "codes": "Total"
     },
-    {
-        "name": "Extra Starting Ball",
+     {
+        "name": "CanTotal",
         "type": "consumable",
-        "img": "images/items/startball.png",
-        "disabled_img_mods": "saturation|0.33,brightness|0.40",
-        "max_quantity": 3,
-        "overlay_font_size": "15",
-        "initial_quantity": 0,
-        "codes": "startballplus, ball"
+        "img": "images/items/caught.png",
+        "max_quantity": 205,
+        "codes": "CanTotal"
+    },
+    {
+        "name": "Progressive Starting Ball Modifier",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/items/normal2.png",
+                "codes": "startballplus"
+            },
+            {
+                "img": "images/items/hard2.png"
+            },
+            {
+                "img": "images/items/expert2.png"
+            },
+            {
+                "img": "images/items/master2.png"
+            }
+        ]
     },
     {
         "name": "Multiplier",
@@ -112,10 +140,10 @@
         "img": "images/items/multiplierRuby2.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
         "overlay_font_size": "20",
-        "initial_quantity": 50,
+        "initial_quantity": 0,
         "overlay_align": "center",
         "max_quantity": 99,
-        "codes": "multi"
+        "codes": "multi,bonus_multiplier_checks"
     },
     {
         "name": "Ball Upgrade",
@@ -123,10 +151,10 @@
         "img": "images/items/ballupgrade.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
         "overlay_font_size": "20",
-        "initial_quantity": 50,
+        "initial_quantity": 0,
         "overlay_align": "center",
         "max_quantity": 99,
-        "codes": "upgrade"
+        "codes": "upgrade,ball_upgrade_checks"
     },
     {
         "name": "+10 Starting Coins",
@@ -187,7 +215,7 @@
         ]
     },
     {
-        "name": "Progressive Starting Ball",
+        "name": "Extra Starting Ball",
         "type": "consumable",
         "img": "images/items/startball.png",
         "max_quantity": 9,
@@ -350,7 +378,8 @@
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
         "img": "images/items/pokeblock.png",
         "codes": "block"
-    }, {
+    },
+    {
         "name": "Evo Mode",
         "type": "toggle",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
@@ -424,29 +453,35 @@
         "type": "consumable",
         "img": "images/items/pokedex.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
-        "initial_quantity": 100,
+        "initial_quantity": 125,
         "max_quantity": 205,
         "overlay_align": "center",
-        "codes": "Pokedex"
+        "codes": "Pokedex,pokedex_requirement"
     },
     {
         "name": "Goal - Targets",
         "type": "consumable",
         "img": "images/items/target2.png",
-        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_background": "#7E252523",
         "initial_quantity": 4,
         "max_quantity": 205,
         "overlay_align": "center",
-        "codes": "Targets"
+        "codes": "Targets,pokemon_targets"
     },
     {
         "name": "Goal - Score",
-        "type": "progressive_toggle",
-        "img": "images/items/score4.png",
-        "initial_active_state": false,
-        "overlay_align": "center",
-        "loop": true,
-        "codes": "Score"
+        "type": "consumable",
+        "img": "images/items/score5.png",
+        "max_quantity": 100000000,
+        "overlay_align": "left",
+        "codes": "Score,score_requirement"
+    },
+    {
+        "name": "GO Mode",
+        "type": "toggle",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "img": "images/items/gomode.png",
+        "codes": "gomode"
     },
     {
         "name": "Evo Arrow0",

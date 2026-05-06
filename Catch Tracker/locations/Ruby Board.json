@@ -77,49 +77,70 @@
                         "name": "Pokedex - Exploud",
                         "chest_unopened_img": "images/items/47.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Exploud"
+                            "evolutions,^$CanEvolveRuby|Exploud"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Machoke",
                         "chest_unopened_img": "images/items/74.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Machoke"
+                            "evolutions,^$CanEvolveRuby|Machoke"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Machamp",
                         "chest_unopened_img": "images/items/75.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Machamp"
+                            "evolutions,^$CanEvolveRuby|Machamp"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Muk",
                         "chest_unopened_img": "images/items/107.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Muk"
+                            "evolutions,^$CanEvolveRuby|Muk"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Salamence",
                         "chest_unopened_img": "images/items/189.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Salamence"
+                            "evolutions,^$CanEvolveRuby|Salamence"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Kadabra",
                         "chest_unopened_img": "images/items/40.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Kadabra"
+                            "evolutions,^$CanEvolveRuby|Kadabra"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Alakazam",
                         "chest_unopened_img": "images/items/41.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Alakazam"
+                            "evolutions,^$CanEvolveRuby|Alakazam"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     }
                 ]
@@ -197,63 +218,90 @@
                         "name": "Pokedex - Linoone",
                         "chest_unopened_img": "images/items/13.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Linoone"
+                            "evolutions,^$CanEvolveRuby|Linoone"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Beautifly",
                         "chest_unopened_img": "images/items/16.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Beautifly"
+                            "evolutions,^$CanEvolveRuby|Beautifly"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Dustox",
                         "chest_unopened_img": "images/items/18.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Dustox"
+                            "evolutions,^$CanEvolveRuby|Dustox"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Shiftry",
                         "chest_unopened_img": "images/items/24.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Shiftry"
+                            "evolutions,^$CanEvolveRuby|Shiftry"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Dusclops",
                         "chest_unopened_img": "images/items/149.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Dusclops"
+                            "evolutions,^$CanEvolveRuby|Dusclops"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Grovyle",
                         "chest_unopened_img": "images/items/2.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Grovyle"
+                            "evolutions,^$CanEvolveRuby|Grovyle"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Sceptile",
                         "chest_unopened_img": "images/items/3.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Sceptile"
+                            "evolutions,^$CanEvolveRuby|Sceptile"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Ninjask",
                         "chest_unopened_img": "images/items/43.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Ninjask"
+                            "evolutions,^$CanEvolveRuby|Ninjask"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Shedinja",
                         "chest_unopened_img": "images/items/44.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Shedinja"
+                            "evolutions,^$CanEvolveRuby|Shedinja"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     }
                 ]
@@ -331,42 +379,60 @@
                         "name": "Pokedex - Pelipper",
                         "chest_unopened_img": "images/items/28.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Pelipper"
+                            "evolutions,^$CanEvolveRuby|Pelipper"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Tentacruel",
                         "chest_unopened_img": "images/items/67.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Tentacruel"
+                            "evolutions,^$CanEvolveRuby|Tentacruel"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Sharpedo",
                         "chest_unopened_img": "images/items/98.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Sharpedo"
+                            "evolutions,^$CanEvolveRuby|Sharpedo"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Wailord",
                         "chest_unopened_img": "images/items/100.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Wailord"
+                            "evolutions,^$CanEvolveRuby|Wailord"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Cradily",
                         "chest_unopened_img": "images/items/134.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Cradily"
+                            "evolutions,^$CanEvolveRuby|Cradily"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Starmie",
                         "chest_unopened_img": "images/items/144.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Starmie"
+                            "evolutions,^$CanEvolveRuby|Starmie"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     }
                 ]
@@ -444,35 +510,50 @@
                         "name": "Pokedex - Mightyena",
                         "chest_unopened_img": "images/items/11.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Mightyena"
+                            "evolutions,^$CanEvolveRuby|Mightyena"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Swellow",
                         "chest_unopened_img": "images/items/26.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Swellow"
+                            "evolutions,^$CanEvolveRuby|Swellow"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Manectric",
                         "chest_unopened_img": "images/items/79.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Manectric"
+                            "evolutions,^$CanEvolveRuby|Manectric"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Magneton",
                         "chest_unopened_img": "images/items/83.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Magneton"
+                            "evolutions,^$CanEvolveRuby|Magneton"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Electrode",
                         "chest_unopened_img": "images/items/85.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Electrode"
+                            "evolutions,^$CanEvolveRuby|Electrode"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     }
                 ]
@@ -531,14 +612,20 @@
                         "name": "Pokedex - Metang",
                         "chest_unopened_img": "images/items/191.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Metang"
+                            "evolutions,^$CanEvolveRuby|Metang"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Metagross",
                         "chest_unopened_img": "images/items/192.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Metagross"
+                            "evolutions,^$CanEvolveRuby|Metagross"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     }
                 ]
@@ -592,6 +679,13 @@
                         ]
                     },
                     {
+                        "name": "Pokedex - Rhyhorn",
+                        "chest_unopened_img": "images/items/169.jpg",
+                        "access_rules": [
+                            "^$SpeciesRuby|Rhyhorn"
+                        ]
+                    },
+                    {
                         "name": "Pokedex - Wobbuffet",
                         "chest_unopened_img": "images/items/161.jpg",
                         "access_rules": [
@@ -606,38 +700,43 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Rhyhorn",
-                        "chest_unopened_img": "images/items/169.jpg",
-                        "access_rules": [
-                            "^$SpeciesRuby|Rhyhorn"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Dodrio",
                         "chest_unopened_img": "images/items/93.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Dodrio"
+                            "evolutions,^$CanEvolveRuby|Dodrio"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Golduck",
                         "chest_unopened_img": "images/items/159.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Golduck"
+                            "evolutions,^$CanEvolveRuby|Golduck"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Rhydon",
                         "chest_unopened_img": "images/items/170.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Rhydon"
+                            "evolutions,^$CanEvolveRuby|Rhydon"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Raichu",
                         "chest_unopened_img": "images/items/157.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Raichu"
+                            "evolutions,^$CanEvolveRuby|Raichu"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     }
                 ]
@@ -708,42 +807,60 @@
                         "name": "Pokedex - Camerupt",
                         "chest_unopened_img": "images/items/102.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Camerupt"
+                            "evolutions,^$CanEvolveRuby|Camerupt"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Magcargo",
                         "chest_unopened_img": "images/items/104.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Magcargo"
+                            "evolutions,^$CanEvolveRuby|Magcargo"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Weezing",
                         "chest_unopened_img": "images/items/109.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Weezing"
+                            "evolutions,^$CanEvolveRuby|Weezing"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Ninetales",
                         "chest_unopened_img": "images/items/154.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Ninetales"
+                            "evolutions,^$CanEvolveRuby|Ninetales"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Combusken",
                         "chest_unopened_img": "images/items/5.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Combusken"
+                            "evolutions,^$CanEvolveRuby|Combusken"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
                         "name": "Pokedex - Blaziken",
                         "chest_unopened_img": "images/items/6.jpg",
                         "access_rules": [
-                            "^$CanEvolveRuby|Blaziken"
+                            "evolutions,^$CanEvolveRuby|Blaziken"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     }
                 ]
@@ -812,6 +929,12 @@
             },
             {
                 "name": "Ruby Board",
+                "access_rules": [
+                    "multi:1"
+                ],
+                "visibility_rules": [
+                    "multi:1"
+                ],
                 "map_locations": [
                     {
                         "map": "Ruby Board",
@@ -831,8 +954,11 @@
                         "chest_unopened_img": "images/items/multiplierRuby2.png",
                         "item_count": 15,
                         "access_rules": [
-                            "$OoL|1,[$CanPlayBasicPinball]",
-                            "$CanPlayBasicPinball"
+                            "$OoL|1,[$CanPlayBasicPinball],multi:11",
+                            "$CanPlayBasicPinball,multi:11"
+                        ],
+                        "visibility_rules": [
+                            "multi:11"
                         ],
                         "clear_as_group": false
                     },
@@ -841,25 +967,37 @@
                         "chest_unopened_img": "images/items/multiplierRuby2.png",
                         "item_count": 50,
                         "access_rules": [
-                            "$OoL|2,[$CanPlayModeratePinball]",
-                            "$CanPlayModeratePinball"
+                            "$OoL|2,[$CanPlayModeratePinball],multi:26",
+                            "$CanPlayModeratePinball,multi:26"
+                        ],
+                        "visibility_rules": [
+                            "multi:26"
                         ],
                         "clear_as_group": false
                     },
                     {
-                        "name": "Bonus Multiplier 76-100",
+                        "name": "Bonus Multiplier 76-99",
                         "chest_unopened_img": "images/items/multiplierRuby2.png",
                         "item_count": 25,
                         "access_rules": [
-                            "$OoL|3,[$CanPlayLongPinball]",
-                            "$CanPlayLongPinball"
+                            "$OoL|3,[$CanPlayLongPinball],multi:76",
+                            "$CanPlayLongPinball,multi:76"
+                        ],
+                        "visibility_rules": [
+                            "multi:76"
                         ],
                         "clear_as_group": false
                     }
                 ]
             },
             {
-                "name": "Ball Upgrades",
+                "name": "Ruby",
+                "access_rules": [
+                    "upgrade:1"
+                ],
+                "visibility_rules": [
+                    "upgrade:1"
+                ],
                 "map_locations": [
                     {
                         "map": "Ruby Board",
@@ -879,9 +1017,11 @@
                         "chest_unopened_img": "images/items/ballupgrade.png",
                         "item_count": 15,
                         "access_rules": [
-                            "$OoL|1,[$CanPlayBasicPinball]",
-                            "$CanPlayBasicPinball",
-                            "bonusmak"
+                            "$OoL|1,[$CanPlayBasicPinball],upgrade:11",
+                            "$CanPlayBasicPinball,upgrade:11"
+                        ],
+                        "visibility_rules": [
+                            "upgrade:11"
                         ],
                         "clear_as_group": false
                     },
@@ -890,22 +1030,77 @@
                         "chest_unopened_img": "images/items/ballupgrade.png",
                         "item_count": 50,
                         "access_rules": [
-                            "$OoL|2,[$CanPlayModeratePinball]",
-                            "$CanPlayModeratePinball",
-                            "bonusmak, $OoL|1,[$CanPlayBasicPinball]",
-                            "bonusmak, $CanPlayBasicPinball"
+                            "$OoL|2,[$CanPlayModeratePinball],upgrade:26",
+                            "$CanPlayModeratePinball,upgrade:26"
+                        ],
+                        "visibility_rules": [
+                            "upgrade:26"
                         ],
                         "clear_as_group": false
                     },
                     {
-                        "name": "Ball Upgrade 76-100",
+                        "name": "Ball Upgrade 76-99",
                         "chest_unopened_img": "images/items/ballupgrade.png",
                         "item_count": 25,
                         "access_rules": [
-                            "$OoL|3,[$CanPlayLongPinball]",
-                            "$CanPlayLongPinball",
-                            "bonusmak, $OoL|2,[$CanPlayModeratePinball]",
-                            "bonusmak, $CanPlayModeratePinball"
+                            "$OoL|3,[$CanPlayLongPinball],upgrade:76",
+                            "$CanPlayLongPinball,upgrade:76"
+                        ],
+                        "visibility_rules": [
+                            "upgrade:76"
+                        ],
+                        "clear_as_group": false
+                    }
+                ]
+            },
+            {
+                "name": "Makuhita",
+                "access_rules": [
+                    "upgrade:1"
+                ],
+                "visibility_rules": [
+                    "upgrade:1"
+                ],
+                "map_locations": [
+                    {
+                        "map": "Ruby Board",
+                        "x": 130,
+                        "y": 55
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ball Upgrade 1-25",
+                        "chest_unopened_img": "images/items/ballupgrade.png",
+                        "item_count": 25,
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "bonusmak"
+                        ]
+                    },
+                    {
+                        "name": "Ball Upgrade 26-75",
+                        "chest_unopened_img": "images/items/ballupgrade.png",
+                        "item_count": 50,
+                        "access_rules": [
+                            "bonusmak, $OoL|1,[$CanPlayBasicPinball],upgrade:26",
+                            "bonusmak, $CanPlayBasicPinball,upgrade:26"
+                        ],
+                        "visibility_rules": [
+                            "upgrade:26"
+                        ],
+                        "clear_as_group": false
+                    },
+                    {
+                        "name": "Ball Upgrade 76-99",
+                        "chest_unopened_img": "images/items/ballupgrade.png",
+                        "item_count": 25,
+                        "access_rules": [
+                            "bonusmak, $OoL|2,[$CanPlayModeratePinball],upgrade:76",
+                            "bonusmak, $CanPlayModeratePinball,upgrade:76"
+                        ],
+                        "visibility_rules": [
+                            "upgrade:76"
                         ],
                         "clear_as_group": false
                     }
@@ -915,7 +1110,7 @@
                 "name": "Spheal Bonus Stage (Ruby)",
                 "access_rules": [
                     "bonuswhis",
-                    "$OoL2, [bonuswhis]"
+                    "$OoL|4, [bonuswhis]"
                 ],
                 "map_locations": [
                     {

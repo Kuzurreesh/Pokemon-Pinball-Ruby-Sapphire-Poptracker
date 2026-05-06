@@ -76,18 +76,21 @@ end
 --ScriptHost:AddWatchForCode("test3", "OoL", Writing2)
 
 
-function Total(code)
-    local count = 0
-    if code == "Total" then
-        -- print("----------------------code total---------------------------")
-        return
-    end
+function Total()
+    local total = 0
+    local cantotal = 0
+
     for index, value in ipairs(Pokemon) do
-        if Caught2(value) then
-            count = count + 1
+        if Caught3(value) ~= nil then
+            if Caught3(value) then
+                total = total + 1
+            else
+                cantotal = cantotal + 1
+            end
         end
     end
-    Tracker:FindObjectForCode("Total").AcquiredCount = count
+    Tracker:FindObjectForCode("Total").AcquiredCount = total
+    Tracker:FindObjectForCode("CanTotal").AcquiredCount = cantotal
 end
 
 ScriptHost:AddWatchForCode("Total", "Dummy", Total)
@@ -100,7 +103,7 @@ function Evolve(trigger)
         local mon = Tracker:FindObjectForCode(value)
         local obj = Tracker:FindObjectForCode("@Pokemon//" .. value).AccessibilityLevel
         if obj == AccessibilityLevel.Cleared then
-            mon.CurrentStage = 2
+            --mon.CurrentStage = 2
         elseif obj == AccessibilityLevel.Normal then
             mon.CurrentStage = 1
         elseif (obj == AccessibilityLevel.None) or (obj == AccessibilityLevel.SequenceBreak) then
@@ -111,7 +114,7 @@ function Evolve(trigger)
         local mon = Tracker:FindObjectForCode(key)
         local obj = Tracker:FindObjectForCode(value).AccessibilityLevel
         if obj == AccessibilityLevel.Cleared then
-            mon.CurrentStage = 2
+            --   mon.CurrentStage = 2
         elseif obj == AccessibilityLevel.Normal then
             mon.CurrentStage = 1
             countruby = countruby + 1
@@ -123,7 +126,7 @@ function Evolve(trigger)
         local mon = Tracker:FindObjectForCode(key)
         local obj = Tracker:FindObjectForCode(value).AccessibilityLevel
         if obj == AccessibilityLevel.Cleared then
-            mon.CurrentStage = 2
+            --   mon.CurrentStage = 2
         elseif obj == AccessibilityLevel.Normal then
             mon.CurrentStage = 1
             countsapphire = countsapphire + 1
@@ -131,8 +134,9 @@ function Evolve(trigger)
             mon.CurrentStage = 0
         end
     end
+    Total()
     BoardTotals(countruby, countsapphire)
-    Tracker:FindObjectForCode("dummy").Active = not Tracker:FindObjectForCode("dummy").Active
+    --  Tracker:FindObjectForCode("dummy").Active = not Tracker:FindObjectForCode("dummy").Active
 end
 
 for index, value in pairs(AREA_NAMES) do
@@ -141,9 +145,12 @@ end
 
 
 function BoardTotals(countruby, countsapphire)
+    local ruby = 0
+    local sapphire = 0
     if countsapphire == nil then
         countruby = 0
         countsapphire = 0
+
         for key, value in pairs(POKEMON_RUBY_LIST) do
             local obj = Tracker:FindObjectForCode(value).AccessibilityLevel
             if obj == AccessibilityLevel.Normal then
@@ -159,18 +166,37 @@ function BoardTotals(countruby, countsapphire)
     end
     for key, value in pairs(LOCATION_RUBY_LIST) do
         local obj = Tracker:FindObjectForCode(value)
-        if obj.AccessibilityLevel == AccessibilityLevel.Normal then
-            countruby = countruby + obj.AvailableChestCount
+        if obj ~= nil then
+            if obj.AccessibilityLevel == AccessibilityLevel.Normal then
+                ruby = ruby + obj.AvailableChestCount
+            end
         end
     end
     for key, value in pairs(LOCATION_SAPPHIRE_LIST) do
         local obj = Tracker:FindObjectForCode(value)
-        if obj.AccessibilityLevel == AccessibilityLevel.Normal then
-            countsapphire = countsapphire + obj.AvailableChestCount
+        if obj ~= nil then
+            if obj.AccessibilityLevel == AccessibilityLevel.Normal then
+                sapphire = sapphire + obj.AvailableChestCount
+            end
         end
     end
-    Tracker:FindObjectForCode("ruby").BadgeText = countruby
-    Tracker:FindObjectForCode("sapphire").BadgeText = countsapphire
+    local rubytext = ""
+    local sapphiretext = ""
+    if countruby ~= 0 then
+        rubytext = countruby .. "\n"
+    end
+    if ruby ~= 0 then
+        rubytext = rubytext .. "+" .. ruby
+    end
+    if countsapphire ~= 0 then
+        sapphiretext = countsapphire .. "\n"
+    end
+    if sapphire ~= 0 then
+        sapphiretext = sapphiretext .. "+" .. sapphire
+    end
+    Tracker:FindObjectForCode("ruby").BadgeText = rubytext
+    Tracker:FindObjectForCode("sapphire").BadgeText = sapphiretext
+    GoalCheck()
 end
 
 ScriptHost:AddOnLocationSectionChangedHandler("Board Totals", BoardTotals)
@@ -200,36 +226,36 @@ end
 
 function Multiplier()
     local multi = Tracker:ProviderCountForCode("multi")
-    if multi > 9 then
-        Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 1-9").AvailableChestCount = 9
-        Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 1-9").AvailableChestCount = 9
-        multi = multi - 9
+    if multi > 10 then
+        Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 1-10").AvailableChestCount = 10
+        Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 1-10").AvailableChestCount = 10
+        multi = multi - 10
         if multi > 14 then
-            Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 10-24").AvailableChestCount = 15
-            Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 10-24").AvailableChestCount = 15
+            Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 11-25").AvailableChestCount = 15
+            Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 11-25").AvailableChestCount = 15
             multi = multi - 15
             if multi > 49 then
-                Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 25-74").AvailableChestCount = 50
-                Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 25-74").AvailableChestCount = 50
+                Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 26-75").AvailableChestCount = 50
+                Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 26-75").AvailableChestCount = 50
                 multi = multi - 50
-                Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 75-99").AvailableChestCount = multi
-                Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 75-99").AvailableChestCount =
-                multi
+                Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 76-99").AvailableChestCount = multi
+                Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 76-99").AvailableChestCount =
+                    multi
             else
-                Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 25-74").AvailableChestCount = multi
-                Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 25-74").AvailableChestCount =
-                multi
+                Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 26-75").AvailableChestCount = multi
+                Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 26-75").AvailableChestCount =
+                    multi
                 return
             end
         else
-            Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 10-24").AvailableChestCount = multi
-            Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 10-24").AvailableChestCount =
-            multi
+            Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 11-25").AvailableChestCount = multi
+            Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 11-25").AvailableChestCount =
+                multi
             return
         end
     else
-        Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 1-9").AvailableChestCount = multi
-        Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 1-9").AvailableChestCount = multi
+        Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 1-10").AvailableChestCount = multi
+        Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 1-10").AvailableChestCount = multi
         return
     end
 end
@@ -237,37 +263,85 @@ end
 ScriptHost:AddWatchForCode("Set Multiplier", "multi", Multiplier)
 
 
+
 function Upgrade()
     local multi = Tracker:ProviderCountForCode("upgrade")
-    if multi > 9 then
-        Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 1-9").AvailableChestCount = 9
-        Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 1-9").AvailableChestCount = 9
-        multi = multi - 9
+    if multi > 10 then
+        Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 1-10").AvailableChestCount = 10
+        Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 1-10").AvailableChestCount = 10
+        multi = multi - 10
         if multi > 14 then
-            Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 10-24").AvailableChestCount = 15
-            Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 10-24").AvailableChestCount = 15
+            Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 11-25").AvailableChestCount = 15
+            Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 11-25").AvailableChestCount = 15
             multi = multi - 15
             if multi > 49 then
-                Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 25-74").AvailableChestCount = 50
-                Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 25-74").AvailableChestCount = 50
+                Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 26-75").AvailableChestCount = 50
+                Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 26-75").AvailableChestCount = 50
                 multi = multi - 50
-                Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 75-99").AvailableChestCount = multi
-                Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 75-99").AvailableChestCount = multi
+                Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 76-99").AvailableChestCount = multi
+                Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 76-99").AvailableChestCount = multi
             else
-                Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 25-74").AvailableChestCount = multi
-                Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 25-74").AvailableChestCount = multi
+                Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 26-75").AvailableChestCount = multi
+                Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 26-75").AvailableChestCount = multi
                 return
             end
         else
-            Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 10-24").AvailableChestCount = multi
-            Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 10-24").AvailableChestCount = multi
+            Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 11-25").AvailableChestCount = multi
+            Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 11-25").AvailableChestCount = multi
             return
         end
     else
-        Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 1-9").AvailableChestCount = multi
-        Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 1-9").AvailableChestCount = multi
+        Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 1-10").AvailableChestCount = multi
+        Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 1-10").AvailableChestCount = multi
         return
     end
 end
 
 ScriptHost:AddWatchForCode("Set Ball Upgrade", "upgrade", Upgrade)
+
+
+function MakuhitaUpgrade()
+    local multi = Tracker:ProviderCountForCode("upgrade")
+    if multi > 25 then
+        Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 1-25").AvailableChestCount = 25
+        multi = multi - 25
+        if multi > 49 then
+            Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 26-75").AvailableChestCount = 50
+            multi = multi - 50
+            Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 76-99").AvailableChestCount = multi
+            return
+        else
+            Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 26-75").AvailableChestCount = multi
+            return
+        end
+    else
+        Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 1-25").AvailableChestCount = multi
+        return
+    end
+end
+
+ScriptHost:AddWatchForCode("Set Makuhita", "upgrade", MakuhitaUpgrade)
+
+
+function EvoMode()
+    Tracker:FindObjectForCode("evo").CurrentStage = 3
+end
+
+ScriptHost:AddWatchForCode("EvoMode", "evomode", EvoMode)
+
+function SingleBoard()
+    if Has("single") then
+        if Tracker:FindObjectForCode("ruby").Active then
+            Tracker:UiHint("ActivateTab", "Ruby Board")
+            Tracker:UiHint("ActivateTab", "Areas")
+            Tracker:UiHint("ActivateTab", "Ruby")
+        elseif Tracker:FindObjectForCode("sapphire").Active then
+            Tracker:UiHint("ActivateTab", "Sapphire Board")
+            Tracker:UiHint("ActivateTab", "Areas")
+            Tracker:UiHint("ActivateTab", "Sapphire")
+        end
+    end
+end
+
+ScriptHost:AddWatchForCode("SingleBoard", "single", SingleBoard)
+ScriptHost:AddWatchForCode("SingleBoard2", "field", SingleBoard)
