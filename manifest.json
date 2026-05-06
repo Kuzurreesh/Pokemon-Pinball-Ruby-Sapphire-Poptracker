@@ -1,15 +1,19 @@
 {
     "name": "Pokemon Pinball - Ruby & Sapphire Poptracker Pack",
     "game_name": "Pokemon Pinball Ruby & Sapphire",
-    "package_version": "0.1.2",
+    "package_version": "0.2.0",
     "package_uid": "Pinball_RS",
     "author": "Kuzurreesh",
 	"platform": "gba",
     "min_poptracker_version": "0.32.0",
     "target_poptracker_version": "0.34.0",
     "variants": {
-        "Full Tracker": {
-            "display_name": "Tracker 0.1.2",
+        "Evo Line Tracker": {
+            "display_name": "Tracker 0.2.0 - Evolution Line order",
+			"flags": ["ap"]
+        },
+        "Catch Tracker": {
+            "display_name": "Tracker 0.2.0 - Catch order",
 			"flags": ["ap"]
         }
     },

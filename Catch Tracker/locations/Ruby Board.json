@@ -25,16 +25,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Exploud",
-                        "chest_unopened_img": "images/items/47.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Exploud"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Mawile",
                         "chest_unopened_img": "images/items/69.jpg",
                         "access_rules": [
@@ -46,6 +36,51 @@
                         "chest_unopened_img": "images/items/73.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Machop"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Grimer",
+                        "chest_unopened_img": "images/items/106.jpg",
+                        "access_rules": [
+                            "^$SpeciesRuby|Grimer"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Solrock",
+                        "chest_unopened_img": "images/items/126.jpg",
+                        "access_rules": [
+                            "^$SpeciesRuby|Solrock"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Shelgon",
+                        "chest_unopened_img": "images/items/188.jpg",
+                        "access_rules": [
+                            "^$SpeciesRuby|Shelgon"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Nosepass",
+                        "chest_unopened_img": "images/items/60.jpg",
+                        "access_rules": [
+                            "^$SpeciesRuby|Nosepass"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Abra",
+                        "chest_unopened_img": "images/items/39.jpg",
+                        "access_rules": [
+                            "^$SpeciesRuby|Abra"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Exploud",
+                        "chest_unopened_img": "images/items/47.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Exploud"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
@@ -69,13 +104,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Grimer",
-                        "chest_unopened_img": "images/items/106.jpg",
-                        "access_rules": [
-                            "^$SpeciesRuby|Grimer"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Muk",
                         "chest_unopened_img": "images/items/107.jpg",
                         "access_rules": [
@@ -86,20 +114,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Solrock",
-                        "chest_unopened_img": "images/items/126.jpg",
-                        "access_rules": [
-                            "^$SpeciesRuby|Solrock"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Shelgon",
-                        "chest_unopened_img": "images/items/188.jpg",
-                        "access_rules": [
-                            "^$SpeciesRuby|Shelgon"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Salamence",
                         "chest_unopened_img": "images/items/189.jpg",
                         "access_rules": [
@@ -107,20 +121,6 @@
                         ],
                         "visibility_rules": [
                             "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Nosepass",
-                        "chest_unopened_img": "images/items/60.jpg",
-                        "access_rules": [
-                            "^$SpeciesRuby|Nosepass"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Abra",
-                        "chest_unopened_img": "images/items/39.jpg",
-                        "access_rules": [
-                            "^$SpeciesRuby|Abra"
                         ]
                     },
                     {
@@ -166,30 +166,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Linoone",
-                        "chest_unopened_img": "images/items/13.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Linoone"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Silcoon",
                         "chest_unopened_img": "images/items/15.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Silcoon"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Beautifly",
-                        "chest_unopened_img": "images/items/16.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Beautifly"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
                         ]
                     },
                     {
@@ -200,16 +180,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Dustox",
-                        "chest_unopened_img": "images/items/18.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Dustox"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Nuzleaf",
                         "chest_unopened_img": "images/items/23.jpg",
                         "access_rules": [
@@ -217,30 +187,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Shiftry",
-                        "chest_unopened_img": "images/items/24.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Shiftry"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Duskull",
                         "chest_unopened_img": "images/items/148.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Duskull"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Dusclops",
-                        "chest_unopened_img": "images/items/149.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Dusclops"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
                         ]
                     },
                     {
@@ -255,6 +205,63 @@
                         "chest_unopened_img": "images/items/1.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Treecko"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Nincada",
+                        "chest_unopened_img": "images/items/42.jpg",
+                        "access_rules": [
+                            "^$SpeciesRuby|Nincada"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Linoone",
+                        "chest_unopened_img": "images/items/13.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Linoone"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Beautifly",
+                        "chest_unopened_img": "images/items/16.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Beautifly"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Dustox",
+                        "chest_unopened_img": "images/items/18.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Dustox"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Shiftry",
+                        "chest_unopened_img": "images/items/24.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Shiftry"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Dusclops",
+                        "chest_unopened_img": "images/items/149.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Dusclops"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
@@ -275,13 +282,6 @@
                         ],
                         "visibility_rules": [
                             "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Nincada",
-                        "chest_unopened_img": "images/items/42.jpg",
-                        "access_rules": [
-                            "^$SpeciesRuby|Nincada"
                         ]
                     },
                     {
@@ -327,30 +327,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Pelipper",
-                        "chest_unopened_img": "images/items/28.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Pelipper"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Tentacool",
                         "chest_unopened_img": "images/items/66.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Tentacool"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Tentacruel",
-                        "chest_unopened_img": "images/items/67.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Tentacruel"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
                         ]
                     },
                     {
@@ -361,30 +341,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Sharpedo",
-                        "chest_unopened_img": "images/items/98.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Sharpedo"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Wailmer",
                         "chest_unopened_img": "images/items/99.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Wailmer"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Wailord",
-                        "chest_unopened_img": "images/items/100.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Wailord"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
                         ]
                     },
                     {
@@ -402,6 +362,60 @@
                         ]
                     },
                     {
+                        "name": "Pokedex - Staryu",
+                        "chest_unopened_img": "images/items/143.jpg",
+                        "access_rules": [
+                            "^$SpeciesRuby|Staryu"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Relicanth",
+                        "chest_unopened_img": "images/items/179.jpg",
+                        "access_rules": [
+                            "^$SpeciesRuby|Relicanth"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Pelipper",
+                        "chest_unopened_img": "images/items/28.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Pelipper"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Tentacruel",
+                        "chest_unopened_img": "images/items/67.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Tentacruel"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Sharpedo",
+                        "chest_unopened_img": "images/items/98.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Sharpedo"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Wailord",
+                        "chest_unopened_img": "images/items/100.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Wailord"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
                         "name": "Pokedex - Cradily",
                         "chest_unopened_img": "images/items/134.jpg",
                         "access_rules": [
@@ -412,13 +426,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Staryu",
-                        "chest_unopened_img": "images/items/143.jpg",
-                        "access_rules": [
-                            "^$SpeciesRuby|Staryu"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Starmie",
                         "chest_unopened_img": "images/items/144.jpg",
                         "access_rules": [
@@ -426,13 +433,6 @@
                         ],
                         "visibility_rules": [
                             "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Relicanth",
-                        "chest_unopened_img": "images/items/179.jpg",
-                        "access_rules": [
-                            "^$SpeciesRuby|Relicanth"
                         ]
                     }
                 ]
@@ -458,30 +458,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Mightyena",
-                        "chest_unopened_img": "images/items/11.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Mightyena"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Taillow",
                         "chest_unopened_img": "images/items/25.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Taillow"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Swellow",
-                        "chest_unopened_img": "images/items/26.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Swellow"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
                         ]
                     },
                     {
@@ -492,16 +472,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Manectric",
-                        "chest_unopened_img": "images/items/79.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Manectric"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Magnemite",
                         "chest_unopened_img": "images/items/82.jpg",
                         "access_rules": [
@@ -509,30 +479,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Magneton",
-                        "chest_unopened_img": "images/items/83.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Magneton"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Voltorb",
                         "chest_unopened_img": "images/items/84.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Voltorb"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Electrode",
-                        "chest_unopened_img": "images/items/85.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Electrode"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
                         ]
                     },
                     {
@@ -554,6 +504,56 @@
                         "chest_unopened_img": "images/items/123.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Zangoose"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Mightyena",
+                        "chest_unopened_img": "images/items/11.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Mightyena"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Swellow",
+                        "chest_unopened_img": "images/items/26.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Swellow"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Manectric",
+                        "chest_unopened_img": "images/items/79.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Manectric"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Magneton",
+                        "chest_unopened_img": "images/items/83.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Magneton"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Electrode",
+                        "chest_unopened_img": "images/items/85.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Electrode"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     }
                 ]
@@ -578,26 +578,6 @@
                         "chest_unopened_img": "images/items/190.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Beldum"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Metang",
-                        "chest_unopened_img": "images/items/191.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Metang"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Metagross",
-                        "chest_unopened_img": "images/items/192.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Metagross"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
                         ]
                     },
                     {
@@ -627,6 +607,26 @@
                         "access_rules": [
                             "^$SpeciesRuby|Registeel"
                         ]
+                    },
+                    {
+                        "name": "Pokedex - Metang",
+                        "chest_unopened_img": "images/items/191.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Metang"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Metagross",
+                        "chest_unopened_img": "images/items/192.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Metagross"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
                     }
                 ]
             },
@@ -651,30 +651,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Dodrio",
-                        "chest_unopened_img": "images/items/93.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Dodrio"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Psyduck",
                         "chest_unopened_img": "images/items/158.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Psyduck"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Golduck",
-                        "chest_unopened_img": "images/items/159.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Golduck"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
                         ]
                     },
                     {
@@ -706,16 +686,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Rhydon",
-                        "chest_unopened_img": "images/items/170.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Rhydon"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Wobbuffet",
                         "chest_unopened_img": "images/items/161.jpg",
                         "access_rules": [
@@ -727,6 +697,36 @@
                         "chest_unopened_img": "images/items/156.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Pikachu"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Dodrio",
+                        "chest_unopened_img": "images/items/93.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Dodrio"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Golduck",
+                        "chest_unopened_img": "images/items/159.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Golduck"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Rhydon",
+                        "chest_unopened_img": "images/items/170.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Rhydon"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {
@@ -762,30 +762,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Camerupt",
-                        "chest_unopened_img": "images/items/102.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Camerupt"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Slugma",
                         "chest_unopened_img": "images/items/103.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Slugma"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Magcargo",
-                        "chest_unopened_img": "images/items/104.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Magcargo"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
                         ]
                     },
                     {
@@ -803,30 +783,10 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Weezing",
-                        "chest_unopened_img": "images/items/109.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Weezing"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
                         "name": "Pokedex - Vulpix",
                         "chest_unopened_img": "images/items/153.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Vulpix"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Ninetales",
-                        "chest_unopened_img": "images/items/154.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveRuby|Ninetales"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
                         ]
                     },
                     {
@@ -841,6 +801,46 @@
                         "chest_unopened_img": "images/items/4.jpg",
                         "access_rules": [
                             "^$SpeciesRuby|Torchic"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Camerupt",
+                        "chest_unopened_img": "images/items/102.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Camerupt"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Magcargo",
+                        "chest_unopened_img": "images/items/104.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Magcargo"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Weezing",
+                        "chest_unopened_img": "images/items/109.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Weezing"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Ninetales",
+                        "chest_unopened_img": "images/items/154.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveRuby|Ninetales"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
                         ]
                     },
                     {

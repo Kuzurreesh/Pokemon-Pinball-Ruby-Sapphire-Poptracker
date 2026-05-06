@@ -3,1354 +3,1372 @@
         "name": "Pokemon",
         "children": [
             {
-                "name": "Treecko",
-                "access_rules": [
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Treecko"
-                ]
-            },
-            {
-                "name": "Grovyle",
-                "access_rules": [
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Grovyle"
-                ]
-            },
-            {
-                "name": "Sceptile",
-                "access_rules": [
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Sceptile"
-                ]
-            },
-            {
-                "name": "Torchic",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Torchic"
-                ]
-            },
-            {
-                "name": "Combusken",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Combusken"
-                ]
-            },
-            {
-                "name": "Blaziken",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Blaziken"
-                ]
-            },
-            {
-                "name": "Mudkip",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Mudkip"
-                ]
-            },
-            {
-                "name": "Marshtomp",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Marshtomp"
-                ]
-            },
-            {
-                "name": "Swampert",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Swampert"
-                ]
-            },
-            {
-                "name": "Poochyena",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Poochyena",
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Poochyena"
-                ]
-            },
-            {
-                "name": "Mightyena",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Mightyena",
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Mightyena"
-                ]
-            },
-            {
-                "name": "Zigzagoon",
-                "access_rules": [
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Zigzagoon"
-                ]
-            },
-            {
-                "name": "Linoone",
-                "access_rules": [
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Linoone"
-                ]
-            },
-            {
-                "name": "Wurmple",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Wurmple",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Wurmple"
-                ]
-            },
-            {
-                "name": "Silcoon",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Silcoon",
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Silcoon",
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Silcoon",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Silcoon"
-                ]
-            },
-            {
-                "name": "Beautifly",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Beautifly",
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Beautifly",
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Beautifly",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Beautifly"
-                ]
-            },
-            {
-                "name": "Cascoon",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Cascoon",
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Cascoon",
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Cascoon",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Cascoon"
-                ]
-            },
-            {
-                "name": "Dustox",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Dustox",
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Dustox",
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Dustox",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Dustox"
-                ]
-            },
-            {
-                "name": "Lotad",
-                "access_rules": [
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Lotad"
-                ]
-            },
-            {
-                "name": "Lombre",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Lombre",
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Lombre"
-                ]
-            },
-            {
-                "name": "Ludicolo",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Ludicolo",
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Ludicolo"
-                ]
-            },
-            {
-                "name": "Seedot",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Seedot"
-                ]
-            },
-            {
-                "name": "Nuzleaf",
-                "access_rules": [
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Nuzleaf",
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Nuzleaf"
-                ]
-            },
-            {
-                "name": "Shiftry",
-                "access_rules": [
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Shiftry",
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Shiftry"
-                ]
-            },
-            {
-                "name": "Taillow",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Taillow",
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Taillow"
-                ]
-            },
-            {
-                "name": "Swellow",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Swellow",
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Swellow"
-                ]
-            },
-            {
-                "name": "Wingull",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Wingull",
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Wingull"
-                ]
-            },
-            {
-                "name": "Pelipper",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Pelipper",
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Pelipper"
-                ]
-            },
-            {
-                "name": "Ralts",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Ralts",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Ralts"
-                ]
-            },
-            {
-                "name": "Kirlia",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Kirlia",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Kirlia"
-                ]
-            },
-            {
-                "name": "Gardevoir",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Gardevoir",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Gardevoir"
-                ]
-            },
-            {
-                "name": "Surskit",
-                "access_rules": [
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Surskit"
-                ]
-            },
-            {
-                "name": "Masquerain",
-                "access_rules": [
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Masquerain"
-                ]
-            },
-            {
-                "name": "Shroomish",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Shroomish"
-                ]
-            },
-            {
-                "name": "Breloom",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Breloom"
-                ]
-            },
-            {
-                "name": "Slakoth",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Slakoth"
-                ]
-            },
-            {
-                "name": "Vigoroth",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Vigoroth"
-                ]
-            },
-            {
-                "name": "Slaking",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Slaking"
-                ]
-            },
-            {
-                "name": "Abra",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Abra",
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Abra"
-                ]
-            },
-            {
-                "name": "Kadabra",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Kadabra",
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Kadabra"
-                ]
-            },
-            {
-                "name": "Alakazam",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Alakazam",
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Alakazam"
-                ]
-            },
-            {
-                "name": "Nincada",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Nincada",
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Nincada"
-                ]
-            },
-            {
-                "name": "Ninjask",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Ninjask",
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Ninjask"
-                ]
-            },
-            {
-                "name": "Shedinja",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Shedinja",
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Shedinja"
-                ]
-            },
-            {
-                "name": "Whismur",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Whismur",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Whismur"
-                ]
-            },
-            {
-                "name": "Loudred",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Loudred",
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Loudred",
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Loudred",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Loudred"
-                ]
-            },
-            {
-                "name": "Exploud",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Exploud",
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Exploud",
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Exploud",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Exploud"
-                ]
-            },
-            {
-                "name": "Makuhita",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Makuhita"
-                ]
-            },
-            {
-                "name": "Hariyama",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Hariyama"
-                ]
-            },
-            {
-                "name": "Goldeen",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Goldeen"
-                ]
-            },
-            {
-                "name": "Seaking",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Seaking"
-                ]
-            },
-            {
-                "name": "Magikarp",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Magikarp"
-                ]
-            },
-            {
-                "name": "Gyarados",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Gyarados"
-                ]
-            },
-            {
-                "name": "Azurill",
-                "access_rules": [
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Azurill"
-                ]
-            },
-            {
-                "name": "Marill",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Marill",
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Marill"
-                ]
-            },
-            {
-                "name": "Azumarill",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Azumarill",
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Azumarill"
-                ]
-            },
-            {
-                "name": "Geodude",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Geodude"
-                ]
-            },
-            {
-                "name": "Graveler",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Graveler"
-                ]
-            },
-            {
-                "name": "Golem",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Golem"
-                ]
-            },
-            {
-                "name": "Nosepass",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Nosepass",
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Nosepass"
-                ]
-            },
-            {
-                "name": "Skitty",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Skitty"
-                ]
-            },
-            {
-                "name": "Delcatty",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Delcatty"
-                ]
-            },
-            {
-                "name": "Zubat",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Zubat",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Zubat"
-                ]
-            },
-            {
-                "name": "Golbat",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Golbat",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Golbat"
-                ]
-            },
-            {
-                "name": "Crobat",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Crobat",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Crobat"
-                ]
-            },
-            {
-                "name": "Tentacool",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Tentacool",
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Tentacool"
-                ]
-            },
-            {
-                "name": "Tentacruel",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Tentacruel",
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Tentacruel"
-                ]
-            },
-            {
-                "name": "Sableye",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Sableye"
-                ]
-            },
-            {
-                "name": "Mawile",
-                "access_rules": [
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Mawile"
-                ]
-            },
-            {
-                "name": "Aron",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Aron",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Aron"
-                ]
-            },
-            {
-                "name": "Lairon",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Lairon",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Lairon"
-                ]
-            },
-            {
-                "name": "Aggron",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (1)/Pokedex - Aggron",
-                    "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Aggron"
-                ]
-            },
-            {
-                "name": "Machop",
-                "access_rules": [
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Machop"
-                ]
-            },
-            {
-                "name": "Machoke",
-                "access_rules": [
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Machoke"
-                ]
-            },
-            {
-                "name": "Machamp",
-                "access_rules": [
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Machamp"
-                ]
-            },
-            {
-                "name": "Meditite",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Meditite"
-                ]
-            },
-            {
-                "name": "Medicham",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Medicham"
-                ]
-            },
-            {
-                "name": "Electrike",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Electrike",
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Electrike"
-                ]
-            },
-            {
-                "name": "Manectric",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Manectric",
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Manectric"
-                ]
-            },
-            {
-                "name": "Plusle",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Plusle"
-                ]
-            },
-            {
-                "name": "Minun",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Minun"
-                ]
-            },
-            {
-                "name": "Magnemite",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Magnemite",
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Magnemite"
-                ]
-            },
-            {
-                "name": "Magneton",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Magneton",
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Magneton"
-                ]
-            },
-            {
-                "name": "Voltorb",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Voltorb",
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Voltorb"
-                ]
-            },
-            {
-                "name": "Electrode",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Electrode",
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Electrode"
-                ]
-            },
-            {
-                "name": "Volbeat",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Volbeat"
-                ]
-            },
-            {
-                "name": "Illumise",
-                "access_rules": [
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Illumise"
-                ]
-            },
-            {
-                "name": "Oddish",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (2)/Pokedex - Oddish",
-                    "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Oddish"
-                ]
-            },
-            {
-                "name": "Gloom",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (2)/Pokedex - Gloom",
-                    "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Gloom"
-                ]
-            },
-            {
-                "name": "Vileplume",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (2)/Pokedex - Vileplume"
-                ]
-            },
-            {
-                "name": "Bellossom",
-                "access_rules": [
-                    "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Bellossom"
-                ]
-            },
-            {
-                "name": "Doduo",
-                "access_rules": [
-                    "@Ruby Board/Safari Zone (Ruby)/Pokedex - Doduo"
-                ]
-            },
-            {
-                "name": "Dodrio",
-                "access_rules": [
-                    "@Ruby Board/Safari Zone (Ruby)/Pokedex - Dodrio"
-                ]
-            },
-            {
-                "name": "Roselia",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Roselia"
-                ]
-            },
-            {
-                "name": "Gulpin",
-                "access_rules": [
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Gulpin"
-                ]
-            },
-            {
-                "name": "Swalot",
-                "access_rules": [
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Swalot"
-                ]
-            },
-            {
-                "name": "Carvanha",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Carvanha",
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Carvanha"
-                ]
-            },
-            {
-                "name": "Sharpedo",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Sharpedo",
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Sharpedo"
-                ]
-            },
-            {
-                "name": "Wailmer",
-                "access_rules": [
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Wailmer"
-                ]
-            },
-            {
-                "name": "Wailord",
-                "access_rules": [
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Wailord"
-                ]
-            },
-            {
-                "name": "Numel",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Numel"
-                ]
-            },
-            {
-                "name": "Camerupt",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Camerupt"
-                ]
-            },
-            {
-                "name": "Slugma",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Slugma"
-                ]
-            },
-            {
-                "name": "Magcargo",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Magcargo"
-                ]
-            },
-            {
-                "name": "Torkoal",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Torkoal"
-                ]
-            },
-            {
-                "name": "Grimer",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Grimer",
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Grimer"
-                ]
-            },
-            {
-                "name": "Muk",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Muk",
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Muk"
-                ]
-            },
-            {
-                "name": "Koffing",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Koffing"
-                ]
-            },
-            {
-                "name": "Weezing",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Weezing"
-                ]
-            },
-            {
-                "name": "Spoink",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (2)/Pokedex - Spoink",
-                    "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Spoink"
-                ]
-            },
-            {
-                "name": "Grumpig",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (2)/Pokedex - Grumpig",
-                    "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Grumpig"
-                ]
-            },
-            {
-                "name": "Sandshrew",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (3)/Pokedex - Sandshrew",
-                    "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Sandshrew"
-                ]
-            },
-            {
-                "name": "Sandslash",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (3)/Pokedex - Sandslash",
-                    "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Sandslash"
-                ]
-            },
-            {
-                "name": "Spinda",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (3)/Pokedex - Spinda",
-                    "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Spinda"
-                ]
-            },
-            {
-                "name": "Skarmory",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Skarmory"
-                ]
-            },
-            {
-                "name": "Trapinch",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (3)/Pokedex - Trapinch",
-                    "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Trapinch"
-                ]
-            },
-            {
-                "name": "Vibrava",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Vibrava",
-                    "@Eggs Ruby/Egg Bunch (3)/Pokedex - Vibrava",
-                    "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Vibrava"
-                ]
-            },
-            {
-                "name": "Flygon",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Flygon",
-                    "@Eggs Ruby/Egg Bunch (3)/Pokedex - Flygon",
-                    "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Flygon"
-                ]
-            },
-            {
-                "name": "Cacnea",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Cacnea"
-                ]
-            },
-            {
-                "name": "Cacturne",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Cacturne"
-                ]
-            },
-            {
-                "name": "Swablu",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Swablu"
-                ]
-            },
-            {
-                "name": "Altaria",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Altaria"
-                ]
-            },
-            {
-                "name": "Zangoose",
-                "access_rules": [
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Zangoose"
-                ]
-            },
-            {
-                "name": "Seviper",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Seviper"
-                ]
-            },
-            {
-                "name": "Lunatone",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Lunatone"
-                ]
-            },
-            {
-                "name": "Solrock",
-                "access_rules": [
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Solrock"
-                ]
-            },
-            {
-                "name": "Barboach",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Barboach"
-                ]
-            },
-            {
-                "name": "Whiscash",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Whiscash"
-                ]
-            },
-            {
-                "name": "Corphish",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Corphish"
-                ]
-            },
-            {
-                "name": "Crawdaunt",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Crawdaunt"
-                ]
-            },
-            {
-                "name": "Baltoy",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Baltoy"
-                ]
-            },
-            {
-                "name": "Claydol",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Claydol"
-                ]
-            },
-            {
-                "name": "Lileep",
-                "access_rules": [
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Lileep"
-                ]
-            },
-            {
-                "name": "Cradily",
-                "access_rules": [
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Cradily"
-                ]
-            },
-            {
-                "name": "Anorith",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Anorith"
-                ]
-            },
-            {
-                "name": "Armaldo",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Armaldo"
-                ]
-            },
-            {
-                "name": "Igglybuff",
-                "access_rules": [
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Igglybuff"
-                ]
-            },
-            {
-                "name": "Jigglypuff",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Jigglypuff",
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Jigglypuff"
-                ]
-            },
-            {
-                "name": "Wigglytuff",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Wigglytuff",
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Wigglytuff"
-                ]
-            },
-            {
-                "name": "Feebas",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Feebas"
-                ]
-            },
-            {
-                "name": "Milotic",
-                "access_rules": [
-                    "@Sapphire Board/Lake (Sapphire)/Pokedex - Milotic"
-                ]
-            },
-            {
-                "name": "Castform",
-                "access_rules": [
-                    "@Sapphire Board/Plains (Sapphire)/Pokedex - Castform",
-                    "@Ruby Board/Plains (Ruby)/Pokedex - Castform"
-                ]
-            },
-            {
-                "name": "Staryu",
-                "access_rules": [
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Staryu"
-                ]
-            },
-            {
-                "name": "Starmie",
-                "access_rules": [
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Starmie"
-                ]
-            },
-            {
-                "name": "Kecleon",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Kecleon",
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Kecleon"
-                ]
-            },
-            {
-                "name": "Shuppet",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (2)/Pokedex - Shuppet",
-                    "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Shuppet"
-                ]
-            },
-            {
-                "name": "Banette",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (2)/Pokedex - Banette",
-                    "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Banette"
-                ]
-            },
-            {
-                "name": "Duskull",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Duskull",
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Duskull"
-                ]
-            },
-            {
-                "name": "Dusclops",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Dusclops",
-                    "@Ruby Board/Forest (Ruby)/Pokedex - Dusclops"
-                ]
-            },
-            {
-                "name": "Tropius",
-                "access_rules": [
-                    "@Sapphire Board/Forest (Sapphire)/Pokedex - Tropius"
-                ]
-            },
-            {
-                "name": "Chimecho",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (2)/Pokedex - Chimecho",
-                    "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Chimecho"
-                ]
-            },
-            {
-                "name": "Absol",
-                "access_rules": [
-                    "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Absol"
-                ]
-            },
-            {
-                "name": "Vulpix",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Vulpix"
-                ]
-            },
-            {
-                "name": "Ninetales",
-                "access_rules": [
-                    "@Ruby Board/Volcano (Ruby)/Pokedex - Ninetales"
-                ]
-            },
-            {
-                "name": "Pichu",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Pichu",
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Pichu"
-                ]
-            },
-            {
-                "name": "Pikachu",
-                "access_rules": [
-                    "@Ruby Board/Safari Zone (Ruby)/Pokedex - Pikachu",
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Pikachu",
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Pikachu"
-                ]
-            },
-            {
-                "name": "Raichu",
-                "access_rules": [
-                    "@Ruby Board/Safari Zone (Ruby)/Pokedex - Raichu",
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Raichu",
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Raichu"
-                ]
-            },
-            {
-                "name": "Psyduck",
-                "access_rules": [
-                    "@Ruby Board/Safari Zone (Ruby)/Pokedex - Psyduck"
-                ]
-            },
-            {
-                "name": "Golduck",
-                "access_rules": [
-                    "@Ruby Board/Safari Zone (Ruby)/Pokedex - Golduck"
-                ]
-            },
-            {
-                "name": "Wynaut",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Wynaut"
-                ]
-            },
-            {
-                "name": "Wobbuffet",
-                "access_rules": [
-                    "@Ruby Board/Safari Zone (Ruby)/Pokedex - Wobbuffet",
-                    "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Wobbuffet"
-                ]
-            },
-            {
-                "name": "Natu",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (2)/Pokedex - Natu",
-                    "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Natu"
-                ]
-            },
-            {
-                "name": "Xatu",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (2)/Pokedex - Xatu",
-                    "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Xatu"
-                ]
-            },
-            {
-                "name": "Girafarig",
-                "access_rules": [
-                    "@Ruby Board/Safari Zone (Ruby)/Pokedex - Girafarig"
-                ]
-            },
-            {
-                "name": "Phanpy",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (3)/Pokedex - Phanpy",
-                    "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Phanpy"
-                ]
-            },
-            {
-                "name": "Donphan",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (3)/Pokedex - Donphan",
-                    "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Donphan"
-                ]
-            },
-            {
-                "name": "Pinsir",
-                "access_rules": [
-                    "@Ruby Board/Safari Zone (Ruby)/Pokedex - Pinsir"
-                ]
-            },
-            {
-                "name": "Heracross",
-                "access_rules": [
-                    "@Ruby Board/Safari Zone (Ruby)/Pokedex - Heracross"
-                ]
-            },
-            {
-                "name": "Rhyhorn",
-                "access_rules": [
-                    "@Ruby Board/Safari Zone (Ruby)/Pokedex - Rhyhorn"
-                ]
-            },
-            {
-                "name": "Rhydon",
-                "access_rules": [
-                    "@Ruby Board/Safari Zone (Ruby)/Pokedex - Rhydon"
-                ]
-            },
-            {
-                "name": "Snorunt",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (4)/Pokedex - Snorunt",
-                    "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Snorunt"
-                ]
-            },
-            {
-                "name": "Glalie",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (4)/Pokedex - Glalie",
-                    "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Glalie"
-                ]
-            },
-            {
-                "name": "Spheal",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (4)/Pokedex - Spheal",
-                    "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Spheal"
-                ]
-            },
-            {
-                "name": "Sealeo",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (4)/Pokedex - Sealeo",
-                    "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Sealeo"
-                ]
-            },
-            {
-                "name": "Walrein",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (4)/Pokedex - Walrein",
-                    "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Walrein"
-                ]
-            },
-            {
-                "name": "Clamperl",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Clamperl"
-                ]
-            },
-            {
-                "name": "Huntail",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Huntail"
-                ]
-            },
-            {
-                "name": "Gorebyss",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Gorebyss"
-                ]
-            },
-            {
-                "name": "Relicanth",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Relicanth",
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Relicanth"
-                ]
-            },
-            {
-                "name": "Corsola",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (4)/Pokedex - Corsola",
-                    "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Corsola"
-                ]
-            },
-            {
-                "name": "Chinchou",
-                "access_rules": [
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Chinchou"
-                ]
-            },
-            {
-                "name": "Lanturn",
-                "access_rules": [
-                    "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Lanturn"
-                ]
-            },
-            {
-                "name": "Luvdisc",
-                "access_rules": [
-                    "@Sapphire Board/Ocean (Sapphire)/Pokedex - Luvdisc",
-                    "@Ruby Board/Ocean (Ruby)/Pokedex - Luvdisc"
-                ]
-            },
-            {
-                "name": "Horsea",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (4)/Pokedex - Horsea",
-                    "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Horsea"
-                ]
-            },
-            {
-                "name": "Seadra",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (4)/Pokedex - Seadra",
-                    "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Seadra"
-                ]
-            },
-            {
-                "name": "Kingdra",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (4)/Pokedex - Kingdra",
-                    "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Kingdra"
-                ]
-            },
-            {
-                "name": "Bagon",
-                "access_rules": [
-                    "@Eggs Ruby/Egg Bunch (4)/Pokedex - Bagon",
-                    "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Bagon"
-                ]
-            },
-            {
-                "name": "Shelgon",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Shelgon",
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Shelgon",
-                    "@Eggs Ruby/Egg Bunch (4)/Pokedex - Shelgon",
-                    "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Shelgon"
-                ]
-            },
-            {
-                "name": "Salamence",
-                "access_rules": [
-                    "@Sapphire Board/Cave (Sapphire)/Pokedex - Salamence",
-                    "@Ruby Board/Cave (Ruby)/Pokedex - Salamence",
-                    "@Eggs Ruby/Egg Bunch (4)/Pokedex - Salamence",
-                    "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Salamence"
-                ]
-            },
-            {
-                "name": "Beldum",
-                "access_rules": [
-                    "@Sapphire Board/Ruins (Sapphire)/Pokedex - Beldum",
-                    "@Ruby Board/Ruins (Ruby)/Pokedex - Beldum"
-                ]
-            },
-            {
-                "name": "Metang",
-                "access_rules": [
-                    "@Sapphire Board/Ruins (Sapphire)/Pokedex - Metang",
-                    "@Ruby Board/Ruins (Ruby)/Pokedex - Metang"
-                ]
-            },
-            {
-                "name": "Metagross",
-                "access_rules": [
-                    "@Sapphire Board/Ruins (Sapphire)/Pokedex - Metagross",
-                    "@Ruby Board/Ruins (Ruby)/Pokedex - Metagross"
-                ]
-            },
-            {
-                "name": "Regirock",
-                "access_rules": [
-                    "@Sapphire Board/Ruins (Sapphire)/Pokedex - Regirock",
-                    "@Ruby Board/Ruins (Ruby)/Pokedex - Regirock"
-                ]
-            },
-            {
-                "name": "Regice",
-                "access_rules": [
-                    "@Sapphire Board/Ruins (Sapphire)/Pokedex - Regice",
-                    "@Ruby Board/Ruins (Ruby)/Pokedex - Regice"
-                ]
-            },
-            {
-                "name": "Registeel",
-                "access_rules": [
-                    "@Sapphire Board/Ruins (Sapphire)/Pokedex - Registeel",
-                    "@Ruby Board/Ruins (Ruby)/Pokedex - Registeel"
-                ]
-            },
-            {
-                "name": "Latias",
-                "access_rules": [
-                    "@Special/Bonus Stage (Sapphire)/Pokedex - Latias"
-                ]
-            },
-            {
-                "name": "Latios",
-                "access_rules": [
-                    "@Special/Bonus Stage (Ruby)/Pokedex - Latios"
-                ]
-            },
-            {
-                "name": "Kyogre",
-                "access_rules": [
-                    "@Sapphire Board/Special (Sapphire)/Pokedex - Kyogre"
-                ]
-            },
-            {
-                "name": "Groudon",
-                "access_rules": [
-                    "@Ruby Board/Special (Ruby)/Pokedex - Groudon"
-                ]
-            },
-            {
-                "name": "Rayquaza",
-                "access_rules": [
-                    "@Sapphire Board/Special (Sapphire)/Pokedex - Rayquaza",
-                    "@Ruby Board/Special (Ruby)/Pokedex - Rayquaza"
-                ]
-            },
-            {
-                "name": "Jirachi",
-                "access_rules": [
-                    "@Sapphire Board/Ruins (Sapphire)/Pokedex - Jirachi",
-                    "@Ruby Board/Ruins (Ruby)/Pokedex - Jirachi"
-                ]
-            },
-            {
-                "name": "Chikorita",
-                "access_rules": [
-                    "@Special/Bonus Stage (Ruby)/Pokedex - Chikorita",
-                    "@Special/Bonus Stage (Sapphire)/Pokedex - Chikorita"
-                ]
-            },
-            {
-                "name": "Cyndaquil",
-                "access_rules": [
-                    "@Special/Bonus Stage (Ruby)/Pokedex - Cyndaquil",
-                    "@Special/Bonus Stage (Sapphire)/Pokedex - Cyndaquil"
-                ]
-            },
-            {
-                "name": "Totodile",
-                "access_rules": [
-                    "@Special/Bonus Stage (Ruby)/Pokedex - Totodile",
-                    "@Special/Bonus Stage (Sapphire)/Pokedex - Totodile"
-                ]
-            },
-            {
-                "name": "Aerodactyl",
-                "access_rules": [
-                    "@Special/Bonus Stage (Ruby)/Pokedex - Aerodactyl",
-                    "@Special/Bonus Stage (Sapphire)/Pokedex - Aerodactyl"
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Treecko",
+                        "access_rules": [
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Treecko"
+                        ]
+                    },
+                    {
+                        "name": "Grovyle",
+                        "access_rules": [
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Grovyle"
+                        ]
+                    },
+                    {
+                        "name": "Sceptile",
+                        "access_rules": [
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Sceptile"
+                        ]
+                    },
+                    {
+                        "name": "Torchic",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Torchic"
+                        ]
+                    },
+                    {
+                        "name": "Combusken",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Combusken"
+                        ]
+                    },
+                    {
+                        "name": "Blaziken",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Blaziken"
+                        ]
+                    },
+                    {
+                        "name": "Mudkip",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Mudkip"
+                        ]
+                    },
+                    {
+                        "name": "Marshtomp",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Marshtomp"
+                        ]
+                    },
+                    {
+                        "name": "Swampert",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Swampert"
+                        ]
+                    },
+                    {
+                        "name": "Poochyena",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Poochyena",
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Poochyena"
+                        ]
+                    },
+                    {
+                        "name": "Mightyena",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Mightyena",
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Mightyena"
+                        ]
+                    },
+                    {
+                        "name": "Zigzagoon",
+                        "access_rules": [
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Zigzagoon"
+                        ]
+                    },
+                    {
+                        "name": "Linoone",
+                        "access_rules": [
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Linoone"
+                        ]
+                    },
+                    {
+                        "name": "Wurmple",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Wurmple",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Wurmple"
+                        ]
+                    },
+                    {
+                        "name": "Silcoon",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Silcoon",
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Silcoon",
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Silcoon",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Silcoon"
+                        ]
+                    },
+                    {
+                        "name": "Beautifly",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Beautifly",
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Beautifly",
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Beautifly",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Beautifly"
+                        ]
+                    },
+                    {
+                        "name": "Cascoon",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Cascoon",
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Cascoon",
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Cascoon",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Cascoon"
+                        ]
+                    },
+                    {
+                        "name": "Dustox",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Dustox",
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Dustox",
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Dustox",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Dustox"
+                        ]
+                    },
+                    {
+                        "name": "Lotad",
+                        "access_rules": [
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Lotad"
+                        ]
+                    },
+                    {
+                        "name": "Lombre",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Lombre",
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Lombre"
+                        ]
+                    },
+                    {
+                        "name": "Ludicolo",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Ludicolo",
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Ludicolo"
+                        ]
+                    },
+                    {
+                        "name": "Seedot",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Seedot"
+                        ]
+                    },
+                    {
+                        "name": "Nuzleaf",
+                        "access_rules": [
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Nuzleaf",
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Nuzleaf"
+                        ]
+                    },
+                    {
+                        "name": "Shiftry",
+                        "access_rules": [
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Shiftry",
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Shiftry"
+                        ]
+                    },
+                    {
+                        "name": "Taillow",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Taillow",
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Taillow"
+                        ]
+                    },
+                    {
+                        "name": "Swellow",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Swellow",
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Swellow"
+                        ]
+                    },
+                    {
+                        "name": "Wingull",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Wingull",
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Wingull"
+                        ]
+                    },
+                    {
+                        "name": "Pelipper",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Pelipper",
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Pelipper"
+                        ]
+                    },
+                    {
+                        "name": "Ralts",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Ralts",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Ralts"
+                        ]
+                    },
+                    {
+                        "name": "Kirlia",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Kirlia",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Kirlia"
+                        ]
+                    },
+                    {
+                        "name": "Gardevoir",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Gardevoir",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Gardevoir"
+                        ]
+                    },
+                    {
+                        "name": "Surskit",
+                        "access_rules": [
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Surskit"
+                        ]
+                    },
+                    {
+                        "name": "Masquerain",
+                        "access_rules": [
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Masquerain"
+                        ]
+                    },
+                    {
+                        "name": "Shroomish",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Shroomish"
+                        ]
+                    },
+                    {
+                        "name": "Breloom",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Breloom"
+                        ]
+                    },
+                    {
+                        "name": "Slakoth",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Slakoth"
+                        ]
+                    },
+                    {
+                        "name": "Vigoroth",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Vigoroth"
+                        ]
+                    },
+                    {
+                        "name": "Slaking",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Slaking"
+                        ]
+                    },
+                    {
+                        "name": "Abra",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Abra",
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Abra"
+                        ]
+                    },
+                    {
+                        "name": "Kadabra",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Kadabra",
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Kadabra"
+                        ]
+                    },
+                    {
+                        "name": "Alakazam",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Alakazam",
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Alakazam"
+                        ]
+                    },
+                    {
+                        "name": "Nincada",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Nincada",
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Nincada"
+                        ]
+                    },
+                    {
+                        "name": "Ninjask",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Ninjask",
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Ninjask"
+                        ]
+                    },
+                    {
+                        "name": "Shedinja",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Shedinja",
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Shedinja"
+                        ]
+                    },
+                    {
+                        "name": "Whismur",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Whismur",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Whismur"
+                        ]
+                    },
+                    {
+                        "name": "Loudred",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Loudred",
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Loudred",
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Loudred",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Loudred"
+                        ]
+                    },
+                    {
+                        "name": "Exploud",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Exploud",
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Exploud",
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Exploud",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Exploud"
+                        ]
+                    },
+                    {
+                        "name": "Makuhita",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Makuhita"
+                        ]
+                    },
+                    {
+                        "name": "Hariyama",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Hariyama"
+                        ]
+                    },
+                    {
+                        "name": "Goldeen",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Goldeen"
+                        ]
+                    },
+                    {
+                        "name": "Seaking",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Seaking"
+                        ]
+                    },
+                    {
+                        "name": "Magikarp",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Magikarp"
+                        ]
+                    },
+                    {
+                        "name": "Gyarados",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Gyarados"
+                        ]
+                    },
+                    {
+                        "name": "Azurill",
+                        "access_rules": [
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Azurill"
+                        ]
+                    },
+                    {
+                        "name": "Marill",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Marill",
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Marill"
+                        ]
+                    },
+                    {
+                        "name": "Azumarill",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Azumarill",
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Azumarill"
+                        ]
+                    },
+                    {
+                        "name": "Geodude",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Geodude"
+                        ]
+                    },
+                    {
+                        "name": "Graveler",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Graveler"
+                        ]
+                    },
+                    {
+                        "name": "Golem",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Golem"
+                        ]
+                    },
+                    {
+                        "name": "Nosepass",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Nosepass",
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Nosepass"
+                        ]
+                    },
+                    {
+                        "name": "Skitty",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Skitty"
+                        ]
+                    },
+                    {
+                        "name": "Delcatty",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Delcatty"
+                        ]
+                    },
+                    {
+                        "name": "Zubat",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Zubat",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Zubat"
+                        ]
+                    },
+                    {
+                        "name": "Golbat",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Golbat",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Golbat"
+                        ]
+                    },
+                    {
+                        "name": "Crobat",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Crobat",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Crobat"
+                        ]
+                    },
+                    {
+                        "name": "Tentacool",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Tentacool",
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Tentacool"
+                        ]
+                    },
+                    {
+                        "name": "Tentacruel",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Tentacruel",
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Tentacruel"
+                        ]
+                    },
+                    {
+                        "name": "Sableye",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Sableye"
+                        ]
+                    },
+                    {
+                        "name": "Mawile",
+                        "access_rules": [
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Mawile"
+                        ]
+                    },
+                    {
+                        "name": "Aron",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Aron",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Aron"
+                        ]
+                    },
+                    {
+                        "name": "Lairon",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Lairon",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Lairon"
+                        ]
+                    },
+                    {
+                        "name": "Aggron",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Aggron",
+                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Aggron"
+                        ]
+                    },
+                    {
+                        "name": "Machop",
+                        "access_rules": [
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Machop"
+                        ]
+                    },
+                    {
+                        "name": "Machoke",
+                        "access_rules": [
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Machoke"
+                        ]
+                    },
+                    {
+                        "name": "Machamp",
+                        "access_rules": [
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Machamp"
+                        ]
+                    },
+                    {
+                        "name": "Meditite",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Meditite"
+                        ]
+                    },
+                    {
+                        "name": "Medicham",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Medicham"
+                        ]
+                    },
+                    {
+                        "name": "Electrike",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Electrike",
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Electrike"
+                        ]
+                    },
+                    {
+                        "name": "Manectric",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Manectric",
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Manectric"
+                        ]
+                    },
+                    {
+                        "name": "Plusle",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Plusle"
+                        ]
+                    },
+                    {
+                        "name": "Minun",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Minun"
+                        ]
+                    },
+                    {
+                        "name": "Magnemite",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Magnemite",
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Magnemite"
+                        ]
+                    },
+                    {
+                        "name": "Magneton",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Magneton",
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Magneton"
+                        ]
+                    },
+                    {
+                        "name": "Voltorb",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Voltorb",
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Voltorb"
+                        ]
+                    },
+                    {
+                        "name": "Electrode",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Electrode",
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Electrode"
+                        ]
+                    },
+                    {
+                        "name": "Volbeat",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Volbeat"
+                        ]
+                    },
+                    {
+                        "name": "Illumise",
+                        "access_rules": [
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Illumise"
+                        ]
+                    },
+                    {
+                        "name": "Oddish",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Oddish",
+                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Oddish"
+                        ]
+                    },
+                    {
+                        "name": "Gloom",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Gloom",
+                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Gloom"
+                        ]
+                    },
+                    {
+                        "name": "Vileplume",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Vileplume"
+                        ]
+                    },
+                    {
+                        "name": "Bellossom",
+                        "access_rules": [
+                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Bellossom"
+                        ]
+                    },
+                    {
+                        "name": "Doduo",
+                        "access_rules": [
+                            "@Ruby Board/Safari Zone (Ruby)/Pokedex - Doduo"
+                        ]
+                    },
+                    {
+                        "name": "Dodrio",
+                        "access_rules": [
+                            "@Ruby Board/Safari Zone (Ruby)/Pokedex - Dodrio"
+                        ]
+                    },
+                    {
+                        "name": "Roselia",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Roselia"
+                        ]
+                    },
+                    {
+                        "name": "Gulpin",
+                        "access_rules": [
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Gulpin"
+                        ]
+                    },
+                    {
+                        "name": "Swalot",
+                        "access_rules": [
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Swalot"
+                        ]
+                    },
+                    {
+                        "name": "Carvanha",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Carvanha",
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Carvanha"
+                        ]
+                    },
+                    {
+                        "name": "Sharpedo",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Sharpedo",
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Sharpedo"
+                        ]
+                    },
+                    {
+                        "name": "Wailmer",
+                        "access_rules": [
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Wailmer"
+                        ]
+                    },
+                    {
+                        "name": "Wailord",
+                        "access_rules": [
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Wailord"
+                        ]
+                    },
+                    {
+                        "name": "Numel",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Numel"
+                        ]
+                    },
+                    {
+                        "name": "Camerupt",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Camerupt"
+                        ]
+                    },
+                    {
+                        "name": "Slugma",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Slugma"
+                        ]
+                    },
+                    {
+                        "name": "Magcargo",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Magcargo"
+                        ]
+                    },
+                    {
+                        "name": "Torkoal",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Torkoal"
+                        ]
+                    },
+                    {
+                        "name": "Grimer",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Grimer",
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Grimer"
+                        ]
+                    },
+                    {
+                        "name": "Muk",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Muk",
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Muk"
+                        ]
+                    },
+                    {
+                        "name": "Koffing",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Koffing"
+                        ]
+                    },
+                    {
+                        "name": "Weezing",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Weezing"
+                        ]
+                    },
+                    {
+                        "name": "Spoink",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Spoink",
+                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Spoink"
+                        ]
+                    },
+                    {
+                        "name": "Grumpig",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Grumpig",
+                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Grumpig"
+                        ]
+                    },
+                    {
+                        "name": "Sandshrew",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Sandshrew",
+                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Sandshrew"
+                        ]
+                    },
+                    {
+                        "name": "Sandslash",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Sandslash",
+                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Sandslash"
+                        ]
+                    },
+                    {
+                        "name": "Spinda",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Spinda",
+                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Spinda"
+                        ]
+                    },
+                    {
+                        "name": "Skarmory",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Skarmory"
+                        ]
+                    },
+                    {
+                        "name": "Trapinch",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Trapinch",
+                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Trapinch"
+                        ]
+                    },
+                    {
+                        "name": "Vibrava",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Vibrava",
+                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Vibrava",
+                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Vibrava"
+                        ]
+                    },
+                    {
+                        "name": "Flygon",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Flygon",
+                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Flygon",
+                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Flygon"
+                        ]
+                    },
+                    {
+                        "name": "Cacnea",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Cacnea"
+                        ]
+                    },
+                    {
+                        "name": "Cacturne",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Cacturne"
+                        ]
+                    },
+                    {
+                        "name": "Swablu",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Swablu"
+                        ]
+                    },
+                    {
+                        "name": "Altaria",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Altaria"
+                        ]
+                    },
+                    {
+                        "name": "Zangoose",
+                        "access_rules": [
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Zangoose"
+                        ]
+                    },
+                    {
+                        "name": "Seviper",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Seviper"
+                        ]
+                    },
+                    {
+                        "name": "Lunatone",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Lunatone"
+                        ]
+                    },
+                    {
+                        "name": "Solrock",
+                        "access_rules": [
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Solrock"
+                        ]
+                    },
+                    {
+                        "name": "Barboach",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Barboach"
+                        ]
+                    },
+                    {
+                        "name": "Whiscash",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Whiscash"
+                        ]
+                    },
+                    {
+                        "name": "Corphish",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Corphish"
+                        ]
+                    },
+                    {
+                        "name": "Crawdaunt",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Crawdaunt"
+                        ]
+                    },
+                    {
+                        "name": "Baltoy",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Baltoy"
+                        ]
+                    },
+                    {
+                        "name": "Claydol",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Claydol"
+                        ]
+                    },
+                    {
+                        "name": "Lileep",
+                        "access_rules": [
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Lileep"
+                        ]
+                    },
+                    {
+                        "name": "Cradily",
+                        "access_rules": [
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Cradily"
+                        ]
+                    },
+                    {
+                        "name": "Anorith",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Anorith"
+                        ]
+                    },
+                    {
+                        "name": "Armaldo",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Armaldo"
+                        ]
+                    },
+                    {
+                        "name": "Igglybuff",
+                        "access_rules": [
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Igglybuff"
+                        ]
+                    },
+                    {
+                        "name": "Jigglypuff",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Jigglypuff",
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Jigglypuff"
+                        ]
+                    },
+                    {
+                        "name": "Wigglytuff",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Wigglytuff",
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Wigglytuff"
+                        ]
+                    },
+                    {
+                        "name": "Feebas",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Feebas"
+                        ]
+                    },
+                    {
+                        "name": "Milotic",
+                        "access_rules": [
+                            "@Sapphire Board/Lake (Sapphire)/Pokedex - Milotic"
+                        ]
+                    },
+                    {
+                        "name": "Castform",
+                        "access_rules": [
+                            "@Sapphire Board/Plains (Sapphire)/Pokedex - Castform",
+                            "@Ruby Board/Plains (Ruby)/Pokedex - Castform"
+                        ]
+                    },
+                    {
+                        "name": "Staryu",
+                        "access_rules": [
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Staryu"
+                        ]
+                    },
+                    {
+                        "name": "Starmie",
+                        "access_rules": [
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Starmie"
+                        ]
+                    },
+                    {
+                        "name": "Kecleon",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Kecleon",
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Kecleon"
+                        ]
+                    },
+                    {
+                        "name": "Shuppet",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Shuppet",
+                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Shuppet"
+                        ]
+                    },
+                    {
+                        "name": "Banette",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Banette",
+                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Banette"
+                        ]
+                    },
+                    {
+                        "name": "Duskull",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Duskull",
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Duskull"
+                        ]
+                    },
+                    {
+                        "name": "Dusclops",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Dusclops",
+                            "@Ruby Board/Forest (Ruby)/Pokedex - Dusclops"
+                        ]
+                    },
+                    {
+                        "name": "Tropius",
+                        "access_rules": [
+                            "@Sapphire Board/Forest (Sapphire)/Pokedex - Tropius"
+                        ]
+                    },
+                    {
+                        "name": "Chimecho",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Chimecho",
+                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Chimecho"
+                        ]
+                    },
+                    {
+                        "name": "Absol",
+                        "access_rules": [
+                            "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Absol"
+                        ]
+                    },
+                    {
+                        "name": "Vulpix",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Vulpix"
+                        ]
+                    },
+                    {
+                        "name": "Ninetales",
+                        "access_rules": [
+                            "@Ruby Board/Volcano (Ruby)/Pokedex - Ninetales"
+                        ]
+                    },
+                    {
+                        "name": "Pichu",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Pichu",
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Pichu"
+                        ]
+                    },
+                    {
+                        "name": "Pikachu",
+                        "access_rules": [
+                            "@Ruby Board/Safari Zone (Ruby)/Pokedex - Pikachu",
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Pikachu",
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Pikachu"
+                        ]
+                    },
+                    {
+                        "name": "Raichu",
+                        "access_rules": [
+                            "@Ruby Board/Safari Zone (Ruby)/Pokedex - Raichu",
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Raichu",
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Raichu"
+                        ]
+                    },
+                    {
+                        "name": "Psyduck",
+                        "access_rules": [
+                            "@Ruby Board/Safari Zone (Ruby)/Pokedex - Psyduck"
+                        ]
+                    },
+                    {
+                        "name": "Golduck",
+                        "access_rules": [
+                            "@Ruby Board/Safari Zone (Ruby)/Pokedex - Golduck"
+                        ]
+                    },
+                    {
+                        "name": "Wynaut",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Wynaut"
+                        ]
+                    },
+                    {
+                        "name": "Wobbuffet",
+                        "access_rules": [
+                            "@Ruby Board/Safari Zone (Ruby)/Pokedex - Wobbuffet",
+                            "@Eggs Ruby/Egg Bunch (Ruby)/Pokedex - Wobbuffet"
+                        ]
+                    },
+                    {
+                        "name": "Natu",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Natu",
+                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Natu"
+                        ]
+                    },
+                    {
+                        "name": "Xatu",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Xatu",
+                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Xatu"
+                        ]
+                    },
+                    {
+                        "name": "Girafarig",
+                        "access_rules": [
+                            "@Ruby Board/Safari Zone (Ruby)/Pokedex - Girafarig"
+                        ]
+                    },
+                    {
+                        "name": "Phanpy",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Phanpy",
+                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Phanpy"
+                        ]
+                    },
+                    {
+                        "name": "Donphan",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Donphan",
+                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Donphan"
+                        ]
+                    },
+                    {
+                        "name": "Pinsir",
+                        "access_rules": [
+                            "@Ruby Board/Safari Zone (Ruby)/Pokedex - Pinsir"
+                        ]
+                    },
+                    {
+                        "name": "Heracross",
+                        "access_rules": [
+                            "@Ruby Board/Safari Zone (Ruby)/Pokedex - Heracross"
+                        ]
+                    },
+                    {
+                        "name": "Rhyhorn",
+                        "access_rules": [
+                            "@Ruby Board/Safari Zone (Ruby)/Pokedex - Rhyhorn"
+                        ]
+                    },
+                    {
+                        "name": "Rhydon",
+                        "access_rules": [
+                            "@Ruby Board/Safari Zone (Ruby)/Pokedex - Rhydon"
+                        ]
+                    },
+                    {
+                        "name": "Snorunt",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Snorunt",
+                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Snorunt"
+                        ]
+                    },
+                    {
+                        "name": "Glalie",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Glalie",
+                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Glalie"
+                        ]
+                    },
+                    {
+                        "name": "Spheal",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Spheal",
+                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Spheal"
+                        ]
+                    },
+                    {
+                        "name": "Sealeo",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Sealeo",
+                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Sealeo"
+                        ]
+                    },
+                    {
+                        "name": "Walrein",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Walrein",
+                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Walrein"
+                        ]
+                    },
+                    {
+                        "name": "Clamperl",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Clamperl"
+                        ]
+                    },
+                    {
+                        "name": "Huntail",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Huntail"
+                        ]
+                    },
+                    {
+                        "name": "Gorebyss",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Gorebyss"
+                        ]
+                    },
+                    {
+                        "name": "Relicanth",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Relicanth",
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Relicanth"
+                        ]
+                    },
+                    {
+                        "name": "Corsola",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Corsola",
+                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Corsola"
+                        ]
+                    },
+                    {
+                        "name": "Chinchou",
+                        "access_rules": [
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Chinchou"
+                        ]
+                    },
+                    {
+                        "name": "Lanturn",
+                        "access_rules": [
+                            "@Eggs Sapphire/Egg Bunch (Sapphire)/Pokedex - Lanturn"
+                        ]
+                    },
+                    {
+                        "name": "Luvdisc",
+                        "access_rules": [
+                            "@Sapphire Board/Ocean (Sapphire)/Pokedex - Luvdisc",
+                            "@Ruby Board/Ocean (Ruby)/Pokedex - Luvdisc"
+                        ]
+                    },
+                    {
+                        "name": "Horsea",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Horsea",
+                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Horsea"
+                        ]
+                    },
+                    {
+                        "name": "Seadra",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Seadra",
+                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Seadra"
+                        ]
+                    },
+                    {
+                        "name": "Kingdra",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Kingdra",
+                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Kingdra"
+                        ]
+                    },
+                    {
+                        "name": "Bagon",
+                        "access_rules": [
+                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Bagon",
+                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Bagon"
+                        ]
+                    },
+                    {
+                        "name": "Shelgon",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Shelgon",
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Shelgon",
+                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Shelgon",
+                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Shelgon"
+                        ]
+                    },
+                    {
+                        "name": "Salamence",
+                        "access_rules": [
+                            "@Sapphire Board/Cave (Sapphire)/Pokedex - Salamence",
+                            "@Ruby Board/Cave (Ruby)/Pokedex - Salamence",
+                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Salamence",
+                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Salamence"
+                        ]
+                    },
+                    {
+                        "name": "Beldum",
+                        "access_rules": [
+                            "@Sapphire Board/Ruins (Sapphire)/Pokedex - Beldum",
+                            "@Ruby Board/Ruins (Ruby)/Pokedex - Beldum"
+                        ]
+                    },
+                    {
+                        "name": "Metang",
+                        "access_rules": [
+                            "@Sapphire Board/Ruins (Sapphire)/Pokedex - Metang",
+                            "@Ruby Board/Ruins (Ruby)/Pokedex - Metang"
+                        ]
+                    },
+                    {
+                        "name": "Metagross",
+                        "access_rules": [
+                            "@Sapphire Board/Ruins (Sapphire)/Pokedex - Metagross",
+                            "@Ruby Board/Ruins (Ruby)/Pokedex - Metagross"
+                        ]
+                    },
+                    {
+                        "name": "Regirock",
+                        "access_rules": [
+                            "@Sapphire Board/Ruins (Sapphire)/Pokedex - Regirock",
+                            "@Ruby Board/Ruins (Ruby)/Pokedex - Regirock"
+                        ]
+                    },
+                    {
+                        "name": "Regice",
+                        "access_rules": [
+                            "@Sapphire Board/Ruins (Sapphire)/Pokedex - Regice",
+                            "@Ruby Board/Ruins (Ruby)/Pokedex - Regice"
+                        ]
+                    },
+                    {
+                        "name": "Registeel",
+                        "access_rules": [
+                            "@Sapphire Board/Ruins (Sapphire)/Pokedex - Registeel",
+                            "@Ruby Board/Ruins (Ruby)/Pokedex - Registeel"
+                        ]
+                    },
+                    {
+                        "name": "Latias",
+                        "access_rules": [
+                            "@Special/Bonus Stage (Sapphire)/Pokedex - Latias"
+                        ]
+                    },
+                    {
+                        "name": "Latios",
+                        "access_rules": [
+                            "@Special/Bonus Stage (Ruby)/Pokedex - Latios"
+                        ]
+                    },
+                    {
+                        "name": "Kyogre",
+                        "access_rules": [
+                            "@Sapphire Board/Special (Sapphire)/Pokedex - Kyogre"
+                        ]
+                    },
+                    {
+                        "name": "Groudon",
+                        "access_rules": [
+                            "@Ruby Board/Special (Ruby)/Pokedex - Groudon"
+                        ]
+                    },
+                    {
+                        "name": "Rayquaza",
+                        "access_rules": [
+                            "@Sapphire Board/Special (Sapphire)/Pokedex - Rayquaza",
+                            "@Ruby Board/Special (Ruby)/Pokedex - Rayquaza"
+                        ]
+                    },
+                    {
+                        "name": "Jirachi",
+                        "access_rules": [
+                            "@Sapphire Board/Ruins (Sapphire)/Pokedex - Jirachi",
+                            "@Ruby Board/Ruins (Ruby)/Pokedex - Jirachi"
+                        ]
+                    },
+                    {
+                        "name": "Chikorita",
+                        "access_rules": [
+                            "@Special/Bonus Stage (Ruby)/Pokedex - Chikorita",
+                            "@Special/Bonus Stage (Sapphire)/Pokedex - Chikorita"
+                        ]
+                    },
+                    {
+                        "name": "Cyndaquil",
+                        "access_rules": [
+                            "@Special/Bonus Stage (Ruby)/Pokedex - Cyndaquil",
+                            "@Special/Bonus Stage (Sapphire)/Pokedex - Cyndaquil"
+                        ]
+                    },
+                    {
+                        "name": "Totodile",
+                        "access_rules": [
+                            "@Special/Bonus Stage (Ruby)/Pokedex - Totodile",
+                            "@Special/Bonus Stage (Sapphire)/Pokedex - Totodile"
+                        ]
+                    },
+                    {
+                        "name": "Aerodactyl",
+                        "access_rules": [
+                            "@Special/Bonus Stage (Ruby)/Pokedex - Aerodactyl",
+                            "@Special/Bonus Stage (Sapphire)/Pokedex - Aerodactyl"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Update",
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Update"
+                    }
                 ]
             }
         ]

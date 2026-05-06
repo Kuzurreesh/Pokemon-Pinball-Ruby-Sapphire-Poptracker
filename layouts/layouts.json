@@ -23,6 +23,21 @@
 									"key": "shared_item_grid_horizontal"
 								},
 								{
+									"type": "array",
+									"orientation": "horizontal",
+									"margin": "0, 0",
+									"content": [
+										{
+											"type": "layout",
+											"key": "Evolution"
+										},
+										{
+											"type": "layout",
+											"key": "Evo"
+										}
+									]
+								},
+								{
 									"type": "tabbed",
 									"tabs": [
 										{
@@ -83,6 +98,24 @@
 																	"key": "Sapphire"
 																}
 															]
+														},
+														{
+															"title": "Ruby No Evo",
+															"content": [
+																{
+																	"type": "layout",
+																	"key": "NoEvo1"
+																}
+															]
+														},
+														{
+															"title": "Sapphire No Evo",
+															"content": [
+																{
+																	"type": "layout",
+																	"key": "NoEvo2"
+																}
+															]
 														}
 													]
 												}
@@ -95,47 +128,47 @@
 													"type": "tabbed",
 													"tabs": [
 														{
-															"title": "1-53",
-															"content": [
-																{
-																	"type": "layout",
-																	"key": "1-53"
-																}
-															]
-														},
-														{
-															"title": "54-109",
-															"content": [
-																{
-																	"type": "layout",
-																	"key": "54-109"
-																}
-															]
-														},
-														{
-															"title": "110-163",
-															"content": [
-																{
-																	"type": "layout",
-																	"key": "110-163"
-																}
-															]
-														},
-														{
-															"title": "164-205",
-															"content": [
-																{
-																	"type": "layout",
-																	"key": "164-205"
-																}
-															]
-														},
-														{
-															"title": "Full",
+															"title": "Full Dex",
 															"content": [
 																{
 																	"type": "layout",
 																	"key": "go"
+																}
+															]
+														},
+														{
+															"title": "Ruby Catch",
+															"content": [
+																{
+																	"type": "layout",
+																	"key": "RubyPokemon"
+																}
+															]
+														},
+														{
+															"title": "Ruby Hatch",
+															"content": [
+																{
+																	"type": "layout",
+																	"key": "RubyEggPokemon"
+																}
+															]
+														},
+														{
+															"title": "Sapphire Catch",
+															"content": [
+																{
+																	"type": "layout",
+																	"key": "SapphirePokemon"
+																}
+															]
+														},
+														{
+															"title": "Sapphire Hatch",
+															"content": [
+																{
+																	"type": "layout",
+																	"key": "SapphireEggPokemon"
 																}
 															]
 														}
