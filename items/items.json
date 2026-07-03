@@ -107,7 +107,7 @@
         "max_quantity": 205,
         "codes": "Total"
     },
-     {
+    {
         "name": "CanTotal",
         "type": "consumable",
         "img": "images/items/caught.png",
@@ -223,6 +223,7 @@
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
         "overlay_align": "right",
         "overlay_font_size": "20",
+        "overlay_background": "#70252523",
         "codes": "startball, ball"
     },
     {
@@ -477,6 +478,38 @@
         "codes": "Score,score_requirement"
     },
     {
+        "name": "Goal - Medals",
+        "type": "consumable",
+        "img": "images/items/medal.png",
+        "max_quantity": 255,
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "overlay_align": "center",
+        "codes": "medal_requirement"
+    },
+    {
+        "name": "Medals",
+        "type": "consumable",
+        "img": "images/items/medal.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "15",
+        "overlay_background": "#FF202020",
+        "max_quantity": 255,
+        "overlay_align": "right",
+        "codes": "medals"
+    },
+    {
+        "name": "Medals Required",
+        "type": "consumable",
+        "img": "images/items/medals_percent.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "max_quantity": 100,
+        "initial_quantity": 66,
+        "overlay_font_size": "20",
+        "overlay_align": "center",
+        "codes": "medals_percent"
+    },
+    {
         "name": "GO Mode",
         "type": "toggle",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
@@ -533,32 +566,39 @@
         "codes": "aero"
     },
     {
-        "name": "Egg Bunch 1",
+        "name": "Egg Bunch (Forest)",
         "type": "toggle",
-        "img": "images/items/egg1.png",
+        "img": "images/items/eggfor.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
-        "codes": "egg1,egg,eggS,eggR"
+        "codes": "eggfor,egg,eggS,eggR"
     },
     {
-        "name": "Egg Bunch 2",
+        "name": "Egg Bunch (Cave)",
         "type": "toggle",
-        "img": "images/items/egg2.png",
+        "img": "images/items/eggcave.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
-        "codes": "egg2,egg,eggS,eggR"
+        "codes": "eggcave,egg,eggS,eggR"
     },
     {
-        "name": "Egg Bunch 3",
+        "name": "Egg Bunch (Mountain)",
         "type": "toggle",
-        "img": "images/items/egg3.png",
+        "img": "images/items/eggmon.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
-        "codes": "egg3,egg,eggS,eggR"
+        "codes": "eggmon,egg,eggS,eggR"
     },
     {
-        "name": "Egg Bunch 4",
+        "name": "Egg Bunch (Desert)",
         "type": "toggle",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
-        "img": "images/items/egg4.png",
-        "codes": "egg4,egg,eggS,eggR"
+        "img": "images/items/eggdes.png",
+        "codes": "eggdes,egg,eggS,eggR"
+    },
+    {
+        "name": "Egg Bunch (Sea)",
+        "type": "toggle",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "img": "images/items/eggsea.png",
+        "codes": "eggsea,egg,eggS,eggR"
     },
     {
         "name": "Egg Bunch (Ruby)",

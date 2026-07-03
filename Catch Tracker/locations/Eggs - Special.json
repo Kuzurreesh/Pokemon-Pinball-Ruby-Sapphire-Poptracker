@@ -8,8 +8,8 @@
         ],
         "children": [
             {
-                "name": "Egg Bunch (1)",
-                "access_rules": "egg1",
+                "name": "Egg Bunch (Forest)",
+                "access_rules": "eggfor",
                 "map_locations": [
                     {
                         "map": "Ruby Board",
@@ -27,16 +27,8 @@
                         "chest_unopened_img": "images/items/29.jpg"
                     },
                     {
-                        "name": "Pokedex - Whismur",
-                        "chest_unopened_img": "images/items/45.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Zubat",
-                        "chest_unopened_img": "images/items/63.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Aron",
-                        "chest_unopened_img": "images/items/70.jpg"
+                        "name": "Pokedex - Oddish",
+                        "chest_unopened_img": "images/items/88.jpg"
                     },
                     {
                         "name": "Pokedex - Silcoon",
@@ -99,99 +91,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Loudred",
-                        "chest_unopened_img": "images/items/46.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Loudred"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Exploud",
-                        "chest_unopened_img": "images/items/47.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Exploud"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Golbat",
-                        "chest_unopened_img": "images/items/64.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Golbat"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Crobat",
-                        "chest_unopened_img": "images/items/65.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Crobat"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Lairon",
-                        "chest_unopened_img": "images/items/71.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Lairon"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Aggron",
-                        "chest_unopened_img": "images/items/72.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Aggron"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Egg Bunch (2)",
-                "access_rules": "egg2",
-                "map_locations": [
-                    {
-                        "map": "Ruby Board",
-                        "x": 100,
-                        "y": 105
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Pokedex - Oddish",
-                        "chest_unopened_img": "images/items/88.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Spoink",
-                        "chest_unopened_img": "images/items/110.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Shuppet",
-                        "chest_unopened_img": "images/items/146.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Chimecho",
-                        "chest_unopened_img": "images/items/151.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Natu",
-                        "chest_unopened_img": "images/items/162.jpg"
-                    },
-                    {
                         "name": "Pokedex - Gloom",
                         "chest_unopened_img": "images/items/89.jpg",
                         "access_rules": [
@@ -210,32 +109,81 @@
                         "visibility_rules": [
                             "evolutions"
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "Egg Bunch (Sea)",
+                "access_rules": "eggsea",
+                "map_locations": [
+                    {
+                        "map": "Ruby Board",
+                        "x": 100,
+                        "y": 105
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pokedex - Snorunt",
+                        "chest_unopened_img": "images/items/171.jpg"
                     },
                     {
-                        "name": "Pokedex - Grumpig",
-                        "chest_unopened_img": "images/items/111.jpg",
+                        "name": "Pokedex - Spheal",
+                        "chest_unopened_img": "images/items/173.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Corsola",
+                        "chest_unopened_img": "images/items/180.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Horsea",
+                        "chest_unopened_img": "images/items/184.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Glalie",
+                        "chest_unopened_img": "images/items/172.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Grumpig"
+                            "evolutions,^$CanEvolveEggRuby|Glalie"
                         ],
                         "visibility_rules": [
                             "evolutions"
                         ]
                     },
                     {
-                        "name": "Pokedex - Banette",
-                        "chest_unopened_img": "images/items/147.jpg",
+                        "name": "Pokedex - Sealeo",
+                        "chest_unopened_img": "images/items/174.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Banette"
+                            "evolutions,^$CanEvolveEggRuby|Sealeo"
                         ],
                         "visibility_rules": [
                             "evolutions"
                         ]
                     },
                     {
-                        "name": "Pokedex - Xatu",
-                        "chest_unopened_img": "images/items/163.jpg",
+                        "name": "Pokedex - Walrein",
+                        "chest_unopened_img": "images/items/175.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Xatu"
+                            "evolutions,^$CanEvolveEggRuby|Walrein"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Seadra",
+                        "chest_unopened_img": "images/items/185.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveEggRuby|Seadra"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Kingdra",
+                        "chest_unopened_img": "images/items/186.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveEggRuby|Kingdra"
                         ],
                         "visibility_rules": [
                             "evolutions"
@@ -244,8 +192,8 @@
                 ]
             },
             {
-                "name": "Egg Bunch (3)",
-                "access_rules": "egg3",
+                "name": "Egg Bunch (Desert)",
+                "access_rules": "eggdes",
                 "map_locations": [
                     {
                         "map": "Ruby Board",
@@ -313,8 +261,8 @@
                 ]
             },
             {
-                "name": "Egg Bunch (4)",
-                "access_rules": "egg4",
+                "name": "Egg Bunch (Cave)",
+                "access_rules": "eggcave",
                 "map_locations": [
                     {
                         "map": "Ruby Board",
@@ -324,70 +272,76 @@
                 ],
                 "sections": [
                     {
-                        "name": "Pokedex - Snorunt",
-                        "chest_unopened_img": "images/items/171.jpg"
+                        "name": "Pokedex - Whismur",
+                        "chest_unopened_img": "images/items/45.jpg"
                     },
                     {
-                        "name": "Pokedex - Spheal",
-                        "chest_unopened_img": "images/items/173.jpg"
+                        "name": "Pokedex - Aron",
+                        "chest_unopened_img": "images/items/70.jpg"
                     },
                     {
-                        "name": "Pokedex - Corsola",
-                        "chest_unopened_img": "images/items/180.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Horsea",
-                        "chest_unopened_img": "images/items/184.jpg"
+                        "name": "Pokedex - Zubat",
+                        "chest_unopened_img": "images/items/63.jpg"
                     },
                     {
                         "name": "Pokedex - Bagon",
                         "chest_unopened_img": "images/items/187.jpg"
                     },
                     {
-                        "name": "Pokedex - Glalie",
-                        "chest_unopened_img": "images/items/172.jpg",
+                        "name": "Pokedex - Loudred",
+                        "chest_unopened_img": "images/items/46.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Glalie"
+                            "evolutions,^$CanEvolveEggRuby|Loudred"
                         ],
                         "visibility_rules": [
                             "evolutions"
                         ]
                     },
                     {
-                        "name": "Pokedex - Sealeo",
-                        "chest_unopened_img": "images/items/174.jpg",
+                        "name": "Pokedex - Exploud",
+                        "chest_unopened_img": "images/items/47.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Sealeo"
+                            "evolutions,^$CanEvolveEggRuby|Exploud"
                         ],
                         "visibility_rules": [
                             "evolutions"
                         ]
                     },
                     {
-                        "name": "Pokedex - Walrein",
-                        "chest_unopened_img": "images/items/175.jpg",
+                        "name": "Pokedex - Lairon",
+                        "chest_unopened_img": "images/items/71.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Walrein"
+                            "evolutions,^$CanEvolveEggRuby|Lairon"
                         ],
                         "visibility_rules": [
                             "evolutions"
                         ]
                     },
                     {
-                        "name": "Pokedex - Seadra",
-                        "chest_unopened_img": "images/items/185.jpg",
+                        "name": "Pokedex - Aggron",
+                        "chest_unopened_img": "images/items/72.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Seadra"
+                            "evolutions,^$CanEvolveEggRuby|Aggron"
                         ],
                         "visibility_rules": [
                             "evolutions"
                         ]
                     },
                     {
-                        "name": "Pokedex - Kingdra",
-                        "chest_unopened_img": "images/items/186.jpg",
+                        "name": "Pokedex - Golbat",
+                        "chest_unopened_img": "images/items/64.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggRuby|Kingdra"
+                            "evolutions,^$CanEvolveEggRuby|Golbat"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Crobat",
+                        "chest_unopened_img": "images/items/65.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveEggRuby|Crobat"
                         ],
                         "visibility_rules": [
                             "evolutions"
@@ -416,6 +370,65 @@
                 ]
             },
             {
+                "name": "Egg Bunch (Mountain)",
+                "access_rules": "eggmon",
+                "map_locations": [
+                    {
+                        "map": "Ruby Board",
+                        "x": 80,
+                        "y": 145
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pokedex - Spoink",
+                        "chest_unopened_img": "images/items/110.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Shuppet",
+                        "chest_unopened_img": "images/items/146.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Chimecho",
+                        "chest_unopened_img": "images/items/151.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Natu",
+                        "chest_unopened_img": "images/items/162.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Grumpig",
+                        "chest_unopened_img": "images/items/111.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveEggRuby|Grumpig"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Banette",
+                        "chest_unopened_img": "images/items/147.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveEggRuby|Banette"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Xatu",
+                        "chest_unopened_img": "images/items/163.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveEggRuby|Xatu"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Egg Bunch (Ruby)",
                 "access_rules": [
                     "ruby"
@@ -423,7 +436,7 @@
                 "map_locations": [
                     {
                         "map": "Ruby Board",
-                        "x": 90,
+                        "x": 100,
                         "y": 145
                     }
                 ],
@@ -560,8 +573,8 @@
         ],
         "children": [
             {
-                "name": "Egg Bunch (1)",
-                "access_rules": "egg1",
+                "name": "Egg Bunch (Forest)",
+                "access_rules": "eggfor",
                 "map_locations": [
                     {
                         "map": "Sapphire Board",
@@ -579,16 +592,8 @@
                         "chest_unopened_img": "images/items/29.jpg"
                     },
                     {
-                        "name": "Pokedex - Whismur",
-                        "chest_unopened_img": "images/items/45.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Zubat",
-                        "chest_unopened_img": "images/items/63.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Aron",
-                        "chest_unopened_img": "images/items/70.jpg"
+                        "name": "Pokedex - Oddish",
+                        "chest_unopened_img": "images/items/88.jpg"
                     },
                     {
                         "name": "Pokedex - Silcoon",
@@ -651,99 +656,6 @@
                         ]
                     },
                     {
-                        "name": "Pokedex - Loudred",
-                        "chest_unopened_img": "images/items/46.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Loudred"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Exploud",
-                        "chest_unopened_img": "images/items/47.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Exploud"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Golbat",
-                        "chest_unopened_img": "images/items/64.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Golbat"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Crobat",
-                        "chest_unopened_img": "images/items/65.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Crobat"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Lairon",
-                        "chest_unopened_img": "images/items/71.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Lairon"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    },
-                    {
-                        "name": "Pokedex - Aggron",
-                        "chest_unopened_img": "images/items/72.jpg",
-                        "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Aggron"
-                        ],
-                        "visibility_rules": [
-                            "evolutions"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Egg Bunch (2)",
-                "access_rules": "egg2",
-                "map_locations": [
-                    {
-                        "map": "Sapphire Board",
-                        "x": 220,
-                        "y": 22
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Pokedex - Oddish",
-                        "chest_unopened_img": "images/items/88.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Spoink",
-                        "chest_unopened_img": "images/items/110.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Shuppet",
-                        "chest_unopened_img": "images/items/146.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Chimecho",
-                        "chest_unopened_img": "images/items/151.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Natu",
-                        "chest_unopened_img": "images/items/162.jpg"
-                    },
-                    {
                         "name": "Pokedex - Gloom",
                         "chest_unopened_img": "images/items/89.jpg",
                         "access_rules": [
@@ -762,32 +674,81 @@
                         "visibility_rules": [
                             "evolutions"
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "Egg Bunch (Sea)",
+                "access_rules": "eggsea",
+                "map_locations": [
+                    {
+                        "map": "Sapphire Board",
+                        "x": 220,
+                        "y": 22
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pokedex - Snorunt",
+                        "chest_unopened_img": "images/items/171.jpg"
                     },
                     {
-                        "name": "Pokedex - Grumpig",
-                        "chest_unopened_img": "images/items/111.jpg",
+                        "name": "Pokedex - Spheal",
+                        "chest_unopened_img": "images/items/173.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Corsola",
+                        "chest_unopened_img": "images/items/180.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Horsea",
+                        "chest_unopened_img": "images/items/184.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Glalie",
+                        "chest_unopened_img": "images/items/172.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Grumpig"
+                            "evolutions,^$CanEvolveEggSapphire|Glalie"
                         ],
                         "visibility_rules": [
                             "evolutions"
                         ]
                     },
                     {
-                        "name": "Pokedex - Banette",
-                        "chest_unopened_img": "images/items/147.jpg",
+                        "name": "Pokedex - Sealeo",
+                        "chest_unopened_img": "images/items/174.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Banette"
+                            "evolutions,^$CanEvolveEggSapphire|Sealeo"
                         ],
                         "visibility_rules": [
                             "evolutions"
                         ]
                     },
                     {
-                        "name": "Pokedex - Xatu",
-                        "chest_unopened_img": "images/items/163.jpg",
+                        "name": "Pokedex - Walrein",
+                        "chest_unopened_img": "images/items/175.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Xatu"
+                            "evolutions,^$CanEvolveEggSapphire|Walrein"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Seadra",
+                        "chest_unopened_img": "images/items/185.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveEggSapphire|Seadra"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Kingdra",
+                        "chest_unopened_img": "images/items/186.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveEggSapphire|Kingdra"
                         ],
                         "visibility_rules": [
                             "evolutions"
@@ -796,8 +757,8 @@
                 ]
             },
             {
-                "name": "Egg Bunch (3)",
-                "access_rules": "egg3",
+                "name": "Egg Bunch (Desert)",
+                "access_rules": "eggdes",
                 "map_locations": [
                     {
                         "map": "Sapphire Board",
@@ -865,8 +826,8 @@
                 ]
             },
             {
-                "name": "Egg Bunch (4)",
-                "access_rules": "egg4",
+                "name": "Egg Bunch (Cave)",
+                "access_rules": "eggcave",
                 "map_locations": [
                     {
                         "map": "Sapphire Board",
@@ -876,70 +837,76 @@
                 ],
                 "sections": [
                     {
-                        "name": "Pokedex - Snorunt",
-                        "chest_unopened_img": "images/items/171.jpg"
+                        "name": "Pokedex - Whismur",
+                        "chest_unopened_img": "images/items/45.jpg"
                     },
                     {
-                        "name": "Pokedex - Spheal",
-                        "chest_unopened_img": "images/items/173.jpg"
+                        "name": "Pokedex - Aron",
+                        "chest_unopened_img": "images/items/70.jpg"
                     },
                     {
-                        "name": "Pokedex - Corsola",
-                        "chest_unopened_img": "images/items/180.jpg"
-                    },
-                    {
-                        "name": "Pokedex - Horsea",
-                        "chest_unopened_img": "images/items/184.jpg"
+                        "name": "Pokedex - Zubat",
+                        "chest_unopened_img": "images/items/63.jpg"
                     },
                     {
                         "name": "Pokedex - Bagon",
                         "chest_unopened_img": "images/items/187.jpg"
                     },
                     {
-                        "name": "Pokedex - Glalie",
-                        "chest_unopened_img": "images/items/172.jpg",
+                        "name": "Pokedex - Loudred",
+                        "chest_unopened_img": "images/items/46.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Glalie"
+                            "evolutions,^$CanEvolveEggSapphire|Loudred"
                         ],
                         "visibility_rules": [
                             "evolutions"
                         ]
                     },
                     {
-                        "name": "Pokedex - Sealeo",
-                        "chest_unopened_img": "images/items/174.jpg",
+                        "name": "Pokedex - Exploud",
+                        "chest_unopened_img": "images/items/47.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Sealeo"
+                            "evolutions,^$CanEvolveEggSapphire|Exploud"
                         ],
                         "visibility_rules": [
                             "evolutions"
                         ]
                     },
                     {
-                        "name": "Pokedex - Walrein",
-                        "chest_unopened_img": "images/items/175.jpg",
+                        "name": "Pokedex - Lairon",
+                        "chest_unopened_img": "images/items/71.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Walrein"
+                            "evolutions,^$CanEvolveEggSapphire|Lairon"
                         ],
                         "visibility_rules": [
                             "evolutions"
                         ]
                     },
                     {
-                        "name": "Pokedex - Seadra",
-                        "chest_unopened_img": "images/items/185.jpg",
+                        "name": "Pokedex - Aggron",
+                        "chest_unopened_img": "images/items/72.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Seadra"
+                            "evolutions,^$CanEvolveEggSapphire|Aggron"
                         ],
                         "visibility_rules": [
                             "evolutions"
                         ]
                     },
                     {
-                        "name": "Pokedex - Kingdra",
-                        "chest_unopened_img": "images/items/186.jpg",
+                        "name": "Pokedex - Golbat",
+                        "chest_unopened_img": "images/items/64.jpg",
                         "access_rules": [
-                            "evolutions,^$CanEvolveEggSapphire|Kingdra"
+                            "evolutions,^$CanEvolveEggSapphire|Golbat"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Crobat",
+                        "chest_unopened_img": "images/items/65.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveEggSapphire|Crobat"
                         ],
                         "visibility_rules": [
                             "evolutions"
@@ -968,6 +935,65 @@
                 ]
             },
             {
+                "name": "Egg Bunch (Mountain)",
+                "access_rules": "eggmon",
+                "map_locations": [
+                    {
+                        "map": "Sapphire Board",
+                        "x": 200,
+                        "y": 62
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pokedex - Spoink",
+                        "chest_unopened_img": "images/items/110.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Shuppet",
+                        "chest_unopened_img": "images/items/146.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Chimecho",
+                        "chest_unopened_img": "images/items/151.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Natu",
+                        "chest_unopened_img": "images/items/162.jpg"
+                    },
+                    {
+                        "name": "Pokedex - Grumpig",
+                        "chest_unopened_img": "images/items/111.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveEggSapphire|Grumpig"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Banette",
+                        "chest_unopened_img": "images/items/147.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveEggSapphire|Banette"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    },
+                    {
+                        "name": "Pokedex - Xatu",
+                        "chest_unopened_img": "images/items/163.jpg",
+                        "access_rules": [
+                            "evolutions,^$CanEvolveEggSapphire|Xatu"
+                        ],
+                        "visibility_rules": [
+                            "evolutions"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Egg Bunch (Sapphire)",
                 "access_rules": [
                     "sapphire"
@@ -975,7 +1001,7 @@
                 "map_locations": [
                     {
                         "map": "Sapphire Board",
-                        "x": 210,
+                        "x": 220,
                         "y": 62
                     }
                 ],

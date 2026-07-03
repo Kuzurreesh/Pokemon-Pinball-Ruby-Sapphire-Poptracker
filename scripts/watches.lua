@@ -68,7 +68,19 @@ function Writing5()
 end
 
 function Writing6()
+local total = 0
+    local cantotal = 0
 
+    for index, value in ipairs(Pokemon) do
+        if Caught3(value) ~= nil then
+            if Caught3(value) then
+                total = total + 1
+            else
+                cantotal = cantotal + 1
+            end
+        end
+    end
+    print("-----------------------------",total, cantotal)
 end
 
 --ScriptHost:AddWatchForCode("test", "write", Writing6)
@@ -90,6 +102,21 @@ function Total()
         end
     end
     Tracker:FindObjectForCode("Total").AcquiredCount = total
+    if total >= Tracker:ProviderCountForCode("pokedex") then
+        Tracker:FindObjectForCode("Total"):SetOverlayColor("#00FF00")
+        if TableContains(GOALS, "Targets") then
+            if Targets() then
+            Tracker:FindObjectForCode("gomode").BadgeText = "T"
+            Tracker:FindObjectForCode("gomode").BadgeTextColor = "#00FF00"
+            else
+            Tracker:FindObjectForCode("gomode").BadgeText = ""
+            end
+        end
+    else
+        Tracker:FindObjectForCode("Total"):SetOverlayColor("FFFFFFFF")
+        Tracker:FindObjectForCode("gomode").BadgeText = ""
+        Tracker:FindObjectForCode("gomode").BadgeTextColor = "FFFFFFFF"
+    end
     Tracker:FindObjectForCode("CanTotal").AcquiredCount = cantotal
 end
 
@@ -323,13 +350,18 @@ end
 ScriptHost:AddWatchForCode("Set Makuhita", "upgrade", MakuhitaUpgrade)
 
 
+
+
 function EvoMode()
-    Tracker:FindObjectForCode("evo").CurrentStage = 3
+    if Tracker:FindObjectForCode("evomode").Active then
+        Tracker:FindObjectForCode("evo").CurrentStage = 3
+    end
 end
 
 ScriptHost:AddWatchForCode("EvoMode", "evomode", EvoMode)
 
 function SingleBoard()
+    ScriptHost:AddWatchForCode("SingleBoard2", "field", SingleBoard)
     if Has("single") then
         if Tracker:FindObjectForCode("ruby").Active then
             Tracker:UiHint("ActivateTab", "Ruby Board")
@@ -340,8 +372,14 @@ function SingleBoard()
             Tracker:UiHint("ActivateTab", "Areas")
             Tracker:UiHint("ActivateTab", "Sapphire")
         end
+    else
+        ScriptHost:RemoveWatchForCode("Singleboard2")
     end
 end
 
 ScriptHost:AddWatchForCode("SingleBoard", "single", SingleBoard)
-ScriptHost:AddWatchForCode("SingleBoard2", "field", SingleBoard)
+
+
+
+
+ScriptHost:AddWatchForCode("Medalcheck", "medals", GoalCheck)

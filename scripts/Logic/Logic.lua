@@ -264,8 +264,8 @@ end
 
 function Targets()
 	for index, value in ipairs(TARGETS) do
-		if POKEMON_INVERSE[value] ~= nil then
-			if Tracker:FindObjectForCode("@Pokemon//" .. POKEMON_INVERSE[value]).AccessibilityLevel < AccessibilityLevel.Normal then
+		if Pokemon[value] ~= nil then
+			if Tracker:FindObjectForCode("@Pokemon//" .. Pokemon[value]).AccessibilityLevel < AccessibilityLevel.Normal then
 				return false
 			end
 		end
@@ -339,7 +339,8 @@ function GoalCheck()
 	local dex = 0
 	local targets = 0
 	local score = 0
-	if #GOALS > 0 then
+	local medal = 0
+	if GOALS ~= nil then
 		for index, value in ipairs(GOALS) do
 			if value == "Pokedex" then
 				if (Tracker:ProviderCountForCode("Total") + Tracker:ProviderCountForCode("CanTotal")) >=
@@ -361,9 +362,19 @@ function GoalCheck()
 				elseif CanPlayLongPinball() then
 					score = 1
 				end
+			elseif value == "Medals" then
+				local percent = Tracker:ProviderCountForCode("medals_percent") / 100
+				local medalrequirement = Tracker:ProviderCountForCode("medal_requirement")
+				local total = medalrequirement * percent
+				if Tracker:ProviderCountForCode("medals") >= math.floor(total + 0.5) then
+					medal = 1
+					Tracker:FindObjectForCode("medals").BadgeTextColor = "FF00FF00"
+				else
+					Tracker:FindObjectForCode("medals").BadgeTextColor = "FFFFFFFF"
+				end
 			end
 		end
-		if (dex + targets + score) == #GOALS then
+		if (dex + targets + score +medal) == #GOALS then
 			Tracker:FindObjectForCode("gomode").Active = true
 		else
 			Tracker:FindObjectForCode("gomode").Active = false

@@ -24,8 +24,9 @@ Tracker:FindObjectForCode("sapphire"):SetOverlayBackground("7E252523")
 
 for index, value in ipairs(POKEMON_CODES) do
   for k, v in pairs(value) do
-    Tracker:FindObjectForCode(v):SetOverlayBackground("FF252523")
+    Tracker:FindObjectForCode(v):SetOverlayBackground("FF000000")
     Tracker:FindObjectForCode(v):SetOverlayFontSize(15)
+    Tracker:FindObjectForCode(v).BadgeTextColor = "FFFFFFFF"
   end
 end
 GOALS = {}

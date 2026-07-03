@@ -914,12 +914,12 @@
                         "name": "Pokedex - Chikorita"
                     },
                     {
-                        "ref": "Special/Bonus Stage (Ruby)/Pokedex - Totodile",
-                        "name": "Pokedex - Totodile"
-                    },
-                    {
                         "ref": "Special/Bonus Stage (Ruby)/Pokedex - Cyndaquil",
                         "name": "Pokedex - Cyndaquil"
+                    },
+                    {
+                        "ref": "Special/Bonus Stage (Ruby)/Pokedex - Totodile",
+                        "name": "Pokedex - Totodile"
                     },
                     {
                         "ref": "Special/Bonus Stage (Ruby)/Pokedex - Aerodactyl",

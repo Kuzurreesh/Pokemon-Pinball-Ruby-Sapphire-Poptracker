@@ -200,5 +200,10 @@
 				}
 			}
 		]
+	},
+	"tracker_broadcast" :{
+		"type": "layout",
+		"key": "Broadcast"
+
 	}
 }

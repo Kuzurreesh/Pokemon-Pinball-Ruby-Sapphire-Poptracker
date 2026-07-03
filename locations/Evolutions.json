@@ -88,8 +88,8 @@
                     {
                         "name": "Wurmple",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Wurmple",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Wurmple"
+                            "@Eggs Ruby/Egg Bunch (Forest)/Pokedex - Wurmple",
+                            "@Eggs Sapphire/Egg Bunch (Forest)/Pokedex - Wurmple"
                         ]
                     },
                     {
@@ -97,8 +97,8 @@
                         "access_rules": [
                             "@Sapphire Board/Forest (Sapphire)/Pokedex - Silcoon",
                             "@Ruby Board/Forest (Ruby)/Pokedex - Silcoon",
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Silcoon",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Silcoon"
+                            "@Eggs Ruby/Egg Bunch (Forest)/Pokedex - Silcoon",
+                            "@Eggs Sapphire/Egg Bunch (Forest)/Pokedex - Silcoon"
                         ]
                     },
                     {
@@ -106,8 +106,8 @@
                         "access_rules": [
                             "@Sapphire Board/Forest (Sapphire)/Pokedex - Beautifly",
                             "@Ruby Board/Forest (Ruby)/Pokedex - Beautifly",
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Beautifly",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Beautifly"
+                            "@Eggs Ruby/Egg Bunch (Forest)/Pokedex - Beautifly",
+                            "@Eggs Sapphire/Egg Bunch (Forest)/Pokedex - Beautifly"
                         ]
                     },
                     {
@@ -115,8 +115,8 @@
                         "access_rules": [
                             "@Sapphire Board/Forest (Sapphire)/Pokedex - Cascoon",
                             "@Ruby Board/Forest (Ruby)/Pokedex - Cascoon",
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Cascoon",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Cascoon"
+                            "@Eggs Ruby/Egg Bunch (Forest)/Pokedex - Cascoon",
+                            "@Eggs Sapphire/Egg Bunch (Forest)/Pokedex - Cascoon"
                         ]
                     },
                     {
@@ -124,8 +124,8 @@
                         "access_rules": [
                             "@Sapphire Board/Forest (Sapphire)/Pokedex - Dustox",
                             "@Ruby Board/Forest (Ruby)/Pokedex - Dustox",
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Dustox",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Dustox"
+                            "@Eggs Ruby/Egg Bunch (Forest)/Pokedex - Dustox",
+                            "@Eggs Sapphire/Egg Bunch (Forest)/Pokedex - Dustox"
                         ]
                     },
                     {
@@ -199,22 +199,22 @@
                     {
                         "name": "Ralts",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Ralts",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Ralts"
+                            "@Eggs Ruby/Egg Bunch (Forest)/Pokedex - Ralts",
+                            "@Eggs Sapphire/Egg Bunch (Forest)/Pokedex - Ralts"
                         ]
                     },
                     {
                         "name": "Kirlia",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Kirlia",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Kirlia"
+                            "@Eggs Ruby/Egg Bunch (Forest)/Pokedex - Kirlia",
+                            "@Eggs Sapphire/Egg Bunch (Forest)/Pokedex - Kirlia"
                         ]
                     },
                     {
                         "name": "Gardevoir",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Gardevoir",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Gardevoir"
+                            "@Eggs Ruby/Egg Bunch (Forest)/Pokedex - Gardevoir",
+                            "@Eggs Sapphire/Egg Bunch (Forest)/Pokedex - Gardevoir"
                         ]
                     },
                     {
@@ -304,8 +304,8 @@
                     {
                         "name": "Whismur",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Whismur",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Whismur"
+                            "@Eggs Ruby/Egg Bunch (Cave)/Pokedex - Whismur",
+                            "@Eggs Sapphire/Egg Bunch (Cave)/Pokedex - Whismur"
                         ]
                     },
                     {
@@ -313,8 +313,8 @@
                         "access_rules": [
                             "@Sapphire Board/Cave (Sapphire)/Pokedex - Loudred",
                             "@Ruby Board/Cave (Ruby)/Pokedex - Loudred",
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Loudred",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Loudred"
+                            "@Eggs Ruby/Egg Bunch (Cave)/Pokedex - Loudred",
+                            "@Eggs Sapphire/Egg Bunch (Cave)/Pokedex - Loudred"
                         ]
                     },
                     {
@@ -322,8 +322,8 @@
                         "access_rules": [
                             "@Sapphire Board/Cave (Sapphire)/Pokedex - Exploud",
                             "@Ruby Board/Cave (Ruby)/Pokedex - Exploud",
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Exploud",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Exploud"
+                            "@Eggs Ruby/Egg Bunch (Cave)/Pokedex - Exploud",
+                            "@Eggs Sapphire/Egg Bunch (Cave)/Pokedex - Exploud"
                         ]
                     },
                     {
@@ -422,22 +422,22 @@
                     {
                         "name": "Zubat",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Zubat",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Zubat"
+                            "@Eggs Ruby/Egg Bunch (Cave)/Pokedex - Zubat",
+                            "@Eggs Sapphire/Egg Bunch (Cave)/Pokedex - Zubat"
                         ]
                     },
                     {
                         "name": "Golbat",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Golbat",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Golbat"
+                            "@Eggs Ruby/Egg Bunch (Cave)/Pokedex - Golbat",
+                            "@Eggs Sapphire/Egg Bunch (Cave)/Pokedex - Golbat"
                         ]
                     },
                     {
                         "name": "Crobat",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Crobat",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Crobat"
+                            "@Eggs Ruby/Egg Bunch (Cave)/Pokedex - Crobat",
+                            "@Eggs Sapphire/Egg Bunch (Cave)/Pokedex - Crobat"
                         ]
                     },
                     {
@@ -469,22 +469,22 @@
                     {
                         "name": "Aron",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Aron",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Aron"
+                            "@Eggs Ruby/Egg Bunch (Cave)/Pokedex - Aron",
+                            "@Eggs Sapphire/Egg Bunch (Cave)/Pokedex - Aron"
                         ]
                     },
                     {
                         "name": "Lairon",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Lairon",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Lairon"
+                            "@Eggs Ruby/Egg Bunch (Cave)/Pokedex - Lairon",
+                            "@Eggs Sapphire/Egg Bunch (Cave)/Pokedex - Lairon"
                         ]
                     },
                     {
                         "name": "Aggron",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (1)/Pokedex - Aggron",
-                            "@Eggs Sapphire/Egg Bunch (1)/Pokedex - Aggron"
+                            "@Eggs Ruby/Egg Bunch (Cave)/Pokedex - Aggron",
+                            "@Eggs Sapphire/Egg Bunch (Cave)/Pokedex - Aggron"
                         ]
                     },
                     {
@@ -586,27 +586,27 @@
                     {
                         "name": "Oddish",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Oddish",
-                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Oddish"
+                            "@Eggs Ruby/Egg Bunch (Forest)/Pokedex - Oddish",
+                            "@Eggs Sapphire/Egg Bunch (Forest)/Pokedex - Oddish"
                         ]
                     },
                     {
                         "name": "Gloom",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Gloom",
-                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Gloom"
+                            "@Eggs Ruby/Egg Bunch (Forest)/Pokedex - Gloom",
+                            "@Eggs Sapphire/Egg Bunch (Forest)/Pokedex - Gloom"
                         ]
                     },
                     {
                         "name": "Vileplume",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Vileplume"
+                            "@Eggs Ruby/Egg Bunch (Forest)/Pokedex - Vileplume"
                         ]
                     },
                     {
                         "name": "Bellossom",
                         "access_rules": [
-                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Bellossom"
+                            "@Eggs Sapphire/Egg Bunch (Forest)/Pokedex - Bellossom"
                         ]
                     },
                     {
@@ -724,36 +724,36 @@
                     {
                         "name": "Spoink",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Spoink",
-                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Spoink"
+                            "@Eggs Ruby/Egg Bunch (Mountain)/Pokedex - Spoink",
+                            "@Eggs Sapphire/Egg Bunch (Mountain)/Pokedex - Spoink"
                         ]
                     },
                     {
                         "name": "Grumpig",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Grumpig",
-                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Grumpig"
+                            "@Eggs Ruby/Egg Bunch (Mountain)/Pokedex - Grumpig",
+                            "@Eggs Sapphire/Egg Bunch (Mountain)/Pokedex - Grumpig"
                         ]
                     },
                     {
                         "name": "Sandshrew",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Sandshrew",
-                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Sandshrew"
+                            "@Eggs Ruby/Egg Bunch (Desert)/Pokedex - Sandshrew",
+                            "@Eggs Sapphire/Egg Bunch (Desert)/Pokedex - Sandshrew"
                         ]
                     },
                     {
                         "name": "Sandslash",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Sandslash",
-                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Sandslash"
+                            "@Eggs Ruby/Egg Bunch (Desert)/Pokedex - Sandslash",
+                            "@Eggs Sapphire/Egg Bunch (Desert)/Pokedex - Sandslash"
                         ]
                     },
                     {
                         "name": "Spinda",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Spinda",
-                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Spinda"
+                            "@Eggs Ruby/Egg Bunch (Desert)/Pokedex - Spinda",
+                            "@Eggs Sapphire/Egg Bunch (Desert)/Pokedex - Spinda"
                         ]
                     },
                     {
@@ -765,24 +765,24 @@
                     {
                         "name": "Trapinch",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Trapinch",
-                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Trapinch"
+                            "@Eggs Ruby/Egg Bunch (Desert)/Pokedex - Trapinch",
+                            "@Eggs Sapphire/Egg Bunch (Desert)/Pokedex - Trapinch"
                         ]
                     },
                     {
                         "name": "Vibrava",
                         "access_rules": [
                             "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Vibrava",
-                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Vibrava",
-                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Vibrava"
+                            "@Eggs Ruby/Egg Bunch (Desert)/Pokedex - Vibrava",
+                            "@Eggs Sapphire/Egg Bunch (Desert)/Pokedex - Vibrava"
                         ]
                     },
                     {
                         "name": "Flygon",
                         "access_rules": [
                             "@Sapphire Board/Wilderness (Sapphire)/Pokedex - Flygon",
-                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Flygon",
-                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Flygon"
+                            "@Eggs Ruby/Egg Bunch (Desert)/Pokedex - Flygon",
+                            "@Eggs Sapphire/Egg Bunch (Desert)/Pokedex - Flygon"
                         ]
                     },
                     {
@@ -954,15 +954,15 @@
                     {
                         "name": "Shuppet",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Shuppet",
-                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Shuppet"
+                            "@Eggs Ruby/Egg Bunch (Mountain)/Pokedex - Shuppet",
+                            "@Eggs Sapphire/Egg Bunch (Mountain)/Pokedex - Shuppet"
                         ]
                     },
                     {
                         "name": "Banette",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Banette",
-                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Banette"
+                            "@Eggs Ruby/Egg Bunch (Mountain)/Pokedex - Banette",
+                            "@Eggs Sapphire/Egg Bunch (Mountain)/Pokedex - Banette"
                         ]
                     },
                     {
@@ -988,8 +988,8 @@
                     {
                         "name": "Chimecho",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Chimecho",
-                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Chimecho"
+                            "@Eggs Ruby/Egg Bunch (Mountain)/Pokedex - Chimecho",
+                            "@Eggs Sapphire/Egg Bunch (Mountain)/Pokedex - Chimecho"
                         ]
                     },
                     {
@@ -1061,15 +1061,15 @@
                     {
                         "name": "Natu",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Natu",
-                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Natu"
+                            "@Eggs Ruby/Egg Bunch (Mountain)/Pokedex - Natu",
+                            "@Eggs Sapphire/Egg Bunch (Mountain)/Pokedex - Natu"
                         ]
                     },
                     {
                         "name": "Xatu",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (2)/Pokedex - Xatu",
-                            "@Eggs Sapphire/Egg Bunch (2)/Pokedex - Xatu"
+                            "@Eggs Ruby/Egg Bunch (Mountain)/Pokedex - Xatu",
+                            "@Eggs Sapphire/Egg Bunch (Mountain)/Pokedex - Xatu"
                         ]
                     },
                     {
@@ -1081,15 +1081,15 @@
                     {
                         "name": "Phanpy",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Phanpy",
-                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Phanpy"
+                            "@Eggs Ruby/Egg Bunch (Desert)/Pokedex - Phanpy",
+                            "@Eggs Sapphire/Egg Bunch (Desert)/Pokedex - Phanpy"
                         ]
                     },
                     {
                         "name": "Donphan",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (3)/Pokedex - Donphan",
-                            "@Eggs Sapphire/Egg Bunch (3)/Pokedex - Donphan"
+                            "@Eggs Ruby/Egg Bunch (Desert)/Pokedex - Donphan",
+                            "@Eggs Sapphire/Egg Bunch (Desert)/Pokedex - Donphan"
                         ]
                     },
                     {
@@ -1119,36 +1119,36 @@
                     {
                         "name": "Snorunt",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Snorunt",
-                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Snorunt"
+                            "@Eggs Ruby/Egg Bunch (Sea)/Pokedex - Snorunt",
+                            "@Eggs Sapphire/Egg Bunch (Sea)/Pokedex - Snorunt"
                         ]
                     },
                     {
                         "name": "Glalie",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Glalie",
-                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Glalie"
+                            "@Eggs Ruby/Egg Bunch (Sea)/Pokedex - Glalie",
+                            "@Eggs Sapphire/Egg Bunch (Sea)/Pokedex - Glalie"
                         ]
                     },
                     {
                         "name": "Spheal",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Spheal",
-                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Spheal"
+                            "@Eggs Ruby/Egg Bunch (Sea)/Pokedex - Spheal",
+                            "@Eggs Sapphire/Egg Bunch (Sea)/Pokedex - Spheal"
                         ]
                     },
                     {
                         "name": "Sealeo",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Sealeo",
-                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Sealeo"
+                            "@Eggs Ruby/Egg Bunch (Sea)/Pokedex - Sealeo",
+                            "@Eggs Sapphire/Egg Bunch (Sea)/Pokedex - Sealeo"
                         ]
                     },
                     {
                         "name": "Walrein",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Walrein",
-                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Walrein"
+                            "@Eggs Ruby/Egg Bunch (Sea)/Pokedex - Walrein",
+                            "@Eggs Sapphire/Egg Bunch (Sea)/Pokedex - Walrein"
                         ]
                     },
                     {
@@ -1179,8 +1179,8 @@
                     {
                         "name": "Corsola",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Corsola",
-                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Corsola"
+                            "@Eggs Ruby/Egg Bunch (Sea)/Pokedex - Corsola",
+                            "@Eggs Sapphire/Egg Bunch (Sea)/Pokedex - Corsola"
                         ]
                     },
                     {
@@ -1205,29 +1205,29 @@
                     {
                         "name": "Horsea",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Horsea",
-                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Horsea"
+                            "@Eggs Ruby/Egg Bunch (Sea)/Pokedex - Horsea",
+                            "@Eggs Sapphire/Egg Bunch (Sea)/Pokedex - Horsea"
                         ]
                     },
                     {
                         "name": "Seadra",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Seadra",
-                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Seadra"
+                            "@Eggs Ruby/Egg Bunch (Sea)/Pokedex - Seadra",
+                            "@Eggs Sapphire/Egg Bunch (Sea)/Pokedex - Seadra"
                         ]
                     },
                     {
                         "name": "Kingdra",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Kingdra",
-                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Kingdra"
+                            "@Eggs Ruby/Egg Bunch (Sea)/Pokedex - Kingdra",
+                            "@Eggs Sapphire/Egg Bunch (Sea)/Pokedex - Kingdra"
                         ]
                     },
                     {
                         "name": "Bagon",
                         "access_rules": [
-                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Bagon",
-                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Bagon"
+                            "@Eggs Ruby/Egg Bunch (Cave)/Pokedex - Bagon",
+                            "@Eggs Sapphire/Egg Bunch (Cave)/Pokedex - Bagon"
                         ]
                     },
                     {
@@ -1235,8 +1235,8 @@
                         "access_rules": [
                             "@Sapphire Board/Cave (Sapphire)/Pokedex - Shelgon",
                             "@Ruby Board/Cave (Ruby)/Pokedex - Shelgon",
-                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Shelgon",
-                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Shelgon"
+                            "@Eggs Ruby/Egg Bunch (Cave)/Pokedex - Shelgon",
+                            "@Eggs Sapphire/Egg Bunch (Cave)/Pokedex - Shelgon"
                         ]
                     },
                     {
@@ -1244,8 +1244,8 @@
                         "access_rules": [
                             "@Sapphire Board/Cave (Sapphire)/Pokedex - Salamence",
                             "@Ruby Board/Cave (Ruby)/Pokedex - Salamence",
-                            "@Eggs Ruby/Egg Bunch (4)/Pokedex - Salamence",
-                            "@Eggs Sapphire/Egg Bunch (4)/Pokedex - Salamence"
+                            "@Eggs Ruby/Egg Bunch (Cave)/Pokedex - Salamence",
+                            "@Eggs Sapphire/Egg Bunch (Cave)/Pokedex - Salamence"
                         ]
                     },
                     {

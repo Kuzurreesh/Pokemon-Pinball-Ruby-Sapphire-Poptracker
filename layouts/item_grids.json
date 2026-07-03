@@ -15,16 +15,16 @@
 				"rows": [
 					[
 						"Total",
-						"egg1",
-						"egg2",
-						"egg3",
-						"egg4",
+						"medals",
+						"gomode",
+						"eggfor",
+						"eggsea",
+						"eggdes",
+						"eggcave",
+						"eggmon",
 						"get",
-						"startballplus",
 						"coin",
-						"doublecoin",
-						"",
-						"gomode"
+						"doublecoin"
 					],
 					[
 						"ruby",
@@ -934,10 +934,10 @@
 				"PichuRubyEgg",
 				"GroudonRuby",
 				"RayquazaRuby",
-				"AerodactylRuby",
 				"ChikoritaRuby",
+				"CyndaquilRuby",
 				"TotodileRuby",
-				"CyndaquilRuby"
+				"AerodactylRuby"
 			]
 		]
 	},
@@ -952,35 +952,38 @@
 		"item_width": 60,
 		"rows": [
 			[
-				"egg1",
+				"eggfor",
 				"WurmpleRubyEgg",
 				"RaltsRubyEgg",
-				"WhismurRubyEgg",
-				"ZubatRubyEgg",
-				"AronRubyEgg"
+				"OddishRubyEgg"
 			],
 			[
-				"egg2",
-				"OddishRubyEgg",
-				"SpoinkRubyEgg",
-				"ShuppetRubyEgg",
-				"ChimechoRubyEgg",
-				"NatuRubyEgg"
+				"eggsea",
+				"SnoruntRubyEgg",
+				"SphealRubyEgg",
+				"CorsolaRubyEgg",
+				"HorseaRubyEgg"
 			],
 			[
-				"egg3",
+				"eggdes",
 				"SandshrewRubyEgg",
 				"SpindaRubyEgg",
 				"TrapinchRubyEgg",
 				"PhanpyRubyEgg"
 			],
 			[
-				"egg4",
-				"SnoruntRubyEgg",
-				"SphealRubyEgg",
-				"CorsolaRubyEgg",
-				"HorseaRubyEgg",
+				"eggcave",
+				"WhismurRubyEgg",
+				"ZubatRubyEgg",
+				"AronRubyEgg",
 				"BagonRubyEgg"
+			],
+			[
+				"eggmon",
+				"SpoinkRubyEgg",
+				"ShuppetRubyEgg",
+				"ChimechoRubyEgg",
+				"NatuRubyEgg"
 			],
 			[
 				"eggruby",
@@ -1159,31 +1162,28 @@
 						"",
 						"GroudonRuby",
 						"RayquazaRuby",
-						"AerodactylRuby",
 						"ChikoritaRuby",
+						"CyndaquilRuby",
 						"TotodileRuby",
-						"CyndaquilRuby"
+						"AerodactylRuby"
 					],
 					[
-						"egg1",
+						"eggfor",
 						"WurmpleRubyEgg",
 						"RaltsRubyEgg",
-						"WhismurRubyEgg",
-						"ZubatRubyEgg",
-						"AronRubyEgg",
-						"PichuRubyEgg"
-					],
-					[
-						"egg2",
 						"OddishRubyEgg",
-						"SpoinkRubyEgg",
-						"ShuppetRubyEgg",
-						"ChimechoRubyEgg",
-						"NatuRubyEgg",
 						"PichuRubyEgg"
 					],
 					[
-						"egg3",
+						"eggsea",
+						"SnoruntRubyEgg",
+						"SphealRubyEgg",
+						"CorsolaRubyEgg",
+						"HorseaRubyEgg",
+						"PichuRubyEgg"
+					],
+					[
+						"eggdes",
 						"SandshrewRubyEgg",
 						"SpindaRubyEgg",
 						"TrapinchRubyEgg",
@@ -1191,12 +1191,19 @@
 						"PichuRubyEgg"
 					],
 					[
-						"egg4",
-						"SnoruntRubyEgg",
-						"SphealRubyEgg",
-						"CorsolaRubyEgg",
-						"HorseaRubyEgg",
+						"eggcave",
+						"WhismurRubyEgg",
+						"AronRubyEgg",
+						"ZubatRubyEgg",
 						"BagonRubyEgg",
+						"PichuRubyEgg"
+					],
+					[
+						"eggmon",
+						"SpoinkRubyEgg",
+						"ShuppetRubyEgg",
+						"ChimechoRubyEgg",
+						"NatuRubyEgg",
 						"PichuRubyEgg"
 					],
 					[
@@ -1541,10 +1548,10 @@
 				"PichuSapphireEgg",
 				"KyogreSapphire",
 				"RayquazaSapphire",
-				"AerodactylSapphire",
 				"ChikoritaSapphire",
+				"CyndaquilSapphire",
 				"TotodileSapphire",
-				"CyndaquilSapphire"
+				"AerodactylSapphire"
 			]
 		]
 	},
@@ -1766,31 +1773,28 @@
 						"",
 						"KyogreSapphire",
 						"RayquazaSapphire",
-						"AerodactylSapphire",
 						"ChikoritaSapphire",
+						"CyndaquilSapphire",
 						"TotodileSapphire",
-						"CyndaquilSapphire"
+						"AerodactylSapphire"
 					],
 					[
-						"egg1",
+						"eggfor",
 						"WurmpleSapphireEgg",
 						"RaltsSapphireEgg",
-						"WhismurSapphireEgg",
-						"ZubatSapphireEgg",
-						"AronSapphireEgg",
-						"PichuSapphireEgg"
-					],
-					[
-						"egg2",
 						"OddishSapphireEgg",
-						"SpoinkSapphireEgg",
-						"ShuppetSapphireEgg",
-						"ChimechoSapphireEgg",
-						"NatuSapphireEgg",
 						"PichuSapphireEgg"
 					],
 					[
-						"egg3",
+						"eggsea",
+						"SnoruntSapphireEgg",
+						"SphealSapphireEgg",
+						"CorsolaSapphireEgg",
+						"HorseaSapphireEgg",
+						"PichuSapphireEgg"
+					],
+					[
+						"eggdes",
 						"SandshrewSapphireEgg",
 						"SpindaSapphireEgg",
 						"TrapinchSapphireEgg",
@@ -1798,12 +1802,19 @@
 						"PichuSapphireEgg"
 					],
 					[
-						"egg4",
-						"SnoruntSapphireEgg",
-						"SphealSapphireEgg",
-						"CorsolaSapphireEgg",
-						"HorseaSapphireEgg",
+						"eggcave",
+						"WhismurSapphireEgg",
+						"AronSapphireEgg",
+						"ZubatSapphireEgg",
 						"BagonSapphireEgg",
+						"PichuSapphireEgg"
+					],
+					[
+						"eggmon",
+						"SpoinkSapphireEgg",
+						"ShuppetSapphireEgg",
+						"ChimechoSapphireEgg",
+						"NatuSapphireEgg",
 						"PichuSapphireEgg"
 					],
 					[
@@ -2476,11 +2487,11 @@
 			{
 				"type": "array",
 				"orientation": "horizontal",
-				"margin": "10,0",
+				"margin": "5,0",
 				"content": [
 					{
 						"type": "group",
-						"header": "Egg Group 1",
+						"header": "Egg Group (Forest)",
 						"content": [
 							{
 								"type": "itemgrid",
@@ -2493,7 +2504,7 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"egg1"
+										"eggfor"
 									]
 								]
 							},
@@ -2523,19 +2534,9 @@
 										"GardevoirRubyEgg"
 									],
 									[
-										"WhismurRubyEgg",
-										"LoudredRubyEgg",
-										"ExploudRubyEgg"
-									],
-									[
-										"ZubatRubyEgg",
-										"GolbatRubyEgg",
-										"CrobatRubyEgg"
-									],
-									[
-										"AronRubyEgg",
-										"LaironRubyEgg",
-										"AggronRubyEgg"
+										"OddishRubyEgg",
+										"GloomRubyEgg",
+										"VileplumeRubyEgg"
 									]
 								]
 							}
@@ -2543,7 +2544,7 @@
 					},
 					{
 						"type": "group",
-						"header": "Egg Group 2",
+						"header": "Egg Group (Sea)",
 						"content": [
 							{
 								"type": "itemgrid",
@@ -2556,7 +2557,7 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"egg2"
+										"eggsea"
 									]
 								]
 							},
@@ -2571,24 +2572,21 @@
 								"item_width": 45,
 								"rows": [
 									[
-										"OddishRubyEgg",
-										"GloomRubyEgg",
-										"VileplumeRubyEgg"
+										"SnoruntRubyEgg",
+										"GlalieRubyEgg"
 									],
 									[
-										"SpoinkRubyEgg",
-										"GrumpigRubyEgg"
+										"SphealRubyEgg",
+										"SealeoRubyEgg",
+										"WalreinRubyEgg"
 									],
 									[
-										"ShuppetRubyEgg",
-										"BanetteRubyEgg"
+										"CorsolaRubyEgg"
 									],
 									[
-										"ChimechoRubyEgg"
-									],
-									[
-										"NatuRubyEgg",
-										"XatuRubyEgg"
+										"HorseaRubyEgg",
+										"SeadraRubyEgg",
+										"KingdraRubyEgg"
 									]
 								]
 							}
@@ -2596,7 +2594,7 @@
 					},
 					{
 						"type": "group",
-						"header": "Egg Group 3",
+						"header": "Egg Group (Desert)",
 						"content": [
 							{
 								"type": "itemgrid",
@@ -2609,7 +2607,7 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"egg3"
+										"eggdes"
 									]
 								]
 							},
@@ -2645,7 +2643,7 @@
 					},
 					{
 						"type": "group",
-						"header": "Egg Group 4",
+						"header": "Egg Group (Cave)",
 						"content": [
 							{
 								"type": "itemgrid",
@@ -2658,7 +2656,7 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"egg4"
+										"eggcave"
 									]
 								]
 							},
@@ -2673,26 +2671,73 @@
 								"item_width": 45,
 								"rows": [
 									[
-										"SnoruntRubyEgg",
-										"GlalieRubyEgg"
+										"WhismurRubyEgg",
+										"LoudredRubyEgg",
+										"ExploudRubyEgg"
 									],
 									[
-										"SphealRubyEgg",
-										"SealeoRubyEgg",
-										"WalreinRubyEgg"
+										"AronRubyEgg",
+										"LaironRubyEgg",
+										"AggronRubyEgg"
 									],
 									[
-										"CorsolaRubyEgg"
-									],
-									[
-										"HorseaRubyEgg",
-										"SeadraRubyEgg",
-										"KingdraRubyEgg"
+										"ZubatRubyEgg",
+										"GolbatRubyEgg",
+										"CrobatRubyEgg"
 									],
 									[
 										"BagonRubyEgg",
 										"ShelgonRubyEgg",
 										"SalamenceRubyEgg"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Egg Group (MT)",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"eggmon"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 30,
+								"item_width": 45,
+								"rows": [
+									[
+										"SpoinkRubyEgg",
+										"GrumpigRubyEgg"
+									],
+									[
+										"ShuppetRubyEgg",
+										"BanetteRubyEgg"
+									],
+									[
+										"ChimechoRubyEgg"
+									],
+									[
+										"NatuRubyEgg",
+										"XatuRubyEgg",
+										""
 									]
 								]
 							}
@@ -2790,16 +2835,16 @@
 										"RayquazaRuby"
 									],
 									[
-										"AerodactylRuby"
+										"ChikoritaRuby"
 									],
 									[
-										"ChikoritaRuby"
+										"CyndaquilRuby"
 									],
 									[
 										"TotodileRuby"
 									],
 									[
-										"CyndaquilRuby"
+										"AerodactylRuby"
 									],
 									[
 										"LatiosRuby"
@@ -3441,11 +3486,11 @@
 			{
 				"type": "array",
 				"orientation": "horizontal",
-				"margin": "10,0",
+				"margin": "5,0",
 				"content": [
 					{
 						"type": "group",
-						"header": "Egg Group 1",
+						"header": "Egg Group (Forest)",
 						"content": [
 							{
 								"type": "itemgrid",
@@ -3458,7 +3503,7 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"egg1"
+										"eggfor"
 									]
 								]
 							},
@@ -3488,19 +3533,9 @@
 										"GardevoirSapphireEgg"
 									],
 									[
-										"WhismurSapphireEgg",
-										"LoudredSapphireEgg",
-										"ExploudSapphireEgg"
-									],
-									[
-										"ZubatSapphireEgg",
-										"GolbatSapphireEgg",
-										"CrobatSapphireEgg"
-									],
-									[
-										"AronSapphireEgg",
-										"LaironSapphireEgg",
-										"AggronSapphireEgg"
+										"OddishSapphireEgg",
+										"GloomSapphireEgg",
+										"BellossomSapphireEgg"
 									]
 								]
 							}
@@ -3508,7 +3543,7 @@
 					},
 					{
 						"type": "group",
-						"header": "Egg Group 2",
+						"header": "Egg Group (Sea)",
 						"content": [
 							{
 								"type": "itemgrid",
@@ -3521,7 +3556,7 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"egg2"
+										"eggsea"
 									]
 								]
 							},
@@ -3536,24 +3571,21 @@
 								"item_width": 45,
 								"rows": [
 									[
-										"OddishSapphireEgg",
-										"GloomSapphireEgg",
-										"BellossomSapphireEgg"
+										"SnoruntSapphireEgg",
+										"GlalieSapphireEgg"
 									],
 									[
-										"SpoinkSapphireEgg",
-										"GrumpigSapphireEgg"
+										"SphealSapphireEgg",
+										"SealeoSapphireEgg",
+										"WalreinSapphireEgg"
 									],
 									[
-										"ShuppetSapphireEgg",
-										"BanetteSapphireEgg"
+										"CorsolaSapphireEgg"
 									],
 									[
-										"ChimechoSapphireEgg"
-									],
-									[
-										"NatuSapphireEgg",
-										"XatuSapphireEgg"
+										"HorseaSapphireEgg",
+										"SeadraSapphireEgg",
+										"KingdraSapphireEgg"
 									]
 								]
 							}
@@ -3561,7 +3593,7 @@
 					},
 					{
 						"type": "group",
-						"header": "Egg Group 3",
+						"header": "Egg Group (Desert)",
 						"content": [
 							{
 								"type": "itemgrid",
@@ -3574,7 +3606,7 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"egg3"
+										"eggdes"
 									]
 								]
 							},
@@ -3610,7 +3642,7 @@
 					},
 					{
 						"type": "group",
-						"header": "Egg Group 4",
+						"header": "Egg Group (Cave)",
 						"content": [
 							{
 								"type": "itemgrid",
@@ -3623,7 +3655,7 @@
 								"item_width": 40,
 								"rows": [
 									[
-										"egg4"
+										"eggcave"
 									]
 								]
 							},
@@ -3638,26 +3670,73 @@
 								"item_width": 45,
 								"rows": [
 									[
-										"SnoruntSapphireEgg",
-										"GlalieSapphireEgg"
+										"WhismurSapphireEgg",
+										"LoudredSapphireEgg",
+										"ExploudSapphireEgg"
 									],
 									[
-										"SphealSapphireEgg",
-										"SealeoSapphireEgg",
-										"WalreinSapphireEgg"
+										"AronSapphireEgg",
+										"LaironSapphireEgg",
+										"AggronSapphireEgg"
 									],
 									[
-										"CorsolaSapphireEgg"
-									],
-									[
-										"HorseaSapphireEgg",
-										"SeadraSapphireEgg",
-										"KingdraSapphireEgg"
+										"ZubatSapphireEgg",
+										"GolbatSapphireEgg",
+										"CrobatSapphireEgg"
 									],
 									[
 										"BagonSapphireEgg",
 										"ShelgonSapphireEgg",
 										"SalamenceSapphireEgg"
+									]
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Egg Group (MT)",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 40,
+								"item_width": 40,
+								"rows": [
+									[
+										"eggmon"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "0, 0",
+								"item_margin": "1, 4",
+								"h_alignment": "left",
+								"item_h_alignment": "center",
+								"item_v_alignment": "center",
+								"item_height": 30,
+								"item_width": 45,
+								"rows": [
+									[
+										"SpoinkSapphireEgg",
+										"GrumpigSapphireEgg"
+									],
+									[
+										"ShuppetSapphireEgg",
+										"BanetteSapphireEgg"
+									],
+									[
+										"ChimechoSapphireEgg"
+									],
+									[
+										"NatuSapphireEgg",
+										"XatuSapphireEgg",
+										""
 									]
 								]
 							}
@@ -3759,16 +3838,16 @@
 										"RayquazaSapphire"
 									],
 									[
-										"AerodactylSapphire"
+										"ChikoritaSapphire"
 									],
 									[
-										"ChikoritaSapphire"
+										"CyndaquilSapphire"
 									],
 									[
 										"TotodileSapphire"
 									],
 									[
-										"CyndaquilSapphire"
+										"AerodactylSapphire"
 									],
 									[
 										"LatiasSapphire"
@@ -3822,6 +3901,101 @@
 			]
 		]
 	},
+	"Broadcast": {
+		"type": "group",
+		"header": "items",
+		"content": [
+			{
+				"type": "itemgrid",
+				"margin": "5, 0",
+				"item_margin": "3, 2",
+				"h_alignment": "left",
+				"item_h_alignment": "center",
+				"item_v_alignment": "center",
+				"item_height": 40,
+				"item_width": 40,
+				"rows": [
+					[
+						"Total",
+						"ruby",
+						"sapphire",
+						"startcoins",
+						"evo"
+					],
+					[
+						"medals",
+						"eggruby",
+						"eggsapphire",
+						"startball",
+						"exp"
+					],
+					[
+						"gomode",
+						"forestR",
+						"forestS",
+						"perpichu",
+						"leaf"
+					],
+					[
+						"eggfor",
+						"volcanoR",
+						"lakeS",
+						"guest",
+						"fire"
+					],
+					[
+						"eggsea",
+						"plainsR",
+						"plainsS",
+						"ratecard",
+						"water"
+					],
+					[
+						"eggdes",
+						"oceanR",
+						"oceanS",
+						"ruinscard",
+						"thunder"
+					],
+					[
+						"eggcave",
+						"safariR",
+						"wildernessS",
+						"chiko",
+						"sun"
+					],
+					[
+						"eggmon",
+						"caveR",
+						"caveS",
+						"toto",
+						"moon"
+					],
+					[
+						"get",
+						"ruinsR",
+						"ruinsS",
+						"cynda",
+						"link"
+					],
+					[
+						"coin",
+						"bonusmak",
+						"bonuszig",
+						"aero",
+						"friend"
+					],
+					[
+						"doublecoin",
+						"bonuswhis",
+						"bonuspel",
+						"",
+						"block"
+					]
+				]
+			}
+		]
+	},
 	"settings": {
 		"type": "array",
 		"orientation": "vertical",
@@ -3867,7 +4041,9 @@
 						"pokedex",
 						"Targets",
 						"multi",
-						"upgrade"
+						"upgrade",
+						"medal_requirement",
+						"medals_percent"
 					]
 				]
 			},

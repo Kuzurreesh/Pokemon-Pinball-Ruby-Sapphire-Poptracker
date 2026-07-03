@@ -956,12 +956,12 @@
                         "name": "Pokedex - Chikorita"
                     },
                     {
-                        "ref": "Special/Bonus Stage (Sapphire)/Pokedex - Totodile",
-                        "name": "Pokedex - Totodile"
-                    },
-                    {
                         "ref": "Special/Bonus Stage (Sapphire)/Pokedex - Cyndaquil",
                         "name": "Pokedex - Cyndaquil"
+                    },
+                    {
+                        "ref": "Special/Bonus Stage (Sapphire)/Pokedex - Totodile",
+                        "name": "Pokedex - Totodile"
                     },
                     {
                         "ref": "Special/Bonus Stage (Sapphire)/Pokedex - Aerodactyl",

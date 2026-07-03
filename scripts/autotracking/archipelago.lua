@@ -95,6 +95,7 @@ function onClear(slot_data)
 
     TARGETS = {}
     if slot_data then
+      --  print(dump_table(slot_data))
         GOALS = slot_data["goal"]
         for index, value in ipairs(GOALS) do
             if value == "Pokedex" then
@@ -129,6 +130,9 @@ function onClear(slot_data)
 
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
+    MakuhitaUpgrade()
+    Multiplier()
+    Upgrade()
     ScriptHost:AddWatchForCode("Total", "Dummy", Total)
     for index, value in pairs(AREA_NAMES) do
         ScriptHost:AddWatchForCode("Area " .. index, value, Evolve)
