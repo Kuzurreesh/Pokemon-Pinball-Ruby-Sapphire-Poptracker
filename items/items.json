@@ -488,7 +488,7 @@
         "codes": "medal_requirement"
     },
     {
-        "name": "Medals",
+        "name": "Pokedex Medals",
         "type": "consumable",
         "img": "images/items/medal.png",
         "disabled_img_mods": "saturation|0.33,brightness|0.40",
