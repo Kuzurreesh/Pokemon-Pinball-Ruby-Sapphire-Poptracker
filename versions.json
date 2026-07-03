@@ -1,6 +1,14 @@
 {
     "versions": [    
-         {
+        {
+            "package_version": "0.3.0",
+            "download_url": "https://github.com/Kuzurreesh/Pokemon-Pinball-Ruby-Sapphire-Poptracker/archive/refs/tags/v0.3.0.zip",
+            "sha256": "f0ee3f8f33c4e7c99567d157762876f0f9dae97d2ff8466a8aaecf63571c1047",
+            "changelog": [
+                "Medals and Egg bunches from new apworld(0.2.x)"
+            ]
+        },
+        {
             "package_version": "0.2.0",
             "download_url": "https://github.com/Kuzurreesh/Pokemon-Pinball-Ruby-Sapphire-Poptracker/archive/refs/tags/v0.2.0.zip",
             "sha256": "4a2637a7244b6837f37c17244379d31ed5e7cb7bde151234476e5b2d2ef91c8f",
