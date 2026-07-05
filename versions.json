@@ -1,5 +1,14 @@
 {
     "versions": [    
+        
+        {
+            "package_version": "0.3.1",
+            "download_url": "https://github.com/Kuzurreesh/Pokemon-Pinball-Ruby-Sapphire-Poptracker/archive/refs/tags/v0.3.1.zip",
+            "sha256": "4d2a1c86bed71db836d803df60cc80346d9c21ee273f2bd1131b73f59f41c545",
+            "changelog": [
+                "Autotrack medal setting"
+            ]
+        },
         {
             "package_version": "0.3.0",
             "download_url": "https://github.com/Kuzurreesh/Pokemon-Pinball-Ruby-Sapphire-Poptracker/archive/refs/tags/v0.3.0.zip",
