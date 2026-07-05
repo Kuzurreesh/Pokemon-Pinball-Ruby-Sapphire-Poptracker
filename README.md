@@ -20,6 +20,5 @@
 # Known Issue(s)
 - Caught count will be different from in-game when collect and/or send_location is used if the collect option in yaml is not selected.
 - Field item number can have duplicates from evolution from hatches.
-- No Autotracking of Medal setting, need to manually set it in settings.
 
 

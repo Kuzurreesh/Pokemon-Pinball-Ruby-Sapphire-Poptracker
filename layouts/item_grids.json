@@ -4042,8 +4042,7 @@
 						"Targets",
 						"multi",
 						"upgrade",
-						"medal_requirement",
-						"medals_percent"
+						"medal_requirement"
 					]
 				]
 			},

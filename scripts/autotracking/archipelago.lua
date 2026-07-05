@@ -55,7 +55,7 @@ function onClear(slot_data)
                         obj.AvailableChestCount = obj.ChestCount
                     else
                         --hosted_item reset
-                        obj.CurrentStage = 0
+                        obj.AcquiredCount = 0
                     end
                 elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                     print(string.format("onClear: could not find object for code %s", v[1]))
@@ -115,6 +115,8 @@ function onClear(slot_data)
                 end
             elseif value == "Score" then
                 Tracker:FindObjectForCode("score_requirement").AcquiredCount = slot_data["score_requirement"] / 1000
+            elseif value == "Medals" then
+                Tracker:FindObjectForCode("medal_requirement").AcquiredCount = slot_data["medal_goal"]
             end
         end
         Tracker:FindObjectForCode("bonus_multiplier_checks").AcquiredCount = slot_data["bonus_multiplier_checks"]
@@ -231,7 +233,7 @@ function onLocation(location_id, location_name)
                     --  if val == "Treecko" then
                     --       Tracker:FindObjectForCode("Treecko2").ItemState:setState(2)
                     --   else
-                    obj.CurrentStage = 2
+                    obj.AcquiredCount = obj.AcquiredCount + 1
                     --end
                 end
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then

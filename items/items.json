@@ -146,6 +146,94 @@
         "codes": "multi,bonus_multiplier_checks"
     },
     {
+        "name": "Multiplier 1-10",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 10,
+        "codes": "rubymulti10"
+    },
+    {
+        "name": "Multiplier 11-25",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 15,
+        "codes": "rubymulti25"
+    },
+    {
+        "name": "Multiplier 26-75",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 50,
+        "codes": "rubymulti75"
+    },
+    {
+        "name": "Multiplier 76 - 99",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 24,
+        "codes": "rubymulti99"
+    },
+    {
+        "name": "Multiplier 1-10",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 10,
+        "codes": "sapphmulti10"
+    },
+    {
+        "name": "Multiplier 11-25",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 15,
+        "codes": "sapphmulti25"
+    },
+    {
+        "name": "Multiplier 26-75",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 50,
+        "codes": "sapphmulti75"
+    },
+    {
+        "name": "Multiplier 76 - 99",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 24,
+        "codes": "sapphmulti99"
+    },
+    {
         "name": "Ball Upgrade",
         "type": "consumable",
         "img": "images/items/ballupgrade.png",
@@ -155,6 +243,128 @@
         "overlay_align": "center",
         "max_quantity": 99,
         "codes": "upgrade,ball_upgrade_checks"
+    },
+    {
+        "name": "Multiplier 1-10",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 10,
+        "codes": "rubyupgrade10"
+    },
+    {
+        "name": "Multiplier 11-25",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 15,
+        "codes": "rubyupgrade25"
+    },
+    {
+        "name": "Multiplier 26-75",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 50,
+        "codes": "rubyupgrade75"
+    },
+    {
+        "name": "Multiplier 76 - 99",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 24,
+        "codes": "rubyupgrade99"
+    },
+    
+    {
+        "name": "Multiplier 11-25",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 15,
+        "codes": "rubymakupgrade25"
+    },
+    {
+        "name": "Multiplier 26-75",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 50,
+        "codes": "rubymakupgrade75"
+    },
+    {
+        "name": "Multiplier 76 - 99",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 24,
+        "codes": "rubymakupgrade99"
+    },
+    {
+        "name": "Multiplier 1-10",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 10,
+        "codes": "sapphupgrade10"
+    },
+    {
+        "name": "Multiplier 11-25",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 15,
+        "codes": "sapphupgrade25"
+    },
+    {
+        "name": "Multiplier 26-75",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 50,
+        "codes": "sapphupgrade75"
+    },
+    {
+        "name": "Multiplier 76 - 99",
+        "type": "consumable",
+        "img": "images/items/multiplierRuby2.png",
+        "disabled_img_mods": "saturation|0.33,brightness|0.40",
+        "overlay_font_size": "20",
+        "initial_quantity": 0,
+        "overlay_align": "center",
+        "max_quantity": 24,
+        "codes": "sapphupgrade99"
     },
     {
         "name": "+10 Starting Coins",

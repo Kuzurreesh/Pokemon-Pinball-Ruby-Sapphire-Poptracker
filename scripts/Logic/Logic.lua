@@ -263,14 +263,22 @@ function Caught3(mon)
 end
 
 function Targets()
-	for index, value in ipairs(TARGETS) do
-		if Pokemon[value] ~= nil then
-			if Tracker:FindObjectForCode("@Pokemon//" .. Pokemon[value]).AccessibilityLevel < AccessibilityLevel.Normal then
+	if TARGETS ~= nil then
+		for index, value in ipairs(TARGETS) do
+			if Pokemon[value] ~= nil then
+				if Tracker:FindObjectForCode("@Pokemon//" .. Pokemon[value]).AccessibilityLevel < AccessibilityLevel.Normal then
+					return false
+				end
+			else
+				print("ERROR: Targets() pokemon[value] = nil", value)
 				return false
 			end
 		end
+		return true
+	else
+		print("ERROR: TARGETS == nil")
+		return false
 	end
-	return true
 end
 
 function CanCatchSpecial2()
@@ -363,10 +371,7 @@ function GoalCheck()
 					score = 1
 				end
 			elseif value == "Medals" then
-				local percent = Tracker:ProviderCountForCode("medals_percent") / 100
-				local medalrequirement = Tracker:ProviderCountForCode("medal_requirement")
-				local total = medalrequirement * percent
-				if Tracker:ProviderCountForCode("medals") >= math.floor(total + 0.5) then
+				if Tracker:ProviderCountForCode("medals") >= Tracker:ProviderCountForCode("medal_requirement") then
 					medal = 1
 					Tracker:FindObjectForCode("medals").BadgeTextColor = "FF00FF00"
 				else
@@ -374,7 +379,7 @@ function GoalCheck()
 				end
 			end
 		end
-		if (dex + targets + score +medal) == #GOALS then
+		if #GOALS ~= 0 and (dex + targets + score + medal) == #GOALS then
 			Tracker:FindObjectForCode("gomode").Active = true
 		else
 			Tracker:FindObjectForCode("gomode").Active = false

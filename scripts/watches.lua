@@ -254,35 +254,35 @@ end
 function Multiplier()
     local multi = Tracker:ProviderCountForCode("multi")
     if multi > 10 then
-        Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 1-10").AvailableChestCount = 10
-        Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 1-10").AvailableChestCount = 10
+        Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 1-10").AvailableChestCount = 10 - Tracker:ProviderCountForCode("rubymulti10")
+        Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 1-10").AvailableChestCount = 10 - Tracker:ProviderCountForCode("sapphmulti10")
         multi = multi - 10
         if multi > 14 then
-            Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 11-25").AvailableChestCount = 15
-            Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 11-25").AvailableChestCount = 15
+            Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 11-25").AvailableChestCount = 15- Tracker:ProviderCountForCode("rubymulti25")
+            Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 11-25").AvailableChestCount = 15- Tracker:ProviderCountForCode("sapphmulti25")
             multi = multi - 15
             if multi > 49 then
-                Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 26-75").AvailableChestCount = 50
-                Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 26-75").AvailableChestCount = 50
+                Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 26-75").AvailableChestCount = 50- Tracker:ProviderCountForCode("rubymulti75")
+                Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 26-75").AvailableChestCount = 50- Tracker:ProviderCountForCode("sapphmulti75")
                 multi = multi - 50
-                Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 76-99").AvailableChestCount = multi
+                Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 76-99").AvailableChestCount = multi- Tracker:ProviderCountForCode("rubymulti99")
                 Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 76-99").AvailableChestCount =
-                    multi
+                    multi- Tracker:ProviderCountForCode("sapphmulti99")
             else
-                Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 26-75").AvailableChestCount = multi
+                Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 26-75").AvailableChestCount = multi- Tracker:ProviderCountForCode("rubymulti75")
                 Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 26-75").AvailableChestCount =
-                    multi
+                    multi- Tracker:ProviderCountForCode("sapphmulti75")
                 return
             end
         else
-            Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 11-25").AvailableChestCount = multi
+            Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 11-25").AvailableChestCount = - Tracker:ProviderCountForCode("rubymulti25")
             Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 11-25").AvailableChestCount =
-                multi
+                - Tracker:ProviderCountForCode("sapphmulti25")
             return
         end
     else
-        Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 1-10").AvailableChestCount = multi
-        Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 1-10").AvailableChestCount = multi
+        Tracker:FindObjectForCode("@Ruby Board/Ruby Board/Bonus Multiplier 1-10").AvailableChestCount = multi - Tracker:ProviderCountForCode("rubymulti10")
+        Tracker:FindObjectForCode("@Sapphire Board/Sapphire Board/Bonus Multiplier 1-10").AvailableChestCount = multi- Tracker:ProviderCountForCode("sapphmulti10")
         return
     end
 end
@@ -294,32 +294,32 @@ ScriptHost:AddWatchForCode("Set Multiplier", "multi", Multiplier)
 function Upgrade()
     local multi = Tracker:ProviderCountForCode("upgrade")
     if multi > 10 then
-        Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 1-10").AvailableChestCount = 10
-        Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 1-10").AvailableChestCount = 10
+        Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 1-10").AvailableChestCount = 10 - Tracker:ProviderCountForCode("rubyupgrade10")
+        Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 1-10").AvailableChestCount = 10 - Tracker:ProviderCountForCode("sapphupgrade10")
         multi = multi - 10
         if multi > 14 then
-            Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 11-25").AvailableChestCount = 15
-            Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 11-25").AvailableChestCount = 15
+            Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 11-25").AvailableChestCount = 15- Tracker:ProviderCountForCode("rubyupgrade25")
+            Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 11-25").AvailableChestCount = 15- Tracker:ProviderCountForCode("sapphupgrade25")
             multi = multi - 15
             if multi > 49 then
-                Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 26-75").AvailableChestCount = 50
-                Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 26-75").AvailableChestCount = 50
+                Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 26-75").AvailableChestCount = 50- Tracker:ProviderCountForCode("rubyupgrade75")
+                Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 26-75").AvailableChestCount = 50- Tracker:ProviderCountForCode("sapphupgrade75")
                 multi = multi - 50
-                Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 76-99").AvailableChestCount = multi
-                Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 76-99").AvailableChestCount = multi
+                Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 76-99").AvailableChestCount = multi- Tracker:ProviderCountForCode("rubyupgrade99")
+                Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 76-99").AvailableChestCount = multi- Tracker:ProviderCountForCode("sapphupgrade99")
             else
-                Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 26-75").AvailableChestCount = multi
-                Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 26-75").AvailableChestCount = multi
+                Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 26-75").AvailableChestCount = multi- Tracker:ProviderCountForCode("rubyupgrade75")
+                Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 26-75").AvailableChestCount = multi- Tracker:ProviderCountForCode("sapphupgrade75")
                 return
             end
         else
-            Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 11-25").AvailableChestCount = multi
-            Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 11-25").AvailableChestCount = multi
+            Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 11-25").AvailableChestCount = multi- Tracker:ProviderCountForCode("rubyupgrade25")
+            Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 11-25").AvailableChestCount = multi- Tracker:ProviderCountForCode("sapphupgrade25")
             return
         end
     else
-        Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 1-10").AvailableChestCount = multi
-        Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 1-10").AvailableChestCount = multi
+        Tracker:FindObjectForCode("@Ruby Board/Ruby/Ball Upgrade 1-10").AvailableChestCount = multi- Tracker:ProviderCountForCode("rubyupgrade10")
+        Tracker:FindObjectForCode("@Sapphire Board/Sapphire/Ball Upgrade 1-10").AvailableChestCount = multi- Tracker:ProviderCountForCode("sapphupgrade10")
         return
     end
 end
@@ -330,19 +330,19 @@ ScriptHost:AddWatchForCode("Set Ball Upgrade", "upgrade", Upgrade)
 function MakuhitaUpgrade()
     local multi = Tracker:ProviderCountForCode("upgrade")
     if multi > 25 then
-        Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 1-25").AvailableChestCount = 25
+        Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 1-25").AvailableChestCount = 25- Tracker:ProviderCountForCode("rubymakupgrade25")
         multi = multi - 25
         if multi > 49 then
-            Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 26-75").AvailableChestCount = 50
+            Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 26-75").AvailableChestCount = 50- Tracker:ProviderCountForCode("rubymakupgrade75")
             multi = multi - 50
-            Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 76-99").AvailableChestCount = multi
+            Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 76-99").AvailableChestCount = multi- Tracker:ProviderCountForCode("rubymakupgrade99")
             return
         else
-            Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 26-75").AvailableChestCount = multi
+            Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 26-75").AvailableChestCount = multi- Tracker:ProviderCountForCode("rubymakupgrade75")
             return
         end
     else
-        Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 1-25").AvailableChestCount = multi
+        Tracker:FindObjectForCode("@Ruby Board/Makuhita/Ball Upgrade 1-25").AvailableChestCount = multi- Tracker:ProviderCountForCode("rubymakupgrade25")
         return
     end
 end
